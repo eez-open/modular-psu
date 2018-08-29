@@ -1,0 +1,17 @@
+(module FIDUCIAL (layer F.Cu) (tedit 0)
+  (fp_text reference FM2 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value FIDUCIAL (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 0 -1.27) (xy 0.247765 -1.245597) (xy 0.486008 -1.173327) (xy 0.705574 -1.055966)
+    (xy 0.898026 -0.898026) (xy 1.055966 -0.705574) (xy 1.173327 -0.486008) (xy 1.27 0)
+    (xy 1.245597 0.247765) (xy 1.173327 0.486008) (xy 1.055966 0.705574) (xy 0.898026 0.898026)
+    (xy 0.705574 1.055966) (xy 0.486008 1.173327) (xy 0 1.27) (xy -0.247765 1.245597)
+    (xy -0.486008 1.173327) (xy -0.705574 1.055966) (xy -0.898026 0.898026) (xy -1.055966 0.705574)
+    (xy -1.173327 0.486008) (xy -1.27 0) (xy -1.245597 -0.247765) (xy -1.173327 -0.486008)
+    (xy -1.055966 -0.705574) (xy -0.898026 -0.898026) (xy -0.705574 -1.055966) (xy -0.486008 -1.173327)) (layer F.Mask) (width 0))
+  (pad T smd roundrect (at 0 0) (size 1.016 1.016) (layers F.Cu F.Mask) (roundrect_rratio 0.5)
+    (solder_mask_margin 0.0635))
+)
