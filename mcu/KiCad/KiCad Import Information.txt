@@ -1,0 +1,98 @@
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Measures' (47), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Unrouted' (19), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'Unrouted' (19), converted to Dwgs.User layer
+03:12:31: Unsupported circle on copper layer in package SIGNATURE_5MM.
+Moving to Dwgs.User layer.
+03:12:31: Line on copper layer in package SIGNATURE_5MM (-1.050000 mm, 0.200000 mm) (-0.250000 mm, 1.000000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (0.250000 mm, 1.000000 mm) (1.050000 mm, 0.200000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (1.050000 mm, -0.200000 mm) (0.250000 mm, -1.000000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (-0.250000 mm, -1.000000 mm) (-1.050000 mm, -0.200000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (-0.250000 mm, 1.000000 mm) (-0.250000 mm, -1.000000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (0.250000 mm, 1.000000 mm) (0.250000 mm, -1.000000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (-1.050000 mm, 0.200000 mm) (1.050000 mm, 0.200000 mm).
+Moving to Dwgs.User layer
+03:12:31: Line on copper layer in package SIGNATURE_5MM (-1.050000 mm, -0.200000 mm) (1.050000 mm, -0.200000 mm).
+Moving to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported polygon on copper layer in package JP3-CUT.
+Moving to Dwgs.User layer.
+03:12:31: Unsupported polygon on copper layer in package JP3-CUT.
+Moving to Dwgs.User layer.
+03:12:31: Unsupported polygon on copper layer in package JP2-NOCUT.
+Moving to Dwgs.User layer.
+03:12:31: Unsupported polygon on copper layer in package JP2-NOCUT.
+Moving to Dwgs.User layer.
+03:12:31: Unsupported polygon on copper layer in package JP2-CUT.
+Moving to Dwgs.User layer.
+03:12:31: Unsupported polygon on copper layer in package JP2-CUT.
+Moving to Dwgs.User layer.
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer
+03:12:31: Unsupported Eagle layer 'tKeepout' (39), converted to Dwgs.User layer

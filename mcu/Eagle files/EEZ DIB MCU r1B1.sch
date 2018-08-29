@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -20975,12 +20976,6 @@ consult ST AN4661 section 8.4.2</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,4,124.46,66.04,IC15,VDD,+3V3,,,"/>
-<approved hash="104,4,93.98,35.56,IC15,VSS,GND,,,"/>
-<approved hash="104,4,99.06,137.16,LCD1,GND-3,GND,,,"/>
-<approved hash="104,4,99.06,142.24,LCD1,VDD,+3V3,,,"/>
-<approved hash="104,4,99.06,134.62,LCD1,GND-29,GND,,,"/>
-<approved hash="104,4,205.74,78.74,IC13,VDD,+3V3,,,"/>
 <approved hash="202,5,104.14,71.12,IC17,TCK,,,,"/>
 <approved hash="202,5,104.14,73.66,IC17,TDI,,,,"/>
 <approved hash="202,5,104.14,78.74,IC17,TMS,,,,"/>

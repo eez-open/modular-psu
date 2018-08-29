@@ -1,0 +1,2181 @@
+EESchema Schematic File Version 4
+LIBS:EEZ DIB MCU r1B1-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 12095 9925
+encoding utf-8
+Sheet 3 6
+Title "EEZ DIB MUC"
+Date ""
+Rev "r1B1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "STM32F7 MCU"
+$EndDescr
+Wire Bus Line
+	5100 2400 5200 2300
+Wire Bus Line
+	5200 2300 7800 2300
+Wire Bus Line
+	7800 2300 7900 2400
+Text Label 5200 5800 1    50   ~ 0
+FMC_A[0..11]
+Text Label 5100 2400 0    50   ~ 0
+FMC_A[0..11]
+Wire Bus Line
+	1600 2300 1700 2200
+Wire Bus Line
+	1700 2200 4600 2200
+Wire Bus Line
+	4700 2300 4600 2200
+Wire Bus Line
+	4600 2200 7900 2200
+Wire Bus Line
+	7900 2200 8000 2300
+Text Label 1600 2300 0    50   ~ 0
+LTDC_R[2..7],LTDC_G[2..7],LTDC_B[2..7]
+Text Label 6250 2200 1    50   ~ 0
+LTDC_R[2..7],LTDC_G[2..7],LTDC_B[2..7]
+Text Label 4800 5800 1    50   ~ 0
+FMC_D[0..15]
+Wire Wire Line
+	2500 2700 1800 2700
+Text GLabel 1800 2700 2    50   BiDi ~ 0
+ETH_RX_CLK
+Wire Wire Line
+	2500 2800 1800 2800
+Text GLabel 1800 2800 2    50   BiDi ~ 0
+ETH_MDIO
+Wire Wire Line
+	2500 3000 1800 3000
+Text GLabel 1800 3000 2    50   BiDi ~ 0
+DAC_OUT1
+Wire Wire Line
+	2500 3100 1700 3100
+Text GLabel 1700 3100 2    50   BiDi ~ 0
+LTDC_R4
+Wire Wire Line
+	2500 3200 1700 3200
+Text GLabel 1700 3200 2    50   BiDi ~ 0
+LTDC_G2
+Wire Wire Line
+	2500 3300 1800 3300
+Text GLabel 1800 3300 2    50   BiDi ~ 0
+ETH_RX_DV
+Wire Wire Line
+	2500 3500 1800 3500
+Text GLabel 1800 3500 2    50   BiDi ~ 0
+USB_OTG_FS_VBUS
+Wire Wire Line
+	2500 3600 1800 3600
+Text GLabel 1800 3600 2    50   BiDi ~ 0
+USB_OTG_FS_ID
+Wire Wire Line
+	2500 3700 1800 3700
+Text GLabel 1800 3700 2    50   BiDi ~ 0
+USB_OTG_FS_D_N
+Wire Wire Line
+	1800 3800 2500 3800
+Text GLabel 1800 3800 2    50   BiDi ~ 0
+USB_OTG_FS_D_P
+Wire Wire Line
+	2500 3900 1800 3900
+Text GLabel 1800 3900 2    50   BiDi ~ 0
+SYS_JTMS-SWDIO
+Wire Wire Line
+	2500 4000 1800 4000
+Text GLabel 1800 4000 2    50   BiDi ~ 0
+SYS_JTCK-SWCLK
+Wire Wire Line
+	2500 4100 1800 4100
+Text GLabel 1800 4100 2    50   BiDi ~ 0
+SYS_JTDI
+Wire Wire Line
+	2500 4300 1700 4300
+Text GLabel 1700 4300 2    50   BiDi ~ 0
+LTDC_R3
+Wire Wire Line
+	2500 4400 1700 4400
+Text GLabel 1700 4400 2    50   BiDi ~ 0
+LTDC_R6
+Wire Wire Line
+	2500 4600 1800 4600
+Text GLabel 1800 4600 2    50   BiDi ~ 0
+SYS_JTDO-SWO
+Wire Wire Line
+	2500 4800 1800 4800
+Text GLabel 1800 4800 2    50   BiDi ~ 0
+USER_SW
+Wire Wire Line
+	2500 4900 1300 4900
+Wire Wire Line
+	1300 4900 1100 4900
+Wire Wire Line
+	1300 5100 1300 4900
+Text GLabel 1900 4900 2    50   BiDi ~ 0
+I2C1_SCL
+Connection ~ 1300 4900
+Wire Wire Line
+	2500 5000 1500 5000
+Wire Wire Line
+	1500 5000 1500 5100
+Wire Wire Line
+	1500 5000 1100 5000
+Text GLabel 1500 5100 2    50   BiDi ~ 0
+I2C1_SDA
+Connection ~ 1500 5000
+Wire Wire Line
+	2500 5400 1800 5400
+Text GLabel 1800 5400 2    50   BiDi ~ 0
+ETH_TX_EN
+Wire Wire Line
+	2500 5500 1800 5500
+Text GLabel 1800 5500 2    50   BiDi ~ 0
+ETH_TXD0
+Wire Wire Line
+	2500 5600 1800 5600
+Text GLabel 1800 5600 2    50   BiDi ~ 0
+ETH_TXD1
+Wire Wire Line
+	2500 5700 1800 5700
+Text GLabel 1800 5700 2    50   BiDi ~ 0
+SPI2_MISO
+Wire Wire Line
+	2500 5800 1800 5800
+Text GLabel 1800 5800 2    50   BiDi ~ 0
+TFT_BRIGHTNESS
+Wire Wire Line
+	3700 2600 4600 2600
+Text GLabel 4600 2600 0    50   BiDi ~ 0
+LTDC_R5
+Wire Wire Line
+	3700 2700 4500 2700
+Text GLabel 4500 2700 0    50   BiDi ~ 0
+ETH_MDC
+Wire Wire Line
+	3700 2800 4500 2800
+Text GLabel 4500 2800 0    50   BiDi ~ 0
+ETH_TXD2
+Wire Wire Line
+	3700 2900 4500 2900
+Text GLabel 4500 2900 0    50   BiDi ~ 0
+ETH_TX_CLK
+Wire Wire Line
+	3700 3000 4500 3000
+Text GLabel 4500 3000 0    50   BiDi ~ 0
+ETH_RXD0
+Wire Wire Line
+	3700 3100 4500 3100
+Text GLabel 4500 3100 0    50   BiDi ~ 0
+ETH_RXD1
+Wire Wire Line
+	3700 3200 4500 3200
+Text GLabel 4500 3200 0    50   BiDi ~ 0
+ENC_A
+Wire Wire Line
+	3700 3300 4500 3300
+Text GLabel 4500 3300 0    50   BiDi ~ 0
+ENC_B
+Wire Wire Line
+	3700 3400 4500 3400
+Text GLabel 4500 3400 0    50   BiDi ~ 0
+SDMMC1_D0
+Wire Wire Line
+	3700 3500 4500 3500
+Text GLabel 4500 3500 0    50   BiDi ~ 0
+MCLK_25
+Wire Wire Line
+	3700 3800 4500 3800
+Text GLabel 4500 3800 0    50   BiDi ~ 0
+SDMMC1_CK
+Wire Wire Line
+	3700 3900 4500 3900
+Text GLabel 4500 3900 0    50   BiDi ~ 0
+DIN2
+Wire Wire Line
+	3700 4000 4500 4000
+Text GLabel 4500 4000 0    50   BiDi ~ 0
+DOUT1
+Wire Wire Line
+	3700 4100 4500 4100
+Text GLabel 4500 4100 0    50   BiDi ~ 0
+DOUT2
+Wire Wire Line
+	3700 4500 4500 4500
+Text GLabel 4500 4500 0    50   BiDi ~ 0
+SDMMC1_CMD
+Wire Wire Line
+	3700 5400 4500 5400
+Text GLabel 4500 5400 0    50   BiDi ~ 0
+SPI2_CSB
+Wire Wire Line
+	3700 5500 4500 5500
+Text GLabel 4500 5500 0    50   BiDi ~ 0
+SPI2_CSA
+Wire Wire Line
+	3700 5600 4500 5600
+Text GLabel 4500 5600 0    50   BiDi ~ 0
+OE_SYNC
+Wire Wire Line
+	5800 2600 5300 2600
+Text GLabel 5300 2600 2    50   BiDi ~ 0
+FMC_NBL0
+Wire Wire Line
+	10500 2600 10100 2600
+Wire Wire Line
+	10100 2600 10000 2600
+Wire Wire Line
+	10200 2400 10100 2400
+Wire Wire Line
+	10100 2400 10100 2600
+Text GLabel 10500 2600 0    50   BiDi ~ 0
+~RESET
+Connection ~ 10100 2600
+Wire Wire Line
+	4100 6300 3600 6300
+Wire Wire Line
+	3600 6500 3600 6300
+Text Label 3600 6500 0    50   ~ 0
+VBAT
+Wire Wire Line
+	5800 2700 5300 2700
+Text GLabel 5300 2700 2    50   BiDi ~ 0
+FMC_NBL1
+Wire Wire Line
+	5800 4300 5200 4300
+Text GLabel 5200 4300 2    50   BiDi ~ 0
+FMC_A0
+Wire Wire Line
+	5800 4900 5300 4900
+Text GLabel 5350 4900 2    50   BiDi ~ 0
+SD_DETECT
+Wire Wire Line
+	5800 5000 5300 5000
+Text GLabel 5300 5000 2    50   BiDi ~ 0
+SPI5_CLK
+Wire Wire Line
+	5800 5100 5300 5100
+Text GLabel 5300 5100 2    50   BiDi ~ 0
+SPI5_MISO
+Wire Wire Line
+	5800 5200 5300 5200
+Text GLabel 5300 5200 2    50   BiDi ~ 0
+SPI5_MOSI
+Wire Wire Line
+	5800 5300 5300 5300
+Text GLabel 5300 5300 2    50   BiDi ~ 0
+LTDC_DE
+Wire Wire Line
+	5800 5400 5300 5400
+Text GLabel 5300 5400 2    50   BiDi ~ 0
+FMC_SDNRAS
+Wire Wire Line
+	7000 2800 7700 2800
+Text GLabel 7700 2800 0    50   BiDi ~ 0
+PWR_DIRECT
+Wire Wire Line
+	7000 2900 7700 2900
+Text GLabel 7700 2900 0    50   BiDi ~ 0
+PWR_SSTART
+Wire Wire Line
+	7000 3000 7700 3000
+Text GLabel 7700 3000 0    50   BiDi ~ 0
+FMC_BA0
+Wire Wire Line
+	7000 3100 7700 3100
+Text GLabel 7700 3100 0    50   BiDi ~ 0
+FMC_BA1
+Wire Wire Line
+	7000 3300 7700 3300
+Text GLabel 7700 3300 0    50   BiDi ~ 0
+LTDC_CLK
+Wire Wire Line
+	7000 3400 7700 3400
+Text GLabel 7700 3400 0    50   BiDi ~ 0
+FMC_SDCLK
+Wire Wire Line
+	7000 4100 7700 4100
+Text GLabel 7700 4100 0    50   BiDi ~ 0
+FMC_SDNCAS
+Wire Wire Line
+	7000 4300 8300 4300
+Wire Wire Line
+	8600 4300 8300 4300
+Text Label 7650 4300 2    50   ~ 0
+RCC_OSC_IN
+Connection ~ 8600 4300
+Connection ~ 8300 4300
+Wire Wire Line
+	7000 4400 8100 4400
+Wire Wire Line
+	8100 4400 8100 4700
+Wire Wire Line
+	8100 4700 8300 4700
+Wire Wire Line
+	8600 4700 8300 4700
+Text Label 7550 4400 2    50   ~ 0
+RCC_OSC_OUT
+Connection ~ 8600 4700
+Connection ~ 8300 4700
+Wire Wire Line
+	7000 4500 7700 4500
+Text GLabel 7700 4500 0    50   BiDi ~ 0
+FMC_SDCKE0
+Wire Wire Line
+	7000 4600 7700 4600
+Text GLabel 7700 4600 0    50   BiDi ~ 0
+FMC_SDNE0
+Wire Wire Line
+	7000 4700 7900 4700
+Text GLabel 7450 4700 0    50   BiDi ~ 0
+LTDC_G4
+Wire Wire Line
+	7000 4800 7700 4800
+Text GLabel 7700 4800 0    50   BiDi ~ 0
+FMC_SDNWE
+Wire Wire Line
+	8800 2700 8300 2700
+Text GLabel 8300 2700 2    50   BiDi ~ 0
+SPI2_CLK
+Wire Wire Line
+	8800 2900 8300 2900
+Text GLabel 8300 2900 2    50   BiDi ~ 0
+SPI2_MOSI
+Wire Wire Line
+	8800 3000 8300 3000
+Text GLabel 8300 3000 2    50   BiDi ~ 0
+ENC_SW
+Wire Wire Line
+	8800 3400 8300 3400
+Text GLabel 8300 3400 2    50   BiDi ~ 0
+DIN1
+Wire Wire Line
+	8800 3500 8300 3500
+Text GLabel 8300 3500 2    50   BiDi ~ 0
+LTDC_VSYNC
+Wire Wire Line
+	8800 3600 8300 3600
+Text GLabel 8300 3600 2    50   BiDi ~ 0
+LTDC_HSYNC
+Wire Wire Line
+	8800 3700 8100 3700
+Text GLabel 8100 3700 2    50   BiDi ~ 0
+LTDC_G6
+Wire Wire Line
+	10000 2700 10600 2700
+Wire Wire Line
+	10600 2700 10600 3000
+Wire Wire Line
+	10700 3000 10600 3000
+Text Label 10600 2700 2    50   ~ 0
+BOOT0
+Wire Wire Line
+	10000 2900 10400 2900
+Wire Wire Line
+	10400 2900 10400 3000
+Text Label 10400 3000 2    50   ~ 0
+BYPASS_REG
+Wire Wire Line
+	4100 6500 4000 6500
+Wire Wire Line
+	4100 6400 4000 6400
+Wire Wire Line
+	4000 6500 4000 6400
+Wire Wire Line
+	4100 8100 4000 8100
+Wire Wire Line
+	4000 8100 3400 8100
+Wire Wire Line
+	3400 8100 3100 8100
+Wire Wire Line
+	3400 8200 3400 8100
+Wire Wire Line
+	3100 8200 3100 8100
+Wire Wire Line
+	3100 8100 3100 8000
+Connection ~ 3400 8100
+Connection ~ 3100 8100
+Text Label 3100 8050 0    50   ~ 0
+VDDA
+Connection ~ 4000 8100
+Wire Wire Line
+	4100 8500 4000 8500
+Text Label 4100 8500 2    50   ~ 0
+VREF+
+Wire Wire Line
+	5300 8200 6000 8200
+Wire Wire Line
+	6000 8200 6000 8400
+Text Label 5400 8200 0    50   ~ 0
+VCAP1
+Wire Wire Line
+	5300 8300 5700 8300
+Wire Wire Line
+	5700 8300 5700 8400
+Text Label 5400 8300 0    50   ~ 0
+VCAP2
+Wire Wire Line
+	5800 4400 5200 4400
+Text GLabel 5200 4400 2    50   BiDi ~ 0
+FMC_A1
+Wire Wire Line
+	5800 4500 5200 4500
+Text GLabel 5200 4500 2    50   BiDi ~ 0
+FMC_A2
+Wire Wire Line
+	5800 4600 5200 4600
+Text GLabel 5200 4600 2    50   BiDi ~ 0
+FMC_A3
+Wire Wire Line
+	5800 4700 5200 4700
+Text GLabel 5200 4700 2    50   BiDi ~ 0
+FMC_A4
+Wire Wire Line
+	5800 4800 5200 4800
+Text GLabel 5200 4800 2    50   BiDi ~ 0
+FMC_A5
+Wire Wire Line
+	5800 5500 5200 5500
+Text GLabel 5200 5500 2    50   BiDi ~ 0
+FMC_A6
+Wire Wire Line
+	5800 5600 5200 5600
+Text GLabel 5200 5600 2    50   BiDi ~ 0
+FMC_A7
+Wire Wire Line
+	5800 5700 5200 5700
+Text GLabel 5200 5700 2    50   BiDi ~ 0
+FMC_A8
+Wire Wire Line
+	5800 5800 5200 5800
+Text GLabel 5200 5800 2    50   BiDi ~ 0
+FMC_A9
+Wire Wire Line
+	7000 2600 7800 2600
+Text GLabel 7800 2600 0    50   BiDi ~ 0
+FMC_A10
+Wire Wire Line
+	7000 2700 7800 2700
+Text GLabel 7800 2700 0    50   BiDi ~ 0
+FMC_A11
+Wire Wire Line
+	5800 3300 5000 3300
+Text GLabel 5400 3300 2    50   BiDi ~ 0
+FMC_D4
+Wire Wire Line
+	5800 3400 5000 3400
+Text GLabel 5400 3400 2    50   BiDi ~ 0
+FMC_D5
+Wire Wire Line
+	5800 3500 5000 3500
+Text GLabel 5400 3500 2    50   BiDi ~ 0
+FMC_D6
+Wire Wire Line
+	5800 3600 5000 3600
+Text GLabel 5400 3600 2    50   BiDi ~ 0
+FMC_D7
+Wire Wire Line
+	5800 3700 5000 3700
+Text GLabel 5400 3700 2    50   BiDi ~ 0
+FMC_D8
+Wire Wire Line
+	5800 3800 5000 3800
+Text GLabel 5400 3800 2    50   BiDi ~ 0
+FMC_D9
+Wire Wire Line
+	5800 3900 5000 3900
+Text GLabel 5400 3900 2    50   BiDi ~ 0
+FMC_D10
+Wire Wire Line
+	5800 4000 5000 4000
+Text GLabel 5400 4000 2    50   BiDi ~ 0
+FMC_D11
+Wire Wire Line
+	5800 4100 5000 4100
+Text GLabel 5400 4100 2    50   BiDi ~ 0
+FMC_D12
+Wire Wire Line
+	4800 5100 3700 5100
+Text GLabel 4250 5100 0    50   BiDi ~ 0
+FMC_D13
+Wire Wire Line
+	4800 5200 3700 5200
+Text GLabel 4250 5200 0    50   BiDi ~ 0
+FMC_D14
+Wire Wire Line
+	4800 5300 3700 5300
+Text GLabel 4250 5300 0    50   BiDi ~ 0
+FMC_D15
+Wire Wire Line
+	4800 5700 3700 5700
+Text GLabel 4250 5700 0    50   BiDi ~ 0
+FMC_D0
+Wire Wire Line
+	4800 5800 3700 5800
+Text GLabel 4250 5800 0    50   BiDi ~ 0
+FMC_D1
+Wire Wire Line
+	7000 3200 7900 3200
+Text GLabel 7450 3200 0    50   BiDi ~ 0
+LTDC_R7
+Wire Wire Line
+	8800 2600 8100 2600
+Text GLabel 8100 2600 2    50   BiDi ~ 0
+LTDC_G5
+Wire Wire Line
+	3700 3600 4600 3600
+Text GLabel 4600 3600 0    50   BiDi ~ 0
+LTDC_R2
+Wire Wire Line
+	4800 4300 3700 4300
+Text GLabel 4250 4300 0    50   BiDi ~ 0
+FMC_D2
+Wire Wire Line
+	4800 4400 3700 4400
+Text GLabel 4250 4400 0    50   BiDi ~ 0
+FMC_D3
+Wire Wire Line
+	3700 4600 4600 4600
+Text GLabel 4600 4600 0    50   BiDi ~ 0
+LTDC_G7
+Wire Wire Line
+	3700 4900 4600 4900
+Text GLabel 4600 4900 0    50   BiDi ~ 0
+LTDC_B2
+Wire Wire Line
+	7000 3600 7900 3600
+Text GLabel 7450 3600 0    50   BiDi ~ 0
+LTDC_G3
+Wire Wire Line
+	7000 3700 7900 3700
+Text GLabel 7450 3700 0    50   BiDi ~ 0
+LTDC_B3
+Wire Wire Line
+	7000 3800 7900 3800
+Text GLabel 7450 3800 0    50   BiDi ~ 0
+LTDC_B4
+Wire Wire Line
+	8800 3100 8100 3100
+Text GLabel 8100 3100 2    50   BiDi ~ 0
+LTDC_B5
+Wire Wire Line
+	8800 3200 8100 3200
+Text GLabel 8100 3200 2    50   BiDi ~ 0
+LTDC_B6
+Wire Wire Line
+	8800 3300 8100 3300
+Text GLabel 8100 3300 2    50   BiDi ~ 0
+LTDC_B7
+Wire Wire Line
+	9500 6600 9100 6600
+Wire Wire Line
+	9100 6600 8700 6600
+Wire Wire Line
+	8700 6600 8300 6600
+Wire Wire Line
+	8300 6600 7900 6600
+Wire Wire Line
+	7900 6600 7500 6600
+Wire Wire Line
+	7500 6700 7500 6600
+Connection ~ 9100 6600
+Connection ~ 8700 6600
+Connection ~ 8300 6600
+Connection ~ 7900 6600
+Connection ~ 7500 6600
+Text GLabel 9500 6600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9500 7200 9100 7200
+Wire Wire Line
+	9100 7200 8700 7200
+Wire Wire Line
+	8700 7200 8300 7200
+Wire Wire Line
+	8300 7200 7900 7200
+Wire Wire Line
+	7900 7200 7500 7200
+Wire Wire Line
+	7500 7300 7500 7200
+Connection ~ 9100 7200
+Connection ~ 8700 7200
+Connection ~ 8300 7200
+Connection ~ 7900 7200
+Connection ~ 7500 7200
+Text GLabel 9500 7200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10000 6700 10000 6600
+Text GLabel 10000 6700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4100 6700 4000 6700
+Wire Wire Line
+	4000 6700 4000 6800
+Wire Wire Line
+	4000 6800 4000 6900
+Wire Wire Line
+	4000 6900 4000 7000
+Wire Wire Line
+	4000 7000 4000 7100
+Wire Wire Line
+	4000 7100 4000 7200
+Wire Wire Line
+	4000 7200 4000 7300
+Wire Wire Line
+	4000 7300 4000 7400
+Wire Wire Line
+	4000 7400 4000 7500
+Wire Wire Line
+	4000 7500 4000 7600
+Wire Wire Line
+	4000 7600 4100 7600
+Wire Wire Line
+	4100 7500 4000 7500
+Wire Wire Line
+	4100 7400 4000 7400
+Wire Wire Line
+	4100 7300 4000 7300
+Wire Wire Line
+	4100 7200 4000 7200
+Wire Wire Line
+	4100 7100 4000 7100
+Wire Wire Line
+	4100 7000 4000 7000
+Wire Wire Line
+	4100 6900 4000 6900
+Wire Wire Line
+	4100 6800 4000 6800
+Wire Wire Line
+	3800 7300 3800 7400
+Wire Wire Line
+	4100 7700 4000 7700
+Wire Wire Line
+	4000 7700 4000 7600
+Wire Wire Line
+	4000 7300 3800 7300
+Connection ~ 4000 7500
+Connection ~ 4000 7400
+Connection ~ 4000 7300
+Connection ~ 4000 7200
+Connection ~ 4000 7100
+Connection ~ 4000 7000
+Connection ~ 4000 6900
+Connection ~ 4000 6800
+Connection ~ 4000 7600
+Text GLabel 4100 6700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8900 4300 9000 4300
+Wire Wire Line
+	9000 4300 9000 4700
+Wire Wire Line
+	9000 4700 9000 4800
+Wire Wire Line
+	8900 4700 9000 4700
+Connection ~ 9000 4700
+Text GLabel 8900 4300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3400 8500 3100 8500
+Connection ~ 3100 8500
+Text GLabel 3400 8500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6500 6700 6200 6700
+Connection ~ 6200 6700
+Text GLabel 6500 6700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2600 6300 2500 6300
+Wire Wire Line
+	2500 6300 2500 6400
+Text GLabel 2600 6300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6500 7400 6200 7400
+Connection ~ 6200 7400
+Text GLabel 6500 7400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6000 8700 5700 8700
+Connection ~ 5700 8700
+Text GLabel 6000 8700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4100 7800 4000 7800
+Wire Wire Line
+	4100 8000 4000 8000
+Wire Wire Line
+	4000 8000 4000 7800
+Wire Wire Line
+	4000 7800 3800 7800
+Wire Wire Line
+	3800 7800 3800 7900
+Connection ~ 4000 7800
+Text GLabel 4100 7800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10800 3200 10800 3100
+Text GLabel 10800 3200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9000 5800 9000 5900
+Wire Wire Line
+	9000 5900 9400 5900
+Wire Wire Line
+	9000 5900 8600 5900
+Connection ~ 9000 5900
+Text GLabel 9000 5800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7800 5900 8200 5900
+Wire Wire Line
+	8200 5800 8200 5900
+Wire Wire Line
+	7800 5800 7800 5900
+Connection ~ 8200 5900
+Text GLabel 7800 5900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10600 6300 10800 6300
+Wire Wire Line
+	10800 6300 10800 6200
+Text GLabel 10600 6300 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	9900 5500 9400 5500
+Wire Wire Line
+	9400 5500 9300 5500
+Wire Wire Line
+	9400 5600 9400 5500
+Connection ~ 9400 5500
+Text GLabel 9900 5500 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	1500 5500 1500 5600
+Wire Wire Line
+	1500 5600 1300 5600
+Wire Wire Line
+	1300 5600 1300 5500
+Wire Wire Line
+	1300 5700 1300 5600
+Connection ~ 1300 5600
+Text GLabel 1500 5500 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	1400 4100 1400 4000
+Text GLabel 1400 4100 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	7500 6900 7900 6900
+Wire Wire Line
+	7900 6900 8300 6900
+Wire Wire Line
+	8300 6900 8700 6900
+Wire Wire Line
+	8700 6900 9100 6900
+Wire Wire Line
+	9100 6900 9500 6900
+Wire Wire Line
+	9500 6900 9800 6900
+Wire Wire Line
+	9800 6900 9800 6300
+Wire Wire Line
+	8700 6300 9100 6300
+Wire Wire Line
+	9500 6300 9100 6300
+Wire Wire Line
+	7500 6300 7900 6300
+Wire Wire Line
+	7900 6300 8300 6300
+Wire Wire Line
+	8300 6300 8700 6300
+Wire Wire Line
+	9800 6300 9500 6300
+Wire Wire Line
+	9800 6300 10000 6300
+Wire Wire Line
+	10200 6300 10000 6300
+Wire Wire Line
+	7400 6300 7500 6300
+Connection ~ 7900 6900
+Connection ~ 8300 6900
+Connection ~ 8700 6900
+Connection ~ 9100 6900
+Connection ~ 9500 6900
+Connection ~ 9100 6300
+Connection ~ 7900 6300
+Connection ~ 8300 6300
+Connection ~ 8700 6300
+Connection ~ 9500 6300
+Connection ~ 9800 6300
+Connection ~ 10000 6300
+Connection ~ 7500 6300
+Text Label 7500 6900 0    10   ~ 0
+VDD
+Wire Wire Line
+	3100 7500 3100 7600
+Text Label 3100 7500 0    10   ~ 0
+VDD
+Wire Wire Line
+	5300 6300 6200 6300
+Wire Wire Line
+	6200 6300 6200 6400
+Wire Wire Line
+	6200 6300 6500 6300
+Wire Wire Line
+	6500 6300 6500 6400
+Wire Wire Line
+	6500 6300 6600 6300
+Text Label 5300 6300 2    50   ~ 0
+VDD
+Connection ~ 6200 6300
+Connection ~ 6500 6300
+Wire Wire Line
+	6500 7100 6500 7000
+Wire Wire Line
+	6500 7000 6200 7000
+Wire Wire Line
+	6200 7000 6200 7100
+Wire Wire Line
+	6200 7000 6000 7000
+Wire Wire Line
+	6000 7000 6000 6600
+Wire Wire Line
+	5300 6600 6000 6600
+Wire Wire Line
+	6500 7000 6600 7000
+Connection ~ 6200 7000
+Text Label 5300 6600 2    50   ~ 0
+VDD
+Connection ~ 6500 7000
+Wire Wire Line
+	5300 6700 5400 6700
+Wire Wire Line
+	5400 6700 5400 6800
+Wire Wire Line
+	5400 6800 5400 6900
+Wire Wire Line
+	5400 6900 5400 7000
+Wire Wire Line
+	5400 7000 5400 7100
+Wire Wire Line
+	5400 7100 5400 7200
+Wire Wire Line
+	5400 7200 5400 7300
+Wire Wire Line
+	5400 7300 5400 7400
+Wire Wire Line
+	5400 7400 5400 7500
+Wire Wire Line
+	5400 7500 5400 7600
+Wire Wire Line
+	5400 7600 5400 7700
+Wire Wire Line
+	5400 7700 5400 7800
+Wire Wire Line
+	5400 7800 5300 7800
+Wire Wire Line
+	5300 7700 5400 7700
+Wire Wire Line
+	5300 7600 5400 7600
+Wire Wire Line
+	5300 7500 5400 7500
+Wire Wire Line
+	5300 7400 5400 7400
+Wire Wire Line
+	5300 7300 5400 7300
+Wire Wire Line
+	5300 7200 5400 7200
+Wire Wire Line
+	5300 7100 5400 7100
+Wire Wire Line
+	5300 7000 5400 7000
+Wire Wire Line
+	5300 6900 5400 6900
+Wire Wire Line
+	5300 6800 5400 6800
+Wire Wire Line
+	5500 6700 5400 6700
+Connection ~ 5400 7700
+Connection ~ 5400 7600
+Connection ~ 5400 7500
+Connection ~ 5400 7400
+Connection ~ 5400 7300
+Connection ~ 5400 7200
+Connection ~ 5400 7100
+Connection ~ 5400 7000
+Connection ~ 5400 6900
+Connection ~ 5400 6800
+Connection ~ 5400 6700
+Text Label 5300 6700 0    10   ~ 0
+VDD
+Wire Wire Line
+	5300 6400 5400 6400
+Text Label 5300 6400 0    10   ~ 0
+VDD
+Wire Wire Line
+	3500 6600 3500 6700
+Wire Wire Line
+	3500 6700 3200 6700
+Connection ~ 3500 6700
+Text Label 3500 6600 0    10   ~ 0
+VDD
+Wire Wire Line
+	10600 2400 10800 2400
+Wire Wire Line
+	10800 2400 10900 2400
+Wire Wire Line
+	10800 2900 10800 2800
+Wire Wire Line
+	10800 2800 10800 2400
+Wire Wire Line
+	10000 2800 10800 2800
+Text Label 10850 2400 2    50   ~ 0
+VDD
+Connection ~ 10800 2400
+Connection ~ 10800 2800
+Wire Wire Line
+	2500 5100 1800 5100
+Text GLabel 1800 5100 2    50   BiDi ~ 0
+ETH_TXD3
+Wire Wire Line
+	7000 4900 7700 4900
+Text GLabel 7700 4900 0    50   BiDi ~ 0
+ETH_RXD2
+Wire Wire Line
+	7000 5000 7700 5000
+Text GLabel 7700 5000 0    50   BiDi ~ 0
+ETH_RXD3
+Wire Wire Line
+	2500 2900 1800 2900
+Text GLabel 1800 2900 2    50   BiDi ~ 0
+ETH_COL
+Wire Wire Line
+	2500 2600 1800 2600
+Text GLabel 1800 2600 2    50   BiDi ~ 0
+ETH_CRS
+Wire Wire Line
+	8600 5500 8700 5500
+Wire Wire Line
+	8200 5500 8600 5500
+Wire Wire Line
+	7600 5500 7800 5500
+Wire Wire Line
+	7800 5500 8200 5500
+Wire Wire Line
+	7800 5600 7800 5500
+Wire Wire Line
+	8600 5600 8600 5500
+Connection ~ 8200 5500
+Connection ~ 7800 5500
+Connection ~ 8600 5500
+Text GLabel 8600 5500 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	3700 4800 4500 4800
+Text GLabel 4500 4800 0    50   BiDi ~ 0
+USB_OTG_FS_PSO
+Wire Wire Line
+	3700 4700 4500 4700
+Text GLabel 4500 4700 0    50   BiDi ~ 0
+~USB_OTG_FS_OC
+Wire Wire Line
+	3700 5000 4500 5000
+Text GLabel 4500 5000 0    50   BiDi ~ 0
+IRQ_TOUCH
+Wire Wire Line
+	2500 4700 1800 4700
+Text GLabel 1800 4700 2    50   BiDi ~ 0
+SYS_JTRST
+Wire Wire Line
+	5800 2800 5300 2800
+Text GLabel 5300 2800 2    50   BiDi ~ 0
+SPI4_CLK
+Wire Wire Line
+	5800 3100 5300 3100
+Text GLabel 5300 3100 2    50   BiDi ~ 0
+SPI4_MISO
+Wire Wire Line
+	5800 3200 5300 3200
+Text GLabel 5300 3200 2    50   BiDi ~ 0
+SPI4_MOSI
+Wire Wire Line
+	3100 6300 3500 6300
+Wire Wire Line
+	3500 6300 3500 6400
+Wire Wire Line
+	5300 2900 5800 2900
+Text GLabel 5300 2900 2    50   BiDi ~ 0
+SPI4_CSA
+Wire Wire Line
+	5300 3000 5800 3000
+Text GLabel 5300 3000 2    50   BiDi ~ 0
+SPI4_CSB
+Wire Wire Line
+	3700 3700 4500 3700
+Text GLabel 4500 3700 0    50   BiDi ~ 0
+OUT_PAR
+Wire Wire Line
+	7000 3500 7700 3500
+Text GLabel 7700 3500 0    50   BiDi ~ 0
+OUT_SER
+Wire Wire Line
+	7000 3900 7700 3900
+Text GLabel 7700 3900 0    50   BiDi ~ 0
+SPI5_CSB
+Wire Wire Line
+	7000 4000 7700 4000
+Text GLabel 7700 4000 0    50   BiDi ~ 0
+SPI5_CSA
+Wire Wire Line
+	2500 4500 1400 4500
+Wire Wire Line
+	1400 4500 1100 4500
+Text GLabel 1950 4500 2    50   BiDi ~ 0
+~FAULT
+Connection ~ 1400 4500
+Wire Wire Line
+	2500 5300 1800 5300
+Text GLabel 1800 5300 2    50   BiDi ~ 0
+SPI5_IRQ
+Wire Wire Line
+	2500 5200 1800 5200
+Text GLabel 1800 5200 2    50   BiDi ~ 0
+SPI4_IRQ
+Wire Wire Line
+	2500 3400 1800 3400
+Text GLabel 1800 3400 2    50   BiDi ~ 0
+SPI2_IRQ
+Entry Wire Line
+	5100 4400 5200 4300
+Entry Wire Line
+	5100 4500 5200 4400
+Entry Wire Line
+	5100 4600 5200 4500
+Entry Wire Line
+	5100 4700 5200 4600
+Entry Wire Line
+	5100 4800 5200 4700
+Entry Wire Line
+	5100 4900 5200 4800
+Entry Wire Line
+	5100 5600 5200 5500
+Entry Wire Line
+	5100 5700 5200 5600
+Entry Wire Line
+	5100 5800 5200 5700
+Entry Wire Line
+	5100 5900 5200 5800
+Entry Wire Line
+	7800 2600 7900 2500
+Entry Wire Line
+	7800 2700 7900 2600
+Entry Wire Line
+	1600 3000 1700 3100
+Entry Wire Line
+	1600 3100 1700 3200
+Entry Wire Line
+	1600 4200 1700 4300
+Entry Wire Line
+	1600 4300 1700 4400
+Entry Wire Line
+	4600 2600 4700 2500
+Entry Wire Line
+	4600 3600 4700 3500
+Entry Wire Line
+	4600 4600 4700 4500
+Entry Wire Line
+	4600 4900 4700 4800
+Entry Wire Line
+	7900 4700 8000 4600
+Entry Wire Line
+	8000 3800 8100 3700
+Entry Wire Line
+	7900 3200 8000 3100
+Entry Wire Line
+	8000 2700 8100 2600
+Entry Wire Line
+	7900 3600 8000 3500
+Entry Wire Line
+	7900 3700 8000 3600
+Entry Wire Line
+	7900 3800 8000 3700
+Entry Wire Line
+	8000 3200 8100 3100
+Entry Wire Line
+	8000 3300 8100 3200
+Entry Wire Line
+	8000 3400 8100 3300
+Entry Wire Line
+	4900 3400 5000 3300
+Entry Wire Line
+	4900 3500 5000 3400
+Entry Wire Line
+	4900 3600 5000 3500
+Entry Wire Line
+	4900 3700 5000 3600
+Entry Wire Line
+	4900 3800 5000 3700
+Entry Wire Line
+	4900 3900 5000 3800
+Entry Wire Line
+	4900 4000 5000 3900
+Entry Wire Line
+	4900 4100 5000 4000
+Entry Wire Line
+	4900 4200 5000 4100
+Entry Wire Line
+	4800 5100 4900 5200
+Entry Wire Line
+	4800 5200 4900 5300
+Entry Wire Line
+	4800 5300 4900 5400
+Entry Wire Line
+	4800 5700 4900 5800
+Entry Wire Line
+	4800 5800 4900 5900
+Entry Wire Line
+	4800 4300 4900 4400
+Entry Wire Line
+	4800 4400 4900 4500
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME2
+U 1 0 B9163575
+P 900 9100
+AR Path="/B9163575" Ref="#FRAME2"  Part="1" 
+AR Path="/5B8E1886/B9163575" Ref="#FRAME2"  Part="1" 
+F 0 "#FRAME2" H 900 9100 50  0001 C CNN
+F 1 "DINA4_L" H 900 9100 50  0001 C CNN
+F 2 "" H 900 9100 50  0001 C CNN
+F 3 "" H 900 9100 50  0001 C CNN
+	1    900  9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:XTALSMD Y1
+U 1 0 D378200C
+P 8300 4500
+AR Path="/D378200C" Ref="Y1"  Part="1" 
+AR Path="/5B8E1886/D378200C" Ref="Y1"  Part="1" 
+F 0 "Y1" V 8275 4375 59  0000 R TNN
+F 1 "10MHz" V 8125 4500 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:HC-49_4H" H 8300 4500 50  0001 C CNN
+F 3 "" H 8300 4500 50  0001 C CNN
+	1    8300 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:STM32F769IXT IC4
+U 1 0 C5932E33
+P 2600 2500
+AR Path="/C5932E33" Ref="IC4"  Part="1" 
+AR Path="/5B8E1886/C5932E33" Ref="IC4"  Part="1" 
+F 0 "IC4" H 2600 2525 69  0000 L BNN
+F 1 "STM32F769IGT6" H 2600 -1025 69  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:LQFP-176_24X24MM" H 2600 2500 50  0001 C CNN
+F 3 "" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:STM32F769IXT IC4
+U 2 0 C5932E3F
+P 5900 2500
+AR Path="/C5932E3F" Ref="IC4"  Part="2" 
+AR Path="/5B8E1886/C5932E3F" Ref="IC4"  Part="2" 
+F 0 "IC4" H 5900 2525 69  0000 L BNN
+F 1 "STM32F769IGT6" H 5900 -1025 69  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:LQFP-176_24X24MM" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0001 C CNN
+	2    5900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:STM32F769IXT IC4
+U 3 0 C5932E3B
+P 8900 2500
+AR Path="/C5932E3B" Ref="IC4"  Part="3" 
+AR Path="/5B8E1886/C5932E3B" Ref="IC4"  Part="3" 
+F 0 "IC4" H 8900 2550 69  0000 L BNN
+F 1 "STM32F769IGT6" H 8900 1075 69  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:LQFP-176_24X24MM" H 8900 2500 50  0001 C CNN
+F 3 "" H 8900 2500 50  0001 C CNN
+	3    8900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:STM32F769IXT IC4
+U 4 0 C5932E27
+P 4200 6200
+AR Path="/C5932E27" Ref="IC4"  Part="4" 
+AR Path="/5B8E1886/C5932E27" Ref="IC4"  Part="4" 
+F 0 "IC4" H 4200 6250 69  0000 L BNN
+F 1 "STM32F769IGT6" H 4200 3675 69  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:LQFP-176_24X24MM" H 4200 6200 50  0001 C CNN
+F 3 "" H 4200 6200 50  0001 C CNN
+	4    4200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C13
+U 1 0 0FBA7A5F
+P 7500 6400
+AR Path="/0FBA7A5F" Ref="C13"  Part="1" 
+AR Path="/5B8E1886/0FBA7A5F" Ref="C13"  Part="1" 
+F 0 "C13" H 7585 6365 59  0000 L BNN
+F 1 "100n" H 7585 6290 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 7500 6400 50  0001 C CNN
+F 3 "" H 7500 6400 50  0001 C CNN
+	1    7500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C14
+U 1 0 73BFF46F
+P 7900 6400
+AR Path="/73BFF46F" Ref="C14"  Part="1" 
+AR Path="/5B8E1886/73BFF46F" Ref="C14"  Part="1" 
+F 0 "C14" H 7985 6365 59  0000 L BNN
+F 1 "100n" H 7985 6290 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 7900 6400 50  0001 C CNN
+F 3 "" H 7900 6400 50  0001 C CNN
+	1    7900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C15
+U 1 0 A041F231
+P 8300 6400
+AR Path="/A041F231" Ref="C15"  Part="1" 
+AR Path="/5B8E1886/A041F231" Ref="C15"  Part="1" 
+F 0 "C15" H 8385 6365 59  0000 L BNN
+F 1 "100n" H 8385 6290 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8300 6400 50  0001 C CNN
+F 3 "" H 8300 6400 50  0001 C CNN
+	1    8300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C16
+U 1 0 3BF359D1
+P 8700 6400
+AR Path="/3BF359D1" Ref="C16"  Part="1" 
+AR Path="/5B8E1886/3BF359D1" Ref="C16"  Part="1" 
+F 0 "C16" H 8785 6365 59  0000 L BNN
+F 1 "100n" H 8785 6290 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8700 6400 50  0001 C CNN
+F 3 "" H 8700 6400 50  0001 C CNN
+	1    8700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C17
+U 1 0 20F00162
+P 9100 6400
+AR Path="/20F00162" Ref="C17"  Part="1" 
+AR Path="/5B8E1886/20F00162" Ref="C17"  Part="1" 
+F 0 "C17" H 9185 6365 59  0000 L BNN
+F 1 "100n" H 9185 6290 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 9100 6400 50  0001 C CNN
+F 3 "" H 9100 6400 50  0001 C CNN
+	1    9100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C18
+U 1 0 FB4E6B42
+P 9500 6400
+AR Path="/FB4E6B42" Ref="C18"  Part="1" 
+AR Path="/5B8E1886/FB4E6B42" Ref="C18"  Part="1" 
+F 0 "C18" H 9585 6365 59  0000 L BNN
+F 1 "100n" H 9585 6290 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 9500 6400 50  0001 C CNN
+F 3 "" H 9500 6400 50  0001 C CNN
+	1    9500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C23
+U 1 0 50445D95
+P 7500 7000
+AR Path="/50445D95" Ref="C23"  Part="1" 
+AR Path="/5B8E1886/50445D95" Ref="C23"  Part="1" 
+F 0 "C23" H 7585 6965 59  0000 L BNN
+F 1 "100n" H 7585 6890 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 7500 7000 50  0001 C CNN
+F 3 "" H 7500 7000 50  0001 C CNN
+	1    7500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C24
+U 1 0 B4BCC975
+P 7900 7000
+AR Path="/B4BCC975" Ref="C24"  Part="1" 
+AR Path="/5B8E1886/B4BCC975" Ref="C24"  Part="1" 
+F 0 "C24" H 7985 6965 59  0000 L BNN
+F 1 "100n" H 7985 6890 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 7900 7000 50  0001 C CNN
+F 3 "" H 7900 7000 50  0001 C CNN
+	1    7900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C25
+U 1 0 9CB31313
+P 8300 7000
+AR Path="/9CB31313" Ref="C25"  Part="1" 
+AR Path="/5B8E1886/9CB31313" Ref="C25"  Part="1" 
+F 0 "C25" H 8385 6965 59  0000 L BNN
+F 1 "100n" H 8385 6890 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8300 7000 50  0001 C CNN
+F 3 "" H 8300 7000 50  0001 C CNN
+	1    8300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C26
+U 1 0 CD45ED21
+P 8700 7000
+AR Path="/CD45ED21" Ref="C26"  Part="1" 
+AR Path="/5B8E1886/CD45ED21" Ref="C26"  Part="1" 
+F 0 "C26" H 8785 6965 59  0000 L BNN
+F 1 "100n" H 8785 6890 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8700 7000 50  0001 C CNN
+F 3 "" H 8700 7000 50  0001 C CNN
+	1    8700 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C27
+U 1 0 0ABE1D3C
+P 9100 7000
+AR Path="/0ABE1D3C" Ref="C27"  Part="1" 
+AR Path="/5B8E1886/0ABE1D3C" Ref="C27"  Part="1" 
+F 0 "C27" H 9185 6965 59  0000 L BNN
+F 1 "100n" H 9185 6890 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 9100 7000 50  0001 C CNN
+F 3 "" H 9100 7000 50  0001 C CNN
+	1    9100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C28
+U 1 0 6879901B
+P 9500 7000
+AR Path="/6879901B" Ref="C28"  Part="1" 
+AR Path="/5B8E1886/6879901B" Ref="C28"  Part="1" 
+F 0 "C28" H 9585 6965 59  0000 L BNN
+F 1 "100n" H 9585 6890 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 9500 7000 50  0001 C CNN
+F 3 "" H 9500 7000 50  0001 C CNN
+	1    9500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY10
+U 1 0 28999800
+P 7500 7400
+AR Path="/28999800" Ref="#SUPPLY10"  Part="1" 
+AR Path="/5B8E1886/28999800" Ref="#SUPPLY010"  Part="1" 
+F 0 "#SUPPLY010" H 7500 7400 50  0001 C CNN
+F 1 "GND" H 7575 7375 59  0000 L BNN
+F 2 "" H 7500 7400 50  0001 C CNN
+F 3 "" H 7500 7400 50  0001 C CNN
+	1    7500 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY9
+U 1 0 B8640D54
+P 7500 6800
+AR Path="/B8640D54" Ref="#SUPPLY9"  Part="1" 
+AR Path="/5B8E1886/B8640D54" Ref="#SUPPLY09"  Part="1" 
+F 0 "#SUPPLY09" H 7500 6800 50  0001 C CNN
+F 1 "GND" H 7575 6775 59  0000 L BNN
+F 2 "" H 7500 6800 50  0001 C CNN
+F 3 "" H 7500 6800 50  0001 C CNN
+	1    7500 6800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:ECAP1206 C19
+U 1 0 D66A59EB
+P 10000 6400
+AR Path="/D66A59EB" Ref="C19"  Part="1" 
+AR Path="/5B8E1886/D66A59EB" Ref="C19"  Part="1" 
+F 0 "C19" H 9930 6431 59  0000 R TNN
+F 1 "4u7" H 9905 6331 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:EC1206" H 10000 6400 50  0001 C CNN
+F 3 "" H 10000 6400 50  0001 C CNN
+	1    10000 6400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY15
+U 1 0 2739B52F
+P 10000 6800
+AR Path="/2739B52F" Ref="#SUPPLY15"  Part="1" 
+AR Path="/5B8E1886/2739B52F" Ref="#SUPPLY015"  Part="1" 
+F 0 "#SUPPLY015" H 10000 6800 50  0001 C CNN
+F 1 "GND" H 9925 6775 59  0000 R BNN
+F 2 "" H 10000 6800 50  0001 C CNN
+F 3 "" H 10000 6800 50  0001 C CNN
+	1    10000 6800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:+3V3 #+3V33
+U 1 0 B7CA437E
+P 10800 6100
+AR Path="/B7CA437E" Ref="#+3V33"  Part="1" 
+AR Path="/5B8E1886/B7CA437E" Ref="#+3V033"  Part="1" 
+F 0 "#+3V033" H 10800 6100 50  0001 C CNN
+F 1 "+3V3" V 10675 6150 59  0000 L BNN
+F 2 "" H 10800 6100 50  0001 C CNN
+F 3 "" H 10800 6100 50  0001 C CNN
+	1    10800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C8
+U 1 0 B784A1FF
+P 8800 4300
+AR Path="/B784A1FF" Ref="C8"  Part="1" 
+AR Path="/5B8E1886/B784A1FF" Ref="C8"  Part="1" 
+F 0 "C8" V 8815 4285 59  0000 L TNN
+F 1 "18p" V 8715 4285 59  0000 L TNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8800 4300 50  0001 C CNN
+F 3 "" H 8800 4300 50  0001 C CNN
+	1    8800 4300
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C9
+U 1 0 E58AC740
+P 8800 4700
+AR Path="/E58AC740" Ref="C9"  Part="1" 
+AR Path="/5B8E1886/E58AC740" Ref="C9"  Part="1" 
+F 0 "C9" V 8815 4685 59  0000 L TNN
+F 1 "18p" V 8715 4685 59  0000 L TNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8800 4700 50  0001 C CNN
+F 3 "" H 8800 4700 50  0001 C CNN
+	1    8800 4700
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R14
+U 1 0 52F125BA
+P 8600 4500
+AR Path="/52F125BA" Ref="R14"  Part="1" 
+AR Path="/5B8E1886/52F125BA" Ref="R14"  Part="1" 
+F 0 "R14" V 8609 4550 59  0000 L TNN
+F 1 "1M" V 8520 4550 59  0000 L TNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 8600 4500 50  0001 C CNN
+F 3 "" H 8600 4500 50  0001 C CNN
+	1    8600 4500
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY4
+U 1 0 1C9152C2
+P 3800 7500
+AR Path="/1C9152C2" Ref="#SUPPLY4"  Part="1" 
+AR Path="/5B8E1886/1C9152C2" Ref="#SUPPLY04"  Part="1" 
+F 0 "#SUPPLY04" H 3800 7500 50  0001 C CNN
+F 1 "GND" H 3875 7475 59  0000 L BNN
+F 2 "" H 3800 7500 50  0001 C CNN
+F 3 "" H 3800 7500 50  0001 C CNN
+	1    3800 7500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY11
+U 1 0 E0B04C0E
+P 9000 4900
+AR Path="/E0B04C0E" Ref="#SUPPLY11"  Part="1" 
+AR Path="/5B8E1886/E0B04C0E" Ref="#SUPPLY011"  Part="1" 
+F 0 "#SUPPLY011" H 9000 4900 50  0001 C CNN
+F 1 "GND" H 9075 4875 59  0000 L BNN
+F 2 "" H 9000 4900 50  0001 C CNN
+F 3 "" H 9000 4900 50  0001 C CNN
+	1    9000 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:FERRITE_BEAD0603 L1
+U 1 0 ED405773
+P 3100 7800
+AR Path="/ED405773" Ref="L1"  Part="1" 
+AR Path="/5B8E1886/ED405773" Ref="L1"  Part="1" 
+F 0 "L1" V 3096 7850 59  0000 L BNN
+F 1 "LCBA-600" V 3190 7850 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:BEAD0603" H 3100 7800 50  0001 C CNN
+F 3 "" H 3100 7800 50  0001 C CNN
+	1    3100 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C32
+U 1 0 3554C70B
+P 3400 8300
+AR Path="/3554C70B" Ref="C32"  Part="1" 
+AR Path="/5B8E1886/3554C70B" Ref="C32"  Part="1" 
+F 0 "C32" H 3485 8265 59  0000 L BNN
+F 1 "100n" H 3485 8190 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 3400 8300 50  0001 C CNN
+F 3 "" H 3400 8300 50  0001 C CNN
+	1    3400 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0805 C31
+U 1 0 A9B87219
+P 3100 8300
+AR Path="/A9B87219" Ref="C31"  Part="1" 
+AR Path="/5B8E1886/A9B87219" Ref="C31"  Part="1" 
+F 0 "C31" H 3015 8240 59  0000 R BNN
+F 1 "1u" H 3015 8165 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:C0805" H 3100 8300 50  0001 C CNN
+F 3 "" H 3100 8300 50  0001 C CNN
+	1    3100 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY2
+U 1 0 19032892
+P 3100 8600
+AR Path="/19032892" Ref="#SUPPLY2"  Part="1" 
+AR Path="/5B8E1886/19032892" Ref="#SUPPLY02"  Part="1" 
+F 0 "#SUPPLY02" H 3100 8600 50  0001 C CNN
+F 1 "GND" H 3175 8625 59  0000 L TNN
+F 2 "" H 3100 8600 50  0001 C CNN
+F 3 "" H 3100 8600 50  0001 C CNN
+	1    3100 8600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R18
+U 1 0 EF4075FE
+P 4000 8300
+AR Path="/EF4075FE" Ref="R18"  Part="1" 
+AR Path="/5B8E1886/EF4075FE" Ref="R18"  Part="1" 
+F 0 "R18" V 4009 8250 59  0000 R TNN
+F 1 "47R" V 3920 8250 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 4000 8300 50  0001 C CNN
+F 3 "" H 4000 8300 50  0001 C CNN
+	1    4000 8300
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C20
+U 1 0 12BF572B
+P 6200 6500
+AR Path="/12BF572B" Ref="C20"  Part="1" 
+AR Path="/5B8E1886/12BF572B" Ref="C20"  Part="1" 
+F 0 "C20" H 6115 6465 59  0000 R BNN
+F 1 "100n" H 6115 6390 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 6200 6500 50  0001 C CNN
+F 3 "" H 6200 6500 50  0001 C CNN
+	1    6200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0805 C21
+U 1 0 2370F12D
+P 6500 6500
+AR Path="/2370F12D" Ref="C21"  Part="1" 
+AR Path="/5B8E1886/2370F12D" Ref="C21"  Part="1" 
+F 0 "C21" H 6585 6465 59  0000 L BNN
+F 1 "1u" H 6585 6390 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0805" H 6500 6500 50  0001 C CNN
+F 3 "" H 6500 6500 50  0001 C CNN
+	1    6500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY7
+U 1 0 2907E397
+P 6200 6800
+AR Path="/2907E397" Ref="#SUPPLY7"  Part="1" 
+AR Path="/5B8E1886/2907E397" Ref="#SUPPLY07"  Part="1" 
+F 0 "#SUPPLY07" H 6200 6800 50  0001 C CNN
+F 1 "GND" H 6125 6825 59  0000 R TNN
+F 2 "" H 6200 6800 50  0001 C CNN
+F 3 "" H 6200 6800 50  0001 C CNN
+	1    6200 6800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R12
+U 1 0 7801EE94
+P 10400 3200
+AR Path="/7801EE94" Ref="R12"  Part="1" 
+AR Path="/5B8E1886/7801EE94" Ref="R12"  Part="1" 
+F 0 "R12" V 10409 3150 59  0000 R TNN
+F 1 "10K" V 10320 3150 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 10400 3200 50  0001 C CNN
+F 3 "" H 10400 3200 50  0001 C CNN
+	1    10400 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY14
+U 1 0 C4643C99
+P 10400 3500
+AR Path="/C4643C99" Ref="#SUPPLY14"  Part="1" 
+AR Path="/5B8E1886/C4643C99" Ref="#SUPPLY014"  Part="1" 
+F 0 "#SUPPLY014" H 10400 3500 50  0001 C CNN
+F 1 "GND" H 10325 3525 59  0000 R TNN
+F 2 "" H 10400 3500 50  0001 C CNN
+F 3 "" H 10400 3500 50  0001 C CNN
+	1    10400 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY1
+U 1 0 F54A36B8
+P 2500 6500
+AR Path="/F54A36B8" Ref="#SUPPLY1"  Part="1" 
+AR Path="/5B8E1886/F54A36B8" Ref="#SUPPLY01"  Part="1" 
+F 0 "#SUPPLY01" H 2500 6500 50  0001 C CNN
+F 1 "GND" H 2575 6475 59  0000 L BNN
+F 2 "" H 2500 6500 50  0001 C CNN
+F 3 "" H 2500 6500 50  0001 C CNN
+	1    2500 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C29
+U 1 0 7F41ADB8
+P 6200 7200
+AR Path="/7F41ADB8" Ref="C29"  Part="1" 
+AR Path="/5B8E1886/7F41ADB8" Ref="C29"  Part="1" 
+F 0 "C29" H 6115 7165 59  0000 R BNN
+F 1 "100n" H 6115 7090 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 6200 7200 50  0001 C CNN
+F 3 "" H 6200 7200 50  0001 C CNN
+	1    6200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0805 C30
+U 1 0 BE60CAB2
+P 6500 7200
+AR Path="/BE60CAB2" Ref="C30"  Part="1" 
+AR Path="/5B8E1886/BE60CAB2" Ref="C30"  Part="1" 
+F 0 "C30" H 6585 7165 59  0000 L BNN
+F 1 "1u" H 6585 7090 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0805" H 6500 7200 50  0001 C CNN
+F 3 "" H 6500 7200 50  0001 C CNN
+	1    6500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY8
+U 1 0 39566F8A
+P 6200 7500
+AR Path="/39566F8A" Ref="#SUPPLY8"  Part="1" 
+AR Path="/5B8E1886/39566F8A" Ref="#SUPPLY08"  Part="1" 
+F 0 "#SUPPLY08" H 6200 7500 50  0001 C CNN
+F 1 "GND" H 6125 7525 59  0000 R TNN
+F 2 "" H 6200 7500 50  0001 C CNN
+F 3 "" H 6200 7500 50  0001 C CNN
+	1    6200 7500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0805 C34
+U 1 0 3A0C4D0D
+P 6000 8500
+AR Path="/3A0C4D0D" Ref="C34"  Part="1" 
+AR Path="/5B8E1886/3A0C4D0D" Ref="C34"  Part="1" 
+F 0 "C34" H 6085 8465 59  0000 L BNN
+F 1 "2u2" H 6085 8390 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:C0805" H 6000 8500 50  0001 C CNN
+F 3 "" H 6000 8500 50  0001 C CNN
+	1    6000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0805 C33
+U 1 0 AFCEC790
+P 5700 8500
+AR Path="/AFCEC790" Ref="C33"  Part="1" 
+AR Path="/5B8E1886/AFCEC790" Ref="C33"  Part="1" 
+F 0 "C33" H 5615 8465 59  0000 R BNN
+F 1 "2u2" H 5615 8390 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:C0805" H 5700 8500 50  0001 C CNN
+F 3 "" H 5700 8500 50  0001 C CNN
+	1    5700 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY6
+U 1 0 A7CD5EB6
+P 5700 8800
+AR Path="/A7CD5EB6" Ref="#SUPPLY6"  Part="1" 
+AR Path="/5B8E1886/A7CD5EB6" Ref="#SUPPLY06"  Part="1" 
+F 0 "#SUPPLY06" H 5700 8800 50  0001 C CNN
+F 1 "GND" H 5775 8775 59  0000 L BNN
+F 2 "" H 5700 8800 50  0001 C CNN
+F 3 "" H 5700 8800 50  0001 C CNN
+	1    5700 8800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R11
+U 1 0 B75FF5DF
+P 10400 2400
+AR Path="/B75FF5DF" Ref="R11"  Part="1" 
+AR Path="/5B8E1886/B75FF5DF" Ref="R11"  Part="1" 
+F 0 "R11" H 10475 2534 59  0000 R BNN
+F 1 "10K" H 10475 2445 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 10400 2400 50  0001 C CNN
+F 3 "" H 10400 2400 50  0001 C CNN
+	1    10400 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R17
+U 1 0 802011AD
+P 10400 6300
+AR Path="/802011AD" Ref="R17"  Part="1" 
+AR Path="/5B8E1886/802011AD" Ref="R17"  Part="1" 
+F 0 "R17" H 10500 6359 59  0000 R BNN
+F 1 "0R" H 10500 6255 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 10400 6300 50  0001 C CNN
+F 3 "" H 10400 6300 50  0001 C CNN
+	1    10400 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD2
+U 1 0 EDEAD374
+P 3100 7400
+AR Path="/EDEAD374" Ref="#VDD2"  Part="1" 
+AR Path="/5B8E1886/EDEAD374" Ref="#VDD02"  Part="1" 
+F 0 "#VDD02" H 3100 7400 50  0001 C CNN
+F 1 "VDD" V 3000 7475 59  0000 L BNN
+F 2 "" H 3100 7400 50  0001 C CNN
+F 3 "" H 3100 7400 50  0001 C CNN
+	1    3100 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD5
+U 1 0 38DFADE0
+P 6700 6300
+AR Path="/38DFADE0" Ref="#VDD5"  Part="1" 
+AR Path="/5B8E1886/38DFADE0" Ref="#VDD05"  Part="1" 
+F 0 "#VDD05" H 6700 6300 50  0001 C CNN
+F 1 "VDD" V 6625 6175 59  0000 L BNN
+F 2 "" H 6700 6300 50  0001 C CNN
+F 3 "" H 6700 6300 50  0001 C CNN
+	1    6700 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD6
+U 1 0 1D0147C1
+P 6700 7000
+AR Path="/1D0147C1" Ref="#VDD6"  Part="1" 
+AR Path="/5B8E1886/1D0147C1" Ref="#VDD06"  Part="1" 
+F 0 "#VDD06" H 6700 7000 50  0001 C CNN
+F 1 "VDD" V 6625 6875 59  0000 L BNN
+F 2 "" H 6700 7000 50  0001 C CNN
+F 3 "" H 6700 7000 50  0001 C CNN
+	1    6700 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD4
+U 1 0 055670B3
+P 5600 6700
+AR Path="/055670B3" Ref="#VDD4"  Part="1" 
+AR Path="/5B8E1886/055670B3" Ref="#VDD04"  Part="1" 
+F 0 "#VDD04" H 5600 6700 50  0001 C CNN
+F 1 "VDD" V 5625 6775 59  0000 L BNN
+F 2 "" H 5600 6700 50  0001 C CNN
+F 3 "" H 5600 6700 50  0001 C CNN
+	1    5600 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD3
+U 1 0 34DDCE88
+P 5500 6400
+AR Path="/34DDCE88" Ref="#VDD3"  Part="1" 
+AR Path="/5B8E1886/34DDCE88" Ref="#VDD03"  Part="1" 
+F 0 "#VDD03" H 5500 6400 50  0001 C CNN
+F 1 "VDD" V 5525 6475 59  0000 L BNN
+F 2 "" H 5500 6400 50  0001 C CNN
+F 3 "" H 5500 6400 50  0001 C CNN
+	1    5500 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY5
+U 1 0 20B1DDDE
+P 3800 8000
+AR Path="/20B1DDDE" Ref="#SUPPLY5"  Part="1" 
+AR Path="/5B8E1886/20B1DDDE" Ref="#SUPPLY05"  Part="1" 
+F 0 "#SUPPLY05" H 3800 8000 50  0001 C CNN
+F 1 "GND" H 3875 7975 59  0000 L BNN
+F 2 "" H 3800 8000 50  0001 C CNN
+F 3 "" H 3800 8000 50  0001 C CNN
+	1    3800 8000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY16
+U 1 0 86F85EE9
+P 10800 3300
+AR Path="/86F85EE9" Ref="#SUPPLY16"  Part="1" 
+AR Path="/5B8E1886/86F85EE9" Ref="#SUPPLY016"  Part="1" 
+F 0 "#SUPPLY016" H 10800 3300 50  0001 C CNN
+F 1 "GND" H 10725 3325 59  0000 R TNN
+F 2 "" H 10800 3300 50  0001 C CNN
+F 3 "" H 10800 3300 50  0001 C CNN
+	1    10800 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:CELL_BATTERY-THT20MM B1
+U 1 0 1A014095
+P 2800 6300
+AR Path="/1A014095" Ref="B1"  Part="1" 
+AR Path="/5B8E1886/1A014095" Ref="B1"  Part="1" 
+F 0 "B1" H 2750 6425 59  0000 L BNN
+F 1 "DS1092-16-B6P" H 2550 6100 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:DS1092-16-B6P" H 2800 6300 50  0001 C CNN
+F 3 "" H 2800 6300 50  0001 C CNN
+	1    2800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:DIODEDO214AA D1
+U 1 0 836CD485
+P 7800 5700
+AR Path="/836CD485" Ref="D1"  Part="1" 
+AR Path="/5B8E1886/836CD485" Ref="D1"  Part="1" 
+F 0 "D1" V 7881 5800 59  0000 L BNN
+F 1 "SMBJ5.0A-TR" V 7791 5800 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:DO214AA" H 7800 5700 50  0001 C CNN
+F 3 "" H 7800 5700 50  0001 C CNN
+	1    7800 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY12
+U 1 0 31C2C8A5
+P 9000 6000
+AR Path="/31C2C8A5" Ref="#SUPPLY12"  Part="1" 
+AR Path="/5B8E1886/31C2C8A5" Ref="#SUPPLY012"  Part="1" 
+F 0 "#SUPPLY012" H 9000 6000 50  0001 C CNN
+F 1 "GND" H 9075 5950 59  0000 L BNN
+F 2 "" H 9000 6000 50  0001 C CNN
+F 3 "" H 9000 6000 50  0001 C CNN
+	1    9000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:LD117A?DT IC5
+U 1 0 E001E1EA
+P 9000 5500
+AR Path="/E001E1EA" Ref="IC5"  Part="1" 
+AR Path="/5B8E1886/E001E1EA" Ref="IC5"  Part="1" 
+F 0 "IC5" H 8800 5725 59  0000 L BNN
+F 1 "LD1117ADT33TR" H 8800 5625 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:DPACK" H 9000 5500 50  0001 C CNN
+F 3 "" H 9000 5500 50  0001 C CNN
+	1    9000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:+3V3 #+3V31
+U 1 0 21DE59C0
+P 10000 5500
+AR Path="/21DE59C0" Ref="#+3V31"  Part="1" 
+AR Path="/5B8E1886/21DE59C0" Ref="#+3V031"  Part="1" 
+F 0 "#+3V031" H 10000 5500 50  0001 C CNN
+F 1 "+3V3" V 10050 5575 59  0000 L BNN
+F 2 "" H 10000 5500 50  0001 C CNN
+F 3 "" H 10000 5500 50  0001 C CNN
+	1    10000 5500
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY13
+U 1 0 8D803956
+P 8200 6000
+AR Path="/8D803956" Ref="#SUPPLY13"  Part="1" 
+AR Path="/5B8E1886/8D803956" Ref="#SUPPLY013"  Part="1" 
+F 0 "#SUPPLY013" H 8200 6000 50  0001 C CNN
+F 1 "GND" H 8125 6025 59  0000 R TNN
+F 2 "" H 8200 6000 50  0001 C CNN
+F 3 "" H 8200 6000 50  0001 C CNN
+	1    8200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:ECAPPANASONIC_H C10
+U 1 0 913F5F53
+P 8200 5600
+AR Path="/913F5F53" Ref="C10"  Part="1" 
+AR Path="/5B8E1886/913F5F53" Ref="C10"  Part="1" 
+F 0 "C10" H 8130 5544 59  0000 R BNN
+F 1 "47u" H 8130 5444 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:CAPAE660X610N" H 8200 5600 50  0001 C CNN
+F 3 "" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:ECAP1206 C12
+U 1 0 1EB5827F
+P 9400 5700
+AR Path="/1EB5827F" Ref="C12"  Part="1" 
+AR Path="/5B8E1886/1EB5827F" Ref="C12"  Part="1" 
+F 0 "C12" H 9470 5694 59  0000 L BNN
+F 1 "10u" H 9470 5619 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:EC1206" H 9400 5700 50  0001 C CNN
+F 3 "" H 9400 5700 50  0001 C CNN
+	1    9400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C11
+U 1 0 329D01CF
+P 8600 5700
+AR Path="/329D01CF" Ref="C11"  Part="1" 
+AR Path="/5B8E1886/329D01CF" Ref="C11"  Part="1" 
+F 0 "C11" H 8565 5760 59  0000 R TNN
+F 1 "100n" H 8565 5610 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 8600 5700 50  0001 C CNN
+F 3 "" H 8600 5700 50  0001 C CNN
+	1    8600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:JP3-CUT JP1
+U 1 0 0B60073D
+P 10800 3000
+AR Path="/0B60073D" Ref="JP1"  Part="1" 
+AR Path="/5B8E1886/0B60073D" Ref="JP1"  Part="1" 
+F 0 "JP1" H 10750 2975 59  0000 R BNN
+F 1 "JP3-CUT" H 10800 3000 50  0001 C CNN
+F 2 "EEZ DIB MCU r1B1:JP3-CUT" H 10800 3000 50  0001 C CNN
+F 3 "" H 10800 3000 50  0001 C CNN
+	1    10800 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:JP3-CUT JP2
+U 1 0 BAFA783C
+P 3500 6500
+AR Path="/BAFA783C" Ref="JP2"  Part="1" 
+AR Path="/5B8E1886/BAFA783C" Ref="JP2"  Part="1" 
+F 0 "JP2" H 3450 6475 59  0000 R BNN
+F 1 "JP3-CUT" H 3500 6500 50  0001 C CNN
+F 2 "EEZ DIB MCU r1B1:JP3-CUT" H 3500 6500 50  0001 C CNN
+F 3 "" H 3500 6500 50  0001 C CNN
+	1    3500 6500
+	1    0    0    1   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD1
+U 1 0 72EF7348
+P 3100 6700
+AR Path="/72EF7348" Ref="#VDD1"  Part="1" 
+AR Path="/5B8E1886/72EF7348" Ref="#VDD01"  Part="1" 
+F 0 "#VDD01" H 3100 6700 50  0001 C CNN
+F 1 "VDD" V 3125 6775 59  0000 L BNN
+F 2 "" H 3100 6700 50  0001 C CNN
+F 3 "" H 3100 6700 50  0001 C CNN
+	1    3100 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C22
+U 1 0 5F9903EE
+P 3500 6800
+AR Path="/5F9903EE" Ref="C22"  Part="1" 
+AR Path="/5B8E1886/5F9903EE" Ref="C22"  Part="1" 
+F 0 "C22" H 3415 6765 59  0000 R BNN
+F 1 "N.C." H 3415 6690 59  0000 R BNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 3500 6800 50  0001 C CNN
+F 3 "" H 3500 6800 50  0001 C CNN
+	1    3500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY3
+U 1 0 4F8E092B
+P 3500 7100
+AR Path="/4F8E092B" Ref="#SUPPLY3"  Part="1" 
+AR Path="/5B8E1886/4F8E092B" Ref="#SUPPLY03"  Part="1" 
+F 0 "#SUPPLY03" H 3500 7100 50  0001 C CNN
+F 1 "GND" H 3575 7075 59  0000 L BNN
+F 2 "" H 3500 7100 50  0001 C CNN
+F 3 "" H 3500 7100 50  0001 C CNN
+	1    3500 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:FIDUCIAL FM1
+U 1 0 DCDC82BF
+P 10800 7500
+AR Path="/DCDC82BF" Ref="FM1"  Part="1" 
+AR Path="/5B8E1886/DCDC82BF" Ref="FM1"  Part="1" 
+F 0 "FM1" H 10800 7500 50  0001 C CNN
+F 1 "FIDUCIAL" H 10800 7500 50  0001 C CNN
+F 2 "EEZ DIB MCU r1B1:FIDUCIAL" H 10800 7500 50  0001 C CNN
+F 3 "" H 10800 7500 50  0001 C CNN
+	1    10800 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:FIDUCIAL FM2
+U 1 0 8BCA1F73
+P 11100 7500
+AR Path="/8BCA1F73" Ref="FM2"  Part="1" 
+AR Path="/5B8E1886/8BCA1F73" Ref="FM2"  Part="1" 
+F 0 "FM2" H 11100 7500 50  0001 C CNN
+F 1 "FIDUCIAL" H 11100 7500 50  0001 C CNN
+F 2 "EEZ DIB MCU r1B1:FIDUCIAL" H 11100 7500 50  0001 C CNN
+F 3 "" H 11100 7500 50  0001 C CNN
+	1    11100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:+5V #P+8
+U 1 0 E32DC4A8
+P 7500 5500
+AR Path="/E32DC4A8" Ref="#P+8"  Part="1" 
+AR Path="/5B8E1886/E32DC4A8" Ref="#P+08"  Part="1" 
+F 0 "#P+08" H 7500 5500 50  0001 C CNN
+F 1 "+5V" V 7450 5550 59  0000 L TNN
+F 2 "" H 7500 5500 50  0001 C CNN
+F 3 "" H 7500 5500 50  0001 C CNN
+	1    7500 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD8
+U 1 0 D188213A
+P 7300 6300
+AR Path="/D188213A" Ref="#VDD8"  Part="1" 
+AR Path="/5B8E1886/D188213A" Ref="#VDD08"  Part="1" 
+F 0 "#VDD08" H 7300 6300 50  0001 C CNN
+F 1 "VDD" V 7375 6375 59  0000 R TNN
+F 2 "" H 7300 6300 50  0001 C CNN
+F 3 "" H 7300 6300 50  0001 C CNN
+	1    7300 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R13
+U 1 0 C0CB5F10
+P 1400 4300
+AR Path="/C0CB5F10" Ref="R13"  Part="1" 
+AR Path="/5B8E1886/C0CB5F10" Ref="R13"  Part="1" 
+F 0 "R13" V 1334 4350 59  0000 L TNN
+F 1 "4K7" V 1480 4350 59  0000 L BNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 1400 4300 50  0001 C CNN
+F 3 "" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	0    -1   1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:VDD #VDD9
+U 1 0 EFC2BCF3
+P 11000 2400
+AR Path="/EFC2BCF3" Ref="#VDD9"  Part="1" 
+AR Path="/5B8E1886/EFC2BCF3" Ref="#VDD09"  Part="1" 
+F 0 "#VDD09" H 11000 2400 50  0001 C CNN
+F 1 "VDD" V 10925 2325 59  0000 L BNN
+F 2 "" H 11000 2400 50  0001 C CNN
+F 3 "" H 11000 2400 50  0001 C CNN
+	1    11000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R16
+U 1 0 003E38AE
+P 1500 5300
+AR Path="/003E38AE" Ref="R16"  Part="1" 
+AR Path="/5B8E1886/003E38AE" Ref="R16"  Part="1" 
+F 0 "R16" V 1509 5350 59  0000 L TNN
+F 1 "4K7" V 1420 5350 59  0000 L TNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 1500 5300 50  0001 C CNN
+F 3 "" H 1500 5300 50  0001 C CNN
+	1    1500 5300
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:R-EU_R0805 R15
+U 1 0 7B4EC7F6
+P 1300 5300
+AR Path="/7B4EC7F6" Ref="R15"  Part="1" 
+AR Path="/5B8E1886/7B4EC7F6" Ref="R15"  Part="1" 
+F 0 "R15" V 1309 5250 59  0000 R TNN
+F 1 "4K7" V 1220 5250 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:R0805" H 1300 5300 50  0001 C CNN
+F 3 "" H 1300 5300 50  0001 C CNN
+	1    1300 5300
+	0    1    -1   0   
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:+3V3 #+3V12
+U 1 0 34CFF32A
+P 1400 3900
+AR Path="/34CFF32A" Ref="#+3V12"  Part="1" 
+AR Path="/5B8E1886/34CFF32A" Ref="#+3V012"  Part="1" 
+F 0 "#+3V012" H 1400 3900 50  0001 C CNN
+F 1 "+3V3" V 1450 3875 59  0000 L BNN
+F 2 "" H 1400 3900 50  0001 C CNN
+F 3 "" H 1400 3900 50  0001 C CNN
+	1    1400 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:+3V3 #+3V14
+U 1 0 04853D9A
+P 1300 5800
+AR Path="/04853D9A" Ref="#+3V14"  Part="1" 
+AR Path="/5B8E1886/04853D9A" Ref="#+3V014"  Part="1" 
+F 0 "#+3V014" H 1300 5800 50  0001 C CNN
+F 1 "+3V3" V 1325 5775 59  0000 L BNN
+F 2 "" H 1300 5800 50  0001 C CNN
+F 3 "" H 1300 5800 50  0001 C CNN
+	1    1300 5800
+	1    0    0    1   
+$EndComp
+Text Notes 1000 8850 0    42   ~ 0
+Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
+Text Notes 1000 9000 0    42   ~ 0
+Repository: https://github.com/eez-open
+Text Notes 1000 8925 0    42   ~ 0
+More info at http://www.envox.hr/eez
+Text Notes 9475 5850 0    42   ~ 0
+Tant.
+Text Notes 3650 6650 0    42   ~ 0
+See ST AN4661\nsection 1.1.4
+Wire Bus Line
+	7900 2400 7900 2600
+Wire Bus Line
+	4700 2300 4700 4800
+Wire Bus Line
+	1600 2300 1600 4300
+Wire Bus Line
+	5100 2400 5100 5900
+Wire Bus Line
+	8000 2300 8000 4600
+Wire Bus Line
+	4900 3400 4900 5900
+$EndSCHEMATC
