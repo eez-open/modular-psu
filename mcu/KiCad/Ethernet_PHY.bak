@@ -1,18 +1,17 @@
 EESchema Schematic File Version 4
-LIBS:EEZ DIB MCU r1B1-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12095 8535
 encoding utf-8
-Sheet 6 6
-Title "EEZ DIB MUC"
+Sheet 1 6
+Title ""
 Date ""
-Rev "r1B1"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Ethernet PHY"
+Comment4 ""
 $EndDescr
 Wire Wire Line
 	7600 1500 7400 1500
@@ -616,6 +615,19 @@ F 1 "DINA4_L" H 900 7700 50  0001 C CNN
 F 2 "" H 900 7700 50  0001 C CNN
 F 3 "" H 900 7700 50  0001 C CNN
 	1    900  7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME5
+U 2 0 D3799FD3
+P 7300 7700
+AR Path="/D3799FD3" Ref="#FRAME5"  Part="2" 
+AR Path="/5B8E25B8/D3799FD3" Ref="#FRAME5"  Part="2" 
+F 0 "#FRAME5" H 7300 7700 50  0001 C CNN
+F 1 "DINA4_L" H 7300 7700 50  0001 C CNN
+F 2 "" H 7300 7700 50  0001 C CNN
+F 3 "" H 7300 7700 50  0001 C CNN
+	2    7300 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1658,6 +1670,8 @@ F 3 "" H 4100 4000 50  0001 C CNN
 	1    4100 4000
 	1    0    0    -1  
 $EndComp
+Text Notes 7375 6575 0    100  ~ 0
+Ethernet PHY
 Text Notes 6675 4850 0    42   ~ 0
 Tant.
 Text Notes 3550 5900 0    42   ~ 0

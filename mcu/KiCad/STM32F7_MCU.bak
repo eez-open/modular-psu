@@ -1,33 +1,42 @@
 EESchema Schematic File Version 4
-LIBS:EEZ DIB MCU r1B1-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12095 9925
 encoding utf-8
-Sheet 3 6
-Title "EEZ DIB MUC"
+Sheet 1 6
+Title ""
 Date ""
-Rev "r1B1"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "STM32F7 MCU"
+Comment4 ""
 $EndDescr
+Wire Bus Line
+	5100 5900 5100 2400
 Wire Bus Line
 	5100 2400 5200 2300
 Wire Bus Line
 	5200 2300 7800 2300
 Wire Bus Line
 	7800 2300 7900 2400
+Wire Bus Line
+	7900 2400 7900 2600
 Text Label 5200 5800 1    50   ~ 0
 FMC_A[0..11]
 Text Label 5100 2400 0    50   ~ 0
 FMC_A[0..11]
 Wire Bus Line
+	1600 2300 1600 4300
+Wire Bus Line
+	4700 2300 4700 4800
+Wire Bus Line
 	1600 2300 1700 2200
 Wire Bus Line
 	1700 2200 4600 2200
+Wire Bus Line
+	8000 2300 8000 4600
 Wire Bus Line
 	4700 2300 4600 2200
 Wire Bus Line
@@ -38,6 +47,8 @@ Text Label 1600 2300 0    50   ~ 0
 LTDC_R[2..7],LTDC_G[2..7],LTDC_B[2..7]
 Text Label 6250 2200 1    50   ~ 0
 LTDC_R[2..7],LTDC_G[2..7],LTDC_B[2..7]
+Wire Bus Line
+	4900 3400 4900 5900
 Text Label 4800 5800 1    50   ~ 0
 FMC_D[0..15]
 Wire Wire Line
@@ -1156,6 +1167,19 @@ F 3 "" H 900 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME2
+U 2 0 B9163579
+P 7300 9100
+AR Path="/B9163579" Ref="#FRAME2"  Part="2" 
+AR Path="/5B8E1886/B9163579" Ref="#FRAME2"  Part="2" 
+F 0 "#FRAME2" H 7300 9100 50  0001 C CNN
+F 1 "DINA4_L" H 7300 9100 50  0001 C CNN
+F 2 "" H 7300 9100 50  0001 C CNN
+F 3 "" H 7300 9100 50  0001 C CNN
+	2    7300 9100
+	1    0    0    -1  
+$EndComp
+$Comp
 L EEZ_DIB_MCU_r1B1-eagle-import:XTALSMD Y1
 U 1 0 D378200C
 P 8300 4500
@@ -2166,16 +2190,6 @@ Text Notes 9475 5850 0    42   ~ 0
 Tant.
 Text Notes 3650 6650 0    42   ~ 0
 See ST AN4661\nsection 1.1.4
-Wire Bus Line
-	7900 2400 7900 2600
-Wire Bus Line
-	4700 2300 4700 4800
-Wire Bus Line
-	1600 2300 1600 4300
-Wire Bus Line
-	5100 2400 5100 5900
-Wire Bus Line
-	8000 2300 8000 4600
-Wire Bus Line
-	4900 3400 4900 5900
+Text Notes 7400 8000 0    100  ~ 0
+STM32F7 MCU
 $EndSCHEMATC

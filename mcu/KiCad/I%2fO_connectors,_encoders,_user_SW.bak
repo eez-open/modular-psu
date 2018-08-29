@@ -1,18 +1,17 @@
 EESchema Schematic File Version 4
-LIBS:EEZ DIB MCU r1B1-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12095 8568
 encoding utf-8
-Sheet 2 6
-Title "EEZ DIB MUC"
+Sheet 1 6
+Title ""
 Date ""
-Rev "r1B1"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "I/O connectors, User SW, Encoder, Digital I/O"
+Comment4 ""
 $EndDescr
 Wire Wire Line
 	8100 4700 8500 4700
@@ -531,6 +530,19 @@ F 1 "DINA4_L" H 900 7700 50  0001 C CNN
 F 2 "" H 900 7700 50  0001 C CNN
 F 3 "" H 900 7700 50  0001 C CNN
 	1    900  7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME6
+U 2 0 1767A31F
+P 7300 7700
+AR Path="/1767A31F" Ref="#FRAME6"  Part="2" 
+AR Path="/5B8E116E/1767A31F" Ref="#FRAME6"  Part="2" 
+F 0 "#FRAME6" H 7300 7700 50  0001 C CNN
+F 1 "DINA4_L" H 7300 7700 50  0001 C CNN
+F 2 "" H 7300 7700 50  0001 C CNN
+F 3 "" H 7300 7700 50  0001 C CNN
+	2    7300 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2090,6 +2102,8 @@ Text Notes 7500 5975 0    47   ~ 0
 Encoder shaft length: 15 mm
 Text Notes 7500 6075 0    47   ~ 0
 Knob head: A3131068 (OKW), Knob cap: A3231007 (OKW)
+Text Notes 7400 6600 0    100  ~ 0
+I/O connectors, User SW, Encoder, Digital I/O
 Text Notes 5350 1175 0    47   ~ 0
 2 PE
 Text Notes 5050 1425 0    47   ~ 0
@@ -2222,8 +2236,16 @@ Text Notes 10550 2975 0    47   ~ 0
 38 OUT_PAR
 Text Notes 10550 3075 0    47   ~ 0
 40 Gnd
+Wire Notes Line
+	1000 3400 6100 3400
 Text Notes 1100 3600 0    59   ~ 0
 Digital I/O with protections
+Wire Notes Line
+	6100 3400 7100 3400
+Wire Notes Line
+	7100 3400 9700 3400
+Wire Notes Line
+	9700 3400 11200 3400
 Wire Notes Line
 	7100 6300 7100 3400
 Wire Notes Line
@@ -2238,6 +2260,4 @@ Text Notes 1100 800  0    59   ~ 0
 Input connector (power, soft start, fan controller)
 Text Notes 6200 800  0    59   ~ 0
 Output connector (3 x SPI modules)
-Wire Notes Line
-	1000 3400 11200 3400
 $EndSCHEMATC

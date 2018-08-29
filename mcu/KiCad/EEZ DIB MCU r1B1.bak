@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:EEZ DIB MCU r1B1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "EEZ DIB MUC"
+Title ""
 Date ""
-Rev "r1B1"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -44,14 +43,4 @@ U 5B8E25B8
 F0 "Ethernet PHY" 50
 F1 "Ethernet_PHY.sch" 50
 $EndSheet
-Text Notes 900  7150 0    42   ~ 0
-Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
-Text Notes 900  7300 0    42   ~ 0
-Repository: https://github.com/eez-open
-Text Notes 900  7225 0    42   ~ 0
-More info at http://www.envox.hr/eez
-Text Notes 2550 2250 0    157  ~ 0
-This is the Root Sheet!
-Text Notes 2550 2500 0    157  ~ 0
-Please look at the other sheets for the schematics!
 $EndSCHEMATC

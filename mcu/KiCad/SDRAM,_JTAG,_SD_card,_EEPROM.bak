@@ -1,25 +1,28 @@
 EESchema Schematic File Version 4
-LIBS:EEZ DIB MCU r1B1-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12095 8568
 encoding utf-8
-Sheet 4 6
-Title "EEZ DIB MUC"
+Sheet 1 6
+Title ""
 Date ""
-Rev "r1B1"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "SDRAM, JTAG, I2C EEPROM, SD Card"
+Comment4 ""
 $EndDescr
+Wire Bus Line
+	2100 2700 2100 1500
 Wire Bus Line
 	2100 1500 2000 1400
 Wire Bus Line
 	2000 1400 1300 1400
 Text Label 1300 1400 0    50   ~ 0
 FMC_A[0..11]
+Wire Bus Line
+	4300 1300 4300 3100
 Wire Bus Line
 	4300 1300 4200 1200
 Wire Bus Line
@@ -709,6 +712,19 @@ F 1 "DINA4_L" H 900 7700 50  0001 C CNN
 F 2 "" H 900 7700 50  0001 C CNN
 F 3 "" H 900 7700 50  0001 C CNN
 	1    900  7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME3
+U 2 0 5B1AAE12
+P 7300 7700
+AR Path="/5B1AAE12" Ref="#FRAME3"  Part="2" 
+AR Path="/5B8E1D28/5B1AAE12" Ref="#FRAME3"  Part="2" 
+F 0 "#FRAME3" H 7300 7700 50  0001 C CNN
+F 1 "DINA4_L" H 7300 7700 50  0001 C CNN
+F 2 "" H 7300 7700 50  0001 C CNN
+F 3 "" H 7300 7700 50  0001 C CNN
+	2    7300 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1582,6 +1598,8 @@ F 3 "" H 1900 4600 50  0001 C CNN
 	1    1900 4600
 	0    -1   -1   0   
 $EndComp
+Text Notes 7400 6600 0    100  ~ 0
+SDRAM, JTAG, I2C EEPROM, SD Card
 Text Notes 9750 5900 0    42   ~ 0
 Consumption: +3.3 V, up tp 30 mA
 Text Notes 1000 7450 0    42   ~ 0
@@ -1599,6 +1617,14 @@ I2C address write: 0xA0
 Text Notes 4900 3900 0    59   ~ 0
 I2C EEPROM
 Wire Notes Line
+	4800 700  4800 3700
+Wire Notes Line
+	4800 3700 4800 7600
+Wire Notes Line
+	4800 3700 7700 3700
+Wire Notes Line
+	7700 3700 11000 3700
+Wire Notes Line
 	7700 6100 7700 3700
 Text Notes 5750 5825 0    42   ~ 0
 Skratiti za BR24G08FVJ-3AGTE2 ~~~
@@ -1608,12 +1634,4 @@ Text Notes 8175 5875 0    59   ~ 0
 See AN4661 section 8.4.1
 Text Notes 7800 3900 0    59   ~ 0
 Micro SD card socket
-Wire Notes Line
-	4800 700  4800 7600
-Wire Notes Line
-	4800 3700 11000 3700
-Wire Bus Line
-	2100 1500 2100 2700
-Wire Bus Line
-	4300 1300 4300 3100
 $EndSCHEMATC
