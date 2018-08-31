@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14625,7 +14625,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="+3V317" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V316" library="supply1" deviceset="+3V3" device=""/>
 <part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="NSR0240"/>
-<part name="+3V313" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
@@ -14717,6 +14716,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="J2" library="EEZ_Lib1" deviceset="678038020" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18868,9 +18868,6 @@ consult ST AN4661 section 8.4.2</text>
 <attribute name="NAME" x="67.691" y="172.085" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="70.866" y="166.751" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="+3V313" gate="G$1" x="17.78" y="170.18" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="17.145" y="169.545" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="+3V315" gate="G$1" x="63.5" y="106.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="60.96" y="108.585" size="1.778" layer="96"/>
 </instance>
@@ -19079,6 +19076,9 @@ consult ST AN4661 section 8.4.2</text>
 <instance part="SUPPLY21" gate="GND" x="236.22" y="119.38" smashed="yes">
 <attribute name="VALUE" x="233.68" y="115.57" size="1.778" layer="96"/>
 </instance>
+<instance part="P+9" gate="1" x="17.78" y="170.18" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="17.145" y="169.545" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 <bus name="LTDC_R[2..7],LTDC_G[2..7],LTDC_B[2..7]">
@@ -19126,19 +19126,6 @@ consult ST AN4661 section 8.4.2</text>
 <pinref part="R35" gate="G$1" pin="2"/>
 <pinref part="+3V315" gate="G$1" pin="+3V3"/>
 <wire x1="66.04" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="167.64" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="1"/>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="167.64" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
-<junction x="30.48" y="170.18"/>
-<wire x1="22.86" y1="170.18" x2="20.32" y2="170.18" width="0.1524" layer="91"/>
-<junction x="22.86" y="170.18"/>
-<pinref part="+3V313" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="IC14" gate="G$1" pin="VCC"/>
@@ -19892,6 +19879,19 @@ consult ST AN4661 section 8.4.2</text>
 <segment>
 <pinref part="VBUS" gate="G$1" pin="A"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="167.64" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="C45" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="167.64" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<junction x="30.48" y="170.18"/>
+<wire x1="22.86" y1="170.18" x2="20.32" y2="170.18" width="0.1524" layer="91"/>
+<junction x="22.86" y="170.18"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="!USB_OTG_FS_OC" class="0">
@@ -21022,10 +21022,4 @@ consult ST AN4661 section 8.4.2</text>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
