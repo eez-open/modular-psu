@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11372,8 +11372,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <pad name="14" x="6.35" y="1.27" drill="0.9144"/>
 <pad name="15" x="8.89" y="-1.27" drill="0.9144"/>
 <pad name="16" x="8.89" y="1.27" drill="0.9144"/>
-<text x="-10.9728" y="-1.6764" size="1.27" layer="21" ratio="10">1</text>
-<text x="-10.9982" y="0.4826" size="1.27" layer="21" ratio="10">2</text>
+<text x="-10.9728" y="-1.6764" size="1.27" layer="51" ratio="10">1</text>
+<text x="-10.9982" y="0.4826" size="1.27" layer="51" ratio="10">2</text>
 <text x="-13.9954" y="11.43" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.1054" y="3.81" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-10.033" y1="9.652" x2="-7.747" y2="10.16" layer="21"/>
@@ -11405,6 +11405,22 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <rectangle x1="8.636" y1="0.381" x2="9.144" y2="2.032" layer="51"/>
 <rectangle x1="8.636" y1="-0.381" x2="9.144" y2="0.381" layer="21"/>
 <rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-0.381" layer="51"/>
+<wire x1="-10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="7.62" x2="-8.89" y2="5.08" width="0.254" layer="21"/>
+<wire x1="-8.89" y1="5.08" x2="-10.16" y2="7.62" width="0.254" layer="21"/>
+<rectangle x1="-10.033" y1="7.112" x2="-7.747" y2="7.62" layer="21"/>
+<rectangle x1="-9.779" y1="6.604" x2="-8.001" y2="7.112" layer="21"/>
+<rectangle x1="-9.525" y1="6.096" x2="-8.255" y2="6.604" layer="21"/>
+<rectangle x1="-9.271" y1="5.588" x2="-8.509" y2="6.096" layer="21"/>
+<rectangle x1="-9.017" y1="5.334" x2="-8.763" y2="5.588" layer="21"/>
+<wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="5.08" x2="-8.89" y2="2.54" width="0.254" layer="21"/>
+<wire x1="-8.89" y1="2.54" x2="-10.16" y2="5.08" width="0.254" layer="21"/>
+<rectangle x1="-10.033" y1="4.572" x2="-7.747" y2="5.08" layer="21"/>
+<rectangle x1="-9.779" y1="4.064" x2="-8.001" y2="4.572" layer="21"/>
+<rectangle x1="-9.525" y1="3.556" x2="-8.255" y2="4.064" layer="21"/>
+<rectangle x1="-9.271" y1="3.048" x2="-8.509" y2="3.556" layer="21"/>
+<rectangle x1="-9.017" y1="2.794" x2="-8.763" y2="3.048" layer="21"/>
 </package>
 <package name="PF0030/PC">
 <wire x1="-22" y1="0" x2="22" y2="0" width="0.254" layer="21"/>
@@ -11549,7 +11565,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <gate name="-16" symbol="PIN" x="22.86" y="-17.78" addlevel="always"/>
 </gates>
 <devices>
-<device name="-M" package="IDC-16PIN">
+<device name="-ANGLED" package="ML16L">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-10" pin="1" pad="10"/>
@@ -11572,7 +11588,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-F-ANGLED" package="ML16L">
+<device name="" package="IDC-16PIN">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-10" pin="1" pad="10"/>
@@ -11821,7 +11837,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="VAR2" library="EEZ_Lib1" deviceset="VARISTOR" device="-13" value="ERZE14A431"/>
 <part name="VAR1" library="EEZ_Lib1" deviceset="VARISTOR" device="-13" value="ERZE14A431"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="102-054X133" value="47n/400V (X1)"/>
-<part name="TR1B" library="EEZ_Lib1" deviceset="WE-UOST" device="" value="WE 760875532"/>
+<part name="TR1B" library="EEZ_Lib1" deviceset="WE-UOST" device="" value="(WE 760875532)"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
@@ -11877,7 +11893,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="SUPPLY71" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY72" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
-<part name="X3" library="EEZ_connectors" deviceset="IDC-16PIN" device="-F-ANGLED" value="ZL231-16KG"/>
+<part name="X3" library="EEZ_connectors" deviceset="IDC-16PIN" device="-ANGLED" value="ZL231-16KG"/>
 <part name="SUPPLY1" library="supply2" deviceset="+12V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="X5" library="con-molex" deviceset="22-23-2021" device=""/>
