@@ -14498,7 +14498,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="49R9"/>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C62" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="SPEED" library="EEZ_Lib1" deviceset="LED" device="0805" value="HSMY-C170"/>
+<part name="SPEED" library="EEZ_Lib1" deviceset="LED" device="0805" value="LTST-C170YKT"/>
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
@@ -14577,7 +14577,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V312" library="supply1" deviceset="+3V3" device=""/>
-<part name="C37" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
+<part name="C37" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
@@ -14677,7 +14677,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="C56" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
+<part name="C56" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="C51" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="R40" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="C52" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
@@ -18799,6 +18799,7 @@ consult ST AN4661 section 8.4.2</text>
 <text x="198.755" y="38.1" size="1.27" layer="103">Consumption: +3.3 V, max. 220 mA</text>
 <rectangle x1="186.69" y1="142.875" x2="194.31" y2="146.685" layer="97" rot="R180"/>
 <text x="226.06" y="151.13" size="1.27" layer="103" rot="MR180">Tant.</text>
+<rectangle x1="192.405" y1="46.99" x2="199.39" y2="56.515" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>

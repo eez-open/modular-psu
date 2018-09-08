@@ -11979,6 +11979,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="J2" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
 <part name="J3" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
 <part name="J4" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
+<part name="TP2" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 </parts>
 <sheets>
 <sheet>
@@ -13170,8 +13171,8 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="206.883" y="97.0026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="206.883" y="91.9226" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="236.22" y="48.26" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="238.76" y="44.45" size="1.778" layer="96" rot="MR0"/>
+<instance part="SUPPLY2" gate="GND" x="236.22" y="43.18" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="238.76" y="39.37" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="P+2" gate="1" x="236.22" y="111.76" smashed="yes">
 <attribute name="VALUE" x="233.68" y="113.03" size="1.778" layer="96"/>
@@ -13246,6 +13247,10 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </instance>
 <instance part="JP2" gate="G$1" x="187.96" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="189.23" y="90.805" size="1.778" layer="95"/>
+</instance>
+<instance part="TP2" gate="G$1" x="243.84" y="48.26" smashed="yes">
+<attribute name="NAME" x="245.745" y="47.625" size="1.778" layer="95"/>
+<attribute name="VALUE" x="243.84" y="45.72" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13510,12 +13515,16 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="236.22" y1="58.42" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="X3" gate="-8" pin="1"/>
 <wire x1="236.22" y1="55.88" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="53.34" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="53.34" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="48.26" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="55.88" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
 <junction x="236.22" y="55.88"/>
 <pinref part="X3" gate="-9" pin="1"/>
 <wire x1="241.3" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
 <junction x="236.22" y="53.34"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
+<wire x1="241.3" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<junction x="236.22" y="48.26"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
