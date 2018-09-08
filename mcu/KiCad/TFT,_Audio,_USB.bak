@@ -1,28 +1,23 @@
 EESchema Schematic File Version 4
+LIBS:EEZ DIB MCU r1B1-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12409 8744
 encoding utf-8
-Sheet 1 6
-Title ""
+Sheet 3 6
+Title "EEZ DIB MUC"
 Date ""
-Rev ""
+Rev "r1B1"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "USB, TFT LCD, touchscreen, audio amplifier"
 $EndDescr
 Wire Bus Line
-	6500 2000 6500 4100
-Wire Bus Line
-	6500 2000 6600 1900
-Wire Bus Line
-	6600 1900 6900 1900
+	6475 2000 6575 1900
 Wire Wire Line
 	10700 3200 10700 3100
-Text GLabel 10700 3200 0    10   BiDi ~ 0
-PE
 Wire Wire Line
 	5900 5300 6100 5300
 Wire Wire Line
@@ -31,19 +26,13 @@ Wire Wire Line
 	6400 5300 6400 5100
 Connection ~ 6100 5300
 Connection ~ 6400 5300
-Text GLabel 5900 5300 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	4900 2300 4100 2300
 Wire Wire Line
 	4100 2300 4100 2200
 Connection ~ 4100 2300
-Text GLabel 4900 2300 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	3500 3700 3600 3700
-Text GLabel 3500 3700 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	1800 1300 1800 1200
 Wire Wire Line
@@ -56,15 +45,11 @@ Wire Wire Line
 	1800 1200 1700 1200
 Connection ~ 2100 1200
 Connection ~ 1800 1200
-Text GLabel 1800 1300 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	2500 5500 2400 5500
 Wire Wire Line
 	2400 5500 2400 5400
 Connection ~ 2400 5500
-Text GLabel 2500 5500 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	9200 4800 8900 4800
 Wire Wire Line
@@ -72,22 +57,14 @@ Wire Wire Line
 Wire Wire Line
 	8900 4500 8900 4400
 Connection ~ 8900 4500
-Text GLabel 9200 4800 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	7800 5800 7900 5800
-Text GLabel 7800 5800 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	8700 2200 8600 2200
-Text GLabel 8700 2200 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	2200 2100 2100 2100
 Wire Wire Line
 	2100 2100 2100 2200
-Text GLabel 2200 2100 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	4900 2500 4300 2500
 Wire Wire Line
@@ -104,8 +81,6 @@ Wire Wire Line
 	3800 2600 3800 2700
 Connection ~ 4300 2600
 Connection ~ 4100 2600
-Text GLabel 4900 2500 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	6200 1700 6200 1600
 Wire Wire Line
@@ -139,15 +114,11 @@ Connection ~ 6000 2000
 Connection ~ 6000 2700
 Connection ~ 6000 2800
 Connection ~ 6000 3500
-Text GLabel 6200 1700 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	2500 5800 2400 5800
 Wire Wire Line
 	2400 5800 2400 5900
 Connection ~ 2400 5800
-Text GLabel 2500 5800 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	4300 6400 4300 6500
 Wire Wire Line
@@ -155,8 +126,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 6500 3900 6600
 Connection ~ 3900 6500
-Text GLabel 4300 6400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	4700 6100 4600 6100
 Wire Wire Line
@@ -181,14 +150,10 @@ Connection ~ 4600 6300
 Connection ~ 4600 6200
 Connection ~ 4600 6400
 Connection ~ 4600 6500
-Text GLabel 4700 6100 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	6900 6600 6900 6500
 Wire Wire Line
 	6900 6500 6800 6500
-Text GLabel 6900 6600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	6100 5600 6400 5600
 Wire Wire Line
@@ -202,12 +167,8 @@ Wire Wire Line
 Connection ~ 6100 5600
 Connection ~ 6400 5600
 Connection ~ 6100 5800
-Text GLabel 6100 5600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8600 6100 8600 6000
-Text GLabel 8600 6100 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9200 5700 9000 5700
 Wire Wire Line
@@ -217,37 +178,25 @@ Wire Wire Line
 Wire Wire Line
 	9000 5900 9000 5800
 Connection ~ 9000 5800
-Text GLabel 9200 5700 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8000 4900 7900 4900
 Wire Wire Line
 	7900 5000 7900 4900
-Text GLabel 8000 4900 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8600 4500 8500 4500
 Wire Wire Line
 	8500 4600 8500 4500
-Text GLabel 8600 4500 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9200 1800 9300 1800
 Wire Wire Line
 	9300 1800 9300 1900
-Text GLabel 9200 1800 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8400 3700 8300 3700
 Wire Wire Line
 	8300 3700 8300 3800
 Connection ~ 8300 3700
-Text GLabel 8400 3700 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9700 2100 9700 2000
-Text GLabel 9700 2100 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	3700 1200 4200 1200
 Wire Wire Line
@@ -267,9 +216,7 @@ Text Label 3950 1200 2    50   ~ 0
 VLED+
 Connection ~ 4200 1200
 Wire Wire Line
-	2200 1900 1500 1900
-Text GLabel 1500 1900 2    50   BiDi ~ 0
-TFT_BRIGHTNESS
+	2200 1900 2100 1900
 Wire Wire Line
 	4700 5600 4000 5600
 Wire Wire Line
@@ -291,27 +238,19 @@ Wire Wire Line
 	3200 1200 3400 1200
 Connection ~ 3200 1200
 Wire Wire Line
-	4900 3100 3300 3100
-Text GLabel 3300 3100 2    50   BiDi ~ 0
-LTDC_CLK
+	4900 3100 4650 3100
 Wire Wire Line
-	4900 3300 3300 3300
-Text GLabel 3300 3300 2    50   BiDi ~ 0
-LTDC_HSYNC
+	4900 3300 4650 3300
 Wire Wire Line
-	4900 3400 3300 3400
-Text GLabel 3300 3400 2    50   BiDi ~ 0
-LTDC_VSYNC
+	4900 3400 4650 3400
 Wire Wire Line
-	3800 3000 3300 3000
+	3800 3000 3725 3000
 Wire Wire Line
 	3800 3000 3800 2900
-Text GLabel 3550 3000 2    50   BiDi ~ 0
+Text GLabel 3725 3000 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
-	4900 3500 3300 3500
-Text GLabel 3300 3500 2    50   BiDi ~ 0
-LTDC_DE
+	4900 3500 4650 3500
 Wire Wire Line
 	4900 3200 4100 3200
 Wire Wire Line
@@ -324,8 +263,8 @@ Text Label 3300 3200 0    50   ~ 0
 LCD_DISP
 Connection ~ 4100 3200
 Wire Wire Line
-	5900 6100 6500 6100
-Text GLabel 6500 6100 0    50   BiDi ~ 0
+	5900 6100 6100 6100
+Text GLabel 6100 6100 2    50   BiDi ~ 0
 I2C1_SCL
 Wire Wire Line
 	2100 1700 2200 1700
@@ -356,7 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 1900 4400 2000
 Wire Wire Line
-	4400 2000 4900 2000
+	4400 2000 4600 2000
 Wire Wire Line
 	4400 1500 4400 1900
 Connection ~ 3500 1900
@@ -364,8 +303,8 @@ Text Label 3950 1900 2    50   ~ 0
 VLED-
 Connection ~ 4400 1900
 Wire Wire Line
-	5900 6200 6500 6200
-Text GLabel 6500 6200 0    50   BiDi ~ 0
+	5900 6200 6100 6200
+Text GLabel 6100 6200 2    50   BiDi ~ 0
 I2C1_SDA
 Wire Wire Line
 	6400 6500 6500 6500
@@ -406,81 +345,43 @@ Wire Wire Line
 	3500 5800 3700 5800
 Connection ~ 3700 5800
 Wire Wire Line
-	5900 4200 6400 4200
-Text GLabel 6400 4200 0    50   BiDi ~ 0
-LTDC_B7
+	5900 4200 6375 4200
 Wire Wire Line
-	5900 4100 6400 4100
-Text GLabel 6400 4100 0    50   BiDi ~ 0
-LTDC_B6
+	5900 4100 6375 4100
 Wire Wire Line
-	5900 4000 6400 4000
-Text GLabel 6400 4000 0    50   BiDi ~ 0
-LTDC_B5
+	5900 4000 6375 4000
 Wire Wire Line
-	5900 3900 6400 3900
-Text GLabel 6400 3900 0    50   BiDi ~ 0
-LTDC_B4
+	5900 3900 6375 3900
 Wire Wire Line
-	5900 3800 6400 3800
-Text GLabel 6400 3800 0    50   BiDi ~ 0
-LTDC_B3
+	5900 3800 6375 3800
 Wire Wire Line
-	5900 3700 6400 3700
-Text GLabel 6400 3700 0    50   BiDi ~ 0
-LTDC_B2
+	5900 3700 6375 3700
 Wire Wire Line
-	5900 3400 6400 3400
-Text GLabel 6400 3400 0    50   BiDi ~ 0
-LTDC_G7
+	5900 3400 6375 3400
 Wire Wire Line
-	5900 2600 6400 2600
-Text GLabel 6400 2600 0    50   BiDi ~ 0
-LTDC_R7
+	5900 2600 6375 2600
 Wire Wire Line
-	5900 2500 6400 2500
-Text GLabel 6400 2500 0    50   BiDi ~ 0
-LTDC_R6
+	5900 2500 6375 2500
 Wire Wire Line
-	5900 2400 6400 2400
-Text GLabel 6400 2400 0    50   BiDi ~ 0
-LTDC_R5
+	5900 2400 6375 2400
 Wire Wire Line
-	5900 2300 6400 2300
-Text GLabel 6350 2300 0    50   BiDi ~ 0
-LTDC_R4
+	5900 2300 6375 2300
 Wire Wire Line
-	5900 2200 6400 2200
-Text GLabel 6400 2200 0    50   BiDi ~ 0
-LTDC_R3
+	5900 2200 6375 2200
 Wire Wire Line
-	5900 2100 6400 2100
-Text GLabel 6400 2100 0    50   BiDi ~ 0
-LTDC_R2
+	5900 2100 6375 2100
 Wire Wire Line
-	5900 6300 6500 6300
-Text GLabel 6500 6300 0    50   BiDi ~ 0
-IRQ_TOUCH
+	5900 6300 6100 6300
 Wire Wire Line
-	5900 2900 6400 2900
-Text GLabel 6400 2900 0    50   BiDi ~ 0
-LTDC_G2
+	5900 2900 6375 2900
 Wire Wire Line
-	5900 3000 6400 3000
-Text GLabel 6400 3000 0    50   BiDi ~ 0
-LTDC_G3
+	5900 3000 6375 3000
 Wire Wire Line
-	5900 3100 6400 3100
-Text GLabel 6400 3100 0    50   BiDi ~ 0
-LTDC_G4
+	5900 3100 6375 3100
 Wire Wire Line
-	5900 3200 6400 3200
-Text GLabel 6400 3200 0    50   BiDi ~ 0
-LTDC_G5
+	5900 3200 6375 3200
 Wire Wire Line
-	5900 3300 6400 3300
-Text GLabel 6400 3300 0    50   BiDi ~ 0
-LTDC_G6
+	5900 3300 6375 3300
 Wire Wire Line
 	10200 5500 10300 5500
 Wire Wire Line
@@ -537,11 +438,9 @@ Text Label 7400 5500 0    50   ~ 0
 Wire Wire Line
 	8200 5300 8300 5300
 Wire Wire Line
-	7900 5300 7400 5300
-Text GLabel 7400 5300 2    50   BiDi ~ 0
-DAC_OUT1
+	7900 5300 7825 5300
 Wire Wire Line
-	7500 2600 8300 2600
+	8200 2600 8300 2600
 Wire Wire Line
 	8300 2600 9500 2600
 Wire Wire Line
@@ -562,25 +461,17 @@ Wire Wire Line
 	8300 2600 8300 3400
 Wire Wire Line
 	8400 3400 8300 3400
-Text GLabel 7500 2600 2    50   BiDi ~ 0
-USB_OTG_FS_VBUS
 Connection ~ 9500 2600
 Connection ~ 9500 1600
 Connection ~ 10200 2600
 Connection ~ 8300 2600
 Connection ~ 8300 3400
 Wire Wire Line
-	7500 2900 10400 2900
-Text GLabel 7500 2900 2    50   BiDi ~ 0
-USB_OTG_FS_ID
+	8200 2900 10400 2900
 Wire Wire Line
-	8500 2700 7500 2700
-Text GLabel 7500 2700 2    50   BiDi ~ 0
-USB_OTG_FS_D_N
+	8500 2700 8200 2700
 Wire Wire Line
-	7500 2800 8500 2800
-Text GLabel 7500 2800 2    50   BiDi ~ 0
-USB_OTG_FS_D_P
+	8200 2800 8500 2800
 Wire Wire Line
 	8900 2800 9600 2800
 Wire Wire Line
@@ -607,63 +498,53 @@ Wire Wire Line
 	8200 1600 7900 1600
 Wire Wire Line
 	7900 1600 7900 1500
-Text GLabel 8200 1600 0    10   BiDi ~ 0
-+5V
 Wire Wire Line
-	8200 1800 7900 1800
+	8200 1800 8200 2200
 Wire Wire Line
-	7900 1800 7900 2200
+	8200 1800 8150 1800
+Connection ~ 8200 1800
 Wire Wire Line
-	8200 2200 7900 2200
-Wire Wire Line
-	7900 1800 7500 1800
-Text GLabel 7550 1800 2    50   BiDi ~ 0
-~USB_OTG_FS_OC
-Connection ~ 7900 1800
-Wire Wire Line
-	8200 1700 7500 1700
-Text GLabel 7500 1700 2    50   BiDi ~ 0
-USB_OTG_FS_PSO
+	8200 1700 8150 1700
 Wire Wire Line
 	10400 2000 10200 2000
 Wire Wire Line
 	10200 2000 10200 2100
 Entry Wire Line
-	6400 4200 6500 4100
+	6375 4200 6475 4100
 Entry Wire Line
-	6400 4100 6500 4000
+	6375 4100 6475 4000
 Entry Wire Line
-	6400 4000 6500 3900
+	6375 4000 6475 3900
 Entry Wire Line
-	6400 3900 6500 3800
+	6375 3900 6475 3800
 Entry Wire Line
-	6400 3800 6500 3700
+	6375 3800 6475 3700
 Entry Wire Line
-	6400 3700 6500 3600
+	6375 3700 6475 3600
 Entry Wire Line
-	6400 3400 6500 3300
+	6375 3400 6475 3300
 Entry Wire Line
-	6400 2600 6500 2500
+	6375 2600 6475 2500
 Entry Wire Line
-	6400 2500 6500 2400
+	6375 2500 6475 2400
 Entry Wire Line
-	6400 2400 6500 2300
+	6375 2400 6475 2300
 Entry Wire Line
-	6400 2300 6500 2200
+	6375 2300 6475 2200
 Entry Wire Line
-	6400 2200 6500 2100
+	6375 2200 6475 2100
 Entry Wire Line
-	6400 2100 6500 2000
+	6375 2100 6475 2000
 Entry Wire Line
-	6400 2900 6500 2800
+	6375 2900 6475 2800
 Entry Wire Line
-	6400 3000 6500 2900
+	6375 3000 6475 2900
 Entry Wire Line
-	6400 3100 6500 3000
+	6375 3100 6475 3000
 Entry Wire Line
-	6400 3200 6500 3100
+	6375 3200 6475 3100
 Entry Wire Line
-	6400 3300 6500 3200
+	6375 3300 6475 3200
 $Comp
 L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME4
 U 1 0 5A84812C
@@ -675,19 +556,6 @@ F 1 "DINA4_L" H 900 7900 50  0001 C CNN
 F 2 "" H 900 7900 50  0001 C CNN
 F 3 "" H 900 7900 50  0001 C CNN
 	1    900  7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME4
-U 2 0 5A848120
-P 7300 7900
-AR Path="/5A848120" Ref="#FRAME4"  Part="2" 
-AR Path="/5B8E2134/5A848120" Ref="#FRAME4"  Part="2" 
-F 0 "#FRAME4" H 7300 7900 50  0001 C CNN
-F 1 "DINA4_L" H 7300 7900 50  0001 C CNN
-F 2 "" H 7300 7900 50  0001 C CNN
-F 3 "" H 7300 7900 50  0001 C CNN
-	2    7300 7900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1665,8 +1533,6 @@ F 3 "" H 10600 2300 50  0001 C CNN
 	1    10600 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 7400 6800 0    100  ~ 0
-USB, TFT LCD, touchscreen, audio amplifier
 Text Notes 1000 7650 0    42   ~ 0
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 Text Notes 1000 7800 0    42   ~ 0
@@ -1687,16 +1553,6 @@ Text Notes 4850 4400 0    42   ~ 0
 LCD display: RFE43BH-AIW-DNS or RFE430Y-AIW-DNS
 Text Notes 4850 4475 0    42   ~ 0
 4.3", 480x272, resistive touch screen
-Wire Notes Line
-	7100 4800 4700 4800
-Wire Notes Line
-	4700 4800 1100 4800
-Wire Notes Line
-	7100 900  7100 4100
-Wire Notes Line
-	7100 4100 7100 4800
-Wire Notes Line
-	7100 4800 7100 6500
 Text Notes 7200 1000 0    59   ~ 0
 USB OTG port
 Text Notes 1150 4925 0    59   ~ 0
@@ -1711,4 +1567,115 @@ Text Notes 8725 6400 0    42   ~ 0
 Consumption: +3.3 V, max. 220 mA
 Text Notes 9800 1950 0    42   ~ 0
 Tant.
+Wire Notes Line
+	1100 4800 7100 4800
+Wire Notes Line
+	7100 900  7100 6500
+NoConn ~ 5900 6400
+Text HLabel 6575 1900 2    50   Input ~ 0
+LTDC_R[2..7]
+Text Label 6050 2100 0    50   ~ 0
+LTDC_R2
+Text Label 6050 2200 0    50   ~ 0
+LTDC_R3
+Text Label 6050 2300 0    50   ~ 0
+LTDC_R4
+Text Label 6050 2400 0    50   ~ 0
+LTDC_R5
+Text Label 6050 2500 0    50   ~ 0
+LTDC_R6
+Text Label 6050 2600 0    50   ~ 0
+LTDC_R7
+Wire Bus Line
+	6475 2800 6575 2700
+Text HLabel 6575 2700 2    50   Input ~ 0
+LTDC_G[2..7]
+Wire Bus Line
+	6475 3600 6575 3500
+Text HLabel 6575 3500 2    50   Input ~ 0
+LTDC_B[2..7]
+Text Label 6025 2900 0    50   ~ 0
+LTDC_G2
+Text Label 6025 3000 0    50   ~ 0
+LTDC_G3
+Text Label 6025 3100 0    50   ~ 0
+LTDC_G4
+Text Label 6025 3200 0    50   ~ 0
+LTDC_G5
+Text Label 6025 3300 0    50   ~ 0
+LTDC_G6
+Text Label 6025 3400 0    50   ~ 0
+LTDC_G7
+Text Label 6025 3700 0    50   ~ 0
+LTDC_B2
+Text Label 6025 3800 0    50   ~ 0
+LTDC_B3
+Text Label 6025 3900 0    50   ~ 0
+LTDC_B4
+Text Label 6025 4000 0    50   ~ 0
+LTDC_B5
+Text Label 6025 4100 0    50   ~ 0
+LTDC_B6
+Text Label 6025 4200 0    50   ~ 0
+LTDC_B7
+NoConn ~ 9400 3500
+NoConn ~ 9400 3700
+Text HLabel 4650 3100 0    50   Input ~ 0
+LTDC_CLK
+Text HLabel 4650 3300 0    50   Input ~ 0
+LTDC_HSYNC
+Text HLabel 4650 3400 0    50   Input ~ 0
+LTDC_VSYNC
+Text HLabel 4650 3500 0    50   Input ~ 0
+LTDC_DE
+Text HLabel 2100 1900 0    50   Input ~ 0
+TFT_BRIGHTNESS
+Text HLabel 8200 2600 0    50   Output ~ 0
+USB_OTG_FS_VBUS
+Text HLabel 8200 2700 0    50   BiDi ~ 0
+USB_OTG_FS_D_N
+Text HLabel 8200 2800 0    50   BiDi ~ 0
+USB_OTG_FS_D_P
+Text HLabel 8200 2900 0    50   Output ~ 0
+USB_OTG_FS_ID
+Text HLabel 8150 1800 0    50   Input ~ 0
+~USB_OTG_FS_OC
+Text HLabel 8150 1700 0    50   Input ~ 0
+USB_OTG_FS_PSO
+Text HLabel 7825 5300 0    50   Input ~ 0
+DAC_OUT1
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5DE5D5A8
+P 4400 1200
+F 0 "#FLG0107" H 4400 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4400 1374 50  0000 C CNN
+F 2 "" H 4400 1200 50  0001 C CNN
+F 3 "~" H 4400 1200 50  0001 C CNN
+	1    4400 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 1200
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5DE5D624
+P 4600 2000
+F 0 "#FLG0108" H 4600 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4600 2174 50  0000 C CNN
+F 2 "" H 4600 2000 50  0001 C CNN
+F 3 "~" H 4600 2000 50  0001 C CNN
+	1    4600 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 2000
+Wire Wire Line
+	4600 2000 4900 2000
+Wire Bus Line
+	6475 2800 6475 3300
+Wire Bus Line
+	6475 3600 6475 4100
+Wire Bus Line
+	6475 2000 6475 2500
+Text HLabel 6100 6300 2    50   Output ~ 0
+IRQ_TOUCH
 $EndSCHEMATC
