@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 12095 8535
 encoding utf-8
-Sheet 6 6
+Sheet 4 6
 Title "EEZ DIB MUC"
 Date ""
 Rev "r1B1"
@@ -19,38 +19,26 @@ Wire Wire Line
 Wire Wire Line
 	7400 1500 7400 1600
 Connection ~ 7400 1500
-Text GLabel 7600 1500 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7300 2400 7200 2400
 Wire Wire Line
 	7200 2500 7200 2400
-Text GLabel 7300 2400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8100 2500 8000 2500
 Wire Wire Line
 	8000 2600 8000 2500
-Text GLabel 8100 2500 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8100 3300 8000 3300
 Wire Wire Line
 	8000 3400 8000 3300
-Text GLabel 8100 3300 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7500 3300 7600 3300
 Wire Wire Line
 	7600 3400 7600 3300
-Text GLabel 7500 3300 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9400 3900 9000 3900
 Wire Wire Line
 	9000 3900 9000 4000
-Text GLabel 9400 3900 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5800 4900 5800 5000
 Wire Wire Line
@@ -77,8 +65,6 @@ Connection ~ 6600 5000
 Connection ~ 7000 5000
 Connection ~ 6200 5000
 Connection ~ 6000 5000
-Text GLabel 5800 4900 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5000 5100 5200 5100
 Wire Wire Line
@@ -103,8 +89,6 @@ Connection ~ 5200 5200
 Connection ~ 5200 5300
 Connection ~ 5200 5400
 Connection ~ 5200 5500
-Text GLabel 5000 5100 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	2900 6000 2500 6000
 Wire Wire Line
@@ -115,8 +99,6 @@ Wire Wire Line
 	2900 6100 2900 6000
 Connection ~ 2500 6000
 Connection ~ 2900 6000
-Text GLabel 2900 6000 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	1300 3300 1300 3200
 Wire Wire Line
@@ -126,8 +108,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 3200 1300 3200
 Connection ~ 1300 3200
-Text GLabel 1300 3300 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	3200 5600 2900 5600
 Wire Wire Line
@@ -135,8 +115,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 5600 2900 5300
 Connection ~ 2900 5600
-Text GLabel 3200 5600 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	3200 5500 2500 5500
 Wire Wire Line
@@ -144,14 +122,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 5500 2500 5300
 Connection ~ 2500 5500
-Text GLabel 3200 5500 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	1500 5400 1400 5400
 Wire Wire Line
 	1400 5400 1400 5300
-Text GLabel 1500 5400 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	6700 3100 6800 3100
 Wire Wire Line
@@ -171,8 +145,6 @@ Wire Wire Line
 Connection ~ 6800 3500
 Connection ~ 6800 3300
 Connection ~ 6800 3100
-Text GLabel 6700 3100 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	9400 4300 9100 4300
 Wire Wire Line
@@ -182,8 +154,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 4600 9100 4300
 Connection ~ 9100 4300
-Text GLabel 9400 4300 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	2600 3500 2500 3500
 Text GLabel 2600 3500 0    10   BiDi ~ 0
@@ -197,8 +167,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 5100 5500 5000
 Connection ~ 5500 5000
-Text GLabel 5400 5000 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
 	3100 1600 3100 1700
 Text GLabel 3100 1600 0    10   BiDi ~ 0
@@ -212,56 +180,30 @@ Wire Wire Line
 Wire Wire Line
 	7400 1200 7400 1100
 Connection ~ 7400 1200
-Text GLabel 7600 1200 0    10   BiDi ~ 0
-+3V3
 Wire Wire Line
-	1200 2600 2000 2600
-Text GLabel 1200 2600 2    50   BiDi ~ 0
-ETH_TX_EN
+	1700 2600 2000 2600
 Wire Wire Line
-	1200 2700 2000 2700
-Text GLabel 1200 2700 2    50   BiDi ~ 0
-ETH_RX_CLK
+	1700 2700 2000 2700
 Wire Wire Line
-	1200 2800 2000 2800
-Text GLabel 1200 2800 2    50   BiDi ~ 0
-ETH_RX_DV
+	1700 2800 2000 2800
 Wire Wire Line
-	2200 4100 1200 4100
-Text GLabel 1200 4100 2    50   BiDi ~ 0
-ETH_RXD0
+	2200 4100 1650 4100
 Wire Wire Line
-	1200 4200 2200 4200
-Text GLabel 1200 4200 2    50   BiDi ~ 0
-ETH_RXD1
+	1650 4200 2200 4200
 Wire Wire Line
-	1200 4300 2200 4300
-Text GLabel 1200 4300 2    50   BiDi ~ 0
-ETH_RXD2
+	1650 4300 2200 4300
 Wire Wire Line
-	1200 4400 2200 4400
-Text GLabel 1200 4400 2    50   BiDi ~ 0
-ETH_RXD3
+	1650 4400 2200 4400
 Wire Wire Line
-	1200 4600 2200 4600
-Text GLabel 1200 4600 2    50   BiDi ~ 0
-ETH_TXD0
+	1650 4600 2200 4600
 Wire Wire Line
-	1200 4700 2200 4700
-Text GLabel 1200 4700 2    50   BiDi ~ 0
-ETH_TXD1
+	1650 4700 2200 4700
 Wire Wire Line
-	1200 4800 2200 4800
-Text GLabel 1200 4800 2    50   BiDi ~ 0
-ETH_TXD2
+	1650 4800 2200 4800
 Wire Wire Line
-	1200 4900 2200 4900
-Text GLabel 1200 4900 2    50   BiDi ~ 0
-ETH_TXD3
+	1650 4900 2200 4900
 Wire Wire Line
-	1200 3800 3200 3800
-Text GLabel 1200 3800 2    50   BiDi ~ 0
-~RESET
+	1650 3800 3200 3800
 Wire Wire Line
 	2000 3400 2000 3700
 Wire Wire Line
@@ -270,28 +212,22 @@ Wire Wire Line
 	2000 3700 1800 3700
 Connection ~ 2000 3700
 Wire Wire Line
-	1200 2300 3000 2300
+	1700 2300 3000 2300
 Wire Wire Line
 	3000 2300 3000 2500
 Wire Wire Line
 	3000 2500 3200 2500
-Text GLabel 1200 2300 2    50   BiDi ~ 0
-ETH_MDC
 Wire Wire Line
-	1200 2200 3100 2200
+	1700 2200 3100 2200
 Wire Wire Line
 	3100 2200 3100 2400
 Wire Wire Line
 	3100 2400 3200 2400
 Wire Wire Line
 	3100 2200 3100 2100
-Text GLabel 1200 2200 2    50   BiDi ~ 0
-ETH_MDIO
 Connection ~ 3100 2200
 Wire Wire Line
-	1200 2500 2000 2500
-Text GLabel 1200 2500 2    50   BiDi ~ 0
-ETH_TX_CLK
+	1700 2500 2000 2500
 Wire Wire Line
 	5000 4300 5400 4300
 Wire Wire Line
@@ -348,7 +284,7 @@ Connection ~ 5800 4500
 Connection ~ 6200 4400
 Connection ~ 6600 4300
 Wire Wire Line
-	3200 5400 2100 5400
+	3200 5400 2300 5400
 Wire Wire Line
 	2100 5400 2100 5600
 Wire Wire Line
@@ -363,15 +299,11 @@ Wire Wire Line
 Wire Wire Line
 	8400 2500 8400 2400
 Connection ~ 8400 2500
-Text Label 8400 2500 0    10   ~ 0
-+3V3(A)
 Wire Wire Line
 	8400 3300 9400 3300
 Wire Wire Line
 	8400 3300 8400 3200
 Connection ~ 8400 3300
-Text Label 8400 3300 0    10   ~ 0
-+3V3(A)
 Wire Wire Line
 	7100 3300 7200 3300
 Connection ~ 7100 3300
@@ -510,9 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 4800 7700 4800
 Wire Wire Line
-	1200 2000 2000 2000
-Text GLabel 1200 2000 2    50   BiDi ~ 0
-MCLK_25
+	1700 2000 2000 2000
 Wire Wire Line
 	3200 2600 2900 2600
 Wire Wire Line
@@ -520,13 +450,11 @@ Wire Wire Line
 Wire Wire Line
 	2900 2000 2900 2600
 Wire Wire Line
-	1200 3900 1900 3900
+	1650 3900 1900 3900
 Wire Wire Line
 	1900 3400 1900 3900
 Wire Wire Line
 	2200 3900 1900 3900
-Text GLabel 1200 3900 2    50   BiDi ~ 0
-ETH_CRS
 Connection ~ 1900 3900
 Wire Wire Line
 	3000 3500 3000 3400
@@ -550,8 +478,6 @@ Wire Wire Line
 	2800 2900 3200 2900
 Wire Wire Line
 	9400 4000 9200 4000
-Text GLabel 9400 4000 0    10   BiDi ~ 0
-PE
 Wire Wire Line
 	3000 3200 3200 3200
 Wire Wire Line
@@ -586,9 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3600 2600 3600
 Wire Wire Line
-	2200 3600 1200 3600
-Text GLabel 1200 3600 2    50   BiDi ~ 0
-ETH_COL
+	2200 3600 1650 3600
 Wire Wire Line
 	2600 4400 3200 4400
 Wire Wire Line
@@ -602,9 +526,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3900 3200 3900
 Wire Wire Line
-	1700 3700 1200 3700
-Text GLabel 1200 3700 2    50   BiDi ~ 0
-SPI5_IRQ
+	1700 3700 1650 3700
 $Comp
 L EEZ_DIB_MCU_r1B1-eagle-import:DINA4_L #FRAME5
 U 1 0 D3799FDF
@@ -643,19 +565,6 @@ F 2 "EEZ DIB MCU r1B1:R0805" H 5500 4700 50  0001 C CNN
 F 3 "" H 5500 4700 50  0001 C CNN
 	1    5500 4700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C64
-U 1 0 B6C25B1D
-P 5800 4700
-AR Path="/B6C25B1D" Ref="C64"  Part="1" 
-AR Path="/5B8E25B8/B6C25B1D" Ref="C64"  Part="1" 
-F 0 "C64" H 5715 4735 59  0000 R TNN
-F 1 "100n" H 5715 4660 59  0000 R TNN
-F 2 "EEZ DIB MCU r1B1:C0603" H 5800 4700 50  0001 C CNN
-F 3 "" H 5800 4700 50  0001 C CNN
-	1    5800 4700
-	-1   0    0    -1  
 $EndComp
 $Comp
 L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C65
@@ -755,7 +664,7 @@ P 2900 5200
 AR Path="/F72700C4" Ref="#+3V22"  Part="1" 
 AR Path="/5B8E25B8/F72700C4" Ref="#+3V022"  Part="1" 
 F 0 "#+3V022" H 2900 5200 50  0001 C CNN
-F 1 "+3V3" V 2775 5225 59  0000 L BNN
+F 1 "+3V3" H 2750 5200 59  0000 L BNN
 F 2 "" H 2900 5200 50  0001 C CNN
 F 3 "" H 2900 5200 50  0001 C CNN
 	1    2900 5200
@@ -768,7 +677,7 @@ P 2500 5200
 AR Path="/7D977A11" Ref="#+3V1"  Part="1" 
 AR Path="/5B8E25B8/7D977A11" Ref="#+3V01"  Part="1" 
 F 0 "#+3V01" H 2500 5200 50  0001 C CNN
-F 1 "+3V3" V 2375 5225 59  0000 L BNN
+F 1 "+3V3" H 2350 5200 59  0000 L BNN
 F 2 "" H 2500 5200 50  0001 C CNN
 F 3 "" H 2500 5200 50  0001 C CNN
 	1    2500 5200
@@ -781,7 +690,7 @@ P 2100 5200
 AR Path="/04D4087A" Ref="#+3V3(A)1"  Part="1" 
 AR Path="/5B8E25B8/04D4087A" Ref="#+3V3(A)01"  Part="1" 
 F 0 "#+3V3(A)01" H 2100 5200 50  0001 C CNN
-F 1 "+3V3(A)" V 1700 5200 59  0000 L BNN
+F 1 "+3V3(A)" H 1925 5200 59  0000 L BNN
 F 2 "" H 2100 5200 50  0001 C CNN
 F 3 "" H 2100 5200 50  0001 C CNN
 	1    2100 5200
@@ -794,7 +703,7 @@ P 1400 5200
 AR Path="/D7293AB6" Ref="#+3V42"  Part="1" 
 AR Path="/5B8E25B8/D7293AB6" Ref="#+3V042"  Part="1" 
 F 0 "#+3V042" H 1400 5200 50  0001 C CNN
-F 1 "+3V3" V 1275 5225 59  0000 L BNN
+F 1 "+3V3" H 1275 5200 59  0000 L BNN
 F 2 "" H 1400 5200 50  0001 C CNN
 F 3 "" H 1400 5200 50  0001 C CNN
 	1    1400 5200
@@ -963,7 +872,7 @@ P 8400 2300
 AR Path="/4FCF2529" Ref="#+3V3(A)2"  Part="1" 
 AR Path="/5B8E25B8/4FCF2529" Ref="#+3V3(A)02"  Part="1" 
 F 0 "#+3V3(A)02" H 8400 2300 50  0001 C CNN
-F 1 "+3V3(A)" V 8000 2275 59  0000 L BNN
+F 1 "+3V3(A)" H 8250 2300 59  0000 L BNN
 F 2 "" H 8400 2300 50  0001 C CNN
 F 3 "" H 8400 2300 50  0001 C CNN
 	1    8400 2300
@@ -1054,7 +963,7 @@ P 8400 3100
 AR Path="/4E54B0A7" Ref="#+3V3(A)3"  Part="1" 
 AR Path="/5B8E25B8/4E54B0A7" Ref="#+3V3(A)03"  Part="1" 
 F 0 "#+3V3(A)03" H 8400 3100 50  0001 C CNN
-F 1 "+3V3(A)" V 8000 3100 59  0000 L BNN
+F 1 "+3V3(A)" H 8250 3100 59  0000 L BNN
 F 2 "" H 8400 3100 50  0001 C CNN
 F 3 "" H 8400 3100 50  0001 C CNN
 	1    8400 3100
@@ -1626,7 +1535,7 @@ P 7400 1000
 AR Path="/A80C603B" Ref="#+3V10"  Part="1" 
 AR Path="/5B8E25B8/A80C603B" Ref="#+3V010"  Part="1" 
 F 0 "#+3V010" H 7400 1000 50  0001 C CNN
-F 1 "+3V3" V 7275 1050 59  0000 L BNN
+F 1 "+3V3" H 7250 1000 59  0000 L BNN
 F 2 "" H 7400 1000 50  0001 C CNN
 F 3 "" H 7400 1000 50  0001 C CNN
 	1    7400 1000
@@ -1668,4 +1577,76 @@ Text Notes 1000 7600 0    42   ~ 0
 Repository: https://github.com/eez-open
 Text Notes 1000 7525 0    42   ~ 0
 More info at http://www.envox.hr/eez
+NoConn ~ 5000 4500
+NoConn ~ 5000 4600
+NoConn ~ 5000 4700
+NoConn ~ 5000 4800
+NoConn ~ 5000 4900
+NoConn ~ 5000 3000
+NoConn ~ 3200 2700
+Text HLabel 1650 4200 0    50   Output ~ 0
+ETH_RXD1
+Text HLabel 1650 4300 0    50   Output ~ 0
+ETH_RXD2
+Text HLabel 1650 4400 0    50   Output ~ 0
+ETH_RXD3
+Text HLabel 1650 4100 0    50   Output ~ 0
+ETH_RXD0
+Text HLabel 1650 4600 0    50   Input ~ 0
+ETH_TXD0
+Text HLabel 1650 4700 0    50   Input ~ 0
+ETH_TXD1
+Text HLabel 1650 4800 0    50   Input ~ 0
+ETH_TXD2
+Text HLabel 1650 4900 0    50   Input ~ 0
+ETH_TXD3
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D72DB51
+P 2300 5400
+F 0 "#FLG0101" H 2300 5475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 5325 50  0001 C CNN
+F 2 "" H 2300 5400 50  0001 C CNN
+F 3 "~" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 5400
+Wire Wire Line
+	2300 5400 2100 5400
+Text HLabel 1700 2800 0    50   Output ~ 0
+ETH_RX_DV
+Text HLabel 1700 2700 0    50   Output ~ 0
+ETH_RX_CLK
+Text HLabel 1700 2600 0    50   Input ~ 0
+ETH_TX_EN
+Text HLabel 1700 2500 0    50   Output ~ 0
+ETH_TX_CLK
+Text HLabel 1700 2300 0    50   Input ~ 0
+ETH_MDC
+Text HLabel 1700 2200 0    50   BiDi ~ 0
+ETH_MDIO
+Text HLabel 1700 2000 0    50   Input ~ 0
+MCLK_25
+Text HLabel 1650 3600 0    50   Output ~ 0
+ETH_COL
+Text HLabel 1650 3900 0    50   Output ~ 0
+ETH_CRS
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:C-EUC0603 C64
+U 1 0 B6C25B1D
+P 5800 4700
+AR Path="/B6C25B1D" Ref="C64"  Part="1" 
+AR Path="/5B8E25B8/B6C25B1D" Ref="C64"  Part="1" 
+F 0 "C64" H 5715 4735 59  0000 R TNN
+F 1 "100n" H 5715 4660 59  0000 R TNN
+F 2 "EEZ DIB MCU r1B1:C0603" H 5800 4700 50  0001 C CNN
+F 3 "" H 5800 4700 50  0001 C CNN
+	1    5800 4700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1650 3800 0    50   Input ~ 0
+~RESET
+Text GLabel 1650 3700 0    50   Output ~ 0
+SPI5_IRQ
 $EndSCHEMATC
