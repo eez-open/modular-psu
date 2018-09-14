@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Power" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Power" color="6" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
@@ -5158,9 +5158,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="81.2292" y="62.9666" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="81.0006" y="61.3537" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C3" library="rcl" package="C0805" value="10n" x="126.9238" y="8.1915" smashed="yes" rot="R180">
-<attribute name="NAME" x="126.0983" y="9.3345" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="128.3208" y="8.6995" size="1.016" layer="27" ratio="10" rot="R180"/>
+<element name="C3" library="rcl" package="C0805" value="10n" x="117.6274" y="9.5123" smashed="yes">
+<attribute name="NAME" x="115.6843" y="10.0584" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="116.2304" y="9.0043" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="IC17" library="EEZ_Lib1" package="PT48" value="DP83848CVV/NOPB" x="13.335" y="38.8239" smashed="yes" rot="R225">
 <attribute name="NAME" x="8.729734375" y="41.648653125" size="1.016" layer="25" ratio="10" rot="R45"/>
@@ -5524,7 +5524,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="100.6856" y="42.164" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="SW2" library="EEZ_switches" package="TL1100C" value="TL1100CF160Q" x="127" y="4" smashed="yes" rot="R90">
-<attribute name="NAME" x="120.3833" y="8.3561" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="120.142" y="7.9751" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="127.635" y="0.825" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 </elements>
@@ -6024,7 +6024,7 @@ design rules under a new name.</description>
 <wire x1="108.5215" y1="13.843" x2="108.5215" y2="14.798" width="0.1524" layer="1"/>
 <wire x1="99.9871" y1="14.8107" x2="99.9871" y2="13.8557" width="0.1524" layer="1"/>
 <wire x1="102.616" y1="17.653" x2="102.616" y2="16.698" width="0.1524" layer="1"/>
-<via x="128.7653" y="8.1915" extent="1-16" drill="0.3" shape="square"/>
+<via x="115.7605" y="9.525" extent="1-16" drill="0.3" shape="square"/>
 <via x="36.4109" y="19.0881" extent="1-16" drill="0.3" shape="square"/>
 <via x="26.035" y="20.066" extent="1-16" drill="0.3" shape="square"/>
 <via x="25.654" y="23.114" extent="1-16" drill="0.3" shape="square"/>
@@ -6356,7 +6356,7 @@ design rules under a new name.</description>
 <wire x1="70.0405" y1="22.3012" x2="70.0405" y2="23.4188" width="0.1524" layer="1"/>
 <wire x1="70.0405" y1="23.4188" x2="69.9516" y2="23.2918" width="0.1524" layer="1"/>
 <contactref element="SW2" pad="2"/>
-<wire x1="128.7653" y1="8.1915" x2="127.8738" y2="8.1915" width="0.1524" layer="1"/>
+<wire x1="115.7605" y1="9.525" x2="116.6774" y2="9.5123" width="0.1524" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="R17" pad="1"/>
@@ -7250,7 +7250,7 @@ design rules under a new name.</description>
 <signal name="USER_SW">
 <contactref element="IC4" pad="163"/>
 <contactref element="C3" pad="2"/>
-<wire x1="118.1862" y1="10.2235" x2="99.0854" y2="29.3243" width="0.1524" layer="1"/>
+<wire x1="118.5774" y1="9.8323" x2="99.0854" y2="29.3243" width="0.1524" layer="1"/>
 <wire x1="75.54290625" y1="58.3123125" x2="74.5236" y2="57.29300625" width="0.1524" layer="1"/>
 <wire x1="74.5236" y1="57.29300625" x2="74.5236" y2="55.7149" width="0.1524" layer="1"/>
 <via x="74.5236" y="55.7149" extent="1-16" drill="0.3" shape="octagon"/>
@@ -7277,10 +7277,10 @@ design rules under a new name.</description>
 <wire x1="92.202" y1="33.655" x2="92.3925" y2="33.4645" width="0.1524" layer="1"/>
 <wire x1="94.8817" y1="29.3243" x2="92.3925" y2="31.8135" width="0.1524" layer="1"/>
 <contactref element="SW2" pad="1"/>
-<wire x1="123.9418" y1="10.2235" x2="118.1862" y2="10.2235" width="0.1524" layer="1"/>
-<wire x1="125.9738" y1="8.1915" x2="125.9738" y2="5.4738" width="0.1524" layer="1"/>
-<wire x1="125.9738" y1="5.4738" x2="124.5" y2="4" width="0.1524" layer="1"/>
-<wire x1="123.9418" y1="10.2235" x2="125.9738" y2="8.1915" width="0.1524" layer="1"/>
+<wire x1="118.5774" y1="9.5123" x2="123.2154" y2="9.5123" width="0.1524" layer="1"/>
+<wire x1="123.2154" y1="9.5123" x2="124.5" y2="8.2277" width="0.1524" layer="1"/>
+<wire x1="124.5" y1="4" x2="124.5" y2="8.2277" width="0.1524" layer="1"/>
+<wire x1="118.5774" y1="9.5123" x2="118.5774" y2="9.8323" width="0.1524" layer="1"/>
 </signal>
 <signal name="I2C1_SCL">
 <contactref element="IC4" pad="164"/>
