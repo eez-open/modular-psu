@@ -11729,33 +11729,42 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <description>EEZ Eagle library for switches, encoders and relays</description>
 <packages>
 <package name="DF62J12S2">
-<pad name="PE2" x="0" y="11.38" drill="2.1" shape="octagon"/>
-<pad name="PE1" x="0" y="-11.38" drill="2.1" shape="octagon"/>
-<pad name="1" x="12.73" y="-5.945" drill="2.1" shape="octagon"/>
-<pad name="1A" x="12.73" y="5.945" drill="2.1" shape="octagon"/>
-<pad name="2" x="17.68" y="-5.945" drill="2.1" shape="octagon"/>
-<pad name="2A" x="17.68" y="5.945" drill="2.1" shape="octagon"/>
-<wire x1="14.7" y1="-9" x2="14.7" y2="9" width="0.1" layer="20"/>
-<wire x1="14.7" y1="9" x2="15.7" y2="9" width="0.1" layer="20"/>
-<wire x1="15.7" y1="9" x2="15.7" y2="-9" width="0.1" layer="20"/>
-<wire x1="15.7" y1="-9" x2="14.7" y2="-9" width="0.1" layer="20"/>
-<text x="3.0925" y="13.47" size="1.27" layer="51">Not tested!</text>
-<wire x1="12.5" y1="-8" x2="12.5" y2="-13" width="0.127" layer="21"/>
-<wire x1="12.5" y1="-13" x2="-4.1" y2="-13" width="0.127" layer="51"/>
-<wire x1="-4.1" y1="-13" x2="-4.1" y2="13" width="0.127" layer="21"/>
-<wire x1="12.5" y1="13" x2="-4.1" y2="13" width="0.127" layer="51"/>
-<wire x1="12.5" y1="8" x2="12.5" y2="13" width="0.127" layer="21"/>
-<text x="-4.1275" y="13.335" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.27" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-4.1" y1="13" x2="-4.1" y2="14.7" width="0.127" layer="51"/>
-<wire x1="-4.1" y1="14.7" x2="-5.8" y2="14.7" width="0.127" layer="51"/>
-<wire x1="-5.8" y1="14.7" x2="-5.8" y2="-14.7" width="0.127" layer="51"/>
-<wire x1="-4.1" y1="-14.7" x2="-4.1" y2="-13" width="0.127" layer="51"/>
-<wire x1="-4.1" y1="-14.7" x2="-5.8" y2="-14.7" width="0.127" layer="51"/>
-<wire x1="12.5" y1="-13" x2="1" y2="-13" width="0.127" layer="21"/>
-<wire x1="12.5" y1="13" x2="1" y2="13" width="0.127" layer="21"/>
-<wire x1="-4.1" y1="-13" x2="-1" y2="-13" width="0.127" layer="21"/>
-<wire x1="-4.1" y1="13" x2="-1" y2="13" width="0.127" layer="21"/>
+<pad name="PE2" x="4.1" y="12" drill="2.1" shape="octagon"/>
+<pad name="PE1" x="4.1" y="-12" drill="2.1" shape="octagon"/>
+<pad name="1" x="17" y="-6" drill="2.1" shape="octagon"/>
+<pad name="1A" x="17" y="6" drill="2.1" shape="octagon"/>
+<pad name="2" x="22" y="-6" drill="2.1" shape="octagon"/>
+<pad name="2A" x="22" y="6" drill="2.1" shape="octagon"/>
+<wire x1="19" y1="-9" x2="19" y2="9" width="0.1" layer="20"/>
+<wire x1="19" y1="9" x2="20" y2="9" width="0.1" layer="20"/>
+<wire x1="20" y1="9" x2="20" y2="-9" width="0.1" layer="20"/>
+<wire x1="20" y1="-9" x2="19" y2="-9" width="0.1" layer="20"/>
+<wire x1="16.6" y1="-8" x2="16.6" y2="-13" width="0.127" layer="21"/>
+<wire x1="16.6" y1="-13" x2="0" y2="-13" width="0.127" layer="51"/>
+<wire x1="0" y1="-13" x2="0" y2="13" width="0.127" layer="21"/>
+<wire x1="16.6" y1="13" x2="0" y2="13" width="0.127" layer="51"/>
+<wire x1="16.6" y1="8" x2="16.6" y2="13" width="0.127" layer="21"/>
+<text x="5.715" y="13.335" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="5.37" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="0" y1="13" x2="0" y2="14.7" width="0.127" layer="51"/>
+<wire x1="0" y1="14.7" x2="-2" y2="14.7" width="0.127" layer="51"/>
+<wire x1="-2" y1="14.7" x2="-2" y2="13" width="0.127" layer="51"/>
+<wire x1="-2" y1="13" x2="-2" y2="-13" width="0.127" layer="51"/>
+<wire x1="-2" y1="-13" x2="-2" y2="-14.7" width="0.127" layer="51"/>
+<wire x1="0" y1="-14.7" x2="0" y2="-13" width="0.127" layer="51"/>
+<wire x1="0" y1="-14.7" x2="-2" y2="-14.7" width="0.127" layer="51"/>
+<wire x1="16.6" y1="-13" x2="5.7" y2="-13" width="0.127" layer="21"/>
+<wire x1="16.6" y1="13" x2="5.7" y2="13" width="0.127" layer="21"/>
+<wire x1="0" y1="-13" x2="2.5" y2="-13" width="0.127" layer="21"/>
+<wire x1="0" y1="13" x2="2.5" y2="13" width="0.127" layer="21"/>
+<wire x1="-7" y1="13" x2="-7" y2="11" width="0.127" layer="51"/>
+<wire x1="-7" y1="11" x2="-7" y2="-11" width="0.127" layer="51"/>
+<wire x1="-7" y1="-11" x2="-7" y2="-13" width="0.127" layer="51"/>
+<wire x1="-2" y1="13" x2="-7" y2="13" width="0.127" layer="51"/>
+<wire x1="-2" y1="-13" x2="-7" y2="-13" width="0.127" layer="51"/>
+<wire x1="-7" y1="-11" x2="-12.5" y2="-7.5" width="0.127" layer="51" curve="-64.698621"/>
+<wire x1="-7" y1="11" x2="-12.5" y2="-6.8" width="0.127" layer="51" curve="-40.444185"/>
+<wire x1="-12.5" y1="-7.5" x2="-12.5" y2="-6.8" width="0.127" layer="51" curve="-38.500654"/>
 </package>
 </packages>
 <symbols>
@@ -11836,14 +11845,14 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="SAR1" library="EEZ_Lib1" deviceset="SAR" device="" value="CG2-470L"/>
 <part name="VAR2" library="EEZ_Lib1" deviceset="VARISTOR" device="-13" value="ERZE14A431"/>
 <part name="VAR1" library="EEZ_Lib1" deviceset="VARISTOR" device="-13" value="ERZE14A431"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="102-054X133" value="47n/400V (X1)"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="102-054X133" value="47n/400V (X2)"/>
 <part name="TR1B" library="EEZ_Lib1" deviceset="WE-UOST" device="" value="(WE 760875532)"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="102-054X133" value="47n/400V (X1)"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="102-054X133" value="47n/400V (X2)"/>
 <part name="OK1" library="EEZ_Lib1" deviceset="MOC305X" device="" value="MOC3052"/>
 <part name="OK2" library="optocoupler" deviceset="MOC30*" device="S" technology="33" value="MOC3062">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
@@ -11878,7 +11887,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="X4" library="con-molex" deviceset="22-23-2031" device=""/>
 <part name="D1" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="SKL16"/>
-<part name="Q5" library="transistor-power" deviceset="N-HEXFET-2D_?-*" device="SOT232" technology="IRLL014N" value="IRLL2705PBF"/>
+<part name="Q5" library="transistor-power" deviceset="N-HEXFET-2D_?-*" device="SOT232" technology="IRLL014N" value="BSP716NH6327XTSA1"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -11897,7 +11906,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="SUPPLY1" library="supply2" deviceset="+12V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="X5" library="con-molex" deviceset="22-23-2021" device=""/>
-<part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
+<part name="TP2" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="L4" library="EEZ_inductors_and_transformers" deviceset="DE0704" device="" value="ECS-MPIL0630-150MC"/>
 <part name="D5" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SK55"/>
 <part name="D4" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110"/>
@@ -11938,7 +11947,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="PE4" library="supply1" deviceset="PE" device=""/>
 <part name="C14" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="C18" library="EEZ_Lib1" deviceset="ECAP" device="5G_13MM" value="1500u/16"/>
+<part name="C18" library="EEZ_Lib1" deviceset="ECAP" device="5G_13MM" value="1500u/16V"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="L3" library="EEZ_inductors_and_transformers" deviceset="DE0403" device="" value="DLG-0403-180"/>
@@ -11948,7 +11957,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="470u"/>
+<part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="470u/25V"/>
 <part name="IC3" library="EEZ_Lib1" deviceset="TL431" device="" value="TL431"/>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
@@ -11979,7 +11988,8 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="J2" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
 <part name="J3" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
 <part name="J4" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
-<part name="TP2" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
+<part name="TP3" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
+<part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 </parts>
 <sheets>
 <sheet>
@@ -13138,7 +13148,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="104.648" y="129.54" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="104.648" y="127.254" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="TP1" gate="G$1" x="104.14" y="71.12" smashed="yes">
+<instance part="TP2" gate="G$1" x="104.14" y="71.12" smashed="yes">
 <attribute name="NAME" x="106.045" y="70.485" size="1.778" layer="95"/>
 <attribute name="VALUE" x="104.14" y="68.58" size="1.778" layer="96"/>
 </instance>
@@ -13248,9 +13258,13 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <instance part="JP2" gate="G$1" x="187.96" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="189.23" y="90.805" size="1.778" layer="95"/>
 </instance>
-<instance part="TP2" gate="G$1" x="243.84" y="48.26" smashed="yes">
+<instance part="TP3" gate="G$1" x="243.84" y="48.26" smashed="yes">
 <attribute name="NAME" x="245.745" y="47.625" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.84" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="TP1" gate="G$1" x="91.44" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="89.535" y="140.335" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="91.44" y="142.24" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -13397,6 +13411,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <junction x="144.78" y="152.4"/>
 <junction x="93.98" y="139.7"/>
 <label x="145.415" y="132.715" size="1.27" layer="102"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$137" class="0">
@@ -13522,7 +13537,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <pinref part="X3" gate="-9" pin="1"/>
 <wire x1="241.3" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
 <junction x="236.22" y="53.34"/>
-<pinref part="TP2" gate="G$1" pin="P$1"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
 <wire x1="241.3" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
 <junction x="236.22" y="48.26"/>
 </segment>
@@ -13609,7 +13624,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <junction x="86.36" y="104.14"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 <junction x="93.98" y="48.26"/>
-<pinref part="TP1" gate="G$1" pin="P$1"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 <junction x="101.6" y="71.12"/>
 <wire x1="101.6" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="111.76" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
