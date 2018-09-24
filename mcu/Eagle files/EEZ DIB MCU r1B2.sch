@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15124,6 +15124,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="5.08" y="175.26" size="1.778" layer="97">Input connector (power, soft start, fan controller)</text>
 <text x="134.62" y="175.26" size="1.778" layer="97">Output connector (3 x SPI modules)</text>
 <text x="229.87" y="53.34" size="1.4224" layer="97">Button cap: 4JRED</text>
+<wire x1="259.715" y1="175.26" x2="222.885" y2="114.3" width="1.27" layer="100"/>
+<wire x1="220.98" y1="174.625" x2="259.08" y2="116.205" width="1.27" layer="100"/>
+<wire x1="167.64" y1="173.99" x2="186.055" y2="116.205" width="1.27" layer="100"/>
+<wire x1="187.96" y1="174.625" x2="165.1" y2="114.935" width="1.27" layer="100"/>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -19200,8 +19204,8 @@ consult ST AN4661 section 8.4.2</text>
 <attribute name="NAME" x="91.567" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.567" y="162.941" size="1.778" layer="96"/>
 </instance>
-<instance part="JP4" gate="G$1" x="73.66" y="129.54" smashed="yes">
-<attribute name="NAME" x="73.025" y="128.905" size="1.778" layer="95" rot="MR0"/>
+<instance part="JP4" gate="G$1" x="73.66" y="129.54" smashed="yes" rot="MR180">
+<attribute name="NAME" x="73.025" y="130.175" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="IC13" gate="A" x="223.52" y="66.04" smashed="yes">
 <attribute name="NAME" x="218.1606" y="82.7786" size="2.0828" layer="95" ratio="10" rot="SR0"/>
@@ -19446,10 +19450,10 @@ consult ST AN4661 section 8.4.2</text>
 <pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="134.62" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <junction x="81.28" y="134.62"/>
 <pinref part="SUPPLY34" gate="GND" pin="GND"/>
-<pinref part="JP4" gate="G$1" pin="NO"/>
+<pinref part="JP4" gate="G$1" pin="NC"/>
+<wire x1="73.66" y1="132.08" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
@@ -19677,8 +19681,8 @@ consult ST AN4661 section 8.4.2</text>
 <segment>
 <label x="66.04" y="125.095" size="1.27" layer="102"/>
 <wire x1="73.66" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="124.46" x2="73.66" y2="127" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="NC"/>
+<pinref part="JP4" gate="G$1" pin="NO"/>
+<wire x1="73.66" y1="127" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LTDC_DE" class="0">
