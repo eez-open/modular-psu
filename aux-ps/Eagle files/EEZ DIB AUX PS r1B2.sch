@@ -11957,14 +11957,14 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="470u/25V"/>
 <part name="IC3" library="EEZ_Lib1" deviceset="TL431" device="" value="TL431"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0805" value="33n"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="4K87"/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
