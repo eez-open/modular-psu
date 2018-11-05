@@ -464,17 +464,17 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
 <package name="ECAP5/13">
-<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0" x2="-0.889" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="1.27" x2="-0.889" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="1.27" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.016" y2="0" width="0.1524" layer="21"/>
 <wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="0" x2="-1.016" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="6.985" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1.016" diameter="2.54"/>
 <pad name="-" x="2.54" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
@@ -2930,6 +2930,52 @@ Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
 <text x="-3.4544" y="1.905" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.175" size="1.27" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="ECAP3.5/10">
+<wire x1="-3.683" y1="0" x2="-2.921" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-0.381" x2="-3.302" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="5" width="0.1524" layer="21"/>
+<pad name="-" x="1.75" y="0" drill="0.8" diameter="1.6" shape="octagon"/>
+<pad name="+" x="-1.75" y="0" drill="0.8" diameter="1.6"/>
+<text x="-3.048" y="5.334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.2385" y="-0.8255" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
+<wire x1="1.27" y1="4.1275" x2="1.27" y2="-4.1275" width="0.6096" layer="21" curve="-145.794542"/>
+</package>
+<package name="ECAP2.5/8">
+<wire x1="-3.683" y1="0" x2="-2.921" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-0.381" x2="-3.302" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
+<pad name="-" x="1.25" y="0" drill="0.8" diameter="1.6" shape="octagon"/>
+<pad name="+" x="-1.25" y="0" drill="0.8" diameter="1.6"/>
+<text x="-3.048" y="4.3815" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.556" y="-0.508" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="0" y1="3.175" x2="0" y2="-3.175" width="1.016" layer="21" curve="-180"/>
+</package>
+<package name="ECAP2/5">
+<wire x1="-1.651" y1="1.524" x2="-0.889" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.143" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="2.55" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="-2.667" y="2.921" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.9845" y="-0.635" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -4106,6 +4152,33 @@ Farnell: 1004357</description>
 </technologies>
 </device>
 <device name="10G_20MM" package="ECAP10/20">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.5G_10MM" package="ECAP3.5/10">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5G_8MM" package="ECAP2.5/8">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2G/5" package="ECAP2/5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -11861,8 +11934,6 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="OC_NEWARK" value="05C2878"/>
 </part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="49R9"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="49R9"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
@@ -11892,9 +11963,8 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY55" library="supply2" deviceset="+12V" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="L1" library="EEZ_Lib1" deviceset="L-EU" device="0805" value="BLM21PG331SH1"/>
 <part name="SUPPLY58" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
@@ -11916,31 +11986,31 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="D3" library="EEZ_Lib1" deviceset="DIODE" device="DO214AA" value="US1K-DIO"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1210" value="1n/1kV"/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="22R"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="22R"/>
 <part name="SUPPLY80" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 <part name="SUPPLY85" library="supply2" deviceset="0V" device=""/>
 <part name="C9" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="UCY2G6R8MPD"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="6K8"/>
-<part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="6K8"/>
+<part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="IC2" library="EEZ_Lib1" deviceset="VIPER35" device="" value="VIPer35L"/>
 <part name="D7" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="D6" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="33n"/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
 <part name="ZD3" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD123" value="BZT52C20-DC"/>
-<part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
+<part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
 <part name="JP1" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="PE4" library="supply1" deviceset="PE" device=""/>
 <part name="C14" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
@@ -11952,20 +12022,20 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C1210" value="4u7"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="470u/25V"/>
+<part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="3.5G_8MM" value="UVZ1C471MPD"/>
 <part name="IC3" library="EEZ_Lib1" deviceset="TL431" device="" value="TL431"/>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0805" value="33n"/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="4K87"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="4K87"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="Q6" library="EEZ_Lib1" deviceset="2N7002" device="">
@@ -11989,10 +12059,15 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="C5" library="EEZ_Lib1" deviceset="ECAP" device="3.5G_8MM" value="UVZ1C471MPD"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="49R9"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="49R9"/>
 </parts>
 <sheets>
 <sheet>
@@ -12053,12 +12128,12 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <circle x="237.49" y="49.53" radius="0.635" width="0.1524" layer="101"/>
 <text x="235.585" y="50.165" size="1.4224" layer="101" rot="R180">Fan sense (Yellow) 3</text>
 <text x="5.08" y="96.52" size="1.778" layer="97" rot="MR180">12V DC Fan speed controllers</text>
-<text x="30.48" y="40.64" size="1.27" layer="103">I2C address: 0x18</text>
-<wire x1="5.08" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="157.48" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="205.74" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="157.48" y1="38.1" x2="157.48" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="205.74" y1="38.1" x2="205.74" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
+<text x="30.48" y="40.64" size="1.27" layer="103">I2C address: 0x30</text>
+<wire x1="5.08" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="38.1" x2="162.56" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="38.1" x2="208.28" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <rectangle x1="45.085" y1="127.635" x2="56.515" y2="136.525" layer="97"/>
 </plain>
 <instances>
@@ -12128,14 +12203,6 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </instance>
 <instance part="P+1" gate="1" x="172.72" y="160.02" smashed="yes">
 <attribute name="VALUE" x="170.815" y="160.655" size="1.778" layer="96"/>
-</instance>
-<instance part="R8" gate="G$1" x="182.88" y="134.62" smashed="yes" rot="MR180">
-<attribute name="NAME" x="180.34" y="137.5664" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="180.34" y="133.477" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="R2" gate="G$1" x="182.88" y="157.48" smashed="yes" rot="MR180">
-<attribute name="NAME" x="180.34" y="160.4264" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="180.34" y="156.337" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R10" gate="G$1" x="233.68" y="134.62" smashed="yes" rot="MR90">
 <attribute name="NAME" x="231.775" y="131.6736" size="1.778" layer="95" rot="MR0"/>
@@ -12246,28 +12313,28 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="77.47" y="55.0164" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="77.47" y="52.832" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R14" gate="G$1" x="93.98" y="73.66" smashed="yes" rot="MR90">
-<attribute name="NAME" x="95.25" y="75.3364" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="95.25" y="73.152" size="1.778" layer="96" rot="MR180"/>
+<instance part="R14" gate="G$1" x="93.98" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.71" y="77.8764" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="92.71" y="75.692" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X4" gate="-1" x="114.3" y="81.28" smashed="yes" rot="MR180">
-<attribute name="NAME" x="116.84" y="82.042" size="1.524" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="113.538" y="79.883" size="1.27" layer="96" rot="MR180"/>
+<instance part="X4" gate="-1" x="121.92" y="81.28" smashed="yes" rot="MR180">
+<attribute name="NAME" x="124.46" y="82.042" size="1.524" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="121.158" y="79.883" size="1.27" layer="96" rot="MR180"/>
 </instance>
-<instance part="D1" gate="G$1" x="106.68" y="76.2" smashed="yes" rot="MR90">
-<attribute name="NAME" x="108.204" y="78.74" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="108.204" y="76.454" size="1.778" layer="96" rot="MR180"/>
+<instance part="D1" gate="G$1" x="106.68" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.156" y="78.74" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="105.156" y="76.454" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="Q5" gate="G$1" x="104.14" y="63.5" smashed="yes">
 <attribute name="NAME" x="109.22" y="64.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.22" y="62.23" size="1.4224" layer="96"/>
 </instance>
-<instance part="X4" gate="-2" x="114.3" y="71.12" smashed="yes">
-<attribute name="NAME" x="116.84" y="70.358" size="1.524" layer="95"/>
+<instance part="X4" gate="-2" x="121.92" y="71.12" smashed="yes">
+<attribute name="NAME" x="124.46" y="70.358" size="1.524" layer="95"/>
 </instance>
-<instance part="R13" gate="G$1" x="88.9" y="76.2" smashed="yes" rot="MR270">
-<attribute name="NAME" x="87.63" y="77.0636" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="87.63" y="74.803" size="1.778" layer="96" rot="MR0"/>
+<instance part="R13" gate="G$1" x="86.36" y="76.2" smashed="yes" rot="MR270">
+<attribute name="NAME" x="85.09" y="77.0636" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="85.09" y="74.803" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R17" gate="G$1" x="83.82" y="60.96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="81.28" y="62.4586" size="1.778" layer="95"/>
@@ -12276,27 +12343,23 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <instance part="X4" gate="-3" x="114.3" y="50.8" smashed="yes">
 <attribute name="NAME" x="116.84" y="50.038" size="1.524" layer="95"/>
 </instance>
-<instance part="+3V11" gate="G$1" x="88.9" y="86.36" smashed="yes">
-<attribute name="VALUE" x="85.725" y="86.995" size="1.778" layer="96"/>
+<instance part="+3V11" gate="G$1" x="86.36" y="86.36" smashed="yes">
+<attribute name="VALUE" x="83.185" y="86.995" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY55" gate="+12V" x="149.86" y="91.44" smashed="yes" rot="R270">
-<attribute name="VALUE" x="148.59" y="93.345" size="1.778" layer="96"/>
+<instance part="SUPPLY55" gate="+12V" x="154.94" y="91.44" smashed="yes" rot="R270">
+<attribute name="VALUE" x="153.67" y="93.345" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="73.66" y="81.28" smashed="yes" rot="MR90">
+<instance part="C4" gate="G$1" x="73.66" y="81.28" smashed="yes" rot="MR90">
 <attribute name="NAME" x="73.533" y="83.3374" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="73.533" y="80.7974" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C3" gate="G$1" x="127" y="86.36" smashed="yes" rot="MR0">
-<attribute name="NAME" x="124.587" y="85.5726" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="124.587" y="83.6676" size="1.778" layer="96" rot="MR0"/>
+<instance part="C3" gate="G$1" x="134.62" y="86.36" smashed="yes" rot="MR0">
+<attribute name="NAME" x="132.207" y="85.5726" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="132.207" y="83.6676" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C4" gate="G$1" x="132.08" y="86.36" smashed="yes">
-<attribute name="NAME" x="134.874" y="85.471" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.874" y="83.566" size="1.778" layer="96"/>
-</instance>
-<instance part="L1" gate="G$1" x="139.7" y="91.44" smashed="yes">
-<attribute name="NAME" x="138.43" y="92.8116" size="1.778" layer="95"/>
-<attribute name="VALUE" x="133.35" y="88.519" size="1.27" layer="96"/>
+<instance part="L1" gate="G$1" x="144.78" y="91.44" smashed="yes">
+<attribute name="NAME" x="143.51" y="92.8116" size="1.778" layer="95"/>
+<attribute name="VALUE" x="138.43" y="88.519" size="1.27" layer="96"/>
 </instance>
 <instance part="SUPPLY58" gate="GND" x="22.86" y="60.96" smashed="yes">
 <attribute name="VALUE" x="20.32" y="59.69" size="1.778" layer="96" rot="MR0"/>
@@ -12307,11 +12370,11 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <instance part="SUPPLY69" gate="GND" x="106.68" y="55.88" smashed="yes">
 <attribute name="VALUE" x="109.22" y="54.61" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY71" gate="GND" x="132.08" y="76.2" smashed="yes">
-<attribute name="VALUE" x="134.62" y="74.93" size="1.778" layer="96"/>
+<instance part="SUPPLY71" gate="GND" x="134.62" y="76.2" smashed="yes">
+<attribute name="VALUE" x="137.16" y="74.93" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY72" gate="GND" x="78.74" y="71.12" smashed="yes">
-<attribute name="VALUE" x="81.28" y="69.85" size="1.778" layer="96"/>
+<attribute name="VALUE" x="76.835" y="71.755" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY50" gate="GND" x="76.2" y="43.18" smashed="yes">
 <attribute name="VALUE" x="78.74" y="41.91" size="1.778" layer="96"/>
@@ -12323,24 +12386,24 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <instance part="X5" gate="-2" x="114.3" y="35.56" smashed="yes">
 <attribute name="NAME" x="116.84" y="34.798" size="1.524" layer="95"/>
 </instance>
-<instance part="R15" gate="G$1" x="182.88" y="68.58" smashed="yes" rot="MR270">
-<attribute name="NAME" x="184.15" y="68.8086" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.15" y="66.548" size="1.778" layer="96"/>
+<instance part="R15" gate="G$1" x="187.96" y="68.58" smashed="yes" rot="MR270">
+<attribute name="NAME" x="189.23" y="68.8086" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.23" y="66.548" size="1.778" layer="96"/>
 </instance>
-<instance part="Q6" gate="A" x="180.34" y="55.88" smashed="yes">
-<attribute name="NAME" x="186.055" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.055" y="53.975" size="1.778" layer="96"/>
+<instance part="Q6" gate="A" x="185.42" y="55.88" smashed="yes">
+<attribute name="NAME" x="191.135" y="56.515" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.135" y="53.975" size="1.778" layer="96"/>
 </instance>
-<instance part="R16" gate="G$1" x="172.72" y="63.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="171.45" y="63.7286" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="171.45" y="61.468" size="1.778" layer="96" rot="MR0"/>
+<instance part="R16" gate="G$1" x="177.8" y="63.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="176.53" y="63.7286" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="176.53" y="61.468" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="182.88" y="45.72" smashed="yes">
-<attribute name="VALUE" x="185.42" y="44.45" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="GND" x="187.96" y="45.72" smashed="yes">
+<attribute name="VALUE" x="190.5" y="44.45" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="182.88" y="78.74" smashed="yes">
-<attribute name="NAME" x="184.658" y="79.629" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.658" y="77.47" size="1.27" layer="96"/>
+<instance part="LED1" gate="G$1" x="187.96" y="78.74" smashed="yes">
+<attribute name="NAME" x="189.738" y="79.629" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.738" y="77.47" size="1.27" layer="96"/>
 </instance>
 <instance part="Q3" gate="A" x="205.74" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="200.025" y="150.495" size="1.778" layer="95" rot="MR0"/>
@@ -12376,8 +12439,27 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="205.74" y="120.4214" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="205.74" y="118.237" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="P+3" gate="1" x="182.88" y="91.44" smashed="yes">
-<attribute name="VALUE" x="180.975" y="92.075" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="187.96" y="91.44" smashed="yes">
+<attribute name="VALUE" x="186.055" y="92.075" size="1.778" layer="96"/>
+</instance>
+<instance part="R19" gate="G$1" x="22.86" y="43.18" smashed="yes" rot="MR270">
+<attribute name="NAME" x="21.59" y="44.0436" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="21.59" y="41.783" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="22.86" y="33.02" smashed="yes" rot="R180">
+<attribute name="VALUE" x="26.035" y="32.385" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C5" gate="G$1" x="114.3" y="78.74" smashed="yes">
+<attribute name="NAME" x="115.443" y="79.2226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.443" y="74.1426" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="182.88" y="157.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="180.34" y="160.4264" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="180.34" y="156.337" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="R8" gate="G$1" x="182.88" y="134.62" smashed="yes" rot="MR180">
+<attribute name="NAME" x="180.34" y="137.5664" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="180.34" y="133.477" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -12508,12 +12590,12 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <junction x="172.72" y="152.4"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="88.9" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="88.9" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="86.36" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="86.36" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
-<junction x="182.88" y="86.36"/>
+<wire x1="187.96" y1="86.36" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="86.36" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
+<junction x="187.96" y="86.36"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
@@ -12591,34 +12673,20 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$174" class="0">
-<segment>
 <pinref part="OK2" gate="-1" pin="C"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="134.62" x2="175.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$175" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="G$1" pin="C"/>
-<wire x1="177.8" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="157.48" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12716,7 +12784,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <segment>
 <pinref part="SUPPLY55" gate="+12V" pin="+12V"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12729,14 +12797,19 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <junction x="66.04" y="76.2"/>
 <pinref part="IC1" gate="A" pin="VDD"/>
 <wire x1="63.5" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <junction x="66.04" y="81.28"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<wire x1="88.9" y1="83.82" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="83.82" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="22.86" y1="38.1" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -12767,7 +12840,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="73.66" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="81.28" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
 <junction x="78.74" y="76.2"/>
@@ -12775,12 +12848,8 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="127" y1="81.28" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="127" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="78.74" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="81.28" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY71" gate="GND" pin="GND"/>
-<junction x="132.08" y="78.74"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
@@ -12789,7 +12858,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </segment>
 <segment>
 <pinref part="Q6" gate="A" pin="S"/>
-<wire x1="182.88" y1="50.8" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="50.8" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -12835,21 +12904,25 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="106.68" y1="68.58" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="71.12" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 <junction x="106.68" y="71.12"/>
-<wire x1="111.76" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-2" pin="S"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="114.3" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="73.66" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<junction x="114.3" y="71.12"/>
 </segment>
 </net>
 <net name="N$58" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="PWM-OUT"/>
-<wire x1="63.5" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="99.06" y1="66.04" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="66.04" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<junction x="88.9" y="66.04"/>
+<wire x1="86.36" y1="66.04" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<junction x="86.36" y="66.04"/>
 </segment>
 </net>
 <net name="FAN_SENSE" class="0">
@@ -12859,7 +12932,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="111.76" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="50.8" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="60.96" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
 </segment>
@@ -12899,38 +12972,37 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="91.44" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<junction x="132.08" y="91.44"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="83.82" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="83.82" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="106.68" y1="78.74" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-1" pin="S"/>
-<wire x1="111.76" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 <junction x="106.68" y="81.28"/>
+<wire x1="114.3" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="81.28" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <junction x="106.68" y="83.82"/>
-<wire x1="127" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<junction x="127" y="91.44"/>
-<wire x1="127" y1="91.44" x2="127" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="127" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
+<junction x="134.62" y="91.44"/>
+<wire x1="134.62" y1="91.44" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="91.44" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="+"/>
+<junction x="114.3" y="81.28"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="60.96" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="60.96" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="A" pin="D"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="76.2" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="76.2" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -12945,13 +13017,13 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <label x="220.98" y="158.115" size="1.27" layer="102" rot="MR0"/>
 </segment>
 <segment>
-<label x="160.02" y="53.975" size="1.27" layer="102"/>
+<label x="165.1" y="53.975" size="1.27" layer="102"/>
 <pinref part="Q6" gate="A" pin="G"/>
-<wire x1="160.02" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="58.42" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
-<junction x="172.72" y="53.34"/>
+<wire x1="177.8" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="58.42" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
+<junction x="177.8" y="53.34"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -12970,6 +13042,28 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <pinref part="SAR1" gate="G$1" pin="P$1"/>
 <wire x1="43.18" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="43.18" y="154.94"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="!THERM"/>
+<wire x1="27.94" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -13083,7 +13177,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="84.201" y="56.134" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="84.201" y="54.229" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R24" gate="G$1" x="124.46" y="137.16" smashed="yes">
+<instance part="R25" gate="G$1" x="124.46" y="137.16" smashed="yes">
 <attribute name="NAME" x="122.555" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="122.555" y="133.858" size="1.778" layer="96"/>
 </instance>
@@ -13099,7 +13193,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="85.471" y="101.346" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="85.471" y="97.536" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R32" gate="G$1" x="43.18" y="68.58" smashed="yes" rot="MR0">
+<instance part="R33" gate="G$1" x="43.18" y="68.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="45.085" y="70.0786" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="45.085" y="65.278" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -13107,11 +13201,11 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="183.261" y="101.981" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="183.261" y="99.441" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R27" gate="G$1" x="193.04" y="101.6" smashed="yes" rot="MR0">
+<instance part="R28" gate="G$1" x="193.04" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="195.58" y="103.0986" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="195.58" y="98.298" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R26" gate="G$1" x="111.76" y="132.08" smashed="yes" rot="MR0">
+<instance part="R27" gate="G$1" x="111.76" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="113.665" y="133.5786" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="113.665" y="128.778" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -13125,11 +13219,11 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="59.563" y="155.4226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.563" y="150.3426" size="1.27" layer="96"/>
 </instance>
-<instance part="R34" gate="G$1" x="50.8" y="58.42" smashed="yes" rot="MR90">
+<instance part="R35" gate="G$1" x="50.8" y="58.42" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.53" y="60.0964" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="49.53" y="57.912" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R36" gate="G$1" x="76.2" y="53.34" smashed="yes" rot="R270">
+<instance part="R37" gate="G$1" x="76.2" y="53.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.93" y="53.5686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="74.93" y="51.308" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -13149,14 +13243,14 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="80.899" y="63.881" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.899" y="63.119" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R29" gate="G$1" x="43.18" y="81.28" smashed="yes" rot="MR0">
+<instance part="R30" gate="G$1" x="43.18" y="81.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="45.085" y="82.7786" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="45.085" y="77.978" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="172.72" y="111.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="170.815" y="112.395" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R19" gate="G$1" x="101.6" y="154.94" smashed="yes" rot="R270">
+<instance part="R20" gate="G$1" x="101.6" y="154.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="102.87" y="156.6164" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="102.87" y="154.432" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -13168,15 +13262,15 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="106.045" y="70.485" size="1.778" layer="95"/>
 <attribute name="VALUE" x="104.14" y="68.58" size="1.778" layer="96"/>
 </instance>
-<instance part="R35" gate="G$1" x="68.58" y="58.42" smashed="yes" rot="MR270">
+<instance part="R36" gate="G$1" x="68.58" y="58.42" smashed="yes" rot="MR270">
 <attribute name="NAME" x="67.31" y="58.6486" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="67.31" y="56.388" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R23" gate="G$1" x="68.58" y="137.16" smashed="yes" rot="MR270">
+<instance part="R24" gate="G$1" x="68.58" y="137.16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="69.85" y="138.8364" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="69.85" y="136.652" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R21" gate="G$1" x="68.58" y="147.32" smashed="yes" rot="MR270">
+<instance part="R22" gate="G$1" x="68.58" y="147.32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="69.85" y="148.9964" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="69.85" y="146.812" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -13219,7 +13313,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="185.801" y="142.621" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="185.801" y="140.081" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R22" gate="G$1" x="195.58" y="142.24" smashed="yes" rot="MR0">
+<instance part="R23" gate="G$1" x="195.58" y="142.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="198.12" y="143.7386" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="198.12" y="138.938" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -13241,15 +13335,15 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="174.879" y="61.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="174.879" y="58.801" size="1.778" layer="96"/>
 </instance>
-<instance part="R33" gate="G$1" x="187.96" y="60.96" smashed="yes" rot="MR180">
+<instance part="R34" gate="G$1" x="187.96" y="60.96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="186.055" y="62.4586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.055" y="59.817" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R37" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="MR90">
+<instance part="R38" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="217.17" y="52.4764" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="217.17" y="50.292" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R31" gate="G$1" x="165.1" y="71.12" smashed="yes" rot="MR270">
+<instance part="R32" gate="G$1" x="165.1" y="71.12" smashed="yes" rot="MR270">
 <attribute name="NAME" x="166.37" y="72.7964" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="166.37" y="70.612" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -13263,11 +13357,11 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <instance part="SUPPLY27" gate="GND" x="165.1" y="43.18" smashed="yes">
 <attribute name="VALUE" x="162.56" y="39.37" size="1.778" layer="96"/>
 </instance>
-<instance part="R30" gate="G$1" x="215.9" y="76.2" smashed="yes" rot="R90">
+<instance part="R31" gate="G$1" x="215.9" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="217.17" y="76.4286" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="74.168" size="1.778" layer="96"/>
 </instance>
-<instance part="R28" gate="G$1" x="165.1" y="83.82" smashed="yes" rot="MR270">
+<instance part="R29" gate="G$1" x="165.1" y="83.82" smashed="yes" rot="MR270">
 <attribute name="NAME" x="166.37" y="85.4964" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="166.37" y="83.312" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -13282,14 +13376,14 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <attribute name="NAME" x="89.535" y="140.335" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="91.44" y="142.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R25" gate="G$1" x="208.28" y="137.16" smashed="yes" rot="R270">
+<instance part="R26" gate="G$1" x="208.28" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="207.01" y="138.8364" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="207.01" y="136.652" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="208.28" y="127" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="206.375" y="126.365" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R20" gate="G$1" x="111.76" y="154.94" smashed="yes" rot="R270">
+<instance part="R21" gate="G$1" x="111.76" y="154.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.03" y="156.6164" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="113.03" y="154.432" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -13376,14 +13470,14 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <segment>
 <junction x="58.42" y="162.56"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="162.56" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
 <junction x="101.6" y="162.56"/>
 <wire x1="101.6" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="162.56" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
 <junction x="93.98" y="162.56"/>
 <wire x1="93.98" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="152.4" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
 <junction x="68.58" y="162.56"/>
 <wire x1="68.58" y1="162.56" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
@@ -13399,7 +13493,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="147.32" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
 <junction x="147.32" y="162.56"/>
 <label x="147.955" y="137.795" size="1.27" layer="102"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="160.02" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
 <junction x="111.76" y="162.56"/>
@@ -13415,7 +13509,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <junction x="205.74" y="106.68"/>
 <wire x1="205.74" y1="99.06" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="104.14" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="101.6" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
 <junction x="198.12" y="106.68"/>
 <pinref part="C18" gate="G$1" pin="+"/>
@@ -13450,11 +13544,11 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="152.4" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="149.86" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
 <junction x="93.98" y="149.86"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="149.86" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
 <junction x="101.6" y="149.86"/>
 </segment>
@@ -13478,7 +13572,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$140" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$141" class="0">
@@ -13486,13 +13580,13 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="68.58" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="63.5" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <junction x="50.8" y="68.58"/>
 <wire x1="50.8" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="ZCD"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="81.28" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="76.2" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
@@ -13503,7 +13597,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$146" class="0">
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="AUX_OUT" class="0">
@@ -13520,7 +13614,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <junction x="106.68" y="132.08"/>
 <pinref part="C14" gate="G$1" pin="+"/>
 <wire x1="101.6" y1="121.92" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <junction x="101.6" y="132.08"/>
 <label x="96.52" y="132.715" size="1.27" layer="102"/>
@@ -13582,7 +13676,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </segment>
 <segment>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="R38" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="A"/>
@@ -13591,7 +13685,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="129.54" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13624,7 +13718,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="93.98" y1="68.58" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 <junction x="93.98" y="66.04"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="53.34" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="55.88" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
@@ -13637,13 +13731,13 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="121.92" y1="48.26" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 <junction x="76.2" y="48.26"/>
 <wire x1="76.2" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <junction x="55.88" y="48.26"/>
 <wire x1="68.58" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R36" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <junction x="68.58" y="48.26"/>
 <pinref part="D7" gate="G$1" pin="A"/>
@@ -13686,7 +13780,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$152" class="0">
 <segment>
 <pinref part="C21" gate="G$1" pin="1"/>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="63.5" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13694,7 +13788,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <segment>
 <wire x1="35.56" y1="76.2" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="A"/>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="81.28" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
@@ -13724,7 +13818,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="35.56" y1="71.12" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="68.58" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <junction x="35.56" y="68.58"/>
 </segment>
@@ -13732,9 +13826,9 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$20" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="BR"/>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="86.36" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <junction x="68.58" y="86.36"/>
@@ -13742,8 +13836,8 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -13759,11 +13853,11 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="127" y1="132.08" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="137.16" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
 <junction x="119.38" y="132.08"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -13785,7 +13879,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="215.9" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="104.14" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <junction x="226.06" y="106.68"/>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="81.28" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13816,7 +13910,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="215.9" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
 <junction x="215.9" y="147.32"/>
 <wire x1="215.9" y1="139.7" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="142.24" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
 <junction x="200.66" y="147.32"/>
 <pinref part="C12" gate="G$1" pin="+"/>
@@ -13825,7 +13919,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="187.96" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="96.52" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
 <junction x="200.66" y="142.24"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="142.24" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 <junction x="208.28" y="147.32"/>
 </segment>
@@ -13833,7 +13927,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FB1" class="0">
@@ -13844,7 +13938,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="165.1" y1="60.96" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
 <junction x="165.1" y="66.04"/>
 <junction x="165.1" y="66.04"/>
-<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <junction x="165.1" y="60.96"/>
 <pinref part="OK3" gate="G$1" pin="C"/>
@@ -13856,15 +13950,15 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="60.96" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="60.96" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
 <junction x="215.9" y="60.96"/>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="55.88" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="REF"/>
 <wire x1="167.64" y1="55.88" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="68.58" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
 <junction x="195.58" y="60.96"/>
 <wire x1="195.58" y1="60.96" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
@@ -13873,7 +13967,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$149" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
@@ -13886,10 +13980,10 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <segment>
 <pinref part="OK3" gate="G$1" pin="A"/>
 <wire x1="142.24" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="76.2" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="76.2" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
 <junction x="165.1" y="76.2"/>
 </segment>
@@ -13897,7 +13991,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="COM"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="91.44" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 </segment>
