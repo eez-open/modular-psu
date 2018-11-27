@@ -1508,36 +1508,36 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <package name="JP3-CUT">
 <text x="-2.032" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <smd name="COM" x="0" y="0" dx="1.27" dy="1.524" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.0635" layer="29">
-<vertex x="-0.254" y="0.889"/>
-<vertex x="-0.889" y="0.889" curve="90"/>
-<vertex x="-1.778" y="0" curve="90"/>
-<vertex x="-0.889" y="-0.889"/>
-<vertex x="-0.254" y="-0.889"/>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.1905" y="0.889"/>
+<vertex x="-1.016" y="0.889" curve="90"/>
+<vertex x="-1.905" y="0" curve="90"/>
+<vertex x="-1.016" y="-0.889"/>
+<vertex x="-0.1905" y="-0.889"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.889" y="0.762"/>
-<vertex x="-0.889" y="0.127"/>
-<vertex x="-0.508" y="0.127"/>
-<vertex x="-0.508" y="-0.127"/>
-<vertex x="-0.889" y="-0.127"/>
-<vertex x="-0.889" y="-0.762" curve="-90"/>
-<vertex x="-1.651" y="0" curve="-90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.016" y="0.762"/>
+<vertex x="-1.016" y="0.254"/>
+<vertex x="-0.508" y="0.254"/>
+<vertex x="-0.508" y="-0.254"/>
+<vertex x="-1.016" y="-0.254"/>
+<vertex x="-1.016" y="-0.762" curve="-90"/>
+<vertex x="-1.778" y="0" curve="-90"/>
 </polygon>
-<polygon width="0.0635" layer="29">
-<vertex x="0.254" y="-0.889"/>
-<vertex x="0.889" y="-0.889" curve="90"/>
-<vertex x="1.778" y="0" curve="90"/>
-<vertex x="0.889" y="0.889"/>
-<vertex x="0.254" y="0.889"/>
+<polygon width="0.0254" layer="29">
+<vertex x="0.1905" y="-0.889"/>
+<vertex x="1.016" y="-0.889" curve="90"/>
+<vertex x="1.905" y="0" curve="90"/>
+<vertex x="1.016" y="0.889"/>
+<vertex x="0.1905" y="0.889"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="0.889" y="-0.762"/>
-<vertex x="0.889" y="0.762" curve="-90"/>
-<vertex x="1.651" y="0" curve="-90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="1.016" y="-0.762"/>
+<vertex x="1.016" y="0.762" curve="-90"/>
+<vertex x="1.778" y="0" curve="-90"/>
 </polygon>
-<smd name="NC" x="-1.143" y="0" dx="0.889" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="NO" x="1.3335" y="0" dx="0.508" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="NC" x="-1.27" y="0" dx="0.889" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="NO" x="1.4605" y="0" dx="0.508" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="JP2-NOCUT">
 <text x="-2.032" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
@@ -3264,11 +3264,11 @@ Source: RS Component / BUORNS</description>
 </package>
 <package name="LD-BZEL-M1313">
 <smd name="NC2" x="6.15" y="4.35" dx="1.8" dy="2.6" layer="1"/>
-<wire x1="-4.4" y1="-3.8" x2="-4.4" y2="-4.8" width="0.127" layer="21"/>
-<wire x1="-4.9" y1="-4.3" x2="-3.9" y2="-4.3" width="0.127" layer="21"/>
-<circle x="-4.4" y="-4.3" radius="0.5" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="-3.8" x2="-4.1" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-4.6" y1="-4.3" x2="-3.6" y2="-4.3" width="0.127" layer="21"/>
+<circle x="-4.1" y="-4.3" radius="0.8" width="0.127" layer="21"/>
 <text x="-6.0325" y="6.985" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.8575" y="-0.635" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.7575" y="-0.435" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="51"/>
 <wire x1="-6.5" y1="-6.5" x2="6.5" y2="-6.5" width="0.127" layer="51"/>
 <wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.127" layer="51"/>
@@ -3276,17 +3276,21 @@ Source: RS Component / BUORNS</description>
 <smd name="-" x="6.15" y="-4.35" dx="1.8" dy="2.6" layer="1"/>
 <smd name="+" x="-6.15" y="-4.35" dx="1.8" dy="2.6" layer="1"/>
 <smd name="NC1" x="-6.15" y="4.35" dx="1.8" dy="2.6" layer="1"/>
-<wire x1="-6.5" y1="5.9" x2="-5.9" y2="6.5" width="0.254" layer="21"/>
-<wire x1="-5.9" y1="6.5" x2="5.9" y2="6.5" width="0.254" layer="21"/>
-<wire x1="5.9" y1="6.5" x2="6.5" y2="5.9" width="0.254" layer="21"/>
-<wire x1="-6.5" y1="2.8" x2="-6.5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="6.5" y1="2.8" x2="6.5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="6.5" y1="-5.9" x2="5.9" y2="-6.5" width="0.254" layer="21"/>
-<wire x1="5.9" y1="-6.5" x2="-5.9" y2="-6.5" width="0.254" layer="21"/>
-<wire x1="-5.9" y1="-6.5" x2="-6.5" y2="-5.9" width="0.254" layer="21"/>
-<circle x="0" y="-0.1" radius="2.2" width="0.254" layer="21"/>
-<wire x1="0" y1="2" x2="0" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="2.2" y1="0" x2="-2.2" y2="0" width="0.254" layer="21"/>
+<wire x1="-5.6" y1="6.5" x2="5.6" y2="6.5" width="0.254" layer="21"/>
+<wire x1="5.6" y1="6.5" x2="6.2" y2="5.9" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="2.5" x2="-6.5" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="6.5" y1="2.5" x2="6.5" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="6.2" y1="-6.5" x2="-6.2" y2="-6.5" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="2.5" width="0.254" layer="21"/>
+<wire x1="0" y1="2.5" x2="0" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="2.5" y1="0" x2="-2.5" y2="0" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-6" x2="-6.2" y2="-6.5" width="0.254" layer="21"/>
+<wire x1="6.2" y1="-6" x2="6.2" y2="-6.5" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="5.9" x2="-5.6" y2="6.5" width="0.254" layer="21"/>
+<wire x1="6.2" y1="2.8" x2="6.5" y2="2.5" width="0.254" layer="21"/>
+<wire x1="6.2" y1="-2.8" x2="6.5" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="2.5" x2="-6.2" y2="2.8" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-2.8" x2="-6.5" y2="-2.5" width="0.254" layer="21"/>
 </package>
 <package name="DBV5">
 <smd name="1" x="-1.1938" y="0.95" dx="1.4732" dy="0.5588" layer="1"/>
@@ -5154,7 +5158,6 @@ Farnell: 2112873</description>
 </devices>
 </deviceset>
 <deviceset name="JP3-CUT" prefix="JP">
-<description>2-way SMT jumper with one position connected</description>
 <gates>
 <gate name="G$1" symbol="JP3-CUT" x="-2.54" y="0"/>
 </gates>
@@ -14595,7 +14598,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C50" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="C51" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
-<part name="C49" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C49" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
