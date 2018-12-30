@@ -21,6 +21,11 @@ The core of the EEZ DIB DCP505 Power board still represents adopted Leonid Ivano
 - I2C EEPROM for storing board specific configuration and calibration parameters
 - Dimensions: 160 x 95 mm, 2-layer PCB
 
+### Spice simulations
+
+- [Current auto-ranging](https://github.com/eez-open/modular-psu/tree/master/dcp505/Spice/Auto-ranging) (LTspice)
+- [OVP simulations](https://github.com/eez-open/modular-psu/tree/master/dcp505/Spice/OVP) (LTspice)
+
 ### PCB preview (r1B2)
 
 ![Top side](Images/EEZ_DIB_DCP505_PCB_top.png)
