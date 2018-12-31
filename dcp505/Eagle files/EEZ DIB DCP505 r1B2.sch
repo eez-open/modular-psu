@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24576,24 +24576,24 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="164.465" y="25.4" size="2.54" layer="94" font="vector">Remote programming</text>
 <text x="46.99" y="115.57" size="1.4224" layer="104">Require SPI_MODE0</text>
 <text x="252.73" y="131.445" size="1.6764" layer="103" align="bottom-center">Output</text>
-<text x="252.73" y="128.905" size="1.6764" layer="103" align="bottom-center">Output</text>
+<text x="252.73" y="128.905" size="1.6764" layer="103" align="bottom-center">Input</text>
 <text x="213.36" y="144.145" size="1.6764" layer="103" align="bottom-center">6</text>
 <text x="213.36" y="136.525" size="1.6764" layer="103" align="bottom-center">9</text>
 <text x="218.44" y="128.905" size="1.6764" layer="103">Current range 5 A</text>
 <text x="218.44" y="126.365" size="1.6764" layer="103">Current range 500 mA</text>
 <text x="218.44" y="123.825" size="1.6764" layer="103">Current range 50 mA</text>
 <text x="213.36" y="133.985" size="1.6764" layer="103" align="bottom-center">10</text>
-<text x="252.73" y="126.365" size="1.6764" layer="103" align="bottom-center">Output</text>
+<text x="252.73" y="126.365" size="1.6764" layer="103" align="bottom-center">Input</text>
 <text x="188.595" y="107.315" size="1.27" layer="100">+2.5 V</text>
 <text x="213.36" y="121.285" size="1.6764" layer="103" align="bottom-center">15</text>
-<text x="218.44" y="121.285" size="1.6764" layer="103">Extra Cout</text>
-<text x="252.73" y="121.285" size="1.6764" layer="103" align="bottom-center">Output</text>
+<text x="218.44" y="121.285" size="1.6764" layer="103">-</text>
+<text x="252.73" y="121.285" size="1.6764" layer="103" align="bottom-center">-</text>
 <text x="218.44" y="141.605" size="1.6764" layer="103">OE coupled LED</text>
 <text x="213.36" y="131.445" size="1.6764" layer="103" align="bottom-center">11</text>
 <text x="213.36" y="128.905" size="1.6764" layer="103" align="bottom-center">12</text>
 <text x="213.36" y="126.365" size="1.6764" layer="103" align="bottom-center">13</text>
 <text x="213.36" y="123.825" size="1.6764" layer="103" align="bottom-center">14</text>
-<text x="252.73" y="123.825" size="1.6764" layer="103" align="bottom-center">Output</text>
+<text x="252.73" y="123.825" size="1.6764" layer="103" align="bottom-center">Input</text>
 <text x="252.73" y="136.525" size="1.6764" layer="103" align="bottom-center">Output</text>
 <text x="119.38" y="12.065" size="1.6764" layer="103">AIN0</text>
 <text x="119.38" y="9.525" size="1.6764" layer="103">AIN1</text>
@@ -25709,6 +25709,18 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <rectangle x1="141.605" y1="140.335" x2="147.955" y2="145.415" layer="97"/>
 <rectangle x1="141.605" y1="119.38" x2="148.59" y2="126.365" layer="97"/>
 <wire x1="119.38" y1="83.82" x2="119.38" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="243.84" y1="121.92" x2="240.665" y2="121.92" width="0.1524" layer="100"/>
+<polygon width="0.1524" layer="100">
+<vertex x="240.665" y="121.92"/>
+<vertex x="241.935" y="122.2375"/>
+<vertex x="241.935" y="121.6025"/>
+</polygon>
+<text x="244.475" y="120.3325" size="1.27" layer="100">PCB inductor
+~1.1 uH !</text>
+<wire x1="237.49" y1="127" x2="240.03" y2="127" width="0.1524" layer="100"/>
+<wire x1="240.03" y1="127" x2="240.03" y2="115.57" width="0.1524" layer="100"/>
+<wire x1="240.03" y1="115.57" x2="237.49" y2="115.57" width="0.1524" layer="100"/>
+<wire x1="237.49" y1="115.57" x2="237.49" y2="127" width="0.1524" layer="100"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -26400,8 +26412,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="238.76" y1="114.3" x2="243.84" y2="114.3" width="0.4064" layer="91"/>
 <label x="243.84" y="114.3" size="1.27" layer="102" xref="yes"/>
 <pinref part="R110" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="127" x2="238.76" y2="124.46" width="0.4064" layer="91"/>
-<wire x1="238.76" y1="114.3" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="127" x2="238.76" y2="114.3" width="0.4064" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -27278,4 +27289,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
