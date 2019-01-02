@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="10" display="no" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="no" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Gnd" color="2" fill="1" visible="no" active="yes"/>
@@ -26,11 +26,11 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="13" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="13" fill="1" visible="no" active="yes"/>
@@ -2158,7 +2158,7 @@
 <text x="45.8246" y="6.0527" size="1.016" layer="2" ratio="10" align="bottom-center">2</text>
 <text x="45.8246" y="4.8462" size="1.016" layer="15" ratio="10" align="bottom-center">3</text>
 <text x="45.8246" y="3.6397" size="1.016" layer="16" ratio="10" align="bottom-center">4</text>
-<text x="71.0002" y="67.2877" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB MCU (12/2018 r1B2)</text>
+<text x="71.0002" y="67.2877" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB MCU (01/2019 r1B2)</text>
 <wire x1="-3" y1="0" x2="133" y2="0" width="0.1" layer="20"/>
 <wire x1="134.5" y1="1.5" x2="134.5" y2="68.5" width="0.1" layer="20"/>
 <wire x1="-4.5" y1="1.5" x2="-4.5" y2="68.5" width="0.1" layer="20"/>
@@ -2170,9 +2170,9 @@
 <wire x1="87" y1="-16.5" x2="87" y2="0" width="0.1" layer="51"/>
 <dimension x1="110.5" y1="0" x2="94.5" y2="-14" x3="102.5" y3="-12.5" textsize="2.1844" layer="47" dtype="horizontal"/>
 <dimension x1="118" y1="0" x2="119" y2="-7" x3="116.641" y3="-3.5" textsize="2.1844" layer="47" dtype="vertical"/>
-<wire x1="133" y1="-5.3" x2="121" y2="-5.3" width="0.1" layer="51"/>
-<wire x1="121" y1="0.3" x2="121" y2="-5.3" width="0.1" layer="51"/>
-<wire x1="133" y1="0.3" x2="133" y2="-5.3" width="0.1" layer="51"/>
+<wire x1="133" y1="-4.8" x2="121" y2="-4.8" width="0.1" layer="51"/>
+<wire x1="121" y1="-0.9" x2="121" y2="-4.8" width="0.1" layer="51"/>
+<wire x1="133" y1="-0.9" x2="133" y2="-4.8" width="0.1" layer="51"/>
 <dimension x1="1" y1="0" x2="7.5" y2="24" x3="-3.359" y3="12" textsize="2.1844" layer="47" dtype="vertical"/>
 <dimension x1="-5" y1="24" x2="8.5" y2="66.5" x3="-3.359" y3="45.25" textsize="2.1844" layer="47" dtype="vertical"/>
 <dimension x1="114" y1="3.5" x2="112.5" y2="66.5" x3="138.641" y3="35" textsize="2.1844" layer="47" dtype="vertical"/>
@@ -2198,12 +2198,13 @@
 <wire x1="-4.5" y1="68.5" x2="-3" y2="70" width="0.1" layer="20" curve="-90"/>
 <wire x1="-3" y1="0" x2="-4.5" y2="1.5" width="0.1" layer="20" curve="-90"/>
 <dimension x1="122.5" y1="66" x2="134.5" y2="67.7" x3="128.5" y3="75.2" textsize="2.1844" layer="47" dtype="horizontal"/>
-<wire x1="133" y1="0.3" x2="121" y2="0.3" width="0.1" layer="51"/>
+<wire x1="133" y1="-0.9" x2="121" y2="-0.9" width="0.1" layer="51"/>
 <dimension x1="133" y1="-5.5" x2="121" y2="-11.5" x3="127" y3="-10" textsize="2.1844" layer="47" dtype="horizontal"/>
-<dimension x1="133.2" y1="0.3" x2="133.5" y2="-5.3" x3="135.341" y3="-2.5" textsize="2.1844" layer="47" dtype="vertical"/>
-<text x="42.2347" y="67.2877" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">EEZ DIB MCU (12/2018 r1B2)</text>
+<dimension x1="127.3" y1="4.2" x2="133.4" y2="-4.8" x3="137.541" y3="-0.3" textsize="2.1844" layer="47" dtype="vertical"/>
+<text x="42.2347" y="67.2877" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">EEZ DIB MCU (01/2019 r1B2)</text>
 <text x="93.6244" y="53.7591" size="1.016" layer="21" ratio="10" rot="SR0">Project source code:
 github.com/eez-open/modular-psu</text>
+<dimension x1="133.3" y1="-0.9" x2="140.5" y2="-4.7" x3="145.941" y3="-2.8" textsize="2.1844" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="EEZ_Lib1">
@@ -4404,7 +4405,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <clearance class="2" value="0.2032"/>
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -4467,8 +4468,8 @@ design rules under a new name.</description>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0.6mm"/>
 <param name="srRoundness" value="0"/>
-<param name="srMinRoundness" value="0mil"/>
-<param name="srMaxRoundness" value="0mil"/>
+<param name="srMinRoundness" value="2mil"/>
+<param name="srMaxRoundness" value="2mil"/>
 <param name="slThermalIsolate" value="8mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
@@ -5035,9 +5036,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.9834" y="16.4211" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="46.4693" y="18.3642" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="LCD1" library="EEZ_Lib1" package="FPC_40" value="PCA-6-LA-40-HL-3" x="57.1754" y="13.716" smashed="yes">
+<element name="LCD1" library="EEZ_Lib1" package="FPC_40" value="505110-4091" x="57.1754" y="13.716" smashed="yes">
 <attribute name="NAME" x="54.9783" y="16.5354" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="50.1269" y="12.954" size="1.016" layer="27" ratio="10"/>
+<attribute name="VALUE" x="51.6509" y="12.9921" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="C53" library="rcl" package="C0603" value="100n" x="76.1365" y="22.7203" smashed="yes" rot="R180">
 <attribute name="NAME" x="77.9145" y="22.2123" size="1.016" layer="25" ratio="10"/>
@@ -5249,9 +5250,9 @@ design rules under a new name.</description>
 <element name="TP1" library="EEZ_Lib1" package="PCB_SHIELD_TAB" value="" x="99.7204" y="44.0944" smashed="yes">
 <attribute name="NAME" x="98.8441" y="45.5295" size="1.016" layer="25" ratio="10"/>
 </element>
-<element name="SW1" library="EEZ_switches" package="TL1100C" value="TL1100CF160Q" x="127" y="4" smashed="yes" rot="R90">
-<attribute name="NAME" x="120.142" y="7.9751" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="121.5385" y="1.4605" size="1.016" layer="27" ratio="10"/>
+<element name="SW1" library="EEZ_switches" package="TL1100C" value="TL1100CF160Q" x="127" y="4.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.142" y="8.1751" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="121.5385" y="1.6605" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="X4" library="EEZ_connectors" package="22-23-2061" value="22-23-2061" x="94.2467" y="62.0522" smashed="yes">
 <attribute name="OC_NEWARK" value="27C1933" x="94.2467" y="62.0522" size="1.778" layer="27" display="off"/>
@@ -6946,7 +6947,7 @@ design rules under a new name.</description>
 <contactref element="SW1" pad="1"/>
 <wire x1="118.5774" y1="9.5123" x2="123.2154" y2="9.5123" width="0.1524" layer="1"/>
 <wire x1="123.2154" y1="9.5123" x2="124.5" y2="8.2277" width="0.1524" layer="1"/>
-<wire x1="124.5" y1="4" x2="124.5" y2="8.2277" width="0.1524" layer="1"/>
+<wire x1="124.5" y1="4.2" x2="124.5" y2="8.2277" width="0.1524" layer="1"/>
 <wire x1="118.5774" y1="9.5123" x2="118.5774" y2="9.8323" width="0.1524" layer="1"/>
 <wire x1="92.6973" y1="30.988" x2="92.6973" y2="40.513" width="0.1524" layer="1"/>
 <wire x1="92.6973" y1="40.513" x2="94.996" y2="42.8117" width="0.1524" layer="1"/>

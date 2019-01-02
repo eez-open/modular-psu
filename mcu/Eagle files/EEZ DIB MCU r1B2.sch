@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14540,7 +14540,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C44" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="LCD1" library="EEZ_Lib1" deviceset="RFE430Y-AIW-DNS" device="" value="PCA-6-LA-40-HL-3"/>
+<part name="LCD1" library="EEZ_Lib1" deviceset="RFE430Y-AIW-DNS" device="" value="505110-4091"/>
 <part name="C53" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C54" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="+3V317" library="supply1" deviceset="+3V3" device=""/>
@@ -18487,10 +18487,10 @@ consult ST AN4661 section 8.4.2</text>
 <text x="2.54" y="4.445" size="1.27" layer="94">More info at http://www.envox.hr/eez</text>
 <text x="97.79" y="175.26" size="1.778" layer="97">4.3" LCD 40-pin socket</text>
 <text x="5.08" y="175.26" size="1.778" layer="97">LCD backlight DC-DC step-up converter</text>
-<text x="100.33" y="85.09" size="1.27" layer="103">Consumption: +3.3 V, max. 33 mA; +32 V, 20 mA</text>
+<text x="100.33" y="84.455" size="1.27" layer="103">Consumption: +3.3 V, max. 33 mA; +32 V, 20 mA</text>
 <text x="58.42" y="153.035" size="1.27" layer="103">Vfb = 0.204 V</text>
-<text x="100.33" y="88.9" size="1.27" layer="103">LCD display: RFE43BH-AIW-DNS or RFE430Y-AIW-DNS</text>
-<text x="100.33" y="86.995" size="1.27" layer="103">4.3", 480x272, resistive touch screen</text>
+<text x="100.33" y="86.36" size="1.27" layer="103">LCD display: RVT4.3ATFWR00, RFE43BH-AIW-DNS or
+RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <rectangle x1="85.725" y1="160.02" x2="91.44" y2="168.91" layer="97"/>
 <wire x1="96.52" y1="78.74" x2="5.08" y2="78.74" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="157.48" y1="177.8" x2="157.48" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
@@ -19633,13 +19633,13 @@ consult ST AN4661 section 8.4.2</text>
 <attribute name="VALUE" x="28.321" y="48.006" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="+3V22" gate="G$1" x="50.8" y="63.5" smashed="yes">
-<attribute name="VALUE" x="47.625" y="64.135" size="1.778" layer="96"/>
+<attribute name="VALUE" x="43.815" y="62.865" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="40.64" y="63.5" smashed="yes">
-<attribute name="VALUE" x="37.465" y="64.135" size="1.778" layer="96"/>
+<attribute name="VALUE" x="33.655" y="62.865" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V3(A)1" gate="G$1" x="30.48" y="63.5" smashed="yes">
-<attribute name="VALUE" x="20.32" y="63.5" size="1.778" layer="96"/>
+<attribute name="VALUE" x="20.32" y="62.865" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V42" gate="G$1" x="12.7" y="63.5" smashed="yes">
 <attribute name="VALUE" x="9.525" y="64.135" size="1.778" layer="96"/>
@@ -19743,8 +19743,8 @@ consult ST AN4661 section 8.4.2</text>
 <attribute name="VALUE" x="20.955" y="119.888" size="1.778" layer="96"/>
 </instance>
 <instance part="R55" gate="G$1" x="38.1" y="68.58" smashed="yes" rot="MR180">
-<attribute name="NAME" x="33.02" y="69.088" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="43.18" y="69.088" size="1.778" layer="96"/>
+<attribute name="NAME" x="34.925" y="69.088" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="36.195" y="65.278" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY50" gate="GND" x="129.54" y="63.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="131.445" y="64.135" size="1.778" layer="96" rot="MR180"/>
@@ -19841,7 +19841,7 @@ consult ST AN4661 section 8.4.2</text>
 <attribute name="VALUE" x="57.15" y="156.845" size="1.778" layer="96"/>
 </instance>
 <instance part="JP10" gate="G$1" x="48.26" y="68.58" smashed="yes">
-<attribute name="NAME" x="48.26" y="69.215" size="1.778" layer="95"/>
+<attribute name="NAME" x="46.355" y="66.04" size="1.778" layer="95"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="25.4" y="68.58" smashed="yes" rot="R90">
 <attribute name="VALUE" x="24.765" y="69.85" size="1.778" layer="96" rot="R180"/>
