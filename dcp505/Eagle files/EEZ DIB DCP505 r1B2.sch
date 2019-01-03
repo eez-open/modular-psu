@@ -20630,6 +20630,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND6" library="supply1" deviceset="GNDIO" device=""/>
 <part name="IC7" library="EEZ_Lib1" deviceset="TMPX75" device="DGK" value="TMP1075AIDGK"/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
+<part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23383,6 +23384,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="154.94" y="74.295" size="1.27" layer="100">-250 mV</text>
 <text x="154.94" y="48.895" size="1.27" layer="100">-2.5 V</text>
 <text x="133.35" y="83.185" size="1.27" layer="103" rot="MR0">See Note 3.1</text>
+<text x="190.5" y="177.8" size="1.778" layer="97" rot="MR180">Not used</text>
+<wire x1="187.96" y1="149.86" x2="187.96" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="261.62" y1="149.86" x2="187.96" y2="149.86" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -23736,6 +23740,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="41.275" y="99.06" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="42.545" y="90.17" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="IC13" gate="D" x="236.22" y="165.1"/>
+<instance part="SUPPLY15" gate="GND" x="226.06" y="157.48" smashed="yes">
+<attribute name="VALUE" x="223.52" y="153.67" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23976,6 +23984,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="R69" gate="G$1" pin="1"/>
 <pinref part="SUPPLY69" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC13" gate="D" pin="E"/>
+<wire x1="228.6" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="162.56" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="D" pin="Y"/>
+<wire x1="228.6" y1="165.1" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="165.1" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
+<junction x="226.06" y="162.56"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -27225,34 +27243,39 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,4,71.12,88.9,IC14,VDD,V+,,,"/>
-<approved hash="104,4,73.66,35.56,IC16,AVDD,N$70,,,"/>
-<approved hash="104,4,73.66,33.02,IC16,DVDD,+5V,,,"/>
-<approved hash="202,4,210.82,101.6,IC13,TEMP,,,,"/>
-<approved hash="104,4,40.64,127,IC12,VDD,+5V,,,"/>
-<approved hash="104,4,40.64,119.38,IC12,VSS,GND,,,"/>
-<approved hash="104,5,99.06,134.62,IC17P,GND,V-,,,"/>
-<approved hash="104,1,48.26,53.34,IC6,VCC,+3V3,,,"/>
-<approved hash="104,4,142.24,66.04,IC15,VDD,V+,,,"/>
-<approved hash="104,4,170.18,109.22,IC11B,VSS,GND,,,"/>
-<approved hash="104,4,170.18,124.46,IC11B,VDD,+5V,,,"/>
-<approved hash="202,5,172.72,127,IC18A,BALANCE,,,,"/>
-<approved hash="104,5,175.26,127,IC18P,V-,GND,,,"/>
-<approved hash="104,1,40.64,132.08,IC1,IN,+6V,,,"/>
-<approved hash="202,1,71.12,116.84,IC1,SENSE,,,,"/>
-<approved hash="202,1,40.64,124.46,IC1,SD,,,,"/>
-<approved hash="202,1,71.12,121.92,IC1,VTAP,,,,"/>
+<approved hash="104,4,71.12,88.9,IC17,VDD,V+,,,"/>
+<approved hash="104,4,73.66,35.56,IC19,AVDD,N$70,,,"/>
+<approved hash="104,4,73.66,33.02,IC19,DVDD,+5V,,,"/>
+<approved hash="202,4,210.82,101.6,IC16,TEMP,,,,"/>
+<approved hash="104,4,40.64,127,IC15,VDD,+5V,,,"/>
+<approved hash="104,4,40.64,119.38,IC15,VSS,GND,,,"/>
+<approved hash="104,5,99.06,134.62,IC20P,GND,V-,,,"/>
+<approved hash="104,1,48.26,43.18,IC6,VCC,+3V3,,,"/>
+<approved hash="104,4,142.24,66.04,IC18,VDD,V+,,,"/>
+<approved hash="104,4,170.18,109.22,IC14B,VSS,GND,,,"/>
+<approved hash="104,4,170.18,124.46,IC14B,VDD,+5V,,,"/>
+<approved hash="202,5,172.72,127,IC21A,BALANCE,,,,"/>
+<approved hash="104,5,175.26,127,IC21P,V-,GND,,,"/>
+<approved hash="104,1,40.64,127,IC1,IN,+6V,,,"/>
+<approved hash="202,1,71.12,111.76,IC1,SENSE,,,,"/>
+<approved hash="202,1,40.64,119.38,IC1,SD,,,,"/>
+<approved hash="202,1,71.12,116.84,IC1,VTAP,,,,"/>
+<approved hash="104,3,38.1,149.86,IC13P,VSS,GND,,,"/>
+<approved hash="104,3,38.1,165.1,IC13P,VDD,V+,,,"/>
+<approved hash="104,3,48.26,147.32,IC12P,V+,V-,,,"/>
+<approved hash="104,3,48.26,162.56,IC12P,V-,V+,,,"/>
 <approved hash="106,1,193.04,172.72,+VAUX,,,,,"/>
-<approved hash="106,1,160.02,170.18,DIB_NFAULT,,,,,"/>
 <approved hash="206,4,38.1,25.4,MISO,,,,,"/>
 <approved hash="206,4,40.64,154.94,MISO,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,4,131.976,90.066,FRAME4,,,,,"/>
 <approved hash="113,6,131.976,90.066,FRAME6,,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
-<approved hash="113,2,49.8094,160.901,SH1,,,,,"/>
+<approved hash="113,2,49.8094,153.281,SH1,,,,,"/>
 <approved hash="113,5,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,2,49.8094,155.821,SH2,,,,,"/>
+<approved hash="113,2,49.8094,148.201,SH2,,,,,"/>
+<approved hash="113,3,131.976,90.066,FRAME3,,,,,"/>
+<approved hash="113,2,213.131,17.5514,FRAME5,,,,,"/>
 </errors>
 </schematic>
 </drawing>
