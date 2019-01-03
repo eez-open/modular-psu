@@ -2960,28 +2960,6 @@ grid 5.6 mm</description>
 <text x="-3.175" y="2.032" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-3.302" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SC-67@1">
-<description>Toschiba SC-67 Package</description>
-<wire x1="4.191" y1="-3.683" x2="4.445" y2="-3.429" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="-3.683" x2="-4.191" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-3.429" x2="-4.191" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="0" x2="4.445" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.905" x2="4.445" y2="-3.429" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-3.429" x2="-4.445" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.905" x2="-4.445" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.905" x2="4.445" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21"/>
-<pad name="G" x="-2.54" y="-1.905" drill="1.016" shape="long" rot="R90"/>
-<pad name="D" x="0" y="-1.905" drill="1.016" shape="long" rot="R90"/>
-<pad name="S" x="2.54" y="-1.905" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-5.4102" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-6.985" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.175" y1="-1.905" x2="3.175" y2="0" layer="51"/>
-<wire x1="-4.445" y1="-1.905" x2="-3.429" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-1.905" x2="4.445" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-1.905" x2="-0.889" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.905" x2="1.651" y2="-1.905" width="0.1524" layer="21"/>
-</package>
 <package name="L-934EB">
 <pad name="BC" x="-1.27" y="1.27" drill="1" shape="octagon"/>
 <pad name="BA" x="-1.27" y="-1.27" drill="1" shape="octagon"/>
@@ -3484,34 +3462,6 @@ grid 5.6 mm</description>
 <wire x1="-6" y1="1.5" x2="-6" y2="-1.5" width="0.1524" layer="51"/>
 </package>
 <package name="TO252">
-<wire x1="3.29" y1="2.485" x2="3.29" y2="-3.615" width="0.2032" layer="21"/>
-<wire x1="3.29" y1="-3.615" x2="-3.29" y2="-3.615" width="0.2032" layer="21"/>
-<wire x1="-3.29" y1="-3.615" x2="-3.29" y2="2.485" width="0.2032" layer="21"/>
-<wire x1="-3.087" y1="2.485" x2="3.087" y2="2.485" width="0.127" layer="51"/>
-<smd name="3" x="0" y="0.95" dx="5.5" dy="5.7" layer="1"/>
-<smd name="1" x="-2.285" y="-5.49" dx="1.3" dy="1.7" layer="1"/>
-<smd name="2" x="2.285" y="-5.49" dx="1.3" dy="1.7" layer="1"/>
-<text x="-3.81" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.665" y1="-6.225" x2="-1.905" y2="-4.525" layer="51"/>
-<rectangle x1="1.905" y1="-6.225" x2="2.665" y2="-4.525" layer="51"/>
-<rectangle x1="-0.38" y1="-4.445" x2="0.38" y2="-3.615" layer="21"/>
-<polygon width="0.127" layer="51">
-<vertex x="-2.68" y="2.485"/>
-<vertex x="-2.68" y="3.685"/>
-<vertex x="-1.98" y="3.685"/>
-<vertex x="-1.98" y="3.285"/>
-<vertex x="1.98" y="3.285"/>
-<vertex x="1.98" y="3.685"/>
-<vertex x="2.68" y="3.685"/>
-<vertex x="2.68" y="2.485"/>
-</polygon>
-<wire x1="-3.29" y1="2.485" x2="-3.087" y2="2.485" width="0.2032" layer="21"/>
-<wire x1="3.087" y1="2.485" x2="3.29" y2="2.485" width="0.2032" layer="21"/>
-<rectangle x1="-2.665" y1="-4.525" x2="-1.905" y2="-3.615" layer="21"/>
-<rectangle x1="1.905" y1="-4.525" x2="2.665" y2="-3.615" layer="21"/>
-</package>
-<package name="TO252@1">
 <wire x1="3.29" y1="2.485" x2="3.29" y2="-3.615" width="0.2032" layer="21"/>
 <wire x1="3.29" y1="-3.615" x2="-3.29" y2="-3.615" width="0.2032" layer="21"/>
 <wire x1="-3.29" y1="-3.615" x2="-3.29" y2="2.485" width="0.2032" layer="21"/>
@@ -4116,7 +4066,6 @@ grid 5.6 mm</description>
 <pad name="2" x="0" y="-19.304" drill="1.4986" shape="long" rot="R90"/>
 <pad name="3" x="5.588" y="-19.304" drill="1.4986" shape="long" rot="R90"/>
 <text x="-7.747" y="5.715" size="1.778" layer="26" ratio="10">&gt;NAME</text>
-<hole x="0" y="0" drill="3.2"/>
 <wire x1="-7.874" y1="-14.224" x2="7.874" y2="-14.224" width="0.1524" layer="52"/>
 <wire x1="7.874" y1="5.461" x2="7.874" y2="-14.224" width="0.1524" layer="52"/>
 <wire x1="7.874" y1="5.461" x2="-7.874" y2="5.461" width="0.1524" layer="52"/>
@@ -4130,6 +4079,8 @@ grid 5.6 mm</description>
 <wire x1="-6.35" y1="4.2672" x2="6.35" y2="4.2672" width="0.1524" layer="52"/>
 <wire x1="-6.35" y1="-10.7188" x2="-6.35" y2="4.2672" width="0.1524" layer="52"/>
 <wire x1="6.35" y1="-10.7188" x2="6.35" y2="4.2672" width="0.1524" layer="52"/>
+<wire x1="0" y1="3.5" x2="0" y2="-3.5" width="0.1524" layer="52" style="shortdash"/>
+<wire x1="-3.5" y1="0" x2="3.5" y2="0" width="0.1524" layer="52" style="shortdash"/>
 </package>
 <package name="TO220H-CLR2">
 <wire x1="-5.207" y1="-12.446" x2="5.207" y2="-12.446" width="0.127" layer="52"/>
@@ -4141,9 +4092,7 @@ grid 5.6 mm</description>
 <wire x1="-4.572" y1="-10.541" x2="4.572" y2="-10.541" width="0.0508" layer="52"/>
 <wire x1="4.572" y1="-3.556" x2="4.572" y2="-10.541" width="0.0508" layer="52"/>
 <wire x1="-4.572" y1="-10.541" x2="-4.572" y2="-3.556" width="0.0508" layer="52"/>
-<circle x="0" y="0" radius="1.8034" width="0.127" layer="52"/>
-<circle x="0" y="0" radius="4" width="0" layer="42"/>
-<circle x="0" y="0" radius="4" width="0" layer="43"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="52"/>
 <pad name="1" x="-2.54" y="-17.526" drill="1.1176" shape="long" rot="R90"/>
 <pad name="2" x="0" y="-17.526" drill="1.1176" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="-17.526" drill="1.1176" shape="long" rot="R90"/>
@@ -4155,13 +4104,14 @@ grid 5.6 mm</description>
 <rectangle x1="-3.175" y1="-15.24" x2="-1.905" y2="-12.446" layer="52"/>
 <rectangle x1="-0.635" y1="-15.24" x2="0.635" y2="-12.446" layer="52"/>
 <rectangle x1="1.905" y1="-15.24" x2="3.175" y2="-12.446" layer="52"/>
-<hole x="0" y="0" drill="3.2"/>
 <wire x1="4.064" y1="-2.921" x2="5.207" y2="-2.921" width="0.0508" layer="52"/>
 <wire x1="-4.064" y1="-2.921" x2="-5.207" y2="-2.921" width="0.0508" layer="52"/>
 <wire x1="-4.064" y1="-2.921" x2="-4.064" y2="-3.556" width="0.0508" layer="52"/>
 <wire x1="-4.064" y1="-3.556" x2="-4.572" y2="-3.556" width="0.0508" layer="52"/>
 <wire x1="4.064" y1="-2.921" x2="4.064" y2="-3.556" width="0.0508" layer="52"/>
 <wire x1="4.572" y1="-3.556" x2="4.064" y2="-3.556" width="0.0508" layer="52"/>
+<wire x1="-3.5" y1="0" x2="3.5" y2="0" width="0.1524" layer="52" style="shortdash"/>
+<wire x1="0" y1="3.5" x2="0" y2="-3.5" width="0.1524" layer="52" style="shortdash"/>
 </package>
 <package name="ZH32">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt; grid 22,5 mm, OGN0031 8201 Schurter (Buerklin)</description>
@@ -6794,7 +6744,7 @@ Source: http://www.irf.com/</description>
 <gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SC-67" package="SC-67@1">
+<device name="SC-67" package="SC-67">
 <connects>
 <connect gate="G$1" pin="D" pad="D"/>
 <connect gate="G$1" pin="G" pad="G"/>
@@ -6804,7 +6754,7 @@ Source: http://www.irf.com/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="DPAK?" package="TO252@1">
+<device name="DPAK?" package="TO252">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>

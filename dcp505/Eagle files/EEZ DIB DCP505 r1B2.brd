@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="5" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -87,8 +87,7 @@
 <layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="EEZ" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="EEZ" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
@@ -2186,7 +2185,7 @@ Project source code: github.com/eez-open/modular-psu</text>
 <dimension x1="17.5" y1="5.5" x2="6.5" y2="0" x3="-2.5" y3="2.75" textsize="2" layer="47" dtype="vertical"/>
 <dimension x1="90" y1="10.5" x2="0" y2="-10.5" x3="45" y3="-12" textsize="2" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="105.5" x2="27" y2="95" x3="24.5" y3="100.25" textsize="2" layer="47" dtype="vertical"/>
-<rectangle x1="95" y1="5" x2="145" y2="95" layer="52"/>
+<rectangle x1="95" y1="5" x2="145" y2="95" layer="114"/>
 <dimension x1="124" y1="95" x2="116" y2="65" x3="108.5" y3="80" textsize="2" layer="47" dtype="vertical"/>
 <dimension x1="118" y1="47" x2="146" y2="14" x3="108.5" y3="30.5" textsize="2" layer="47" dtype="vertical"/>
 <circle x="21.59" y="48.3235" radius="1.1684" width="0.2032" layer="21"/>
@@ -2434,7 +2433,6 @@ Project source code: github.com/eez-open/modular-psu</text>
 <pad name="2" x="0" y="-19.304" drill="1.4986" shape="long" rot="R90"/>
 <pad name="3" x="5.588" y="-19.304" drill="1.4986" shape="long" rot="R90"/>
 <text x="-7.747" y="5.715" size="1.778" layer="26" ratio="10">&gt;NAME</text>
-<hole x="0" y="0" drill="3.2"/>
 <wire x1="-7.874" y1="-14.224" x2="7.874" y2="-14.224" width="0.1524" layer="52"/>
 <wire x1="7.874" y1="5.461" x2="7.874" y2="-14.224" width="0.1524" layer="52"/>
 <wire x1="7.874" y1="5.461" x2="-7.874" y2="5.461" width="0.1524" layer="52"/>
@@ -2448,6 +2446,8 @@ Project source code: github.com/eez-open/modular-psu</text>
 <wire x1="-6.35" y1="4.2672" x2="6.35" y2="4.2672" width="0.1524" layer="52"/>
 <wire x1="-6.35" y1="-10.7188" x2="-6.35" y2="4.2672" width="0.1524" layer="52"/>
 <wire x1="6.35" y1="-10.7188" x2="6.35" y2="4.2672" width="0.1524" layer="52"/>
+<wire x1="0" y1="3.5" x2="0" y2="-3.5" width="0.1524" layer="52" style="shortdash"/>
+<wire x1="-3.5" y1="0" x2="3.5" y2="0" width="0.1524" layer="52" style="shortdash"/>
 </package>
 <package name="SOT103P240X110-3N">
 <smd name="1" x="-1.0795" y="1.016" dx="1.524" dy="0.5588" layer="1"/>
@@ -2494,9 +2494,7 @@ Project source code: github.com/eez-open/modular-psu</text>
 <wire x1="-4.572" y1="-10.541" x2="4.572" y2="-10.541" width="0.0508" layer="52"/>
 <wire x1="4.572" y1="-3.556" x2="4.572" y2="-10.541" width="0.0508" layer="52"/>
 <wire x1="-4.572" y1="-10.541" x2="-4.572" y2="-3.556" width="0.0508" layer="52"/>
-<circle x="0" y="0" radius="1.8034" width="0.127" layer="52"/>
-<circle x="0" y="0" radius="4" width="0" layer="42"/>
-<circle x="0" y="0" radius="4" width="0" layer="43"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="52"/>
 <pad name="1" x="-2.54" y="-17.526" drill="1.1176" shape="long" rot="R90"/>
 <pad name="2" x="0" y="-17.526" drill="1.1176" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="-17.526" drill="1.1176" shape="long" rot="R90"/>
@@ -2508,13 +2506,14 @@ Project source code: github.com/eez-open/modular-psu</text>
 <rectangle x1="-3.175" y1="-15.24" x2="-1.905" y2="-12.446" layer="52"/>
 <rectangle x1="-0.635" y1="-15.24" x2="0.635" y2="-12.446" layer="52"/>
 <rectangle x1="1.905" y1="-15.24" x2="3.175" y2="-12.446" layer="52"/>
-<hole x="0" y="0" drill="3.2"/>
 <wire x1="4.064" y1="-2.921" x2="5.207" y2="-2.921" width="0.0508" layer="52"/>
 <wire x1="-4.064" y1="-2.921" x2="-5.207" y2="-2.921" width="0.0508" layer="52"/>
 <wire x1="-4.064" y1="-2.921" x2="-4.064" y2="-3.556" width="0.0508" layer="52"/>
 <wire x1="-4.064" y1="-3.556" x2="-4.572" y2="-3.556" width="0.0508" layer="52"/>
 <wire x1="4.064" y1="-2.921" x2="4.064" y2="-3.556" width="0.0508" layer="52"/>
 <wire x1="4.572" y1="-3.556" x2="4.064" y2="-3.556" width="0.0508" layer="52"/>
+<wire x1="-3.5" y1="0" x2="3.5" y2="0" width="0.1524" layer="52" style="shortdash"/>
+<wire x1="0" y1="3.5" x2="0" y2="-3.5" width="0.1524" layer="52" style="shortdash"/>
 </package>
 <package name="R_H2728">
 <wire x1="-4.6609" y1="4.0767" x2="4.6609" y2="4.0767" width="0.127" layer="39"/>
@@ -7919,7 +7918,7 @@ design rules under a new name.</description>
 <wire x1="77.089" y1="87.122" x2="73.66" y2="90.551" width="1.27" layer="1"/>
 <wire x1="73.66" y1="90.551" x2="51.73" y2="90.551" width="1.27" layer="1"/>
 <wire x1="49.2125" y1="88.0335" x2="51.73" y2="90.551" width="1.27" layer="1"/>
-<wire x1="50.9905" y1="73.406" x2="50.9905" y2="74" width="1.27" layer="1"/>
+<wire x1="50.9905" y1="73.406" x2="50.9905" y2="74.2315" width="1.27" layer="1"/>
 <wire x1="105.8545" y1="58.801" x2="105.8545" y2="70.612" width="3.81" layer="1"/>
 <wire x1="102.616" y1="73.8505" x2="83.8835" y2="73.8505" width="3.81" layer="1"/>
 <wire x1="83.8835" y1="73.8505" x2="81.7245" y2="76.0095" width="3.81" layer="1"/>
@@ -7936,13 +7935,12 @@ design rules under a new name.</description>
 <wire x1="82.9945" y1="80.137" x2="82.8675" y2="80.01" width="1.27" layer="1"/>
 <wire x1="81.7245" y1="80.137" x2="82.7405" y2="80.137" width="1.27" layer="1"/>
 <wire x1="82.7405" y1="80.137" x2="82.8675" y2="80.01" width="1.27" layer="1"/>
-<wire x1="50.9905" y1="74.2315" x2="50.9905" y2="86.2555" width="1.27" layer="1"/>
+<wire x1="50.9905" y1="74.2315" x2="50.9905" y2="74.3175" width="1.27" layer="1"/>
+<wire x1="50.9905" y1="74.3175" x2="50.9905" y2="86.2555" width="1.27" layer="1"/>
 <wire x1="50.9905" y1="86.2555" x2="49.235" y2="88.011" width="1.27" layer="1"/>
 <via x="45.466" y="77.597" extent="1-16" drill="0.4" shape="octagon"/>
-<wire x1="50.7365" y1="74.295" x2="50.9905" y2="74.2315" width="0.4064" layer="16"/>
 <wire x1="43.2689" y1="78.0796" x2="44.9834" y2="78.0796" width="0.4064" layer="1"/>
 <wire x1="44.9834" y1="78.0796" x2="45.466" y2="77.597" width="0.4064" layer="1"/>
-<wire x1="50.7365" y1="74.295" x2="48.768" y2="74.295" width="0.4064" layer="16"/>
 <wire x1="48.768" y1="74.295" x2="45.466" y2="77.597" width="0.4064" layer="16"/>
 <wire x1="45.466" y1="62.9945" x2="45.6183" y2="62.9827" width="0.8" layer="16"/>
 <wire x1="45.6183" y1="62.9827" x2="45.7742" y2="62.9958" width="0.8" layer="16"/>
@@ -8363,7 +8361,8 @@ design rules under a new name.</description>
 <wire x1="51.8317" y1="72.7062" x2="50.965" y2="73.2343" width="0.8" layer="16"/>
 <via x="45.2755" y="63.246" extent="1-16" drill="0.4" diameter="0.5"/>
 <wire x1="45.2755" y1="63.246" x2="45.466" y2="62.9945" width="0.8" layer="16"/>
-<wire x1="50.9905" y1="73.3425" x2="50.9905" y2="73.406" width="0" layer="19" extent="1-1"/>
+<wire x1="48.768" y1="74.295" x2="50.9905" y2="74.295" width="0.4064" layer="16"/>
+<wire x1="50.9905" y1="74.295" x2="50.9905" y2="74.2315" width="0.4064" layer="16"/>
 <wire x1="50.965" y1="73.2343" x2="50.9905" y2="73.3425" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$98">
