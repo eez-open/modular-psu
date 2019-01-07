@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4773,6 +4773,138 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 <vertex x="-0.3175" y="0.3175"/>
 </polygon>
 </package>
+<package name="TO252-L">
+<wire x1="3.2766" y1="2.5654" x2="3.277" y2="-3.429" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-3.429" x2="-3.277" y2="-3.429" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-3.429" x2="-3.2766" y2="2.5654" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="2.565" x2="3.2774" y2="2.5646" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="2.667" x2="-2.5654" y2="3.3782" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.3782" x2="-2.1082" y2="3.8354" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="3.8354" x2="2.1082" y2="3.8354" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="3.8354" x2="2.5654" y2="3.3782" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.3782" x2="2.5654" y2="2.667" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="2.667" x2="-2.5654" y2="2.667" width="0.2032" layer="51"/>
+<smd name="3" x="0" y="1.23" dx="5.4" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-6.07" dx="1" dy="1.6" layer="1"/>
+<smd name="2" x="2.28" y="-6.07" dx="1" dy="1.6" layer="1"/>
+<rectangle x1="-2.7178" y1="-6.4262" x2="-1.8542" y2="-3.5306" layer="51"/>
+<rectangle x1="1.8542" y1="-6.4262" x2="2.7178" y2="-3.5306" layer="51"/>
+<rectangle x1="-0.4318" y1="-4.2926" x2="0.4318" y2="-3.5306" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="2.667"/>
+<vertex x="-2.5654" y="3.3782"/>
+<vertex x="-2.1082" y="3.8354"/>
+<vertex x="2.1082" y="3.8354"/>
+<vertex x="2.5654" y="3.3782"/>
+<vertex x="2.5654" y="2.667"/>
+</polygon>
+<text x="-2.8575" y="4.7625" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.4925" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.0546" x2="-1.8542" y2="-3.5306" layer="21"/>
+<rectangle x1="1.8542" y1="-5.0546" x2="2.7178" y2="-3.5306" layer="21"/>
+</package>
+<package name="ECAP7.5/18-H35.5-2A">
+<wire x1="-0.635" y1="0" x2="-2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.905" x2="0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.905" x2="0.254" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="1.905" x2="0.254" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="-1.905" x2="0.889" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="0" x2="0.889" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="0" x2="7.366" y2="0" width="0.1524" layer="21"/>
+<wire x1="6.604" y1="-0.762" x2="6.604" y2="0.762" width="0.1524" layer="21"/>
+<pad name="+" x="3.75" y="0" drill="1.1" diameter="2.54"/>
+<pad name="-" x="-3.75" y="0" drill="1.1" diameter="2.54" shape="octagon"/>
+<text x="-4.999" y="3.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.889" y1="-1.905" x2="-0.254" y2="1.905" layer="21" rot="R180"/>
+<wire x1="-9" y1="-4.5" x2="-8.5" y2="-4" width="0.254" layer="51" curve="-90"/>
+<wire x1="-8.5" y1="-4" x2="-3.75" y2="-4" width="0.254" layer="51"/>
+<wire x1="-3.75" y1="-4" x2="3.75" y2="-4" width="0.254" layer="51"/>
+<wire x1="3.75" y1="-4" x2="8.5" y2="-4" width="0.254" layer="51"/>
+<wire x1="8.5" y1="-4" x2="9" y2="-4.5" width="0.254" layer="51" curve="-90"/>
+<wire x1="9" y1="-39" x2="8.5" y2="-39.5" width="0.254" layer="51" curve="-90"/>
+<wire x1="8.5" y1="-39.5" x2="-8.5" y2="-39.5" width="0.254" layer="51"/>
+<wire x1="-8.5" y1="-39.5" x2="-9" y2="-39" width="0.254" layer="51" curve="-90"/>
+<wire x1="3.75" y1="-2" x2="3.75" y2="-4" width="0.254" layer="51"/>
+<wire x1="-3.75" y1="-2" x2="-3.75" y2="-4" width="0.254" layer="51"/>
+<wire x1="-9" y1="-39" x2="-9" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="-9" y1="-7.5" x2="-8" y2="-6.5" width="0.254" layer="51" curve="90"/>
+<wire x1="-8" y1="-6.5" x2="-9" y2="-5.5" width="0.254" layer="51" curve="90"/>
+<wire x1="-9" y1="-5.5" x2="-9" y2="-4.5" width="0.254" layer="51"/>
+<wire x1="9" y1="-39" x2="9" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="9" y1="-5.5" x2="9" y2="-4.5" width="0.254" layer="51"/>
+<wire x1="9" y1="-5.5" x2="8" y2="-6.5" width="0.254" layer="51" curve="90"/>
+<wire x1="8" y1="-6.5" x2="9" y2="-7.5" width="0.254" layer="51" curve="90"/>
+<polygon width="0.127" layer="51">
+<vertex x="-7.065" y="-4"/>
+<vertex x="-7.065" y="-6.7" curve="-90"/>
+<vertex x="-6.165" y="-5.8"/>
+<vertex x="-5.965" y="-5.8" curve="-90"/>
+<vertex x="-5.065" y="-6.7"/>
+<vertex x="-5.065" y="-4"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-5.065" y="-11.2"/>
+<vertex x="-5.065" y="-7.2" curve="-90"/>
+<vertex x="-5.965" y="-8.1"/>
+<vertex x="-6.165" y="-8.1" curve="-90"/>
+<vertex x="-7.065" y="-7.2"/>
+<vertex x="-7.065" y="-11.2"/>
+</polygon>
+<rectangle x1="-6.265" y1="-7.7" x2="-5.865" y2="-6.2" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-5.065" y="-19.7"/>
+<vertex x="-5.065" y="-15.7" curve="-90"/>
+<vertex x="-5.965" y="-16.6"/>
+<vertex x="-6.165" y="-16.6" curve="-90"/>
+<vertex x="-7.065" y="-15.7"/>
+<vertex x="-7.065" y="-19.7"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-7.065" y="-11.2"/>
+<vertex x="-7.065" y="-15.2" curve="-90"/>
+<vertex x="-6.165" y="-14.3"/>
+<vertex x="-5.965" y="-14.3" curve="-90"/>
+<vertex x="-5.065" y="-15.2"/>
+<vertex x="-5.065" y="-11.2"/>
+</polygon>
+<rectangle x1="-6.265" y1="-16.2" x2="-5.865" y2="-14.7" layer="51" rot="R180"/>
+<polygon width="0.127" layer="51">
+<vertex x="-7.065" y="-19.7"/>
+<vertex x="-7.065" y="-23.7" curve="-90"/>
+<vertex x="-6.165" y="-22.8"/>
+<vertex x="-5.965" y="-22.8" curve="-90"/>
+<vertex x="-5.065" y="-23.7"/>
+<vertex x="-5.065" y="-19.7"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-5.065" y="-28.2"/>
+<vertex x="-5.065" y="-24.2" curve="-90"/>
+<vertex x="-5.965" y="-25.1"/>
+<vertex x="-6.165" y="-25.1" curve="-90"/>
+<vertex x="-7.065" y="-24.2"/>
+<vertex x="-7.065" y="-28.2"/>
+</polygon>
+<rectangle x1="-6.265" y1="-24.7" x2="-5.865" y2="-23.2" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-7.065" y="-28.3"/>
+<vertex x="-7.065" y="-32.3" curve="-90"/>
+<vertex x="-6.165" y="-31.4"/>
+<vertex x="-5.965" y="-31.4" curve="-90"/>
+<vertex x="-5.065" y="-32.3"/>
+<vertex x="-5.065" y="-28.3"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-5.065" y="-39.5"/>
+<vertex x="-5.065" y="-32.8" curve="-90"/>
+<vertex x="-5.965" y="-33.7"/>
+<vertex x="-6.165" y="-33.7" curve="-90"/>
+<vertex x="-7.065" y="-32.8"/>
+<vertex x="-7.065" y="-39.5"/>
+</polygon>
+<rectangle x1="-6.265" y1="-33.3" x2="-5.865" y2="-31.8" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L_POINT_V">
@@ -6042,6 +6174,24 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SIC_L" package="TO252-L">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DUAL_A_L" package="TO252-L">
+<connects>
+<connect gate="G$1" pin="A" pad="1 2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ZENER-DIODE" prefix="ZD" uservalue="yes">
@@ -6399,6 +6549,15 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 </technologies>
 </device>
 <device name="SMD8.3MM/HA0" package="CAPAE830X1050N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H35.5-2A" package="ECAP7.5/18-H35.5-2A">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -20110,7 +20269,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0805" value="47p"/>
 <part name="R40" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
-<part name="Q1" library="EEZ_Lib1" deviceset="IRFP240" device="MIRROR2" value="IRFP250N"/>
+<part name="Q1" library="EEZ_Lib1" deviceset="IRFP240" device="MIRROR2" value="IRFP250MPBF"/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="D13" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
@@ -20163,7 +20322,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="Q3" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857C" value="BC856C"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="Q5" library="EEZ_Lib1" deviceset="P-MOSFET" device="MIRROR2" value="STF10P6F6 or IRF9Z24 or FQPF27P06"/>
+<part name="Q5" library="EEZ_Lib1" deviceset="P-MOSFET" device="MIRROR2" value="STF10P6F6"/>
 <part name="IC9" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33274ADR2G"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C1206" value="1u/100V"/>
 <part name="P-1" library="supply2" deviceset="V-" device=""/>
@@ -20187,7 +20346,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="X4" library="EEZ_connectors" deviceset="MC1,5/5-G-3,5" device="" value="1844249"/>
 <part name="C48" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
-<part name="IC17" library="EEZ_Lib1" deviceset="DAC8552_DGK_8" device="M" value="DAC8552IDGKTG4"/>
+<part name="IC17" library="EEZ_Lib1" deviceset="DAC8552_DGK_8" device="M" value="DAC8552IDGKR"/>
 <part name="C49" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C52" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="IC19" library="EEZ_Lib1" deviceset="ADS1120" device="TSSOP-16" value="ADS1120IPWR"/>
@@ -20212,8 +20371,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="PACKAGE" value="SOT-23-3"/>
 <attribute name="SUPPLIER" value="DIODES INC."/>
 </part>
-<part name="Q19" library="EEZ_Lib1" deviceset="IRLML2246TRPBF" device="" value="IRLML2246TRPBF"/>
-<part name="IC16" library="EEZ_Lib1" deviceset="REF50XX" device="" value="REF5025AIDG4"/>
+<part name="Q19" library="EEZ_Lib1" deviceset="IRLML2246TRPBF" device="" value="BSS84P"/>
+<part name="IC16" library="EEZ_Lib1" deviceset="REF50XX" device="" value="REF5025AIDR"/>
 <part name="P+12" library="supply2" deviceset="V+" device=""/>
 <part name="R96" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="C50" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7"/>
@@ -20232,7 +20391,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C55" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="IC15" library="EEZ_Lib1" deviceset="MCP23S17-E/SS" device="SSOP" value="MCP23S17-E/SS"/>
 <part name="R89" library="rcl" deviceset="R-EU_" device="R0805" value="270R"/>
-<part name="R92" library="rcl" deviceset="R-EU_" device="R0805" value="270R"/>
+<part name="R92" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
@@ -20298,10 +20457,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </part>
 <part name="R131" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
 <part name="C72" library="rcl" deviceset="C-EU" device="C1206" value="470n"/>
-<part name="D20" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A" value="SK10100D1-DIO"/>
-<part name="C70" library="rcl" deviceset="C-EU" device="C1206" value="10n/500V"/>
-<part name="C74" library="rcl" deviceset="C-EU" device="C1206" value="10n/500V"/>
-<part name="R137" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
+<part name="D20" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A_L" value="SK10100D1-DIO"/>
+<part name="C70" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
+<part name="C74" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
+<part name="R138" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="Q31" library="EEZ_Lib1" deviceset="2N7002" device="">
 <attribute name="MPN" value="2N7002-7-F"/>
 <attribute name="OC_FARNELL" value="1713823"/>
@@ -20312,12 +20471,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="PE2" library="supply1" deviceset="PE" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="D21" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
-<part name="R112" library="rcl" deviceset="R-EU_" device="R0805" value="270R"/>
-<part name="R107" library="rcl" deviceset="R-EU_" device="R0805" value="270R"/>
+<part name="R112" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="R107" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="Q24" library="EEZ_Lib1" deviceset="2N7002" device=""/>
 <part name="Q23" library="EEZ_Lib1" deviceset="2N7002" device=""/>
-<part name="R136" library="rcl" deviceset="R-EU_" device="R0805" value="270R"/>
+<part name="R137" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
@@ -20328,14 +20487,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY55" library="supply2" deviceset="GND" device=""/>
 <part name="KK1" library="EEZ_Lib1" deviceset="PCB-MB" device=""/>
 <part name="KK2" library="EEZ_Lib1" deviceset="PCB-MB" device=""/>
-<part name="IC6" library="EEZ_Lib1" deviceset="AT24CXX" device="SOIC8" value="AT24C02D-SSHM-T"/>
+<part name="IC6" library="EEZ_Lib1" deviceset="AT24CXX" device="SOIC8" value="AT24C04D-SSHM-T"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="FRAME7" library="frames" deviceset="DINA4_L" device=""/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC18" library="EEZ_Lib1" deviceset="SN74LVC1G3157" device="-DCK" value="SN74LVC1G3157"/>
+<part name="IC18" library="EEZ_Lib1" deviceset="SN74LVC1G3157" device="-DCK" value="SN74LVC1G3157DCKR"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GNDIO" device=""/>
 <part name="GND9" library="supply1" deviceset="GNDIO" device=""/>
@@ -20368,8 +20527,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="P+24" library="supply1" deviceset="+5V" device=""/>
 <part name="FB5" library="EEZ_inductors_and_transformers" deviceset="FERRITE_BEAD" device="0603" value="BLM18AG102SH1D"/>
 <part name="SUPPLY44" library="supply2" deviceset="-9V" device=""/>
-<part name="IC2" library="EEZ_Lib1" deviceset="SI8641" device="NSOIC-16" value="SI8641AB-B-IS1"/>
-<part name="IC5" library="EEZ_Lib1" deviceset="SI8641" device="NSOIC-16" value="SI8641AB-B-IS1"/>
+<part name="IC2" library="EEZ_Lib1" deviceset="SI8641" device="NSOIC-16" value="SI8641BB-B-IS1"/>
+<part name="IC5" library="EEZ_Lib1" deviceset="SI8641" device="NSOIC-16" value="SI8641BB-B-IS1"/>
 <part name="GND1" library="supply1" deviceset="GNDIO" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -20390,7 +20549,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="Q20" library="EEZ_Lib1" deviceset="BTA41" device="-2" value="BTA26-600"/>
 <part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="LED1" library="EEZ_Lib1" deviceset="LED_L-42WUM/1EGWT" device="" value="L-42WUM-1EGWT"/>
+<part name="LED1" library="EEZ_Lib1" deviceset="LED_L-42WUM/1EGWT" device="" value="L-42WUM/1EGWT"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="Q22" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT5551LT1" value="MMBT5551"/>
 <part name="R103" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
@@ -20403,7 +20562,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C65" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R108" library="rcl" deviceset="R-EU_" device="R0805" value="750R"/>
 <part name="R113" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="C68" library="rcl" deviceset="C-EU" device="C0603" value="1n"/>
+<part name="C68" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="IC21" library="EEZ_Lib1" deviceset="LM211" device="" value="LM211PWR"/>
 <part name="R114" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="P+11" library="supply2" deviceset="V+" device=""/>
@@ -20414,9 +20573,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R122" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="R102" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="F1" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32/7A"/>
-<part name="F2" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32/7A"/>
-<part name="C66" library="rcl" deviceset="C-EU" device="C0603" value="1n"/>
+<part name="F1" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32"/>
+<part name="F2" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32"/>
+<part name="C66" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="Q21" library="EEZ_Lib1" deviceset="2N7002" device="">
 <attribute name="MPN" value="2N7002-7-F"/>
 <attribute name="OC_FARNELL" value="1713823"/>
@@ -20460,7 +20619,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="LED4" library="EEZ_Lib1" deviceset="LED" device="OSG8" value="OSY5LU3E34X-3F1A"/>
-<part name="R135" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R136" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FB1" library="EEZ_inductors_and_transformers" deviceset="FERRITE_BEAD" device="0603" value="BLM18AG102SH1D"/>
@@ -20490,7 +20649,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="PE6" library="supply1" deviceset="PE" device=""/>
 <part name="FB6" library="rcl" deviceset="L-EU" device="L1812" value="BLM41PG600SN1L"/>
 <part name="FB7" library="rcl" deviceset="L-EU" device="L1812" value="BLM41PG600SN1L"/>
-<part name="C73" library="EEZ_Lib1" deviceset="ECAP" device="SMD8.3MM/HA0" value="50SVPF18M"/>
+<part name="C73" library="EEZ_Lib1" deviceset="ECAP" device="SMD8.3MM/HA0" value="HHXC630ARA330MHA0G"/>
 <part name="JP1" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
@@ -20581,6 +20740,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="IC7" library="EEZ_Lib1" deviceset="TMPX75" device="DGK" value="TMP1075AIDGK"/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
+<part name="R135" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 </parts>
 <sheets>
 <sheet>
@@ -22346,7 +22506,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="Q5" gate="G$1" x="177.8" y="134.62" smashed="yes">
 <attribute name="NAME" x="182.88" y="135.89" size="1.778" layer="95"/>
-<attribute name="VALUE" x="182.88" y="133.35" size="1.27" layer="96"/>
+<attribute name="VALUE" x="182.88" y="133.35" size="1.778" layer="96"/>
 </instance>
 <instance part="IC9" gate="P" x="71.12" y="53.34" smashed="yes">
 <attribute name="NAME" x="71.755" y="66.04" size="1.778" layer="95"/>
@@ -24671,7 +24831,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="Q19" gate="A" x="144.78" y="106.68" smashed="yes">
 <attribute name="NAME" x="150.495" y="107.315" size="1.778" layer="95"/>
-<attribute name="VALUE" x="150.495" y="104.775" size="1.27" layer="96"/>
+<attribute name="VALUE" x="150.495" y="104.775" size="1.778" layer="96"/>
 </instance>
 <instance part="C50" gate="G$1" x="198.12" y="99.06" smashed="yes">
 <attribute name="NAME" x="195.707" y="99.695" size="1.778" layer="95" rot="R180"/>
@@ -24700,8 +24860,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="VALUE" x="68.961" y="61.341" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C57" gate="G$1" x="132.08" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="129.921" y="35.814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="129.921" y="33.909" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="134.239" y="34.671" size="1.778" layer="95"/>
+<attribute name="VALUE" x="134.239" y="32.131" size="1.778" layer="96"/>
 </instance>
 <instance part="P+12" gate="1" x="134.62" y="66.04" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="133.35" y="65.405" size="1.778" layer="96" rot="MR0"/>
@@ -24723,8 +24883,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="VALUE" x="155.575" y="42.672" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C56" gate="G$1" x="144.78" y="38.1" smashed="yes" rot="MR0">
-<attribute name="NAME" x="146.939" y="35.941" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="144.399" y="35.941" size="1.778" layer="96" rot="MR270"/>
+<attribute name="NAME" x="146.939" y="37.211" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.939" y="34.671" size="1.778" layer="96"/>
 </instance>
 <instance part="P+9" gate="1" x="73.66" y="111.76" smashed="yes">
 <attribute name="VALUE" x="73.025" y="112.395" size="1.778" layer="96"/>
@@ -24767,7 +24927,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="VALUE" x="129.54" y="21.59" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY37" gate="GND" x="144.78" y="25.4" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="142.24" y="24.13" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="147.32" y="21.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY38" gate="GND" x="83.82" y="55.88" smashed="yes">
 <attribute name="VALUE" x="81.28" y="52.07" size="1.778" layer="96"/>
@@ -24849,7 +25009,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="LED1" gate="G$1" x="104.14" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="108.585" y="151.765" size="1.778" layer="95"/>
-<attribute name="VALUE" x="108.585" y="149.86" size="1.27" layer="96"/>
+<attribute name="VALUE" x="108.585" y="149.225" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="121.92" y="142.24" smashed="yes">
 <attribute name="VALUE" x="118.745" y="138.43" size="1.778" layer="96"/>
@@ -26434,6 +26594,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="91.44" y="175.26" size="1.778" layer="97">Power output section</text>
 <wire x1="154.94" y1="160.02" x2="261.62" y2="160.02" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="154.94" y1="96.52" x2="154.94" y2="160.02" width="0.1524" layer="97" style="shortdash"/>
+<text x="157.48" y="175.895" size="1.27" layer="103">Use 8A high Breaking capacity fuse e.g. ESKA 522.726 </text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -26517,13 +26678,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="P+31" gate="1" x="30.48" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="28.575" y="137.795" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R131" gate="G$1" x="119.38" y="129.54" smashed="yes" rot="MR90">
-<attribute name="NAME" x="118.11" y="129.7686" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="118.11" y="127.508" size="1.778" layer="96" rot="MR0"/>
+<instance part="R131" gate="G$1" x="116.84" y="129.54" smashed="yes" rot="MR90">
+<attribute name="NAME" x="115.57" y="129.7686" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="115.57" y="127.508" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C72" gate="G$1" x="119.38" y="142.24" smashed="yes" rot="MR0">
-<attribute name="NAME" x="117.221" y="141.986" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="117.221" y="139.446" size="1.778" layer="96" rot="MR0"/>
+<instance part="C72" gate="G$1" x="116.84" y="142.24" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.681" y="141.986" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="114.681" y="139.446" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="D20" gate="G$1" x="129.54" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="131.445" y="125.73" size="1.778" layer="95"/>
@@ -26547,7 +26708,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="K1" gate="3" x="101.6" y="109.22" smashed="yes" rot="R270">
 <attribute name="PART" x="107.95" y="108.585" size="1.778" layer="95"/>
 </instance>
-<instance part="R137" gate="G$1" x="33.02" y="40.64" smashed="yes" rot="MR90">
+<instance part="R138" gate="G$1" x="33.02" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="34.29" y="42.3164" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="34.29" y="40.132" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -26573,7 +26734,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="16.256" y="68.0974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="16.383" y="65.8114" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R136" gate="G$1" x="43.18" y="60.96" smashed="yes" rot="MR90">
+<instance part="R137" gate="G$1" x="43.18" y="60.96" smashed="yes" rot="MR90">
 <attribute name="NAME" x="44.45" y="62.6364" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="44.45" y="60.452" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -26595,11 +26756,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="F1" gate="G$1" x="152.4" y="172.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="151.13" y="176.657" size="1.778" layer="95"/>
-<attribute name="VALUE" x="147.955" y="174.244" size="1.778" layer="96"/>
+<attribute name="VALUE" x="149.225" y="174.244" size="1.778" layer="96"/>
 </instance>
 <instance part="F2" gate="G$1" x="152.4" y="167.64" smashed="yes" rot="MR180">
 <attribute name="NAME" x="151.13" y="166.243" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="147.955" y="162.179" size="1.778" layer="96"/>
+<attribute name="VALUE" x="149.225" y="162.179" size="1.778" layer="96"/>
 </instance>
 <instance part="X4" gate="-3" x="139.7" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="145.288" y="150.622" size="1.778" layer="95" rot="MR180"/>
@@ -26675,17 +26836,17 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="107.315" y="56.515" size="1.778" layer="95"/>
 <attribute name="VALUE" x="107.315" y="53.975" size="1.778" layer="96"/>
 </instance>
-<instance part="P+19" gate="1" x="104.14" y="81.28" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="102.235" y="83.82" size="1.778" layer="96" rot="MR180"/>
+<instance part="P+19" gate="1" x="104.14" y="88.9" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="102.235" y="91.44" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="104.14" y="45.72" smashed="yes">
 <attribute name="VALUE" x="106.045" y="44.45" size="1.778" layer="96"/>
 </instance>
-<instance part="LED4" gate="G$1" x="104.14" y="68.58" smashed="yes">
-<attribute name="NAME" x="105.918" y="69.469" size="1.778" layer="95"/>
-<attribute name="VALUE" x="105.918" y="67.31" size="1.27" layer="96"/>
+<instance part="LED4" gate="G$1" x="104.14" y="66.04" smashed="yes">
+<attribute name="NAME" x="105.918" y="66.929" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.918" y="64.77" size="1.27" layer="96"/>
 </instance>
-<instance part="R135" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="MR270">
+<instance part="R136" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="MR270">
 <attribute name="NAME" x="92.71" y="66.2686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="92.71" y="64.008" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -26697,9 +26858,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="82.169" y="60.1726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.042" y="54.8386" size="1.778" layer="96"/>
 </instance>
-<instance part="C73" gate="G$1" x="124.46" y="137.16" smashed="yes">
-<attribute name="NAME" x="125.603" y="137.6426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="125.603" y="132.5626" size="1.778" layer="96"/>
+<instance part="C73" gate="G$1" x="121.92" y="137.16" smashed="yes">
+<attribute name="NAME" x="123.063" y="137.6426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.3076" y="137.287" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="R135" gate="G$1" x="104.14" y="78.74" smashed="yes" rot="MR90">
+<attribute name="NAME" x="105.41" y="80.4164" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="105.41" y="78.232" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -26726,13 +26891,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <pinref part="P+19" gate="1" pin="+5V"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="78.74" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R135" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="76.2" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<junction x="104.14" y="76.2"/>
+<wire x1="104.14" y1="86.36" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R136" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="83.82" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R135" gate="G$1" pin="2"/>
+<junction x="104.14" y="83.82"/>
 </segment>
 </net>
 <net name="POST_OUT+" class="0">
@@ -26842,10 +27006,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="172.72" y="129.54"/>
 <junction x="177.8" y="132.08"/>
 <pinref part="R131" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="119.38" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="132.08" x2="124.46" y2="119.38" width="0.4064" layer="91"/>
-<wire x1="124.46" y1="119.38" x2="119.38" y2="119.38" width="0.4064" layer="91"/>
+<wire x1="116.84" y1="119.38" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D20" gate="G$1" pin="A"/>
+<wire x1="121.92" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="119.38" x2="129.54" y2="119.38" width="0.4064" layer="91"/>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="124.46" width="0.4064" layer="91"/>
 <junction x="124.46" y="119.38"/>
@@ -26872,10 +27036,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="124.46" y="101.6"/>
 <pinref part="C74" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="127" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="119.38" x2="137.16" y2="119.38" width="0.4064" layer="91"/>
+<wire x1="129.54" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C73" gate="G$1" pin="-"/>
 <wire x1="177.8" y1="132.08" x2="177.8" y2="101.6" width="0.4064" layer="91"/>
 <junction x="177.8" y="101.6"/>
+<wire x1="121.92" y1="132.08" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<junction x="121.92" y="119.38"/>
 </segment>
 </net>
 <net name="N$111" class="0">
@@ -26949,12 +27115,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="R131" gate="G$1" pin="2"/>
 <pinref part="C72" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="137.16" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="137.16" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RSENSE" class="0">
 <segment>
-<pinref part="R137" gate="G$1" pin="2"/>
+<pinref part="R138" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <junction x="33.02" y="45.72"/>
@@ -26972,7 +27138,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="25.4" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="55.88" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <junction x="25.4" y="55.88"/>
-<pinref part="R136" gate="G$1" pin="1"/>
+<pinref part="R137" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <junction x="25.4" y="55.88"/>
 </segment>
@@ -26993,7 +27159,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="N$120" class="0">
 <segment>
-<pinref part="R136" gate="G$1" pin="2"/>
+<pinref part="R137" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="68.58" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="-BTM" pin="C"/>
 </segment>
@@ -27020,7 +27186,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R137" gate="G$1" pin="1"/>
+<pinref part="R138" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="Q31" gate="A" pin="S"/>
 <pinref part="SUPPLY51" gate="GND" pin="GND"/>
@@ -27068,7 +27234,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="203.2" y="147.955" size="1.27" layer="102" rot="MR0"/>
 <pinref part="X5" gate="-2" pin="1"/>
 <wire x1="185.42" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="144.78" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="144.78" x2="182.88" y2="142.24" width="0.4064" layer="91"/>
 <pinref part="X5" gate="-4" pin="1"/>
 <wire x1="182.88" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-1" pin="1"/>
@@ -27123,7 +27289,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="Q30" gate="A" pin="S"/>
-<wire x1="104.14" y1="66.04" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="63.5" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <junction x="104.14" y="60.96"/>
 <label x="124.46" y="61.595" size="1.27" layer="102" rot="MR0"/>
@@ -27141,7 +27307,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="Q30" gate="A" pin="G"/>
 <pinref part="D22" gate="G$1" pin="A"/>
 <wire x1="99.06" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R135" gate="G$1" pin="2"/>
+<pinref part="R136" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <junction x="93.98" y="58.42"/>
@@ -27163,9 +27329,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="83.82" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
 <junction x="83.82" y="167.64"/>
 <pinref part="C72" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="149.86" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="149.86" x2="119.38" y2="149.86" width="0.4064" layer="91"/>
-<wire x1="124.46" y1="149.86" x2="124.46" y2="139.7" width="0.4064" layer="91"/>
+<wire x1="116.84" y1="149.86" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <junction x="124.46" y="149.86"/>
 <pinref part="D20" gate="G$1" pin="C"/>
 <wire x1="129.54" y1="149.86" x2="124.46" y2="149.86" width="0.4064" layer="91"/>
@@ -27187,6 +27353,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="106.68" y1="167.64" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
 <junction x="106.68" y="167.64"/>
 <pinref part="C73" gate="G$1" pin="+"/>
+<wire x1="121.92" y1="139.7" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
+<junction x="121.92" y="149.86"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="R135" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="71.12" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
