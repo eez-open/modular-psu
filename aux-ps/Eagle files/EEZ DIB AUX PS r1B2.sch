@@ -11292,6 +11292,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="-2.6" y1="4.6" x2="-1.6" y2="4.6" width="0.1" layer="20"/>
 <wire x1="-1.6" y1="4.6" x2="-1.6" y2="-4.6" width="0.1" layer="20"/>
 <wire x1="-1.6" y1="-4.6" x2="-2.6" y2="-4.6" width="0.1" layer="20"/>
+<rectangle x1="-3" y1="-9.8" x2="3" y2="-4.8" layer="43"/>
 </package>
 <package name="MINIFIT_39301039_CRE">
 <pad name="1" x="0" y="4.2" drill="1.4" shape="octagon"/>
@@ -11581,6 +11582,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="-5.9" y1="-1" x2="-5.3" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="1.1" y1="3.8" x2="1.7" y2="3.2" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="3.2" x2="-1.1" y2="3.8" width="0.127" layer="21"/>
+<rectangle x1="-3" y1="-9.8" x2="3" y2="-4.8" layer="41"/>
 </package>
 </packages>
 <symbols>
