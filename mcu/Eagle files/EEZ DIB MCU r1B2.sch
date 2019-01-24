@@ -2274,14 +2274,14 @@ Source: RS Component / BUORNS</description>
 <wire x1="1" y1="-0.75" x2="0.6" y2="-0.75" width="0.1016" layer="51" curve="180"/>
 <wire x1="0.2" y1="-0.75" x2="-0.2" y2="-0.75" width="0.1016" layer="51" curve="180"/>
 <wire x1="-0.6" y1="-0.75" x2="-1" y2="-0.75" width="0.1016" layer="51" curve="180"/>
-<smd name="1" x="-1.2" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="2" x="-0.4" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="3" x="0.4" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="4" x="1.2" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="5" x="1.2" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="6" x="0.4" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="7" x="-0.4" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="8" x="-1.2" y="0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="1" x="-1.35" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="2" x="-0.45" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="3" x="0.45" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="4" x="1.35" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="5" x="1.35" y="0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="6" x="0.45" y="0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="7" x="-0.45" y="0.675" dx="0.5" dy="0.65" layer="1"/>
+<smd name="8" x="-1.35" y="0.675" dx="0.5" dy="0.65" layer="1"/>
 <text x="-1.905" y="-2.54" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.905" y="1.27" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -14364,7 +14364,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="1M"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="FB1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="LCBA-600"/>
+<part name="FB1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="BLM18AG102SH1D"/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
@@ -14452,7 +14452,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="X5" library="EEZ_Lib1" deviceset="RJ45-TRAFO-LED" device="" value="LMJTAB881243M-L"/>
 <part name="C58" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="+3V3(A)3" library="EEZ_Lib1" deviceset="+3V3(A)" device=""/>
-<part name="FB2" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="LCBA-600"/>
+<part name="FB2" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="BLM18AG102SH1D"/>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -14526,7 +14526,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC8" library="EEZ_Lib1" deviceset="AT24CXX" device="SOIC8" value="AT24C02D-SSHM-T"/>
+<part name="IC8" library="EEZ_Lib1" deviceset="AT24CXX" device="SOIC8" value="AT24C256C-SSHL-B"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -14545,7 +14545,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C54" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="+3V317" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V316" library="supply1" deviceset="+3V3" device=""/>
-<part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD-323R" value="RB751V40T1G or NSR0240"/>
+<part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD-323R" value="RB751V40T1G"/>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
@@ -14594,7 +14594,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="C55" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
+<part name="C55" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="C50" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="C51" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
@@ -14610,7 +14610,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="22R"/>
 <part name="IC9" library="EEZ_Lib1" deviceset="TPS2051B" device="" value="TPS2051BDBVR"/>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device="" value="PGND"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="+3V319" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="IC11" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="TPD4E001DRLR"/>
@@ -14621,9 +14621,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="VBUS" library="EEZ_Lib1" deviceset="LED" device="0805" value="HSMG-C170"/>
 <part name="Q1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT5551LT1" value="MMBT5551"/>
 <part name="R29" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device="" value="PGND"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="VDD9" library="supply1" deviceset="VDD" device=""/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
@@ -15918,8 +15918,8 @@ section 1.1.4</text>
 <attribute name="VALUE" x="203.835" y="106.045" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="FB1" gate="G$1" x="55.88" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.15" y="33.1216" size="1.778" layer="95"/>
-<attribute name="VALUE" x="57.15" y="30.734" size="1.778" layer="96"/>
+<attribute name="NAME" x="54.61" y="33.1216" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="54.61" y="30.734" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C32" gate="G$1" x="63.5" y="20.32" smashed="yes">
 <attribute name="NAME" x="65.659" y="19.431" size="1.778" layer="95"/>
@@ -18561,7 +18561,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 </instance>
 <instance part="D2" gate="G$1" x="66.04" y="170.18" smashed="yes">
 <attribute name="NAME" x="64.389" y="174.625" size="1.778" layer="95"/>
-<attribute name="VALUE" x="56.769" y="172.466" size="1.27" layer="96"/>
+<attribute name="VALUE" x="59.944" y="172.466" size="1.27" layer="96"/>
 </instance>
 <instance part="+3V315" gate="G$1" x="63.5" y="106.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="60.96" y="108.585" size="1.778" layer="96"/>

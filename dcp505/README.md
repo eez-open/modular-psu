@@ -26,7 +26,7 @@ The core of the EEZ DIB DCP505 Power board still represents adopted Leonid Ivano
 - [Current auto-ranging](https://github.com/eez-open/modular-psu/tree/master/dcp505/Spice/Auto-ranging) (LTspice)
 - [OVP simulations](https://github.com/eez-open/modular-psu/tree/master/dcp505/Spice/OVP) (LTspice)
 
-### PCB preview (r1B3****)
+### PCB preview (r1B3)
 
 ![Top side](Images/EEZ_DIB_DCP505_PCB_top.png)
 
