@@ -23,6 +23,6 @@ STM32F7 MCU board for controling up to 3 SPI peripheral modules, I2C fan control
 * On board +3.3 V LDO
 * Dimensions: 139 x 70 mm, 4-layer PCB
 
-### First prototype (r1B1)
+### r1B2 prototype
 
-![first prototype](Images/MCU_board_r1B1_prototype.jpg)
+![prototype](Images/MCU_board_r1B2_prototype.jpg)
