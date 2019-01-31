@@ -5584,7 +5584,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="226.06" y="153.035" size="1.27" layer="102" rot="R90"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="SER_PAR" class="0">
 <segment>
 <pinref part="K_PAR1" gate="-1" pin="P"/>
 <pinref part="K_SER1" gate="-2" pin="S"/>
