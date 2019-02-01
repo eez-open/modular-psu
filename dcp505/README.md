@@ -6,10 +6,10 @@ The core of the EEZ DIB DCP505 Power board still represents adopted Leonid Ivano
 - Power input: [EEZ CF-DIC]((https://github.com/eez-open/CF-DIC)_) power pre-regulator and bias power supply
 - Power output: 250 W (max. 5 A)
 - Voltage regulation (CV), 0 – 50 V. Voltage set (_U_SET_) resolution: 16-bit, read resolution (_U_MON_): 15-bit
-- Current regulation (CC) with 3-range (50 mA, 500 mA, 5 A) **on-board auto-ranging circuit**. Current set resolution (_I_SET_): 16-bit over complete range (up to 21845 points per range: 0.23 mA / 23 uA, 2.3 uA increments), Current read resolution (_I_MON_): 15-bit for each range
+- Current regulation (CC) with 3-range (50 mA, 500 mA, 5 A) **on-board auto-ranging circuit**. Current set resolution (_I_SET_): 16-bit, Current read resolution (_I_MON_): 15-bit for each range (i.e. 1.5 uA / 15 uA / 0.15 mA)
 - **On-board OVP** with triac and two fuses
 - Down-programmer
-- Temperature sensor (with SPI)
+- Temperature sensor (SPI)
 - Output enable (OE) circuit with LED indicator
 - Fault/Powergood LED indicator
 - On-board output terminals
