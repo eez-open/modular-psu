@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/home/denis/BACKUP/EEZ/DIY mainframe, DIB/Enclosures/Varisom/DIB chassis rear panel r1B1 (96dpi).png"
+   sodipodi:docname="DIB chassis rear panel r1B1.svg"
+   inkscape:version="0.92.4 (unknown)"
+   version="1.1"
+   id="svg2"
+   height="210mm"
+   width="297mm">
+  <sodipodi:namedview
+     showguides="false"
+     inkscape:document-units="mm"
+     units="mm"
+     inkscape:current-layer="layer7"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:cy="250.39898"
+     inkscape:cx="752.85194"
+     inkscape:zoom="1.5869458"
+     showgrid="false"
+     id="namedview492"
+     inkscape:window-height="1096"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <metadata
+     id="metadata494">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <desc
+     id="desc4">/home/denis/BACKUP/Home/Audio/DIY v2/PCB/Projects/Programmable PSU/Chasis/Galaxy 230x80 panels r5B6 (for Inkscape2).dxf - scale = 1.000000, origin = (0.000000, 0.000000), auto = False</desc>
+  <defs
+     id="defs6">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         style="stroke:#000000;stroke-width:0.53333336"
+         id="path9"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path12" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path14" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path16" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="RECT" />
+    <symbol
+       id="PIE">
+      <path
+         d="m 0,1123.4645 a 0.94488213,0.94488213 0 0 0 0,-1.8897 0.94488213,0.94488213 0 0 0 0,1.8897"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path22"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP">
+      <path
+         d="m -0.94488213,1122.9113 v -0.7832 l 0.55332266,-0.5533 h 0.78311894 l 0.55332266,0.5533 v 0.7832 l -0.55332266,0.5532 h -0.78311894 l -0.55332266,-0.5532 v -0.7832"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path25"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP" />
+    <symbol
+       id="ROUNDP">
+      <path
+         d="m 0,1123.4645 a 0.94488213,0.94488213 0 0 0 0,-1.8897 0.94488213,0.94488213 0 0 0 0,1.8897"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path29"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP">
+      <path
+         d="m 0,1123.4645 a 0.94488213,0.94488213 0 0 0 0,-1.8897 0.94488213,0.94488213 0 0 0 0,1.8897"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path32"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP">
+      <path
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path35"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 0.89914987,1120.9134 a 0.09450667,0.09450667 0 0 0 0,-0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path37"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -0.89914987,1120.7244 a 0.09450667,0.09450667 0 0 0 0,0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path39"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.7007872,1121.6206 v 1.7983"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path41"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.6062997,1123.4189 a 0.09448853,0.09448853 0 0 0 0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path43"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.7952757,1121.6206 a 0.09448853,0.09448853 0 0 0 -0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path45"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path47"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -0.89914987,1124.126 a 0.09450667,0.09450667 0 0 0 0,0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path49"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 0.89914987,1124.315 a 0.09450667,0.09450667 0 0 0 0,-0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path51"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.7007872,1123.4189 v -1.7983"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path53"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.6062997,1121.6206 a 0.09448853,0.09448853 0 0 0 -0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path55"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.7952757,1123.4189 a 0.09448853,0.09448853 0 0 0 0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path57"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV">
+      <path
+         d="m -0.94488213,1122.9113 v -0.7832 l 0.55332266,-0.5533 h 0.78311894 l 0.55332266,0.5533 v 0.7832 l -0.55332266,0.5532 h -0.78311894 l -0.55332266,-0.5532 v -0.7832"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path60"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV" />
+    <symbol
+       id="ROUNDV">
+      <path
+         d="m 0,1123.4645 a 0.94488213,0.94488213 0 0 0 0,-1.8897 0.94488213,0.94488213 0 0 0 0,1.8897"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path64"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV">
+      <path
+         d="m 0,1123.4645 a 0.94488213,0.94488213 0 0 0 0,-1.8897 0.94488213,0.94488213 0 0 0 0,1.8897"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path67"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV">
+      <path
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path70"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 0.89914987,1120.9134 a 0.09450667,0.09450667 0 0 0 0,-0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path72"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -0.89914987,1120.7244 a 0.09450667,0.09450667 0 0 0 0,0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path74"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.7007872,1121.6206 v 1.7983"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path76"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.6062997,1123.4189 a 0.09448853,0.09448853 0 0 0 0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path78"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.7952757,1121.6206 a 0.09448853,0.09448853 0 0 0 -0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path80"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path82"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -0.89914987,1124.126 a 0.09450667,0.09450667 0 0 0 0,0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path84"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 0.89914987,1124.315 a 0.09450667,0.09450667 0 0 0 0,-0.189"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path86"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.7007872,1123.4189 v -1.7983"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path88"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.6062997,1121.6206 a 0.09448853,0.09448853 0 0 0 -0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path90"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.7952757,1123.4189 a 0.09448853,0.09448853 0 0 0 0.188976,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         id="path92"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-1">
+      <path
+         id="path4855"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-2"
+       height="8">
+      <path
+         id="path4858"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4860"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4862"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="RECT-6" />
+    <symbol
+       id="PIE-0">
+      <path
+         id="path4866"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-5" />
+    <symbol
+       id="SQUAREP-5" />
+    <symbol
+       id="ROUNDP-6">
+      <path
+         id="path4871"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-2">
+      <path
+         id="path4874"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-3">
+      <path
+         id="path4877"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4879"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6206 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4881"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4883"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4189 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-0" />
+    <symbol
+       id="SQUAREV-7" />
+    <symbol
+       id="ROUNDV-2">
+      <path
+         id="path4888"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-3">
+      <path
+         id="path4891"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-9">
+      <path
+         id="path4894"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4896"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6206 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4898"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4900"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4189 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-7">
+      <path
+         id="path11884"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-5"
+       height="8">
+      <path
+         id="path11887"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path11889"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path11891"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-6" />
+    <symbol
+       id="*Paper_Space-1" />
+    <symbol
+       id="RECT-69" />
+    <symbol
+       id="PIE-7">
+      <path
+         id="path11897"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.3827541,1122.5197 a 1.3827541,1.3827541 0 1 0 -2.7655082,0 1.3827541,1.3827541 0 1 0 2.7655082,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-4">
+      <path
+         id="path11900"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.3827541,1123.0924 v -1.1454 l 0.81001703,-0.81 h 1.14547414 l 0.81001703,0.81 v 1.1454 l -0.81001703,0.81 h -1.14547414 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-6" />
+    <symbol
+       id="ROUNDP-5">
+      <path
+         id="path11904"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.3827541,1122.5197 a 1.3827541,1.3827541 0 1 0 -2.7655082,0 1.3827541,1.3827541 0 1 0 2.7655082,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-8">
+      <path
+         id="path11907"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.3827541,1122.5197 a 1.3827541,1.3827541 0 1 0 -2.7655082,0 1.3827541,1.3827541 0 1 0 2.7655082,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-0">
+      <path
+         id="path11910"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.65791467,1121.2752 H 0.65791467"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11912"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.2444789,1121.8618 v 1.3158"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11914"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.65791467,1123.7642 H -0.65791467"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11916"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.2444789,1123.1776 v -1.3158"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-4">
+      <path
+         id="path11919"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.3827541,1123.0924 v -1.1454 l 0.81001703,-0.81 h 1.14547414 l 0.81001703,0.81 v 1.1454 l -0.81001703,0.81 h -1.14547414 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-9" />
+    <symbol
+       id="ROUNDV-8">
+      <path
+         id="path11923"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.3827541,1122.5197 a 1.3827541,1.3827541 0 1 0 -2.7655082,0 1.3827541,1.3827541 0 1 0 2.7655082,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-7">
+      <path
+         id="path11926"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.3827541,1122.5197 a 1.3827541,1.3827541 0 1 0 -2.7655082,0 1.3827541,1.3827541 0 1 0 2.7655082,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-7">
+      <path
+         id="path11929"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.65791467,1121.2752 H 0.65791467"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11931"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.2444789,1121.8618 v 1.3158"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11933"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.65791467,1123.7642 H -0.65791467"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path11935"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.2444789,1123.1776 v -1.3158"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="LONGP100">
+      <path
+         id="path11938"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.3827541,1123.9024 h 2.7655082 a 1.3827541,1.3827541 0 0 0 0,-2.7654 h -2.7655082 a 1.3827541,1.3827541 0 0 0 0,2.7654 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-16">
+      <path
+         id="path5055"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-0"
+       height="8">
+      <path
+         id="path5058"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5060"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5062"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-8" />
+    <symbol
+       id="*Paper_Space-6" />
+    <symbol
+       id="RECT-8" />
+    <symbol
+       id="PIE-6">
+      <path
+         id="path5068"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-6">
+      <path
+         id="path5071"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-1" />
+    <symbol
+       id="ROUNDP-0">
+      <path
+         id="path5075"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-7">
+      <path
+         id="path5078"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-7">
+      <path
+         id="path5081"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5083"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5085"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5087"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-6">
+      <path
+         id="path5090"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-8" />
+    <symbol
+       id="ROUNDV-3">
+      <path
+         id="path5094"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-6">
+      <path
+         id="path5097"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-1">
+      <path
+         id="path5100"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5102"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5104"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5106"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="LONGP100-2">
+      <path
+         id="path5109"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1124.4094 h 3.7795286 a 1.8897643,1.8897643 0 0 0 0,-3.7795 h -3.7795286 a 1.8897643,1.8897643 0 0 0 0,3.7795 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-5">
+      <path
+         id="path4925"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-9"
+       height="8">
+      <path
+         id="path4928"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4930"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4932"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="RECT-4" />
+    <symbol
+       id="PIE-69">
+      <path
+         id="path4936"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-2" />
+    <symbol
+       id="SQUAREP-2" />
+    <symbol
+       id="ROUNDP-4">
+      <path
+         id="path4941"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-77">
+      <path
+         id="path4944"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-5">
+      <path
+         id="path4947"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4949"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4951"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4953"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-48" />
+    <symbol
+       id="SQUAREV-1" />
+    <symbol
+       id="ROUNDV-28">
+      <path
+         id="path4958"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-9">
+      <path
+         id="path4961"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-3">
+      <path
+         id="path4964"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4966"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4968"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4970"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-4">
+      <path
+         id="path6301"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-6"
+       height="8">
+      <path
+         id="path6304"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path6306"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path6308"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-2" />
+    <symbol
+       id="*Paper_Space-5" />
+    <symbol
+       id="RECT-86" />
+    <symbol
+       id="PIE-2">
+      <path
+         id="path6314"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-8">
+      <path
+         id="path6317"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-4" />
+    <symbol
+       id="ROUNDP-7">
+      <path
+         id="path6321"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-24">
+      <path
+         id="path6324"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-06">
+      <path
+         id="path6327"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6329"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6331"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6333"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-2">
+      <path
+         id="path6336"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-99" />
+    <symbol
+       id="ROUNDV-0">
+      <path
+         id="path6340"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-8">
+      <path
+         id="path6343"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-13">
+      <path
+         id="path6346"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6348"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6350"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6352"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-0">
+      <path
+         id="path8080"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-92"
+       height="8">
+      <path
+         id="path8083"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path8085"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path8087"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-5" />
+    <symbol
+       id="*Paper_Space-4" />
+    <symbol
+       id="RECT-0" />
+    <symbol
+       id="PIE-5">
+      <path
+         id="path8093"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-9">
+      <path
+         id="path8096"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-46" />
+    <symbol
+       id="ROUNDP-9">
+      <path
+         id="path8100"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-22">
+      <path
+         id="path8103"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-4">
+      <path
+         id="path8106"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8108"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8110"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8112"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-7">
+      <path
+         id="path8115"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-75" />
+    <symbol
+       id="ROUNDV-4">
+      <path
+         id="path8119"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-81">
+      <path
+         id="path8122"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-2">
+      <path
+         id="path8125"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8127"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8129"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8131"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="*Paper_Space0" />
+    <symbol
+       id="*Paper_Space-0" />
+    <symbol
+       id="*Model_Space-50" />
+    <pattern
+       height="8"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       y="0"
+       x="0"
+       id="Hatch-3">
+      <path
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         d="M8 4 l-4,4"
+         id="path2995" />
+      <path
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         d="M6 2 l-4,4"
+         id="path2997" />
+      <path
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         d="M4 0 l-4,4"
+         id="path2999" />
+    </pattern>
+    <marker
+       refY="0"
+       refX="0"
+       style="overflow:visible"
+       id="DistanceX-18"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         id="path2992" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-9">
+      <path
+         id="path7677"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-91"
+       height="8">
+      <path
+         id="path7680"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path7682"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path7684"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="RECT-49" />
+    <symbol
+       id="PIE-1">
+      <path
+         id="path7688"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-0" />
+    <symbol
+       id="SQUAREP-7" />
+    <symbol
+       id="ROUNDP-58">
+      <path
+         id="path7693"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-70">
+      <path
+         id="path7696"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-48">
+      <path
+         id="path7699"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7701"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7703"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7705"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-04" />
+    <symbol
+       id="SQUAREV-2" />
+    <symbol
+       id="ROUNDV-9">
+      <path
+         id="path7710"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-61">
+      <path
+         id="path7713"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-0">
+      <path
+         id="path7716"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7718"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7720"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7722"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-17">
+      <path
+         id="path9225"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-57"
+       height="8">
+      <path
+         id="path9228"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path9230"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path9232"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-1" />
+    <symbol
+       id="*Paper_Space-69" />
+    <symbol
+       id="RECT-81" />
+    <symbol
+       id="PIE-3">
+      <path
+         id="path9238"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-3">
+      <path
+         id="path9241"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-3" />
+    <symbol
+       id="ROUNDP-79">
+      <path
+         id="path9245"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-86">
+      <path
+         id="path9248"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-70">
+      <path
+         id="path9251"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9253"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9255"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9257"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-484">
+      <path
+         id="path9260"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-81" />
+    <symbol
+       id="ROUNDV-6">
+      <path
+         id="path9264"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-85">
+      <path
+         id="path9267"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-21">
+      <path
+         id="path9270"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9272"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9274"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9276"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-11">
+      <path
+         id="path5926"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-08"
+       height="8">
+      <path
+         id="path5929"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5931"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5933"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-506" />
+    <symbol
+       id="*Paper_Space-46" />
+    <symbol
+       id="RECT-2" />
+    <symbol
+       id="PIE-58">
+      <path
+         id="path5939"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-62">
+      <path
+         id="path5942"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-8" />
+    <symbol
+       id="ROUNDP-47">
+      <path
+         id="path5946"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-240">
+      <path
+         id="path5949"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-6">
+      <path
+         id="path5952"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5954"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5956"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5958"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-29">
+      <path
+         id="path5961"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-90" />
+    <symbol
+       id="ROUNDV-81">
+      <path
+         id="path5965"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-31">
+      <path
+         id="path5968"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-10">
+      <path
+         id="path5971"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5973"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5975"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5977"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-93">
+      <path
+         id="path5215"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-68"
+       height="8">
+      <path
+         id="path5218"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5220"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5222"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-0" />
+    <symbol
+       id="*Paper_Space-2" />
+    <symbol
+       id="RECT-1" />
+    <symbol
+       id="PIE-05">
+      <path
+         id="path5228"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-1">
+      <path
+         id="path5231"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREP-10" />
+    <symbol
+       id="ROUNDP-8">
+      <path
+         id="path5235"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-5">
+      <path
+         id="path5238"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-064">
+      <path
+         id="path5241"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5243"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5245"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5247"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-62">
+      <path
+         id="path5250"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.8897643,1123.3024 v -1.5655 l 1.10702403,-1.107 h 1.56548054 l 1.10702403,1.107 v 1.5655 l -1.10702403,1.107 h -1.56548054 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="SQUAREV-5" />
+    <symbol
+       id="ROUNDV-86">
+      <path
+         id="path5254"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-2">
+      <path
+         id="path5257"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-8">
+      <path
+         id="path5260"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5262"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5264"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5266"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-47">
+      <path
+         id="path4940"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-7"
+       height="8">
+      <path
+         id="path4943"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4945"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4947-5"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="RECT-48" />
+    <symbol
+       id="PIE-12">
+      <path
+         id="path4951-8"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-93" />
+    <symbol
+       id="SQUAREP-68" />
+    <symbol
+       id="ROUNDP-02">
+      <path
+         id="path4956"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-1">
+      <path
+         id="path4959"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-05">
+      <path
+         id="path4962"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4964-1"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4966-1"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4968-0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-8" />
+    <symbol
+       id="SQUAREV-50" />
+    <symbol
+       id="ROUNDV-64">
+      <path
+         id="path4973"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-62">
+      <path
+         id="path4976"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-5">
+      <path
+         id="path4979"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4981"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4983"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4985"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-472">
+      <path
+         id="path5482"
+         style="stroke:#000000;stroke-width:0.53333336"
+         d="M 3.2,-3.2 -3.2,3.2 M 0,-5.3333333 V 5.3333333"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-4"
+       height="8">
+      <path
+         id="path5485"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5487"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5489"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="RECT-06" />
+    <symbol
+       id="PIE-29">
+      <path
+         id="path5493"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-90" />
+    <symbol
+       id="SQUAREP-81" />
+    <symbol
+       id="ROUNDP-3">
+      <path
+         id="path5498"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-11">
+      <path
+         id="path5501"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALP-03">
+      <path
+         id="path5504"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5506"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5508"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5510"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-40" />
+    <symbol
+       id="SQUAREV-3" />
+    <symbol
+       id="ROUNDV-91">
+      <path
+         id="path5515"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-96">
+      <path
+         id="path5518"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.8897643,1122.5197 a 1.8897643,1.8897643 0 1 0 -3.7795286,0 1.8897643,1.8897643 0 1 0 3.7795286,0 z"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="THERMALV-93">
+      <path
+         id="path5521"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M -0.89914987,1120.8189 H 0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5523"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m 1.7007872,1121.6205 v 1.7983"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5525"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="M 0.89914987,1124.2205 H -0.89914987"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5527"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672"
+         d="m -1.7007872,1123.4188 v -1.7983"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-6">
+      <path
+         id="path2544"
+         style="stroke:#000000; stroke-width:0.5"
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-1"
+       height="8">
+      <path
+         id="path2547"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path2549"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path2551"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-15" />
+    <symbol
+       id="*Paper_Space-9" />
+    <symbol
+       id="ROUNDV-84">
+      <path
+         id="path2556"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-810">
+      <path
+         id="path2559"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="THERMALV-30">
+      <path
+         id="path2562"
+         style="stroke:#000000;fill:none"
+         d="M -0.899150,1120.818898 0.899150,1120.818898" />
+      <path
+         id="path2564"
+         style="stroke:#000000;fill:none"
+         d="M 1.700787,1121.620535 1.700787,1123.418835" />
+      <path
+         id="path2566"
+         style="stroke:#000000;fill:none"
+         d="M 0.899150,1124.220472 -0.899150,1124.220472" />
+      <path
+         id="path2568"
+         style="stroke:#000000;fill:none"
+         d="M -1.700787,1123.418835 -1.700787,1121.620535" />
+    </symbol>
+    <symbol
+       id="RECT-44" />
+    <symbol
+       id="PIE-4">
+      <path
+         id="path2572"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-47">
+      <path
+         id="path2575"
+         style="stroke:#000000;fill:none"
+         d="M -1.889764,1123.302425 L -1.889764,1121.736945 L -0.782740,1120.629921 L 0.782740,1120.629921 L 1.889764,1121.736945 L 1.889764,1123.302425 L 0.782740,1124.409449 L -0.782740,1124.409449 L -1.889764,1123.302425 z" />
+    </symbol>
+    <symbol
+       id="SQUAREP-63" />
+    <symbol
+       id="ROUNDP-1">
+      <path
+         id="path2579"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-75">
+      <path
+         id="path2582"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="THERMALP-9">
+      <path
+         id="path2585"
+         style="stroke:#000000;fill:none"
+         d="M -0.899150,1120.818898 0.899150,1120.818898" />
+      <path
+         id="path2587"
+         style="stroke:#000000;fill:none"
+         d="M 1.700787,1121.620535 1.700787,1123.418835" />
+      <path
+         id="path2589"
+         style="stroke:#000000;fill:none"
+         d="M 0.899150,1124.220472 -0.899150,1124.220472" />
+      <path
+         id="path2591"
+         style="stroke:#000000;fill:none"
+         d="M -1.700787,1123.418835 -1.700787,1121.620535" />
+    </symbol>
+    <symbol
+       id="OCTAGONV-621">
+      <path
+         id="path2594"
+         style="stroke:#000000;fill:none"
+         d="M -1.889764,1123.302425 L -1.889764,1121.736945 L -0.782740,1120.629921 L 0.782740,1120.629921 L 1.889764,1121.736945 L 1.889764,1123.302425 L 0.782740,1124.409449 L -0.782740,1124.409449 L -1.889764,1123.302425 z" />
+    </symbol>
+    <symbol
+       id="SQUAREV-78" />
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX-97">
+      <path
+         id="path7747"
+         style="stroke:#000000; stroke-width:0.5"
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-43"
+       height="8">
+      <path
+         id="path7750"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path7752"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path7754"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space-56" />
+    <symbol
+       id="*Paper_Space-14" />
+    <symbol
+       id="OCTAGONV-03">
+      <path
+         id="path7759"
+         style="stroke:#000000;fill:none"
+         d="M -1.889764,1123.302425 L -1.889764,1121.736945 L -0.782740,1120.629921 L 0.782740,1120.629921 L 1.889764,1121.736945 L 1.889764,1123.302425 L 0.782740,1124.409449 L -0.782740,1124.409449 L -1.889764,1123.302425 z" />
+    </symbol>
+    <symbol
+       id="SQUAREV-12" />
+    <symbol
+       id="ROUNDV-7">
+      <path
+         id="path7763"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="ANNULUSV-79">
+      <path
+         id="path7766"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="THERMALV-81">
+      <path
+         id="path7769"
+         style="stroke:#000000;fill:none"
+         d="M -0.899150,1120.818898 0.899150,1120.818898" />
+      <path
+         id="path7771"
+         style="stroke:#000000;fill:none"
+         d="M 1.700787,1121.620535 1.700787,1123.418835" />
+      <path
+         id="path7773"
+         style="stroke:#000000;fill:none"
+         d="M 0.899150,1124.220472 -0.899150,1124.220472" />
+      <path
+         id="path7775"
+         style="stroke:#000000;fill:none"
+         d="M -1.700787,1123.418835 -1.700787,1121.620535" />
+    </symbol>
+    <symbol
+       id="RECT-07" />
+    <symbol
+       id="PIE-60">
+      <path
+         id="path7779"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="OCTAGONP-10">
+      <path
+         id="path7782"
+         style="stroke:#000000;fill:none"
+         d="M -1.889764,1123.302425 L -1.889764,1121.736945 L -0.782740,1120.629921 L 0.782740,1120.629921 L 1.889764,1121.736945 L 1.889764,1123.302425 L 0.782740,1124.409449 L -0.782740,1124.409449 L -1.889764,1123.302425 z" />
+    </symbol>
+    <symbol
+       id="SQUAREP-25" />
+    <symbol
+       id="ROUNDP-19">
+      <path
+         id="path7786"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="ANNULUSP-71">
+      <path
+         id="path7789"
+         style="stroke:#000000;fill:none"
+         d="M 1.889764,1122.519685 A 1.889764,1.889764 -0.000000 1 0 -1.889764,1122.519685 1.889764,1.889764 -0.000000 1 0 1.889764,1122.519685 z" />
+    </symbol>
+    <symbol
+       id="THERMALP-31">
+      <path
+         id="path7792"
+         style="stroke:#000000;fill:none"
+         d="M -0.899150,1120.818898 0.899150,1120.818898" />
+      <path
+         id="path7794"
+         style="stroke:#000000;fill:none"
+         d="M 1.700787,1121.620535 1.700787,1123.418835" />
+      <path
+         id="path7796"
+         style="stroke:#000000;fill:none"
+         d="M 0.899150,1124.220472 -0.899150,1124.220472" />
+      <path
+         id="path7798"
+         style="stroke:#000000;fill:none"
+         d="M -1.700787,1123.418835 -1.700787,1121.620535" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="background"
+     style="display:inline;opacity:1"
+     sodipodi:insensitive="true">
+    <rect
+       style="display:inline;fill:#252850;fill-opacity:1;stroke:none;stroke-width:0.22551253;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7669-9-2"
+       width="1082.8346"
+       height="436.53543"
+       x="0.050002638"
+       y="357.11533"
+       rx="13.228347"
+       ry="13.228347"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="import"
+     style="display:inline;opacity:1">
+    <g
+       inkscape:label="0"
+       id="g2600"
+       transform="translate(0.5,-329.31891)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="text"
+     style="display:inline">
+    <g
+       transform="matrix(0.07530162,0,0,-0.07530162,473.90133,787.27167)"
+       inkscape:label="icon_kenlock"
+       id="g5439-9-6"
+       style="display:inline;fill:#ffffff">
+      <g
+         transform="scale(1,-1)"
+         id="g5441-7-4"
+         style="fill:#ffffff">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5445-7-5"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672"
+           d="m 497.9,-270.7 c -7.40833,6.0625 -18.40833,4.88958 -24.53958,-2.6 l -56.29375,-69.1 55.84375,-69.39375 c 6.13124,-7.49062 17.13124,-8.6625 24.53959,-2.60104 7.57082,6.19687 8.59582,17.2125 2.46666,24.70312 l -39.77917,46.26563 40.22917,48.02291 c 6.12916,7.49063 5.10417,18.5073 -2.46667,24.70313 z m -95.96667,-13.22291 c 0,9.57708 -7.77291,17.45207 -17.55416,17.45207 -9.575,0 -17.34584,-7.87499 -17.34584,-17.45207 v -116.43334 c 0,-9.68438 7.77084,-17.55938 17.34584,-17.55938 9.78125,0 17.55416,7.875 17.55416,17.55938 z M 383.3,-479.6875 c 0,-24.525 19.95001,-44.48437 44.47084,-44.48437 24.53749,0 44.50208,19.95937 44.50208,44.48437 v 36.45 H 383.3 Z m 123.77292,0 c 0,-43.71563 -35.57292,-79.28437 -79.30208,-79.28437 -43.7125,0 -79.27084,35.56874 -79.27084,79.28437 v 36.45 h -31.49167 v 201.70417 H 538.52916 V -443.2375 h -31.45624 z"
+           sodipodi:nodetypes="cccccccccssssssssssccssssccccccs" />
+      </g>
+    </g>
+    <text
+       id="text5782-0-8-6-2"
+       y="761.51324"
+       x="969.87384"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:100%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4513"
+         x="969.87384"
+         y="761.51324">www.envox.hr/eez</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4515"
+         x="969.87384"
+         y="774.31323">github.com/eez-open/modular-psu</tspan></text>
+    <rect
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.82349765;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect13477-7"
+       width="142.59908"
+       height="82.326103"
+       x="912.3725"
+       y="382.64484"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="text4580-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:WebHostingHub-Glyphs;-inkscape-font-specification:'WebHostingHub-Glyphs, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(1.508962,0,0,1.508962,-403.23704,-468.32652)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4585-3"
+         style="fill:#ffffff;stroke-width:1.06666672px"
+         d="m 866.93874,690.28919 q 0,0.44011 -0.32162,0.76172 -0.30468,0.32161 -0.76172,0.32161 h -15.16666 q -0.45704,0 -0.77865,-0.32161 -0.30468,-0.32161 -0.30468,-0.76172 0,-0.28776 0.15234,-0.54166 l 7.43099,-12.45834 q 0.13541,-0.30469 0.18619,-0.40625 0.0677,-0.10154 0.20313,-0.30469 0.15234,-0.22004 0.30469,-0.28775 0.16927,-0.0846 0.38932,-0.0846 0.28776,0 0.49088,0.16927 0.22006,0.16928 0.32162,0.3724 0.11849,0.1862 0.27083,0.54167 l 7.43099,12.45833 q 0.15235,0.2539 0.15235,0.54167 z m -7.58334,-8.66666 q 0,-0.45704 -0.32161,-0.76172 -0.30469,-0.32162 -0.76172,-0.32162 -0.45703,0 -0.77864,0.32162 -0.30469,0.30468 -0.30469,0.76172 v 3.24999 q 0,0.44011 0.32161,0.76172 0.32162,0.32162 0.76172,0.32162 0.4401,0 0.76172,-0.32162 0.32161,-0.32161 0.32161,-0.76172 z m -0.32161,5.73828 q -0.32162,-0.32162 -0.77864,-0.32162 -0.44011,0 -0.76172,0.32162 -0.30469,0.30468 -0.30469,0.76172 0,0.4401 0.32161,0.76172 0.32162,0.32161 0.76172,0.32161 0.4401,0 0.76172,-0.32161 0.32161,-0.32162 0.32161,-0.76172 0,-0.45704 -0.32161,-0.76172 z" />
+    </g>
+    <text
+       id="text5782-0-8-6-4-0-8-5-8"
+       y="531.01227"
+       x="912.45526"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:100%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4603"
+         x="912.45526"
+         y="531.01227">AC input: 85 - 265 V / 47 - 63 Hz</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4605"
+         x="912.45526"
+         y="541.01227"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4607"
+         x="912.45526"
+         y="551.01227">Use 20 x 5 mm fuses in accordance</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4609"
+         x="912.45526"
+         y="561.01227">with AC mains voltage and number</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4611"
+         x="912.45526"
+         y="571.01227">of installed power modules.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4613"
+         x="912.45526"
+         y="581.01227">For more info visit project web pages.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="holes"
+     style="display:inline">
+    <path
+       id="path7835"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 923.19961,717.1153 c -0.0404,2.03408 1.74418,3.81975 3.77953,3.7796 m 113.38576,0 c 2.0341,0.0404 3.8198,-1.74423 3.7796,-3.7796 m 0,-102.0472 c 0.04,-2.03407 -1.7443,-3.81969 -3.7796,-3.7795 m -113.38576,0 c 37.79525,0 75.59046,0 113.38576,0 m -113.38576,0 c -2.03405,-0.0404 -3.81966,1.74419 -3.77953,3.7795 m 0,102.0472 c 0,-34.01573 0,-68.03147 0,-102.0472 m 120.94489,0 c 0,34.01573 0,68.03147 0,102.0472 m -3.7796,3.7796 c -37.7953,0 -75.59051,0 -113.38576,0"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7853"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 80.364961,440.2649 a 8.503937,8.503937 0 1 0 -17.007874,0 8.503937,8.503937 0 1 0 17.007874,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7855"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 80.364961,710.5012 a 8.503937,8.503937 0 1 0 -17.007874,0 8.503937,8.503937 0 1 0 17.007874,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7857"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 350.60118,710.5012 a 8.503937,8.503937 0 1 0 -17.00787,0 8.503937,8.503937 0 1 0 17.00787,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7859"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 350.60118,440.2649 a 8.503937,8.503937 0 1 0 -17.00787,0 8.503937,8.503937 0 1 0 17.00787,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7861"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 354.38071,575.383 a 147.40158,147.40158 0 1 0 -294.803151,0 147.40158,147.40158 0 1 0 294.803151,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7863"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 989.34134,598.0602 a 5.6692915,5.6692915 0 1 0 -11.33858,0 5.6692915,5.6692915 0 1 0 11.33858,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7865"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 989.34134,734.1232 a 5.6692915,5.6692915 0 1 0 -11.33858,0 5.6692915,5.6692915 0 1 0 11.33858,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7867"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 567.92402,440.2649 a 8.503937,8.503937 0 1 0 -17.00787,0 8.503937,8.503937 0 1 0 17.00787,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7869"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 567.92402,710.5012 a 8.503937,8.503937 0 1 0 -17.00787,0 8.503937,8.503937 0 1 0 17.00787,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7871"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 838.16024,710.5012 a 8.503937,8.503937 0 1 0 -17.00787,0 8.503937,8.503937 0 1 0 17.00787,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7873"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 838.16024,440.2649 a 8.503937,8.503937 0 1 0 -17.00787,0 8.503937,8.503937 0 1 0 17.00787,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7875"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 841.93977,575.383 a 147.40157,147.40157 0 1 0 -294.80315,0 147.40158,147.40158 0 1 0 294.80315,0 z"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5462-6"
+       width="28.346457"
+       height="13.228347"
+       x="527.29407"
+       y="755.85547"
+       rx="1.8897599"
+       ry="1.8897599" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5462-6-1"
+       width="120.94489"
+       height="109.6063"
+       x="923.19958"
+       y="611.28857"
+       rx="3.7795277"
+       ry="3.7795277" />
+  </g>
+</svg>
