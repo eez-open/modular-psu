@@ -11965,7 +11965,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="OK3" library="EEZ_Lib1" deviceset="TLP291" device="" value="TLP291-GB.SE-T"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C1210" value="4u7"/>
 <part name="D2" library="EEZ_Lib1" deviceset="DIODE" device="DO214AA" value="US1K-DIO"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C1210" value="1n/1kV"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
@@ -11974,7 +11974,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="22R"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="SUPPLY80" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 <part name="SUPPLY85" library="supply2" deviceset="0V" device=""/>
@@ -12038,7 +12038,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="TP2" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>

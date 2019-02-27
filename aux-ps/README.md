@@ -15,6 +15,6 @@ AUX Power supply board for powering MCU board and backplane.
 * On-board PE 4 mm terminals
 * Dimensions: 230.5 x 60 mm, 2-layer PCB
 
-### First prototype (r1B1)
+### Prototype r2B1
 
-![first prototype](Images/AUX_PS_r1B1_prototype.jpg)
+![prototype](Images/AUX_PS_r2B1_prototype.jpg)
