@@ -11954,7 +11954,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <part name="SUPPLY69" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY72" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
-<part name="X3" library="EEZ_connectors" deviceset="IDC-16PIN" device="-ANGLED" value="ZL231-16KG"/>
+<part name="X3" library="EEZ_connectors" deviceset="IDC-16PIN" device="" value="ZL231-16PG"/>
 <part name="SUPPLY1" library="supply2" deviceset="+12V" device=""/>
 <part name="X6" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
