@@ -8,7 +8,7 @@ It is work in progress and it's conceived to have the following components/modul
 * _[BP3C](https://github.com/eez-open/modular-psu/tree/master/bp3c)_ EEZ DIB backplane with series/parallel power coupling capability of first two modules
 * _[Bench Box 3](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ metal enclosure for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 mm (W) x 119 mm (H) x 240 mm (D)
 
-Additionally, [DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405), an EEZ H24005 [Power module](https://github.com/eez-open/psu-hw/tree/master/Power%20board) variant can be also housed and powered with a off-the-shelf fixed output (48 Vdc) AC/DC power module.
+Additionally, _[DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405)_, an EEZ H24005 [Power module](https://github.com/eez-open/psu-hw/tree/master/Power%20board) variant can be also housed and powered with a off-the-shelf fixed output (48 Vdc) AC/DC power module.
 
 ### _Bench Box 3_ enclosure 3D model
 
