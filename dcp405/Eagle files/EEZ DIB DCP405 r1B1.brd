@@ -4994,7 +4994,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="119.4535" y="52.6038" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="131.5585" y="47.4655" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="IC11" library="EEZ_Lib1" package="SOIC127P600X173-8N" value="MC33274ADR2G" x="85.6615" y="24.257" smashed="yes" rot="R180">
+<element name="IC11" library="EEZ_Lib1" package="SOIC127P600X173-8N" value="MC33272ADR2G" x="85.6615" y="24.257" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.4875" y="24.5491" size="1.016" layer="25" ratio="10" rot="SR90"/>
 <attribute name="VALUE" x="82.3436" y="24.049" size="0.6096" layer="27" ratio="10" rot="SR0"/>
 </element>
@@ -5382,8 +5382,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.8925" y="55.4355" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="27.305" y="55.5625" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="KK1" library="EEZ_Lib1" package="PCB-MB" value="PCB-MB" x="11" y="89.5" smashed="yes"/>
-<element name="KK2" library="EEZ_Lib1" package="PCB-MB" value="PCB-MB" x="11" y="5.5" smashed="yes"/>
+<element name="KK1" library="EEZ_Lib1" package="PCB-MB" value="PCB-MB-01" x="11" y="89.5" smashed="yes"/>
+<element name="KK2" library="EEZ_Lib1" package="PCB-MB" value="PCB-MB-01" x="11" y="5.5" smashed="yes"/>
 <element name="C37" library="rcl" package="C0603" value="100n" x="89.0905" y="5.207" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.63" y="7.0485" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="88.773" y="6.6675" size="0.8128" layer="27" ratio="10" rot="R270"/>
@@ -5558,7 +5558,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="111.125" y="5.9055" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="110.4265" y="5.1435" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X1" library="EEZ_connectors" package="MINIFIT_39301020" value="172648-0102" x="171.069" y="10.6045" smashed="yes" rot="R90">
+<element name="X1" library="EEZ_connectors" package="MINIFIT_39301020" value="39-30-1020" x="171.069" y="10.6045" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.7135" y="13.59" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="171.943" y="10.105" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -5710,7 +5710,7 @@ design rules under a new name.</description>
 <element name="SH3" library="EEZ_Lib1" package="SHORT_NOHOLE" value="Sgnd to Pgnd short" x="180.721" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="180.4035" y="75.8825" size="0.6096" layer="52" rot="R270"/>
 </element>
-<element name="Q1" library="EEZ_Lib1" package="TO229P990X239-3N" value="IRFR5305" x="158.3055" y="49.911" smashed="yes" rot="R90">
+<element name="Q1" library="EEZ_Lib1" package="TO229P990X239-3N" value="SUD19P06-60" x="158.3055" y="49.911" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.8765" y="50.546" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="161.4805" y="50.4825" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -5847,7 +5847,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="147.828" y="39.624" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="146.8755" y="38.608" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="IC3" library="EEZ_Lib1" package="SOIC127P600X175-8N" value="LP2951SO8" x="152.527" y="37.0205" smashed="yes">
+<element name="IC3" library="EEZ_Lib1" package="SOIC127P600X175-8N" value="LP2951" x="152.527" y="37.0205" smashed="yes">
 <attribute name="NAME" x="151.1681" y="33.0835" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="148.3106" y="36.576" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
@@ -5879,7 +5879,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="156.131" y="31.543" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="156.9065" y="32.718" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="L1" library="EEZ_Lib1" package="RN112" value="RN112-4-02" x="172.0215" y="23.622" smashed="yes" rot="R180">
+<element name="L1" library="EEZ_Lib1" package="RN112" value="RN112-4-02-0M7" x="172.0215" y="23.622" smashed="yes" rot="R180">
 <attribute name="NAME" x="163.1442" y="31.3817" size="1.6764" layer="25" ratio="10"/>
 <attribute name="VALUE" x="164.0302" y="22.9597" size="1.6764" layer="27"/>
 </element>
@@ -5967,7 +5967,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.4505" y="87.503" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="48.895" y="86.5505" size="1.27" layer="27"/>
 </element>
-<element name="R71" library="EEZ_Lib1" package="R_H2728" value="0R010" x="75.5015" y="71.8185" smashed="yes" rot="R180">
+<element name="R71" library="EEZ_Lib1" package="R_H2728" value="0R010 (low TCR)" x="75.5015" y="71.8185" smashed="yes" rot="R180">
 <attribute name="NAME" x="80.391" y="71.1835" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="75.5015" y="71.8185" size="1.27" layer="27" rot="R180" align="center"/>
 </element>

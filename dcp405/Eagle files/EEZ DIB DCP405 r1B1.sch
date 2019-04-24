@@ -23289,7 +23289,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C52" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C58" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="Q6" library="EEZ_Lib1" deviceset="P-MOSFET" device="MIRROR2" value="STF10P6F6"/>
-<part name="IC11" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33274ADR2G"/>
+<part name="IC11" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33272ADR2G"/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C1206" value="1u/100V"/>
 <part name="P-1" library="supply2" deviceset="V-" device=""/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R2512" value="3R9/2W"/>
@@ -23444,8 +23444,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY55" library="supply2" deviceset="GND" device=""/>
-<part name="KK1" library="EEZ_Lib1" deviceset="PCB-MB" device=""/>
-<part name="KK2" library="EEZ_Lib1" deviceset="PCB-MB" device=""/>
+<part name="KK1" library="EEZ_Lib1" deviceset="PCB-MB" device="" value="PCB-MB-01"/>
+<part name="KK2" library="EEZ_Lib1" deviceset="PCB-MB" device="" value="PCB-MB-01"/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -23519,7 +23519,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="X4" library="EEZ_connectors" deviceset="SSW-110-02-T-D-RA" device="" value="ZL263-20DG"/>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
-<part name="X1" library="EEZ_connectors" deviceset="MINIFIT_39301020" device="" value="172648-0102"/>
+<part name="X1" library="EEZ_connectors" deviceset="MINIFIT_39301020" device="" value="39-30-1020"/>
 <part name="RN2" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-33R-4/8"/>
 <part name="RN1" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-33R-4/8"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -23570,7 +23570,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="L4" library="EEZ_inductors_and_transformers" deviceset="COILCRAFT_HPI0630" device="" value="VLS6045AF-3R3N"/>
 <part name="L3" library="EEZ_inductors_and_transformers" deviceset="COILCRAFT_HPI0630" device="" value="VLS6045AF-3R3N"/>
 <part name="SH3" library="EEZ_Lib1" deviceset="SHORT" device="NOHOLE" value="Sgnd to Pgnd short"/>
-<part name="Q1" library="EEZ_Lib1" deviceset="P-MOSFET" device="DPAK" value="IRFR5305"/>
+<part name="Q1" library="EEZ_Lib1" deviceset="P-MOSFET" device="DPAK" value="SUD19P06-60"/>
 <part name="IC1" library="EEZ_Lib1" deviceset="LTC3864" device="" value="LTC3864EMSE#PBF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -23610,7 +23610,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C34" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="10u"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C22" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7"/>
-<part name="IC3" library="EEZ_Lib1" deviceset="LP2951" device="SO8"/>
+<part name="IC3" library="EEZ_Lib1" deviceset="LP2951" device="SO8" value="LP2951"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="5K1"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
@@ -23618,7 +23618,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="C20" library="rcl" deviceset="CPOL-EU" device="C/6032-28R" value="1uF/50V Tant."/>
-<part name="L1" library="EEZ_Lib1" deviceset="RN112" device="" value="RN112-4-02"/>
+<part name="L1" library="EEZ_Lib1" deviceset="RN112" device="" value="RN112-4-02-0M7"/>
 <part name="ZD2" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="PDZ5.6B"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R2512" value="4K7/2W"/>
 <part name="C50" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -23642,7 +23642,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R62" library="rcl" deviceset="R-EU_" device="R1206" value="0R75"/>
 <part name="R61" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="SUPPLY128" library="supply2" deviceset="GND" device="" value="GND"/>
-<part name="R71" library="EEZ_Lib1" deviceset="R-EU_4WIRE" device="H2728" value="0R010"/>
+<part name="R71" library="EEZ_Lib1" deviceset="R-EU_4WIRE" device="H2728" value="0R010 (low TCR)"/>
 <part name="PE1" library="supply1" deviceset="PE" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
@@ -23700,7 +23700,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <text x="164.465" y="28.575" size="2.54" layer="94" font="vector">SMPS power pre-regulator with 100% duty cycle</text>
 <text x="161.798" y="86.995" size="1.778" layer="96">100u</text>
 <text x="127" y="106.045" size="1.4224" layer="103">See Note 1.1</text>
-<text x="2.54" y="27.94" size="1.778" layer="103">Note 1.1: Possible alternative AUIRFR5305, SUD19P06-60, SPD30P06P or other with similar or lower input capacitance</text>
+<text x="2.54" y="27.94" size="1.778" layer="103">Note 1.1: Possible alternative AUIRFR5305, IRFR5305, SPD30P06P or other with similar or lower input capacitance</text>
 <text x="2.54" y="25.4" size="1.778" layer="103">Note 1.2: WE 7447709330, WE 7443551331, Coilcraft MSS1210-333, Coilcraft XAL1510-333, Vishay IHLP4040DZER470M11, etc.</text>
 <text x="2.54" y="22.86" size="1.778" layer="103">Note 1.3: Use 240K for 30 VAC main transformer</text>
 <text x="2.54" y="20.32" size="1.778" layer="103">Note 1.4: Install 0R only if 100% Duty cycle feature for Low Ripple mode is not needed</text>
@@ -24491,6 +24491,8 @@ digital isolators, CS demux, Temp sensor</text>
 <rectangle x1="22.225" y1="157.48" x2="28.575" y2="165.735" layer="97"/>
 <rectangle x1="111.76" y1="99.06" x2="116.84" y2="106.68" layer="97"/>
 <text x="56.515" y="171.45" size="1.27" layer="103">Step-down to ~12 V</text>
+<text x="26.035" y="24.765" size="1.27" layer="103">I2C address: 1010 XXXX</text>
+<text x="85.09" y="15.24" size="1.27" layer="103">I2C address: 0100 1XXX</text>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="134.62" y="17.78" smashed="yes">
@@ -25755,6 +25757,7 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="66.04" y1="170.18" x2="71.12" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="101.6" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
 <junction x="15.24" y="104.14"/>
+<label x="15.24" y="140.335" size="1.27" layer="102"/>
 </segment>
 </net>
 <net name="N$63" class="0">
