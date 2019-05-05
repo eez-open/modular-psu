@@ -14,7 +14,7 @@ STM32F7 MCU board for controling up to 3 SPI peripheral modules, I2C fan control
 * I2C EEPROM
 * JTAG connector
 * SDRAM (e.g. [IS42S16400J](https://www.tme.eu/en/details/is42s16400j-7tli/dram-memories-integrated-circuits/issi/))
-* TFT LCD 0.5 mm FFC 40-pin connector (e.g. [RVT4.3ATFWR00](https://www.tme.eu/en/details/rvt4.3atfwr00/tft-displays/riverdi/rvt43a480272tfwr00/),  [RFE43BH-AIW-DNS](https://www.tme.eu/en/details/rfe43bh-aiw-dns/tft-displays/raystar-optronics/) or [RFE430Y-AIW-DNS](https://www.tme.eu/en/details/rfe430y-aiw-dns/tft-displays/raystar-optronics/))
+* TFT LCD 0.5 mm FFC 40-pin connector (e.g. [RFE43BH-AIW-DNS](https://www.tme.eu/en/details/rfe43bh-aiw-dns/tft-displays/raystar-optronics/) or [RFE430Y-AIW-DNS](https://www.tme.eu/en/details/rfe430y-aiw-dns/tft-displays/raystar-optronics/))
 * TFT backlight brightness control
 * Resistive touch controller
 * Soft-start/stand-by control lines for [AUX PS board](https://github.com/eez-open/modular-psu/tree/master/aux-ps)
