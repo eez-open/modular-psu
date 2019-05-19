@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23681,6 +23681,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="D1" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
+<part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
+<part name="JP4" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29425,6 +29427,12 @@ Output coupling, Rsense relay</text>
 <attribute name="NAME" x="200.914" y="131.826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="200.914" y="128.016" size="1.778" layer="96"/>
 </instance>
+<instance part="JP3" gate="G$1" x="93.98" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.615" y="162.56" size="1.778" layer="95"/>
+</instance>
+<instance part="JP4" gate="G$1" x="93.98" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.615" y="104.14" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29483,6 +29491,9 @@ Output coupling, Rsense relay</text>
 <wire x1="99.06" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="160.02" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <junction x="93.98" y="142.24"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
+<junction x="93.98" y="160.02"/>
 </segment>
 </net>
 <net name="N$108" class="0">
@@ -29532,6 +29543,9 @@ Output coupling, Rsense relay</text>
 <pinref part="K1" gate="3" pin="P"/>
 <wire x1="93.98" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="109.22" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<junction x="93.98" y="109.22"/>
 </segment>
 </net>
 <net name="POST_OUT-" class="0">
@@ -29573,10 +29587,11 @@ Output coupling, Rsense relay</text>
 <wire x1="71.12" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="101.6" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 <junction x="71.12" y="101.6"/>
-<wire x1="81.28" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <junction x="81.28" y="101.6"/>
 <label x="175.26" y="101.6" size="1.27" layer="102" xref="yes"/>
 <pinref part="K1" gate="3" pin="O"/>
+<wire x1="93.98" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="101.6" x2="160.02" y2="101.6" width="0.4064" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="175.26" y2="101.6" width="0.4064" layer="91"/>
@@ -29588,6 +29603,9 @@ Output coupling, Rsense relay</text>
 <junction x="160.02" y="101.6"/>
 <wire x1="121.92" y1="137.16" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <junction x="121.92" y="119.38"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="104.14" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<junction x="93.98" y="101.6"/>
 </segment>
 </net>
 <net name="N$111" class="0">
@@ -29860,9 +29878,10 @@ Output coupling, Rsense relay</text>
 <junction x="73.66" y="167.64"/>
 <wire x1="73.66" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="167.64" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
 <junction x="83.82" y="167.64"/>
 <pinref part="C88" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="149.86" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
@@ -29885,6 +29904,9 @@ Output coupling, Rsense relay</text>
 <pinref part="C89" gate="G$1" pin="+"/>
 <wire x1="121.92" y1="144.78" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <junction x="121.92" y="149.86"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="165.1" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<junction x="93.98" y="167.64"/>
 </segment>
 </net>
 </nets>

@@ -8,7 +8,7 @@ The EEZ DIB DCP405 Power module is adopted EEZ H24005 [Power board](https://gith
 - Voltage regulation (CV), 0 – 40 V. Voltage set resolution (_U_SET_): 16-bit, read resolution (_U_MON_): 15-bit
 - Current regulation (CC) with 3-range (50 mA, 500 mA, 5 A) software auto-ranging function. Current set resolution (_I_SET_): 16-bit, Current read resolution (_I_MON_): 15-bit for each range
 - On-board power pre-regulator and bias power supply
-- **On-board OVP** with triac and two fuses
+- **On-board OVP** with triac crowbar and two fuses
 - Down-programmer
 - Output enable (OE) circuit with LED indicator
 - Fault LED indicator
