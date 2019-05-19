@@ -23241,30 +23241,30 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="Q3" library="EEZ_Lib1" deviceset="IRFP240" device="MIRROR2" value="IRFP250MPBF"/>
 <part name="R67" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="D11" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D12" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R70" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
-<part name="D8" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D9" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C44" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="C48" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R58" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
-<part name="D7" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
-<part name="D9" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D8" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D10" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R38" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
-<part name="D3" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D4" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="D6" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D7" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="C42" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="D4" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D5" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="ZD4" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="PDZ6.2B"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="750R"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
-<part name="D5" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D6" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R42" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
@@ -23281,7 +23281,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="7K5 0.1%"/>
 <part name="Q11" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT5551LT1" value="MMBT5551"/>
 <part name="Q7" library="EEZ_Lib1" deviceset="BCP56" device="" value="BCP56-16.115"/>
-<part name="IC10" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33272ADR2G"/>
+<part name="IC10" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="OPA2196ID"/>
 <part name="Q8" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857B" value="MMBT5401"/>
 <part name="Q9" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857B" value="MMBT5401"/>
 <part name="Q10" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT5551LT1" value="MMBT5551"/>
@@ -23312,7 +23312,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="C61" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R86" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R86" library="rcl" deviceset="R-EU_" device="R1206" value="10R"/>
 <part name="C77" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C75" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R75" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
@@ -23334,7 +23334,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="IC15" library="EEZ_Lib1" deviceset="REF50XX" device="" value="REF5025AIDR"/>
 <part name="P+12" library="supply2" deviceset="V+" device=""/>
 <part name="R82" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
-<part name="C66" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7"/>
+<part name="C66" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7 tant."/>
 <part name="P+15" library="supply2" deviceset="V+" device=""/>
 <part name="P+4" library="supply2" deviceset="V+" device=""/>
 <part name="C79" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -23416,7 +23416,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </part>
 <part name="R116" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
 <part name="C88" library="rcl" deviceset="C-EU" device="C1206" value="470n"/>
-<part name="D14" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A_L" value="SK10100D1-DIO"/>
+<part name="D15" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A_L" value="SK10100D1-DIO"/>
 <part name="C90" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="C94" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="R121" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
@@ -23429,7 +23429,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </part>
 <part name="PE2" library="supply1" deviceset="PE" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="D15" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D16" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R98" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
 <part name="R94" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
@@ -23496,8 +23496,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="Q18" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT5551LT1" value="FMMT493TA"/>
 <part name="R89" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="R101" library="rcl" deviceset="R-EU_" device="R0805" value="6R2"/>
-<part name="D12" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="D13" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D14" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R95" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R100" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="C81" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
@@ -23530,7 +23530,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="FM1" library="EEZ_Lib1" deviceset="FIDUCIAL" device="_2"/>
 <part name="C89" library="EEZ_Lib1" deviceset="ECAP" device="SMD8.3MM/HA0" value="HHXC630ARA220MHA0G"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
-<part name="D10" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SK55"/>
+<part name="D11" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SK55"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GNDIO" device=""/>
 <part name="IC9" library="EEZ_Lib1" deviceset="TMPX75" device="DGK" value="TMP1075AIDGK"/>
@@ -23559,7 +23559,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="Q2" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857B" value="MMBT5401"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1210" value="4u7/100V"/>
-<part name="D1" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A_L" value="STPS15H100"/>
+<part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A_L" value="STPS15H100"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R2512" value="R010/2W"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
@@ -23574,7 +23574,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="IC1" library="EEZ_Lib1" deviceset="LTC3864" device="" value="LTC3864EMSE#PBF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="D2" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="D3" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="SUPPLY73" library="supply2" deviceset="V-" device=""/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
@@ -23606,10 +23606,10 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C33" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
 <part name="IC6" library="EEZ_Lib1" deviceset="LTC3260" device="MSOP16" value="LTC3260EMSE#PBF"/>
-<part name="C27" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="10u"/>
-<part name="C34" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="10u"/>
+<part name="C27" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="10u tant."/>
+<part name="C34" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="10u tant."/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C22" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7"/>
+<part name="C22" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7 tant."/>
 <part name="IC3" library="EEZ_Lib1" deviceset="LP2951" device="SO8" value="LP2951"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="5K1"/>
@@ -23679,6 +23679,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="TP2" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
+<part name="D1" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
+<part name="JP2" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23766,7 +23768,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="114.046" y="152.781" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="114.046" y="150.241" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D1" gate="G$1" x="124.46" y="88.9" smashed="yes" rot="R90">
+<instance part="D2" gate="G$1" x="124.46" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="122.936" y="90.805" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="122.936" y="88.519" size="1.4224" layer="96" rot="R180"/>
 </instance>
@@ -23825,16 +23827,16 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="60.579" y="119.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.579" y="117.221" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="203.2" y="63.5" smashed="yes" rot="R180">
+<instance part="D3" gate="G$1" x="203.2" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="201.549" y="65.2526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.882" y="59.2836" size="1.778" layer="96"/>
 </instance>
 <instance part="SH2" gate="SH" x="182.88" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="180.6575" y="81.915" size="1.778" layer="95"/>
 </instance>
-<instance part="R2" gate="G$1" x="33.02" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="131.0386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="126.238" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="43.18" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.91" y="141.1986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="40.64" y="136.398" size="1.778" layer="96"/>
 </instance>
 <instance part="C19" gate="G$1" x="203.2" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="203.581" y="46.101" size="1.778" layer="95" rot="MR0"/>
@@ -23923,6 +23925,10 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <instance part="TP1" gate="G$1" x="165.1" y="165.1" smashed="yes">
 <attribute name="NAME" x="167.005" y="164.465" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="162.56" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="30.48" y="129.54" smashed="yes">
+<attribute name="NAME" x="28.194" y="131.2926" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.162" y="125.9586" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24030,7 +24036,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="55.88" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <junction x="208.28" y="55.88"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 <junction x="208.28" y="63.5"/>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -24042,7 +24048,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <wire x1="198.12" y1="66.04" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="198.12" y1="63.5" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
 <junction x="198.12" y="63.5"/>
@@ -24092,9 +24098,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </net>
 <net name="PRE_OE" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <label x="22.86" y="129.54" size="1.27" layer="102" rot="R180" xref="yes"/>
 <wire x1="27.94" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -24122,7 +24128,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="124.46" y1="99.06" x2="129.54" y2="99.06" width="0.4064" layer="91"/>
 <wire x1="124.46" y1="104.14" x2="124.46" y2="99.06" width="0.4064" layer="91"/>
 <junction x="124.46" y="99.06"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="124.46" y1="91.44" x2="124.46" y2="99.06" width="0.4064" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
@@ -24244,13 +24250,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <pinref part="C15" gate="G$1" pin="-"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RUN"/>
-<wire x1="66.04" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="DC-" class="0">
 <segment>
 <label x="17.78" y="160.655" size="1.27" layer="102"/>
@@ -24342,7 +24341,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="154.94" y1="68.58" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="83.82" width="0.4064" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="124.46" y1="83.82" x2="124.46" y2="81.28" width="0.4064" layer="91"/>
 <wire x1="144.78" y1="81.28" x2="124.46" y2="81.28" width="0.4064" layer="91"/>
 <junction x="144.78" y="81.28"/>
@@ -24354,10 +24353,10 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="160.02" y1="86.36" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 <junction x="160.02" y="81.28"/>
 <junction x="124.46" y="81.28"/>
-<wire x1="124.46" y1="81.28" x2="45.72" y2="81.28" width="0.4064" layer="91"/>
+<wire x1="124.46" y1="81.28" x2="48.26" y2="81.28" width="0.4064" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PGND"/>
-<wire x1="66.04" y1="99.06" x2="45.72" y2="99.06" width="0.4064" layer="91"/>
-<wire x1="45.72" y1="99.06" x2="45.72" y2="139.7" width="0.4064" layer="91"/>
+<wire x1="66.04" y1="99.06" x2="48.26" y2="99.06" width="0.4064" layer="91"/>
+<wire x1="48.26" y1="99.06" x2="48.26" y2="139.7" width="0.4064" layer="91"/>
 <wire x1="81.28" y1="154.94" x2="78.74" y2="154.94" width="0.4064" layer="91"/>
 <wire x1="78.74" y1="154.94" x2="78.74" y2="160.02" width="0.4064" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -24390,12 +24389,27 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="111.76" y1="167.64" x2="109.22" y2="167.64" width="0.4064" layer="91"/>
 <wire x1="109.22" y1="160.02" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
 <junction x="109.22" y="160.02"/>
-<wire x1="45.72" y1="139.7" x2="78.74" y2="139.7" width="0.4064" layer="91"/>
+<wire x1="48.26" y1="139.7" x2="78.74" y2="139.7" width="0.4064" layer="91"/>
 <wire x1="78.74" y1="139.7" x2="78.74" y2="144.78" width="0.4064" layer="91"/>
 <junction x="78.74" y="144.78"/>
-<wire x1="45.72" y1="81.28" x2="45.72" y2="99.06" width="0.4064" layer="91"/>
-<junction x="45.72" y="99.06"/>
+<wire x1="48.26" y1="81.28" x2="48.26" y2="99.06" width="0.4064" layer="91"/>
+<junction x="48.26" y="99.06"/>
 <pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<junction x="48.26" y="139.7"/>
+<label x="52.07" y="81.915" size="1.27" layer="102"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="129.54" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="RUN"/>
+<wire x1="38.1" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="139.7" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
+<junction x="35.56" y="129.54"/>
 </segment>
 </net>
 </nets>
@@ -24485,9 +24499,6 @@ digital isolators, CS demux, Temp sensor</text>
 <text x="98.425" y="70.485" size="1.27" layer="103" rot="MR180">-5V</text>
 <text x="97.79" y="109.855" size="1.27" layer="103">+5V</text>
 <text x="10.16" y="81.915" size="1.27" layer="100">approx. -12.5 V</text>
-<text x="94.615" y="100.33" size="1.27" layer="103" rot="R180">Tant.</text>
-<text x="94.615" y="72.39" size="1.27" layer="103" rot="R180">Tant.</text>
-<text x="103.505" y="130.175" size="1.27" layer="103">Tant.</text>
 <rectangle x1="22.225" y1="157.48" x2="28.575" y2="165.735" layer="97"/>
 <rectangle x1="111.76" y1="99.06" x2="116.84" y2="106.68" layer="97"/>
 <text x="56.515" y="171.45" size="1.27" layer="103">Step-down to ~12 V</text>
@@ -24780,8 +24791,8 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="VALUE" x="120.65" y="142.24" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="FB3" gate="G$1" x="109.22" y="68.58" smashed="yes">
-<attribute name="NAME" x="107.95" y="73.1266" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.87" y="70.739" size="1.778" layer="96"/>
+<attribute name="NAME" x="107.315" y="69.9516" size="1.778" layer="95"/>
+<attribute name="VALUE" x="102.235" y="65.024" size="1.778" layer="96"/>
 </instance>
 <instance part="FB2" gate="G$1" x="106.68" y="109.22" smashed="yes">
 <attribute name="NAME" x="105.41" y="113.7666" size="1.778" layer="95"/>
@@ -24807,13 +24818,13 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="37.8968" y="109.8804" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="27.813" y="65.4558" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="C27" gate="G$1" x="96.52" y="104.14" smashed="yes">
-<attribute name="NAME" x="94.107" y="104.775" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="94.107" y="102.616" size="1.778" layer="96" rot="R180"/>
+<instance part="C27" gate="G$1" x="96.52" y="104.14" smashed="yes" rot="MR0">
+<attribute name="NAME" x="98.933" y="104.775" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="98.933" y="102.616" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C34" gate="G$1" x="96.52" y="76.2" smashed="yes">
-<attribute name="NAME" x="94.107" y="76.835" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="94.107" y="74.676" size="1.778" layer="96" rot="R180"/>
+<instance part="C34" gate="G$1" x="96.52" y="76.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="98.933" y="76.835" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="98.933" y="74.676" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C21" gate="G$1" x="43.18" y="134.62" smashed="yes">
 <attribute name="NAME" x="41.021" y="135.509" size="1.778" layer="95" rot="R180"/>
@@ -25827,7 +25838,7 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="111.76" y1="109.22" x2="111.76" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="111.76" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="238.76" y1="127" x2="238.76" y2="163.83" width="0.1524" layer="97" style="shortdash"/>
-<text x="5.08" y="15.24" size="1.4224" layer="103">Note 3.1: IC2, Q3 and Q4 mounted on heatsink</text>
+<text x="5.08" y="15.24" size="1.4224" layer="103">Note 3.1: IC2, Q3 and Q6 mounted on heatsink</text>
 <wire x1="111.76" y1="163.83" x2="111.76" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="185.42" y1="163.83" x2="185.42" y2="127" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="185.42" y1="127" x2="185.42" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
@@ -25914,7 +25925,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="75.565" y="167.005" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="75.565" y="164.465" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D8" gate="G$1" x="134.62" y="76.2" smashed="yes">
+<instance part="D9" gate="G$1" x="134.62" y="76.2" smashed="yes">
 <attribute name="NAME" x="133.604" y="77.9526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="130.302" y="72.6186" size="1.778" layer="96"/>
 </instance>
@@ -25938,7 +25949,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="78.74" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="90.678" size="1.778" layer="96"/>
 </instance>
-<instance part="D7" gate="G$1" x="96.52" y="93.98" smashed="yes">
+<instance part="D8" gate="G$1" x="96.52" y="93.98" smashed="yes">
 <attribute name="NAME" x="94.869" y="95.7326" size="1.778" layer="95"/>
 <attribute name="VALUE" x="94.742" y="90.3986" size="1.778" layer="96"/>
 </instance>
@@ -25946,7 +25957,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="72.39" y="121.6914" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="119.507" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D3" gate="G$1" x="81.28" y="142.24" smashed="yes" rot="R90">
+<instance part="D4" gate="G$1" x="81.28" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.804" y="142.0876" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.677" y="139.9286" size="1.778" layer="96"/>
 </instance>
@@ -25954,7 +25965,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="86.36" y="161.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="156.718" size="1.778" layer="96"/>
 </instance>
-<instance part="D6" gate="G$1" x="96.52" y="134.62" smashed="yes" rot="R90">
+<instance part="D7" gate="G$1" x="96.52" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="94.361" y="136.6774" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="94.488" y="134.3914" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25966,7 +25977,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="86.741" y="115.951" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="86.741" y="113.411" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D4" gate="G$1" x="119.38" y="137.16" smashed="yes">
+<instance part="D5" gate="G$1" x="119.38" y="137.16" smashed="yes">
 <attribute name="NAME" x="117.729" y="138.9126" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.062" y="133.5786" size="1.778" layer="96"/>
 </instance>
@@ -25990,7 +26001,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="157.48" y="146.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="141.478" size="1.778" layer="96"/>
 </instance>
-<instance part="D5" gate="G$1" x="144.78" y="137.16" smashed="yes" rot="R180">
+<instance part="D6" gate="G$1" x="144.78" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="141.224" y="140.8176" size="1.778" layer="95"/>
 <attribute name="VALUE" x="141.097" y="138.6586" size="1.778" layer="96"/>
 </instance>
@@ -26058,12 +26069,12 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="VALUE" x="140.335" y="125.095" size="1.778" layer="96"/>
 </instance>
 <instance part="IC10" gate="A" x="134.62" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="128.27" y="103.505" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="128.27" y="100.965" size="1.27" layer="96" rot="MR180"/>
+<attribute name="NAME" x="128.27" y="102.87" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="128.27" y="100.33" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC10" gate="B" x="198.12" y="101.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="194.31" y="107.315" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="188.595" y="96.52" size="1.27" layer="96" rot="MR180"/>
+<attribute name="NAME" x="190.5" y="109.855" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="190.5" y="107.315" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC10" gate="P" x="38.1" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.735" y="66.04" size="1.778" layer="95"/>
@@ -26168,7 +26179,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="129.54" y="34.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="29.718" size="1.778" layer="96"/>
 </instance>
-<instance part="D11" gate="G$1" x="119.38" y="25.4" smashed="yes">
+<instance part="D12" gate="G$1" x="119.38" y="25.4" smashed="yes">
 <attribute name="NAME" x="120.904" y="25.8826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="120.777" y="23.0886" size="1.778" layer="96"/>
 </instance>
@@ -26180,7 +26191,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="155.194" y="25.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="155.194" y="23.241" size="1.778" layer="96"/>
 </instance>
-<instance part="D9" gate="G$1" x="96.52" y="48.26" smashed="yes">
+<instance part="D10" gate="G$1" x="96.52" y="48.26" smashed="yes">
 <attribute name="NAME" x="94.869" y="50.0126" size="1.778" layer="95"/>
 <attribute name="VALUE" x="94.742" y="44.0436" size="1.778" layer="96"/>
 </instance>
@@ -26196,7 +26207,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="137.16" y="85.3186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.795" y="80.518" size="1.778" layer="96"/>
 </instance>
-<instance part="D10" gate="G$1" x="233.68" y="30.48" smashed="yes" rot="R270">
+<instance part="D11" gate="G$1" x="233.68" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="232.156" y="32.385" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="232.156" y="30.099" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -26369,9 +26380,9 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="124.46" y1="76.2" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="83.82" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 <label x="107.315" y="76.2" size="1.27" layer="102" xref="yes"/>
-<pinref part="D8" gate="G$1" pin="A"/>
+<pinref part="D9" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 <junction x="124.46" y="93.98"/>
 <wire x1="121.92" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
@@ -26419,7 +26430,7 @@ digital isolators, CS demux, Temp sensor</text>
 <net name="N$84" class="0">
 <segment>
 <wire x1="142.24" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="C"/>
+<pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="137.16" y1="76.2" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R58" gate="G$1" pin="2"/>
 <pinref part="R52" gate="G$1" pin="2"/>
@@ -26570,7 +26581,7 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="218.44" y1="76.2" x2="210.82" y2="76.2" width="0.4064" layer="91"/>
 <wire x1="210.82" y1="76.2" x2="210.82" y2="73.66" width="0.4064" layer="91"/>
 <junction x="218.44" y="76.2"/>
-<pinref part="D10" gate="G$1" pin="A"/>
+<pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="226.06" y1="48.26" x2="233.68" y2="48.26" width="0.4064" layer="91"/>
 <wire x1="233.68" y1="48.26" x2="233.68" y2="33.02" width="0.4064" layer="91"/>
 <junction x="226.06" y="48.26"/>
@@ -26606,9 +26617,9 @@ digital isolators, CS demux, Temp sensor</text>
 </net>
 <net name="LOOP_CTRL" class="0">
 <segment>
-<pinref part="D9" gate="G$1" pin="A"/>
+<pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="93.98" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="D8" gate="G$1" pin="A"/>
 <pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
@@ -26619,14 +26630,14 @@ digital isolators, CS demux, Temp sensor</text>
 <net name="N$92" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="81.28" y1="162.56" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="160.02" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="147.32" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
 <junction x="81.28" y="160.02"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="116.84" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="137.16" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
@@ -26637,7 +26648,7 @@ digital isolators, CS demux, Temp sensor</text>
 <segment>
 <wire x1="78.74" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="137.16" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="Q5" gate="A" pin="E"/>
 </segment>
 </net>
@@ -26645,7 +26656,7 @@ digital isolators, CS demux, Temp sensor</text>
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="124.46" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="73.66" y1="129.54" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="132.08" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
@@ -26659,7 +26670,7 @@ digital isolators, CS demux, Temp sensor</text>
 <net name="N$129" class="0">
 <segment>
 <pinref part="ZD3" gate="G$1" pin="C"/>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="149.86" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26671,7 +26682,7 @@ digital isolators, CS demux, Temp sensor</text>
 </net>
 <net name="N$143" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 <pinref part="ZD4" gate="G$1" pin="C"/>
 <wire x1="121.92" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -26702,7 +26713,7 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="149.86" y1="144.78" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 <junction x="149.86" y="144.78"/>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="144.78" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
 <junction x="149.86" y="137.16"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
@@ -26711,7 +26722,7 @@ digital isolators, CS demux, Temp sensor</text>
 </net>
 <net name="Q6C" class="0">
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 <pinref part="ZD4" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="132.08" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
@@ -26822,7 +26833,7 @@ digital isolators, CS demux, Temp sensor</text>
 <label x="210.82" y="15.24" size="1.27" layer="102" rot="R180" xref="yes"/>
 <wire x1="226.06" y1="15.24" x2="210.82" y2="15.24" width="0.4064" layer="91"/>
 <wire x1="226.06" y1="20.32" x2="226.06" y2="15.24" width="0.4064" layer="91"/>
-<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D11" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="15.24" x2="233.68" y2="15.24" width="0.4064" layer="91"/>
 <wire x1="233.68" y1="15.24" x2="233.68" y2="27.94" width="0.4064" layer="91"/>
 <junction x="226.06" y="15.24"/>
@@ -27013,9 +27024,9 @@ digital isolators, CS demux, Temp sensor</text>
 <junction x="104.14" y="48.26"/>
 <label x="87.63" y="33.02" size="1.27" layer="102" rot="MR180" xref="yes"/>
 <wire x1="104.14" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="104.14" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C59" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="48.26" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
@@ -27049,7 +27060,7 @@ digital isolators, CS demux, Temp sensor</text>
 <net name="N$89" class="0">
 <segment>
 <pinref part="R70" gate="G$1" pin="2"/>
-<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="D12" gate="G$1" pin="C"/>
 <wire x1="121.92" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R67" gate="G$1" pin="2"/>
@@ -27269,7 +27280,6 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="252.73" y1="168.275" x2="252.73" y2="165.1" width="0.1524" layer="103"/>
 <wire x1="204.47" y1="165.1" x2="204.47" y2="168.275" width="0.1524" layer="103"/>
 <text x="222.25" y="165.735" size="1.6764" layer="103">I/O Expander</text>
-<text x="195.58" y="95.25" size="1.27" layer="103" rot="R180">Tant.</text>
 <text x="164.465" y="25.4" size="2.54" layer="94" font="vector">Remote programming</text>
 <text x="46.99" y="115.57" size="1.4224" layer="104">Require SPI_MODE0</text>
 <text x="247.65" y="131.445" size="1.6764" layer="103" align="bottom-center">Output</text>
@@ -27541,15 +27551,15 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="148.4884" y="77.1652" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="142.113" y="60.0964" size="1.778" layer="96" ratio="10" rot="SMR180"/>
 </instance>
-<instance part="C62" gate="G$1" x="177.8" y="114.3" smashed="yes" rot="MR180">
-<attribute name="NAME" x="178.054" y="118.364" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="178.054" y="112.776" size="1.778" layer="96"/>
+<instance part="C62" gate="G$1" x="172.72" y="119.38" smashed="yes" rot="MR180">
+<attribute name="NAME" x="172.974" y="123.444" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="172.974" y="117.856" size="1.778" layer="96"/>
 </instance>
-<instance part="P+17" gate="1" x="170.18" y="129.54" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="168.275" y="130.175" size="1.778" layer="96"/>
+<instance part="P+17" gate="1" x="165.1" y="134.62" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="163.195" y="135.255" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY62" gate="GND" x="170.18" y="104.14" smashed="yes">
-<attribute name="VALUE" x="172.085" y="102.87" size="1.778" layer="96"/>
+<instance part="SUPPLY62" gate="GND" x="165.1" y="109.22" smashed="yes">
+<attribute name="VALUE" x="167.005" y="107.95" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="-TOP" x="114.3" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="114.808" y="117.856" size="1.778" layer="95" rot="MR180"/>
@@ -27563,7 +27573,7 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="152.4" y="165.735" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="139.7" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="IC13" gate="B" x="170.18" y="116.84"/>
+<instance part="IC13" gate="B" x="165.1" y="121.92"/>
 <instance part="P+20" gate="1" x="137.16" y="172.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="135.255" y="173.99" size="1.778" layer="96"/>
 </instance>
@@ -27606,6 +27616,9 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="128.27" y="162.3314" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="128.27" y="160.147" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="JP2" gate="G$1" x="167.64" y="73.66" smashed="yes">
+<attribute name="NAME" x="166.37" y="74.93" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27644,12 +27657,12 @@ digital isolators, CS demux, Temp sensor</text>
 </segment>
 <segment>
 <pinref part="C62" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="124.46" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="129.54" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P+17" gate="1" pin="+5V"/>
-<wire x1="170.18" y1="127" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="132.08" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC13" gate="B" pin="VDD"/>
-<junction x="170.18" y="124.46"/>
+<junction x="165.1" y="129.54"/>
 </segment>
 <segment>
 <pinref part="IC13" gate="A" pin="!PRE"/>
@@ -28032,8 +28045,13 @@ digital isolators, CS demux, Temp sensor</text>
 <label x="191.77" y="78.74" size="1.27" layer="102" rot="R180" xref="yes"/>
 <wire x1="139.7" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="71.12" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC17" gate="G$1" pin="COM"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="73.66" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
+<junction x="172.72" y="78.74"/>
 </segment>
 </net>
 <net name="U_SET" class="0">
@@ -28050,6 +28068,9 @@ digital isolators, CS demux, Temp sensor</text>
 <wire x1="96.52" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="71.12" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
 <junction x="99.06" y="81.28"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
+<junction x="162.56" y="73.66"/>
 </segment>
 </net>
 <net name="CURR_500MA" class="0">
@@ -28232,12 +28253,12 @@ digital isolators, CS demux, Temp sensor</text>
 </segment>
 <segment>
 <pinref part="C62" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="109.22" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="114.3" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="114.3" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY62" gate="GND" pin="GND"/>
 <pinref part="IC13" gate="B" pin="VSS"/>
-<junction x="170.18" y="109.22"/>
+<junction x="165.1" y="114.3"/>
 </segment>
 <segment>
 <pinref part="R78" gate="G$1" pin="2"/>
@@ -28536,11 +28557,11 @@ digital isolators, CS demux, Temp sensor</text>
 <attribute name="NAME" x="227.33" y="123.5964" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="227.33" y="121.412" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="D12" gate="G$1" x="213.36" y="132.08" smashed="yes" rot="R270">
+<instance part="D13" gate="G$1" x="213.36" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="215.519" y="132.5626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.392" y="130.4036" size="1.778" layer="96"/>
 </instance>
-<instance part="D13" gate="G$1" x="213.36" y="124.46" smashed="yes" rot="R270">
+<instance part="D14" gate="G$1" x="213.36" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="215.519" y="124.9426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.392" y="122.7836" size="1.778" layer="96"/>
 </instance>
@@ -28905,7 +28926,7 @@ digital isolators, CS demux, Temp sensor</text>
 </segment>
 <segment>
 <pinref part="R101" gate="G$1" pin="1"/>
-<pinref part="D13" gate="G$1" pin="C"/>
+<pinref part="D14" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="114.3" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R100" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
@@ -28946,15 +28967,15 @@ digital isolators, CS demux, Temp sensor</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="D13" gate="G$1" pin="A"/>
-<pinref part="D12" gate="G$1" pin="C"/>
+<pinref part="D14" gate="G$1" pin="A"/>
+<pinref part="D13" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="127" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="Q18" gate="G$1" pin="B"/>
-<pinref part="D12" gate="G$1" pin="A"/>
+<pinref part="D13" gate="G$1" pin="A"/>
 <wire x1="220.98" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="137.16" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R95" gate="G$1" pin="1"/>
@@ -29242,7 +29263,7 @@ Output coupling, Rsense relay</text>
 <attribute name="NAME" x="114.681" y="141.986" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="114.681" y="139.446" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D14" gate="G$1" x="129.54" y="139.7" smashed="yes" rot="R90">
+<instance part="D15" gate="G$1" x="129.54" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="131.445" y="138.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="130.556" y="137.795" size="1.27" layer="96" rot="R270"/>
 </instance>
@@ -29286,7 +29307,7 @@ Output coupling, Rsense relay</text>
 <instance part="P+2" gate="1" x="25.4" y="83.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="23.495" y="81.915" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D15" gate="G$1" x="17.78" y="66.04" smashed="yes" rot="R90">
+<instance part="D16" gate="G$1" x="17.78" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.256" y="68.0974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="16.383" y="65.8114" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -29418,7 +29439,7 @@ Output coupling, Rsense relay</text>
 <pinref part="K1" gate="1" pin="+"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="D15" gate="G$1" pin="C"/>
+<pinref part="D16" gate="G$1" pin="C"/>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="25.4" y="76.2"/>
@@ -29537,7 +29558,7 @@ Output coupling, Rsense relay</text>
 <pinref part="R116" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="119.38" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="A"/>
+<pinref part="D15" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="119.38" x2="129.54" y2="119.38" width="0.4064" layer="91"/>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="137.16" width="0.4064" layer="91"/>
@@ -29655,7 +29676,7 @@ Output coupling, Rsense relay</text>
 <pinref part="Q26" gate="A" pin="D"/>
 <pinref part="K1" gate="1" pin="-"/>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="D15" gate="G$1" pin="A"/>
+<pinref part="D16" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="55.88" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
@@ -29846,7 +29867,7 @@ Output coupling, Rsense relay</text>
 <wire x1="124.46" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <junction x="124.46" y="149.86"/>
-<pinref part="D14" gate="G$1" pin="C"/>
+<pinref part="D15" gate="G$1" pin="C"/>
 <wire x1="129.54" y1="149.86" x2="124.46" y2="149.86" width="0.4064" layer="91"/>
 <wire x1="129.54" y1="142.24" x2="129.54" y2="149.86" width="0.4064" layer="91"/>
 <wire x1="137.16" y1="172.72" x2="124.46" y2="172.72" width="0.4064" layer="91"/>
