@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2289,28 +2289,28 @@ Source: RS Component / BUORNS</description>
 <text x="-2.032" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <polygon width="0.0254" layer="29">
 <vertex x="0" y="0.889"/>
-<vertex x="-0.127" y="0.889" curve="90"/>
-<vertex x="-1.016" y="0" curve="90"/>
-<vertex x="-0.127" y="-0.889"/>
+<vertex x="-0.1905" y="0.889" curve="90"/>
+<vertex x="-1.0795" y="0" curve="90"/>
+<vertex x="-0.1905" y="-0.889"/>
 <vertex x="0" y="-0.889"/>
 </polygon>
 <polygon width="0.0254" layer="1">
-<vertex x="-0.127" y="0.762"/>
-<vertex x="-0.127" y="-0.762" curve="-90"/>
-<vertex x="-0.889" y="0" curve="-90"/>
+<vertex x="-0.1905" y="0.762"/>
+<vertex x="-0.1905" y="-0.762" curve="-90"/>
+<vertex x="-0.9525" y="0" curve="-90"/>
 </polygon>
 <polygon width="0.0254" layer="1">
-<vertex x="0.127" y="-0.762"/>
-<vertex x="0.127" y="0.762" curve="-90"/>
-<vertex x="0.889" y="0" curve="-90"/>
+<vertex x="0.1905" y="-0.762"/>
+<vertex x="0.1905" y="0.762" curve="-90"/>
+<vertex x="0.9525" y="0" curve="-90"/>
 </polygon>
-<smd name="1" x="-0.5715" y="0" dx="0.508" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0.5715" y="0" dx="0.508" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-0.635" y="0" dx="0.508" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.635" y="0" dx="0.508" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.0254" layer="29">
 <vertex x="0" y="-0.889"/>
-<vertex x="0.127" y="-0.889" curve="90"/>
-<vertex x="1.016" y="0" curve="90"/>
-<vertex x="0.127" y="0.889"/>
+<vertex x="0.1905" y="-0.889" curve="90"/>
+<vertex x="1.0795" y="0" curve="90"/>
+<vertex x="0.1905" y="0.889"/>
 <vertex x="0" y="0.889"/>
 </polygon>
 </package>
@@ -14564,7 +14564,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C13" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="C15" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="4u7"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="JP4" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
+<part name="JP5" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
@@ -14654,14 +14654,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="RN2" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-33R-4/8"/>
 <part name="RN1" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-33R-4/8"/>
 <part name="SUPPLY69" library="supply2" deviceset="GND" device=""/>
-<part name="JP9" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="JP10" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="JP11" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
+<part name="JP12" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="1K5"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP13" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
+<part name="JP14" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP12" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
+<part name="JP13" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="IC15" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="TPD4E001DRLR"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -14725,7 +14725,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="ZD3" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="BZX384-B30.115"/>
-<part name="JP7" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
+<part name="JP8" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="TPD4E001DRLR"/>
 <part name="SUPPLY70" library="supply2" deviceset="GND" device=""/>
@@ -14801,12 +14801,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="X4" library="EEZ_connectors" deviceset="22-23-2061" device="" value="22-23-2061"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="JP5" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
+<part name="JP6" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP8" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
+<part name="JP9" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="IC14" library="EEZ_Lib1" deviceset="TSC2007" device="IPW"/>
-<part name="JP6" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
+<part name="JP7" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1210" value="N.C."/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
@@ -14823,6 +14823,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
+<part name="JP4" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16012,6 +16013,7 @@ section 1.1.4</text>
 <rectangle x1="9.525" y1="117.475" x2="15.24" y2="126.365" layer="97"/>
 <text x="165.1" y="27.94" size="2.54" layer="94" font="vector">STM32F7 MCU</text>
 <text x="233.68" y="63.5" size="1.27" layer="103">Tant.</text>
+<rectangle x1="254.635" y1="154.305" x2="259.715" y2="163.195" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -16235,7 +16237,7 @@ section 1.1.4</text>
 <attribute name="NAME" x="225.171" y="87.884" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="225.171" y="84.074" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP4" gate="G$1" x="73.66" y="60.96" smashed="yes" rot="MR180">
+<instance part="JP5" gate="G$1" x="73.66" y="60.96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="72.39" y="61.595" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="VDD1" gate="G$1" x="63.5" y="55.88" smashed="yes" rot="R90">
@@ -16312,6 +16314,9 @@ section 1.1.4</text>
 </instance>
 <instance part="+3V18" gate="G$1" x="251.46" y="165.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="252.095" y="166.37" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="JP4" gate="G$1" x="76.2" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="75.565" y="70.485" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -16672,8 +16677,11 @@ section 1.1.4</text>
 <pinref part="IC4" gate="D" pin="VBAT"/>
 <wire x1="88.9" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <label x="81.28" y="66.675" size="1.27" layer="102"/>
-<pinref part="JP4" gate="G$1" pin="COM"/>
+<pinref part="JP5" gate="G$1" pin="COM"/>
 <wire x1="76.2" y1="60.96" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="68.58" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+<junction x="76.2" y="66.04"/>
 </segment>
 </net>
 <net name="FMC_NBL1" class="0">
@@ -17632,7 +17640,7 @@ section 1.1.4</text>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="NO"/>
+<pinref part="JP5" gate="G$1" pin="NO"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
@@ -17749,7 +17757,7 @@ section 1.1.4</text>
 <net name="N$20" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="+"/>
-<pinref part="JP4" gate="G$1" pin="NC"/>
+<pinref part="JP5" gate="G$1" pin="NC"/>
 <wire x1="48.26" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="66.04" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -17848,6 +17856,14 @@ section 1.1.4</text>
 <wire x1="236.22" y1="111.76" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
 <junction x="236.22" y="111.76"/>
 <label x="218.44" y="112.395" size="1.27" layer="102"/>
+</segment>
+</net>
+<net name="+VAUX" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="71.12" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="55.88" y="74.295" size="1.27" layer="102"/>
 </segment>
 </net>
 </nets>
@@ -18047,7 +18063,7 @@ consult ST AN4661 section 8.4.2</text>
 <attribute name="NAME" x="181.61" y="147.828" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.61" y="145.288" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="G$1" x="172.72" y="152.4" smashed="yes">
+<instance part="JP6" gate="G$1" x="172.72" y="152.4" smashed="yes">
 <attribute name="NAME" x="171.45" y="153.67" size="1.778" layer="95"/>
 </instance>
 <instance part="+3V16" gate="G$1" x="167.64" y="152.4" smashed="yes" rot="MR270">
@@ -18298,7 +18314,7 @@ consult ST AN4661 section 8.4.2</text>
 <wire x1="30.48" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <wire x1="172.72" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -18720,7 +18736,7 @@ consult ST AN4661 section 8.4.2</text>
 <pinref part="X4" gate="-1" pin="S"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 <junction x="180.34" y="152.4"/>
 </segment>
@@ -18869,7 +18885,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <attribute name="NAME" x="91.567" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.567" y="162.941" size="1.778" layer="96"/>
 </instance>
-<instance part="JP7" gate="G$1" x="73.66" y="129.54" smashed="yes" rot="MR180">
+<instance part="JP8" gate="G$1" x="73.66" y="129.54" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.025" y="130.175" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="IC12" gate="A" x="223.52" y="66.04" smashed="yes">
@@ -19009,7 +19025,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <instance part="+3V15" gate="G$1" x="246.38" y="175.26" smashed="yes">
 <attribute name="VALUE" x="243.205" y="175.895" size="1.778" layer="96"/>
 </instance>
-<instance part="JP8" gate="G$1" x="203.2" y="91.44" smashed="yes" rot="MR270">
+<instance part="JP9" gate="G$1" x="203.2" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="200.66" y="92.71" size="1.778" layer="95"/>
 </instance>
 <instance part="P+4" gate="1" x="195.58" y="91.44" smashed="yes" rot="MR270">
@@ -19019,7 +19035,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <attribute name="NAME" x="104.775" y="64.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.695" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="JP6" gate="G$1" x="134.62" y="160.02" smashed="yes" rot="MR0">
+<instance part="JP7" gate="G$1" x="134.62" y="160.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.89" y="159.385" size="1.778" layer="95"/>
 </instance>
 <instance part="+3V17" gate="G$1" x="134.62" y="167.64" smashed="yes" rot="MR0">
@@ -19111,13 +19127,13 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="NC"/>
+<pinref part="JP9" gate="G$1" pin="NC"/>
 <pinref part="+3V318" gate="G$1" pin="+3V3"/>
 <wire x1="208.28" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
-<pinref part="JP6" gate="G$1" pin="NO"/>
+<pinref part="JP7" gate="G$1" pin="NO"/>
 <wire x1="134.62" y1="165.1" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19153,7 +19169,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <wire x1="81.28" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <junction x="81.28" y="134.62"/>
 <pinref part="SUPPLY34" gate="GND" pin="GND"/>
-<pinref part="JP7" gate="G$1" pin="NC"/>
+<pinref part="JP8" gate="G$1" pin="NC"/>
 <wire x1="73.66" y1="132.08" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -19247,7 +19263,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 </segment>
 <segment>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
-<pinref part="JP6" gate="G$1" pin="NC"/>
+<pinref part="JP7" gate="G$1" pin="NC"/>
 </segment>
 </net>
 <net name="VLED+" class="0">
@@ -19325,7 +19341,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <segment>
 <label x="66.04" y="125.095" size="1.27" layer="102"/>
 <wire x1="73.66" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="NO"/>
+<pinref part="JP8" gate="G$1" pin="NO"/>
 <wire x1="73.66" y1="127" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19367,7 +19383,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <pinref part="LCD1" gate="G$1" pin="RESET"/>
 <wire x1="101.6" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="129.54" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="COM"/>
+<pinref part="JP8" gate="G$1" pin="COM"/>
 <wire x1="76.2" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19774,7 +19790,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="NO"/>
+<pinref part="JP9" gate="G$1" pin="NO"/>
 <wire x1="200.66" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
@@ -19824,7 +19840,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <wire x1="210.82" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="78.74" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C53" gate="G$1" pin="2"/>
-<pinref part="JP8" gate="G$1" pin="COM"/>
+<pinref part="JP9" gate="G$1" pin="COM"/>
 <wire x1="203.2" y1="88.9" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <junction x="203.2" y="86.36"/>
 </segment>
@@ -19855,7 +19871,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <junction x="129.54" y="111.76"/>
 <wire x1="129.54" y1="160.02" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="COM"/>
+<pinref part="JP7" gate="G$1" pin="COM"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -20125,13 +20141,13 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <instance part="SUPPLY69" gate="GND" x="10.16" y="109.22" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="12.065" y="109.855" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="JP9" gate="G$1" x="25.4" y="109.22" smashed="yes" rot="R90">
+<instance part="JP10" gate="G$1" x="25.4" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.765" y="109.22" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="JP10" gate="G$1" x="27.94" y="109.22" smashed="yes" rot="R90">
+<instance part="JP11" gate="G$1" x="27.94" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.575" y="109.22" size="1.778" layer="95"/>
 </instance>
-<instance part="JP11" gate="G$1" x="53.34" y="109.22" smashed="yes" rot="R90">
+<instance part="JP12" gate="G$1" x="53.34" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.975" y="109.22" size="1.778" layer="95"/>
 </instance>
 <instance part="R39" gate="G$1" x="55.88" y="147.32" smashed="yes" rot="MR90">
@@ -20141,7 +20157,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <instance part="+3V3" gate="G$1" x="55.88" y="157.48" smashed="yes">
 <attribute name="VALUE" x="57.15" y="156.845" size="1.778" layer="96"/>
 </instance>
-<instance part="JP13" gate="G$1" x="48.26" y="68.58" smashed="yes">
+<instance part="JP14" gate="G$1" x="48.26" y="68.58" smashed="yes">
 <attribute name="NAME" x="46.355" y="66.04" size="1.778" layer="95"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="25.4" y="68.58" smashed="yes" rot="R90">
@@ -20154,7 +20170,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <instance part="RN3" gate="-2" x="38.1" y="83.82" smashed="yes">
 <attribute name="NAME" x="33.02" y="83.947" size="1.27" layer="95" rot="MR0"/>
 </instance>
-<instance part="JP12" gate="G$1" x="22.86" y="101.6" smashed="yes" rot="R180">
+<instance part="JP13" gate="G$1" x="22.86" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.685" y="104.14" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="IC15" gate="G$1" x="182.88" y="162.56" smashed="yes" rot="MR0">
@@ -20457,12 +20473,12 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <net name="ETH_RX_ER" class="0">
 <segment>
 <wire x1="27.94" y1="109.22" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="G$1" pin="1"/>
+<pinref part="JP11" gate="G$1" pin="1"/>
 <pinref part="RN2" gate="-1" pin="1"/>
 <wire x1="33.02" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="101.6"/>
-<pinref part="JP12" gate="G$1" pin="1"/>
+<pinref part="JP13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ETH_MDC" class="0">
@@ -20761,7 +20777,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <label x="7.62" y="97.155" size="1.27" layer="120"/>
 <wire x1="7.62" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="109.22" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="G$1" pin="1"/>
+<pinref part="JP10" gate="G$1" pin="1"/>
 <pinref part="RN1" gate="-4" pin="1"/>
 <wire x1="33.02" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <junction x="25.4" y="96.52"/>
@@ -20771,7 +20787,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="106.68" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="1"/>
+<pinref part="JP12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -20779,7 +20795,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <pinref part="R45" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="G$1" pin="2"/>
+<pinref part="JP10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -20787,13 +20803,13 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <pinref part="R42" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="119.38" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="G$1" pin="2"/>
+<pinref part="JP11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <wire x1="58.42" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="G$1" pin="2"/>
+<pinref part="JP14" gate="G$1" pin="2"/>
 <pinref part="IC16" gate="G$1" pin="PWR_DOWN/INT"/>
 </segment>
 </net>
@@ -20801,7 +20817,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <segment>
 <pinref part="R56" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="G$1" pin="1"/>
+<pinref part="JP14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -20827,7 +20843,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <wire x1="40.64" y1="124.46" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <junction x="53.34" y="114.3"/>
-<pinref part="JP11" gate="G$1" pin="2"/>
+<pinref part="JP12" gate="G$1" pin="2"/>
 <pinref part="RN1" gate="-3" pin="2"/>
 <wire x1="38.1" y1="124.46" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="IC16" gate="G$1" pin="MII_MODE(RX_DV)"/>
@@ -20937,7 +20953,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 </net>
 <net name="ETH_RX_ERR" class="0">
 <segment>
-<pinref part="JP12" gate="G$1" pin="2"/>
+<pinref part="JP13" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
 <label x="7.62" y="102.235" size="1.27" layer="120"/>
 </segment>
@@ -21020,7 +21036,7 @@ RFE430Y-AIW-DNS, 4.3", 480x272, resistive touch screen</text>
 <approved hash="113,4,131.976,90.066,FRAME4,,,,,"/>
 <approved hash="113,5,131.976,90.066,FRAME5,,,,,"/>
 <approved hash="113,2,242.445,60.96,TP1,,,,,"/>
-<approved hash="113,2,254.646,159.948,JP2,,,,,"/>
+<approved hash="113,2,254.964,157.488,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
