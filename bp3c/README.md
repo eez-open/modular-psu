@@ -5,6 +5,6 @@ EEZ DIB BP3C is backplane for connecting up to three EEZ DIB peripheral modules.
 - Coupling of all Out- terminals (common GND)
 - Ch#1 Out- and Ch#2 Out+ coupling for split rail output
 
-### r1B4 prototype
+### r2B2 prototype
 
-![Top side](Images/BP3C_r1B4_prototype.jpg)
+![Top side](Images/BP3C_r2B2_prototype.jpg)

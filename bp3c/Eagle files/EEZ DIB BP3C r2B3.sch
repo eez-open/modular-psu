@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7271,14 +7271,14 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="D3" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="ZD3" library="EEZ_Lib1" deviceset="PSMAXX" device="" value="SMAJ18A"/>
 <part name="FRAME7" library="frames" deviceset="DINA4_L" device=""/>
-<part name="Q3" library="EEZ_Lib1" deviceset="2N7002" device="" value="IRLML6244TRPBF">
+<part name="Q3" library="EEZ_Lib1" deviceset="2N7002" device="" value="2N7002">
 <attribute name="MPN" value="2N7002-7-F"/>
 <attribute name="OC_FARNELL" value="1713823"/>
 <attribute name="OC_NEWARK" value="25R5679"/>
 <attribute name="PACKAGE" value="SOT-23-3"/>
 <attribute name="SUPPLIER" value="DIODES INC."/>
 </part>
-<part name="Q2" library="EEZ_Lib1" deviceset="2N7002" device="" value="IRLML6244TRPBF">
+<part name="Q2" library="EEZ_Lib1" deviceset="2N7002" device="" value="2N7002">
 <attribute name="MPN" value="2N7002-7-F"/>
 <attribute name="OC_FARNELL" value="1713823"/>
 <attribute name="OC_NEWARK" value="25R5679"/>
@@ -7350,7 +7350,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="K_COMM" library="EEZ_Lib1" deviceset="RELAY_RT314012" device="-2" value="RT424005"/>
 <part name="D1" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="ZD1" library="EEZ_Lib1" deviceset="PSMAXX" device="" value="SMAJ18A"/>
-<part name="Q1" library="EEZ_Lib1" deviceset="2N7002" device="" value="IRLML6244TRPBF">
+<part name="Q1" library="EEZ_Lib1" deviceset="2N7002" device="" value="2N7002">
 <attribute name="MPN" value="2N7002-7-F"/>
 <attribute name="OC_FARNELL" value="1713823"/>
 <attribute name="OC_NEWARK" value="25R5679"/>
@@ -7365,7 +7365,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="K_SPLIT" library="EEZ_Lib1" deviceset="RELAY_RT314012" device="-2" value="RT424005"/>
 <part name="D4" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="ZD4" library="EEZ_Lib1" deviceset="PSMAXX" device="" value="SMAJ18A"/>
-<part name="Q4" library="EEZ_Lib1" deviceset="2N7002" device="" value="IRLML6244TRPBF">
+<part name="Q4" library="EEZ_Lib1" deviceset="2N7002" device="" value="2N7002">
 <attribute name="MPN" value="2N7002-7-F"/>
 <attribute name="OC_FARNELL" value="1713823"/>
 <attribute name="OC_NEWARK" value="25R5679"/>
@@ -9109,7 +9109,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="129.54" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="60.96" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="X6" gate="-16" pin="1"/>
 <pinref part="X6" gate="-26" pin="1"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
@@ -9654,16 +9654,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="177.8" y1="142.24" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="162.56" y1="58.42" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="134.62" y1="58.42" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="X5" gate="-17" pin="1"/>
@@ -9722,8 +9712,11 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,2,220.98,91.44,X6-24,1,,,,"/>
-<approved hash="101,2,220.98,50.8,X7-24,1,,,,"/>
+<approved hash="101,2,38.1,165.1,X4-3,1,,,,"/>
+<approved hash="101,2,68.58,165.1,X4-4,1,,,,"/>
+<approved hash="101,2,200.66,58.42,X7-20,1,,,,"/>
+<approved hash="101,2,129.54,58.42,X6-20,1,,,,"/>
+<approved hash="101,2,58.42,58.42,X5-20,1,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
 </errors>
