@@ -6,7 +6,7 @@ STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan contro
 * Digital I/O: 2 x protected inputs, 2 x protected outputs
 * Rotary encoder with switch
 * 1 x user switch
-* 3 x SPI channels (2 x Chip selects per channel), 40-pin IDC connector
+* 3 x SPI channels (2 x Chip selects per channel), 40-pin IDC connector (DIB v1.0)
 * Battery backup (CR2032 button cell type)
 * USB 2.0 OTG
 * Micro SD card
@@ -21,6 +21,7 @@ STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan contro
 * Audio amplifier with small on-board speaker
 * Input power: +5 V (+12 V pass-thru to peripheral modules)
 * On board +3.3 V LDO
+* Bootloader micro switch
 * Dimensions: 139 x 70 mm, 4-layer PCB
 
 ### r1B2 prototype
