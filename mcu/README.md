@@ -21,7 +21,7 @@ STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan contro
 * Audio amplifier with small on-board speaker
 * Input power: +5 V (+12 V pass-thru to peripheral modules)
 * On board +3.3 V LDO
-* Bootloader micro switch
+* Bootloader select for USB DFU
 * Dimensions: 139 x 70 mm, 4-layer PCB
 
 ### r1B2 prototype
