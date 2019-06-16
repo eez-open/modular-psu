@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3601,6 +3601,70 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 <vertex x="-0.762" y="1.651"/>
 </polygon>
 </package>
+<package name="JP2-500">
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="12.7" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-300">
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<wire x1="3.81" y1="0" x2="-3.81" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-400">
+<pad name="P$1" x="-5.08" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-450">
+<pad name="P$1" x="-5.08" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<pad name="P$2" x="6.35" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<wire x1="6.35" y1="0" x2="-5.08" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-350">
+<pad name="P$1" x="-4.445" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<pad name="P$2" x="4.445" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<wire x1="4.445" y1="0" x2="-4.445" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-375">
+<pad name="P$1" x="-4.445" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<wire x1="5.08" y1="0" x2="-4.445" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-100">
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="JP2-200">
+<pad name="P$1" x="-2.54" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="2.54" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.4064" layer="21" style="shortdash"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="2MM-2">
+<wire x1="-0.85" y1="-1.9" x2="0.85" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="-1.9" x2="0.85" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="0.4" x2="0.85" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="1.9" x2="-0.85" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-0.85" y1="1.9" x2="-0.85" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="-0.85" y1="-0.4" x2="-0.85" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-0.85" y1="0.4" x2="-0.85" y2="-0.4" width="0.2032" layer="21" curve="-129.184564"/>
+<wire x1="0.85" y1="-0.4" x2="0.85" y2="0.4" width="0.2032" layer="21" curve="-129.184564"/>
+<pad name="1" x="0" y="-1" drill="0.8" diameter="1.27"/>
+<pad name="2" x="0" y="1" drill="0.8" diameter="1.27"/>
+<rectangle x1="-0.25" y1="-1.25" x2="0.25" y2="-0.75" layer="51"/>
+<rectangle x1="-0.25" y1="0.75" x2="0.25" y2="1.25" layer="51"/>
+<text x="-2.54" y="2.54" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" ratio="10" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -4646,6 +4710,20 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 <pin name="SCL" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="!PENIRQ" x="15.24" y="-10.16" length="short" direction="out" rot="R180"/>
 <pin name="AUX" x="-15.24" y="-2.54" length="short" direction="in"/>
+</symbol>
+<symbol name="JP_2PIN">
+<wire x1="0" y1="2.54" x2="0.254" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<circle x="0.635" y="2.54" radius="0.381" width="0.254" layer="94"/>
+<circle x="0.635" y="0" radius="0.381" width="0.254" layer="94"/>
+<text x="-4.445" y="4.445" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="2" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="-4.445" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-0.635" y1="3.81" x2="1.905" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="1.905" y1="3.81" x2="1.905" y2="-1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="1.905" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.635" y1="-1.27" x2="-0.635" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6261,6 +6339,94 @@ Socket; RJ45; PIN:8; shielded, with LED and trafo</description>
 <connect gate="G$1" pin="X-" pad="4"/>
 <connect gate="G$1" pin="Y+" pad="3"/>
 <connect gate="G$1" pin="Y-" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-2PIN" prefix="JP" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="JP_2PIN" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="500MIL" package="JP2-500">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="300MIL" package="JP2-300">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="400MIL" package="JP2-400">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="450MIL" package="JP2-450">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="350MIL" package="JP2-350">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="375MIL" package="JP2-375">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="100MIL" package="JP2-100">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="200MIL" package="JP2-200">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2MM" package="2MM-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14658,6 +14824,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="JP5" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
+<part name="BOOT0" library="EEZ_Lib1" deviceset="JUMPER-2PIN" device="-2MM"/>
+<part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16178,6 +16346,13 @@ section 1.1.4</text>
 <instance part="JP5" gate="G$1" x="73.66" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.025" y="70.485" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="BOOT0" gate="G$1" x="256.54" y="152.4" smashed="yes">
+<attribute name="NAME" x="252.73" y="156.845" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.905" y="148.59" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V18" gate="G$1" x="251.46" y="142.24" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="248.285" y="141.605" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 <bus name="FMC_A[0..11]">
@@ -16757,8 +16932,13 @@ section 1.1.4</text>
 <wire x1="228.6" y1="162.56" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="162.56" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="162.56" x2="256.54" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="162.56" x2="251.46" y2="162.56" width="0.1524" layer="91"/>
 <junction x="243.84" y="162.56"/>
+<pinref part="BOOT0" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="162.56" x2="256.54" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="254" y1="154.94" x2="251.46" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="154.94" x2="251.46" y2="162.56" width="0.1524" layer="91"/>
+<junction x="251.46" y="162.56"/>
 </segment>
 </net>
 <net name="BYPASS_REG" class="0">
@@ -17349,6 +17529,12 @@ section 1.1.4</text>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="12.7" y1="127" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BOOT0" gate="G$1" pin="2"/>
+<wire x1="254" y1="152.4" x2="251.46" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="152.4" x2="251.46" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="+3V18" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -20886,6 +21072,7 @@ consult ST AN4661 section 8.4.2</text>
 <approved hash="113,4,131.976,90.066,FRAME4,,,,,"/>
 <approved hash="113,5,131.976,90.066,FRAME5,,,,,"/>
 <approved hash="113,2,242.445,60.96,TP1,,,,,"/>
+<approved hash="113,2,255.814,154.868,BOOT0,,,,,"/>
 </errors>
 </schematic>
 </drawing>
