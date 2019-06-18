@@ -5,8 +5,6 @@ EEZ DIB BP3C is backplane for connecting up to three EEZ DIB peripheral modules.
 - Coupling of all Out- terminals (common GND)
 - Ch#1 Out- and Ch#2 Out+ coupling for split rail output
 
-The BP3C backplane provides dedicated BOOT output for each peripheral module that comes with on-board MCU and which firmware could be uploaded via SPI or UART. Programmable reset output is also featured that firmware upload procedure can be initated without power recycling.
+### r2B2 prototype
 
-### PCB r3B1 preview
-
-![Top side](Images/EEZ_DIB_BP-3C_PCB_top.png)
+![Top side](Images/BP3C_r2B2_prototype.jpg)
