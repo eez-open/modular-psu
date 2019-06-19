@@ -7,8 +7,8 @@ It is work in progress and it's conceived to have the following components/modul
 * _[DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405)_, an EEZ H24005 [Power module](https://github.com/eez-open/psu-hw/tree/master/Power%20board) variant (require an off-the-shelf fixed output 48 Vdc AC/DC power module)
 * _[Bench Box 3](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ metal enclosure for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 mm (W) x 120 mm (H) x 240 mm (D)
 
-### _Bench Box 3_ enclosure 3D model
+### The _EEZ Bench Box 3_ first prototype
 
-![Enclosure 3D model](enclosure/3D_model_render.jpg)
+![Enclosure 3D model](enclosure/EEZ_BB3_prototype.jpg)
 
 Please note that some previous board types and revisions that could be still usable in some cases can be found under *[previous design](https://github.com/eez-open/modular-psu/tree/master/previous%20designs)* folder.
