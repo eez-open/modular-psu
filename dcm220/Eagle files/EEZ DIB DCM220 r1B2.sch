@@ -13669,7 +13669,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <text x="2.54" y="4.445" size="1.27" layer="94">More info at http://www.envox.hr/eez</text>
 <text x="5.08" y="58.42" size="1.778" layer="97" rot="MR180">I2C Module ID EEPROM</text>
 <text x="164.465" y="26.67" size="2.54" layer="94" font="vector">Bias power supply, I2C EEPROM,
-digital isolators, CS demux, Temp sensor</text>
+digital isolators</text>
 <text x="147.32" y="33.02" size="1.778" layer="97" rot="MR180">Plastic parts</text>
 <wire x1="144.78" y1="2.54" x2="144.78" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="144.78" y1="35.56" x2="144.78" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
@@ -15088,7 +15088,8 @@ UVLO on: +38 V</text>
 <sheet>
 <description>Digital control</description>
 <plain>
-<text x="164.465" y="28.575" size="2.54" layer="94" font="vector">DAC, MCU, JTAG, ADC input section</text>
+<text x="164.465" y="26.035" size="2.54" layer="94" font="vector">DAC, MCU, JTAG, ADC input section,
+temp. sensors</text>
 <circle x="232.41" y="100.33" radius="0.635" width="0.1524" layer="101"/>
 <circle x="232.41" y="97.79" radius="0.635" width="0.1524" layer="101"/>
 <circle x="232.41" y="95.25" radius="0.635" width="0.1524" layer="101"/>
