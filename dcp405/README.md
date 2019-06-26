@@ -12,7 +12,7 @@ The EEZ DIB DCP405 Power module is adopted EEZ H24005 [Power board](https://gith
 - Down-programmer
 - Output enable (OE) circuit with LED indicator
 - Fault LED indicator
-- On-board power output terminals
+-  On-board 4 mm power output terminals with standard (19.05 mm) pitch
 - Pass-thru connector for serial and parallel coupling with other Power board
 - Remote voltage sense with LED indicator and inverse polarity protection
 - Remote voltage programming with LED indicator
