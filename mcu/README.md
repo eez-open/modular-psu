@@ -3,7 +3,7 @@ STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan contro
 ### Feature list
 
 * [STM32F769IIT6](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f7-series/stm32f7x9/stm32f769ii.html) 32-bit ARM Cortex®-M7 MCU, 216 MHz, 2 MiB Flash, 512 KiB SRAM,  LQFP176 package
-* Digital I/O: 2 x protected inputs, 2 x protected outputs
+* Digital I/O: 2 x buffered inputs and 2 x buffered outputs (alternative function: UART)
 * Rotary encoder with switch
 * 1 x user switch
 * 3 x SPI channels (2 x Chip selects per channel), 40-pin IDC connector (DIB v1.0)
@@ -22,7 +22,7 @@ STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan contro
 * Input power: +5 V (+12 V pass-thru to peripheral modules)
 * On board +3.3 V LDO
 * Bootloader select for USB DFU
-* Dimensions: 139 x 70 mm, 4-layer PCB
+* Dimensions: 139.5 x 70 mm, 4-layer PCB
 
 ### r1B2 prototype
 
