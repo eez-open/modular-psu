@@ -8642,6 +8642,173 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-samtec">
+<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SSW-108-02-S-S">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-10.289" y1="1.155" x2="-7.622" y2="1.155" width="0.2032" layer="21"/>
+<wire x1="-7.622" y1="1.155" x2="10.289" y2="1.155" width="0.2032" layer="21"/>
+<wire x1="10.289" y1="1.155" x2="10.289" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="10.289" y1="-1.155" x2="-7.622" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="-7.622" y1="-1.155" x2="-10.289" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="-10.289" y1="-1.155" x2="-10.289" y2="1.155" width="0.2032" layer="21"/>
+<wire x1="-9.635" y1="0.755" x2="-8.135" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-8.135" y1="0.755" x2="-8.135" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-8.135" y1="-0.745" x2="-9.635" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-9.635" y1="-0.745" x2="-9.635" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-7.095" y1="0.755" x2="-5.595" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-5.595" y1="0.755" x2="-5.595" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-5.595" y1="-0.745" x2="-7.095" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-7.095" y1="-0.745" x2="-7.095" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-4.555" y1="0.755" x2="-3.055" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-3.055" y1="0.755" x2="-3.055" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-3.055" y1="-0.745" x2="-4.555" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-4.555" y1="-0.745" x2="-4.555" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-2.015" y1="0.755" x2="-0.515" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="-0.515" y1="0.755" x2="-0.515" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-0.515" y1="-0.745" x2="-2.015" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-2.015" y1="-0.745" x2="-2.015" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="0.525" y1="0.755" x2="2.025" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="2.025" y1="0.755" x2="2.025" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="2.025" y1="-0.745" x2="0.525" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="0.525" y1="-0.745" x2="0.525" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="3.065" y1="0.755" x2="4.565" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="4.565" y1="0.755" x2="4.565" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="4.565" y1="-0.745" x2="3.065" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="3.065" y1="-0.745" x2="3.065" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="5.605" y1="0.755" x2="7.105" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="7.105" y1="0.755" x2="7.105" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="7.105" y1="-0.745" x2="5.605" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="5.605" y1="-0.745" x2="5.605" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="8.145" y1="0.755" x2="9.645" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="9.645" y1="0.755" x2="9.645" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="9.645" y1="-0.745" x2="8.145" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="8.145" y1="-0.745" x2="8.145" y2="0.755" width="0.2032" layer="51"/>
+<pad name="1" x="-8.89" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="2" x="-6.35" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="3" x="-3.81" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="4" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="5" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="6" x="3.81" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="7" x="6.35" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="8" x="8.89" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-10.16" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="10.16" y="3.175" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<wire x1="-7.622" y1="-1.155" x2="-7.622" y2="1.155" width="0.2032" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-11.684" y="0.508" curve="-90"/>
+<vertex x="-11.176" y="0" curve="-90"/>
+<vertex x="-11.684" y="-0.508" curve="-90"/>
+<vertex x="-12.192" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="SSW-108-02-S-S-RA">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-10.289" y1="-8.396" x2="10.289" y2="-8.396" width="0.2032" layer="21"/>
+<wire x1="10.289" y1="-8.396" x2="10.289" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="10.289" y1="-0.106" x2="-10.289" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-10.289" y1="-0.106" x2="-10.289" y2="-8.396" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="2" x="-6.35" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="3" x="-3.81" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="4" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="5" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="6" x="3.81" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="7" x="6.35" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="8" x="8.89" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-9.485" y="-7.65" size="1.6764" layer="21" font="vector">1</text>
+<text x="-10.795" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="12.065" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-9.144" y1="0" x2="-8.636" y2="1.778" layer="51"/>
+<rectangle x1="-6.604" y1="0" x2="-6.096" y2="1.778" layer="51"/>
+<rectangle x1="-4.064" y1="0" x2="-3.556" y2="1.778" layer="51"/>
+<rectangle x1="-1.524" y1="0" x2="-1.016" y2="1.778" layer="51"/>
+<rectangle x1="1.016" y1="0" x2="1.524" y2="1.778" layer="51"/>
+<rectangle x1="3.556" y1="0" x2="4.064" y2="1.778" layer="51"/>
+<rectangle x1="6.096" y1="0" x2="6.604" y2="1.778" layer="51"/>
+<rectangle x1="8.636" y1="0" x2="9.144" y2="1.778" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FPINV">
+<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="FPIN">
+<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SSW-108-02-S-S" prefix="X">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<gates>
+<gate name="-1" symbol="FPINV" x="0" y="7.62" addlevel="always"/>
+<gate name="-2" symbol="FPIN" x="0" y="5.08" addlevel="always"/>
+<gate name="-3" symbol="FPIN" x="0" y="2.54" addlevel="always"/>
+<gate name="-4" symbol="FPIN" x="0" y="0" addlevel="always"/>
+<gate name="-5" symbol="FPIN" x="0" y="-2.54" addlevel="always"/>
+<gate name="-6" symbol="FPIN" x="0" y="-5.08" addlevel="always"/>
+<gate name="-7" symbol="FPIN" x="0" y="-7.62" addlevel="always"/>
+<gate name="-8" symbol="FPIN" x="0" y="-10.16" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="SSW-108-02-S-S">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+<connect gate="-5" pin="1" pad="5"/>
+<connect gate="-6" pin="1" pad="6"/>
+<connect gate="-7" pin="1" pad="7"/>
+<connect gate="-8" pin="1" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="SSW-108-02-S-S" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="11P9448" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RA" package="SSW-108-02-S-S-RA">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+<connect gate="-5" pin="1" pad="5"/>
+<connect gate="-6" pin="1" pad="6"/>
+<connect gate="-7" pin="1" pad="7"/>
+<connect gate="-8" pin="1" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="SSW-108-02-S-S-RA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="11P9449" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8688,18 +8855,18 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="SER" library="EEZ_Lib1" deviceset="LED" device="0805" value="Red"/>
-<part name="PAR" library="EEZ_Lib1" deviceset="LED" device="0805" value="Yellow"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="SER" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
+<part name="PAR" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="X1" library="EEZ_connectors" deviceset="DS1021-2*10SF11" device="" value="ZL202-20G"/>
 <part name="X2" library="EEZ_connectors" deviceset="DS1021-2*10SF11" device="" value="ZL202-20G"/>
 <part name="X3" library="EEZ_connectors" deviceset="DS1021-2*10SF11" device="" value="ZL202-20G"/>
 <part name="X4" library="EEZ_connectors" deviceset="ZL212-40KG" device=""/>
-<part name="+5V" library="EEZ_Lib1" deviceset="LED" device="0805" value="Green"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
-<part name="+12V" library="EEZ_Lib1" deviceset="LED" device="0805" value="Green"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1K5"/>
+<part name="+5V" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="+12V" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY3" library="supply2" deviceset="+12V" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="+5V" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
@@ -8754,8 +8921,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="CGND" library="EEZ_Lib1" deviceset="LED" device="0805" value="Green"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="CGND" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="K_SRAIL" library="EEZ_Lib1" deviceset="RELAY_RT314012" device="-2" value="RT424005"/>
 <part name="D6" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="ZD4" library="EEZ_Lib1" deviceset="PSMAXX" device="" value="SMAJ18A"/>
@@ -8769,8 +8936,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="SRAIL" library="EEZ_Lib1" deviceset="LED" device="0805" value="Green"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="SRAIL" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="D4" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="N.C."/>
 <part name="D3" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="N.C."/>
 <part name="X5" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="ZL262-28DG"/>
@@ -8781,6 +8948,11 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="D8" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="X8" library="con-samtec" deviceset="SSW-108-02-S-S" device="" value="N.C."/>
+<part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
+<part name="P+11" library="supply1" deviceset="+5V" device=""/>
+<part name="JP11" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
+<part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8866,7 +9038,7 @@ power sockets</text>
 <vertex x="98.425" y="153.035"/>
 <vertex x="98.425" y="165.1"/>
 <vertex x="104.775" y="165.1"/>
-<vertex x="102.235" y="146.05"/>
+<vertex x="104.775" y="146.05"/>
 <vertex x="88.9" y="146.05"/>
 </polygon>
 <polygon width="0.1524" layer="97">
@@ -10097,6 +10269,9 @@ power sockets</text>
 <wire x1="198.12" y1="106.68" x2="259.08" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="198.12" y1="106.68" x2="198.12" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
 <text x="205.74" y="175.26" size="1.778" layer="97">Peripheral modules RESET</text>
+<wire x1="104.14" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="104.14" y1="2.54" x2="104.14" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
+<text x="109.22" y="33.02" size="1.778" layer="97">ADxL345 module connector (optional)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10431,6 +10606,42 @@ power sockets</text>
 <instance part="+3V4" gate="G$1" x="233.68" y="170.18" smashed="yes">
 <attribute name="VALUE" x="230.505" y="172.72" size="1.778" layer="96" rot="MR180"/>
 </instance>
+<instance part="X8" gate="-1" x="121.92" y="27.94" smashed="yes">
+<attribute name="NAME" x="118.872" y="28.702" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-2" x="121.92" y="25.4" smashed="yes">
+<attribute name="NAME" x="118.872" y="26.162" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-3" x="121.92" y="22.86" smashed="yes">
+<attribute name="NAME" x="118.872" y="23.622" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-4" x="121.92" y="20.32" smashed="yes">
+<attribute name="NAME" x="118.872" y="21.082" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-5" x="121.92" y="17.78" smashed="yes">
+<attribute name="NAME" x="118.872" y="18.542" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-6" x="121.92" y="15.24" smashed="yes">
+<attribute name="NAME" x="118.872" y="16.002" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-7" x="121.92" y="12.7" smashed="yes">
+<attribute name="NAME" x="118.872" y="13.462" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-8" x="121.92" y="10.16" smashed="yes">
+<attribute name="NAME" x="118.872" y="10.922" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="SUPPLY20" gate="GND" x="144.78" y="22.86" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="146.685" y="21.59" size="1.778" layer="96"/>
+</instance>
+<instance part="P+11" gate="1" x="139.7" y="25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="139.7" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="JP11" gate="G$1" x="139.7" y="15.24" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.335" y="14.605" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY21" gate="GND" x="139.7" y="7.62" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="141.605" y="6.35" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10582,6 +10793,17 @@ power sockets</text>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <pinref part="X5" gate="-16" pin="1"/>
 </segment>
+<segment>
+<pinref part="X8" gate="-1" pin="1"/>
+<wire x1="124.46" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<wire x1="144.78" y1="25.4" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<pinref part="JP11" gate="G$1" pin="NC"/>
+<wire x1="139.7" y1="10.16" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -10678,6 +10900,21 @@ power sockets</text>
 <wire x1="215.9" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-24" pin="1"/>
 </segment>
+<segment>
+<pinref part="X8" gate="-2" pin="1"/>
+<wire x1="124.46" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="P+11" gate="1" pin="+5V"/>
+<pinref part="X8" gate="-3" pin="1"/>
+<wire x1="127" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="22.86" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<junction x="127" y="25.4"/>
+<pinref part="JP11" gate="G$1" pin="NO"/>
+<wire x1="139.7" y1="17.78" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="20.32" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<junction x="127" y="22.86"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -10745,6 +10982,11 @@ power sockets</text>
 <label x="213.36" y="80.645" size="1.27" layer="102" rot="R180"/>
 <pinref part="X7" gate="-8" pin="1"/>
 </segment>
+<segment>
+<pinref part="X8" gate="-7" pin="1"/>
+<wire x1="124.46" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="134.62" y="13.335" size="1.27" layer="102" rot="MR0"/>
+</segment>
 </net>
 <net name="I2C1_SCL" class="0">
 <segment>
@@ -10766,6 +11008,11 @@ power sockets</text>
 <wire x1="167.64" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <label x="149.86" y="83.185" size="1.27" layer="102" rot="MR180"/>
 <pinref part="X7" gate="-5" pin="1"/>
+</segment>
+<segment>
+<wire x1="124.46" y1="10.16" x2="134.62" y2="10.16" width="0.1524" layer="91"/>
+<label x="134.62" y="10.795" size="1.27" layer="102" rot="MR0"/>
+<pinref part="X8" gate="-8" pin="1"/>
 </segment>
 </net>
 <net name="SPI2_CLK" class="0">
@@ -11211,6 +11458,14 @@ power sockets</text>
 <wire x1="205.74" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <label x="205.74" y="153.035" size="1.27" layer="102"/>
 <pinref part="D7" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="ALT_ADDR" class="0">
+<segment>
+<pinref part="X8" gate="-6" pin="1"/>
+<wire x1="124.46" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
+<label x="137.16" y="15.875" size="1.27" layer="102" rot="MR0"/>
+<pinref part="JP11" gate="G$1" pin="COM"/>
 </segment>
 </net>
 </nets>
