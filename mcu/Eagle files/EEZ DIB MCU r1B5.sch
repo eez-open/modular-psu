@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1708,8 +1708,7 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <package name="5033981892">
 <wire x1="13.93" y1="-1.31" x2="-0.32" y2="-1.31" width="0.127" layer="21"/>
 <wire x1="-0.32" y1="-1.31" x2="-0.32" y2="13.89" width="0.127" layer="21"/>
-<wire x1="-0.32" y1="13.89" x2="13.93" y2="13.89" width="0.127" layer="21"/>
-<wire x1="13.93" y1="13.89" x2="13.93" y2="-1.31" width="0.127" layer="21"/>
+<wire x1="13.93" y1="10.64" x2="13.93" y2="-1.31" width="0.127" layer="21"/>
 <wire x1="13.7" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="0" x2="0" y2="12" width="0.127" layer="51"/>
 <wire x1="0" y1="12" x2="0" y2="13.83" width="0.127" layer="51"/>
@@ -1749,6 +1748,9 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="2.6" y1="16.6" x2="2.6" y2="13.83" width="0.127" layer="51"/>
 <wire x1="2.9" y1="16.9" x2="2.6" y2="16.6" width="0.127" layer="51" curve="90"/>
 <smd name="SW1" x="2.7" y="-0.3" dx="1.1" dy="1.5" layer="1" rot="R180"/>
+<smd name="S1" x="14.5" y="12.04" dx="1.45" dy="2.33" layer="1" rot="R180"/>
+<wire x1="13.93" y1="13.89" x2="-0.32" y2="13.89" width="0.127" layer="21"/>
+<wire x1="13.93" y1="13.89" x2="13.93" y2="13.44" width="0.127" layer="21"/>
 </package>
 <package name="PTB48">
 <smd name="1" x="-4.1148" y="2.75" dx="0.2794" dy="1.6764" layer="1" rot="R270"/>
@@ -6038,7 +6040,7 @@ Farnell: 2112873</description>
 <connect gate="G$1" pin="DAT0" pad="7"/>
 <connect gate="G$1" pin="DAT1" pad="8"/>
 <connect gate="G$1" pin="DAT2" pad="1"/>
-<connect gate="G$1" pin="SH" pad="S"/>
+<connect gate="G$1" pin="SH" pad="S S1"/>
 <connect gate="G$1" pin="SW1" pad="SW1"/>
 <connect gate="G$1" pin="SW2" pad="SW2"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
