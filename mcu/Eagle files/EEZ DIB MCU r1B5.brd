@@ -54,11 +54,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2212,7 +2212,6 @@ github.com/eez-open/modular-psu</text>
 <wire x1="75.8698" y1="59.3598" x2="76.9874" y2="60.4774" width="0.254" layer="21"/>
 <wire x1="55.0926" y1="38.5699" x2="56.5023" y2="39.9796" width="0.254" layer="21"/>
 <wire x1="73.3806" y1="30.7721" x2="74.7903" y2="29.3624" width="0.254" layer="21"/>
-<dimension x1="-8.5" y1="37.5" x2="134.5" y2="-38" x3="63" y3="-39.5" textsize="2.1844" layer="47" dtype="horizontal"/>
 <dimension x1="-11" y1="0" x2="-4" y2="35.5" x3="-10.859" y3="17.75" textsize="2.1844" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
