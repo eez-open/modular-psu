@@ -13658,6 +13658,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="C51" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="C74" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="ZD2" library="EEZ_Lib1" deviceset="P6SMB68A" device="" value="SMAJ51A"/>
+<part name="ZD3" library="EEZ_Lib1" deviceset="P6SMB68A" device="" value="SMAJ51A"/>
 </parts>
 <sheets>
 <sheet>
@@ -16591,6 +16593,10 @@ temp. sensors</text>
 <attribute name="NAME" x="243.459" y="131.191" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.459" y="129.286" size="1.778" layer="96"/>
 </instance>
+<instance part="ZD2" gate="G$1" x="246.38" y="119.38" smashed="yes" rot="MR270">
+<attribute name="NAME" x="248.92" y="120.65" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="248.92" y="118.364" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17065,21 +17071,23 @@ temp. sensors</text>
 <wire x1="33.02" y1="58.42" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
 <junction x="33.02" y="71.12"/>
 <pinref part="CH1" gate="G$1" pin="GND"/>
-<wire x1="251.46" y1="124.46" x2="251.46" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="116.84" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C57" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="109.22" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="119.38" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <junction x="236.22" y="109.22"/>
 <junction x="220.98" y="109.22"/>
 <wire x1="220.98" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C51" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="127" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
-<junction x="241.3" y="116.84"/>
-<wire x1="241.3" y1="116.84" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="127" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
 <junction x="241.3" y="109.22"/>
+<wire x1="251.46" y1="124.46" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
+<junction x="251.46" y="109.22"/>
+<pinref part="ZD2" gate="G$1" pin="A"/>
+<wire x1="246.38" y1="114.3" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
+<junction x="246.38" y="109.22"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-1" pin="1"/>
@@ -17337,6 +17345,9 @@ temp. sensors</text>
 <pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="134.62" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 <junction x="241.3" y="137.16"/>
+<pinref part="ZD2" gate="G$1" pin="C"/>
+<wire x1="246.38" y1="121.92" x2="246.38" y2="127" width="0.1524" layer="91"/>
+<junction x="246.38" y="127"/>
 </segment>
 </net>
 </nets>
@@ -17640,6 +17651,10 @@ temp. sensors</text>
 <instance part="C74" gate="G$1" x="241.3" y="132.08" smashed="yes">
 <attribute name="NAME" x="243.459" y="131.191" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.459" y="129.286" size="1.778" layer="96"/>
+</instance>
+<instance part="ZD3" gate="G$1" x="246.38" y="119.38" smashed="yes" rot="MR270">
+<attribute name="NAME" x="248.92" y="120.65" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="248.92" y="118.364" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -18027,8 +18042,9 @@ temp. sensors</text>
 <junction x="106.68" y="71.12"/>
 <pinref part="CH2" gate="G$1" pin="GND"/>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="109.22" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="109.22" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C79" gate="G$1" pin="-"/>
+<wire x1="246.38" y1="109.22" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="116.84" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
 <junction x="182.88" y="116.84"/>
@@ -18039,12 +18055,13 @@ temp. sensors</text>
 <wire x1="33.02" y1="58.42" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
 <junction x="33.02" y="71.12"/>
 <pinref part="C74" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="127" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="127" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
 <junction x="241.3" y="109.22"/>
-<wire x1="241.3" y1="116.84" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="116.84" x2="251.46" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="116.84" x2="251.46" y2="124.46" width="0.1524" layer="91"/>
-<junction x="241.3" y="116.84"/>
+<wire x1="251.46" y1="124.46" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
+<junction x="251.46" y="109.22"/>
+<pinref part="ZD3" gate="G$1" pin="A"/>
+<wire x1="246.38" y1="114.3" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
+<junction x="246.38" y="109.22"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -18296,6 +18313,9 @@ temp. sensors</text>
 <pinref part="C74" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="134.62" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 <junction x="241.3" y="137.16"/>
+<pinref part="ZD3" gate="G$1" pin="C"/>
+<wire x1="246.38" y1="121.92" x2="246.38" y2="127" width="0.1524" layer="91"/>
+<junction x="246.38" y="127"/>
 </segment>
 </net>
 </nets>
