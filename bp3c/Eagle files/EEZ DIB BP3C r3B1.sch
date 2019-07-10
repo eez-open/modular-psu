@@ -8950,9 +8950,9 @@ Source: Samtec SSW.pdf</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="X8" library="con-samtec" deviceset="SSW-108-02-S-S" device="" value="N.C."/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="JP11" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10633,14 +10633,14 @@ power sockets</text>
 <instance part="SUPPLY20" gate="GND" x="144.78" y="22.86" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="146.685" y="21.59" size="1.778" layer="96"/>
 </instance>
-<instance part="P+11" gate="1" x="139.7" y="25.4" smashed="yes" rot="R270">
-<attribute name="VALUE" x="139.7" y="25.4" size="1.778" layer="96"/>
-</instance>
 <instance part="JP11" gate="G$1" x="139.7" y="15.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="140.335" y="14.605" size="1.778" layer="95"/>
 </instance>
 <instance part="SUPPLY21" gate="GND" x="139.7" y="7.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="141.605" y="6.35" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="134.62" y="22.86" smashed="yes" rot="R270">
+<attribute name="VALUE" x="135.255" y="23.495" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -10833,6 +10833,20 @@ power sockets</text>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="233.68" y1="167.64" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X8" gate="-3" pin="1"/>
+<wire x1="124.46" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="JP11" gate="G$1" pin="NO"/>
+<wire x1="139.7" y1="17.78" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="20.32" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<junction x="127" y="22.86"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="X8" gate="-2" pin="1"/>
+<wire x1="124.46" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="127" y1="25.4" x2="127" y2="22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="!FAULT" class="0">
 <segment>
@@ -10899,21 +10913,6 @@ power sockets</text>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="215.9" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-24" pin="1"/>
-</segment>
-<segment>
-<pinref part="X8" gate="-2" pin="1"/>
-<wire x1="124.46" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
-<pinref part="X8" gate="-3" pin="1"/>
-<wire x1="127" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="127" y1="22.86" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<junction x="127" y="25.4"/>
-<pinref part="JP11" gate="G$1" pin="NO"/>
-<wire x1="139.7" y1="17.78" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="127" y1="20.32" x2="127" y2="22.86" width="0.1524" layer="91"/>
-<junction x="127" y="22.86"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -11464,7 +11463,7 @@ power sockets</text>
 <segment>
 <pinref part="X8" gate="-6" pin="1"/>
 <wire x1="124.46" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
-<label x="137.16" y="15.875" size="1.27" layer="102" rot="MR0"/>
+<label x="134.62" y="15.875" size="1.27" layer="102" rot="MR0"/>
 <pinref part="JP11" gate="G$1" pin="COM"/>
 </segment>
 </net>
@@ -11475,6 +11474,8 @@ power sockets</text>
 <approved hash="101,2,58.42,63.5,X5-20,1,,,,"/>
 <approved hash="101,2,129.54,63.5,X6-20,1,,,,"/>
 <approved hash="101,2,200.66,63.5,X7-20,1,,,,"/>
+<approved hash="101,2,124.46,20.32,X8-4,1,,,,"/>
+<approved hash="101,2,124.46,17.78,X8-5,1,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
 </errors>
