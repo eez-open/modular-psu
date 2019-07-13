@@ -4160,7 +4160,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="83.6422" y="44.703" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="83.9315" y="37.539" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X4" library="EEZ_connectors" package="ZL212-40KG" value="ZL212-40KG" x="-6.3" y="67.5" smashed="yes" rot="R270">
+<element name="X4" library="EEZ_connectors" package="ZL212-40KG" value="DS1022-2*20RF11" x="-6.3" y="67.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-6.0705" y="68.716" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-9.221" y="48.6405" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -4293,15 +4293,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.483" y="13.843" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="54.864" y="13.0175" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X5" library="EEZ_connectors" package="TSW-114-07-F-D" value="ZL262-28DG" x="12.36" y="90.04" smashed="yes" rot="R270">
+<element name="X5" library="EEZ_connectors" package="TSW-114-07-F-D" value="DS1023-2*14S21" x="12.36" y="90.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.378" y="89.3775" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="12.9315" y="81.15" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X6" library="EEZ_connectors" package="TSW-114-07-F-D" value="ZL262-28DG" x="47.86" y="90.04" smashed="yes" rot="R270">
+<element name="X6" library="EEZ_connectors" package="TSW-114-07-F-D" value="DS1023-2*14S21" x="47.86" y="90.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.938" y="89.4445" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="48.4315" y="81.15" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X7" library="EEZ_connectors" package="TSW-114-07-F-D" value="ZL262-28DG" x="83.36" y="90.04" smashed="yes" rot="R270">
+<element name="X7" library="EEZ_connectors" package="TSW-114-07-F-D" value="DS1023-2*14S21" x="83.36" y="90.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.4345" y="89.5115" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="83.9315" y="80.896" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>

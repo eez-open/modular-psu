@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8862,7 +8862,7 @@ Source: Samtec SSW.pdf</description>
 <part name="X1" library="EEZ_connectors" deviceset="DS1021-2*10SF11" device="" value="ZL202-20G"/>
 <part name="X2" library="EEZ_connectors" deviceset="DS1021-2*10SF11" device="" value="ZL202-20G"/>
 <part name="X3" library="EEZ_connectors" deviceset="DS1021-2*10SF11" device="" value="ZL202-20G"/>
-<part name="X4" library="EEZ_connectors" deviceset="ZL212-40KG" device=""/>
+<part name="X4" library="EEZ_connectors" deviceset="ZL212-40KG" device="" value="DS1022-2*20RF11"/>
 <part name="+5V" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="+12V" library="EEZ_Lib1" deviceset="LED" device="0805" value="N.C."/>
@@ -8940,9 +8940,9 @@ Source: Samtec SSW.pdf</description>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="D4" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="N.C."/>
 <part name="D3" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="N.C."/>
-<part name="X5" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="ZL262-28DG"/>
-<part name="X6" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="ZL262-28DG"/>
-<part name="X7" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="ZL262-28DG"/>
+<part name="X5" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="DS1023-2*14S21"/>
+<part name="X6" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="DS1023-2*14S21"/>
+<part name="X7" library="EEZ_connectors" deviceset="TSW-114-07-F-D" device="" value="DS1023-2*14S21"/>
 <part name="JP10" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="D7" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="D8" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
@@ -10303,7 +10303,7 @@ power sockets</text>
 </instance>
 <instance part="X4" gate="-1" x="38.1" y="167.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="44.45" y="168.529" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="46.99" y="170.307" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="38.1" y="169.672" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="+12V" x="73.66" y="96.52" smashed="yes">
 <attribute name="VALUE" x="74.93" y="99.695" size="1.778" layer="96" rot="MR0"/>
@@ -10446,7 +10446,7 @@ power sockets</text>
 </instance>
 <instance part="X5" gate="-1" x="25.4" y="86.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31.75" y="87.249" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="34.29" y="89.027" size="1.778" layer="96"/>
+<attribute name="VALUE" x="25.4" y="88.392" size="1.778" layer="96"/>
 </instance>
 <instance part="X5" gate="-2" x="58.42" y="86.36" smashed="yes">
 <attribute name="NAME" x="52.07" y="87.249" size="1.778" layer="95" rot="R180"/>
@@ -10531,7 +10531,7 @@ power sockets</text>
 </instance>
 <instance part="X6" gate="-1" x="96.52" y="86.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="102.87" y="87.249" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="105.41" y="89.027" size="1.778" layer="96"/>
+<attribute name="VALUE" x="96.52" y="88.392" size="1.778" layer="96"/>
 </instance>
 <instance part="X6" gate="-2" x="129.54" y="86.36"/>
 <instance part="X6" gate="-3" x="96.52" y="83.82" rot="MR0"/>
@@ -10562,7 +10562,7 @@ power sockets</text>
 <instance part="X6" gate="-28" x="129.54" y="53.34"/>
 <instance part="X7" gate="-1" x="167.64" y="86.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="173.99" y="87.249" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="176.53" y="89.027" size="1.778" layer="96"/>
+<attribute name="VALUE" x="167.64" y="88.392" size="1.778" layer="96"/>
 </instance>
 <instance part="X7" gate="-2" x="200.66" y="86.36"/>
 <instance part="X7" gate="-3" x="167.64" y="83.82" rot="MR0"/>

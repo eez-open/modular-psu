@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15186,8 +15186,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="PE3" library="supply1" deviceset="PE" device=""/>
-<part name="X1" library="EEZ_connectors" deviceset="ZL263-40DG" device="" value="ZL263-40DG"/>
-<part name="X2" library="EEZ_connectors" deviceset="IDC-16PIN" device="" value="ZL231-16KG"/>
+<part name="X1" library="EEZ_connectors" deviceset="ZL263-40DG" device="" value="DS1024-2*20R0"/>
+<part name="X2" library="EEZ_connectors" deviceset="IDC-16PIN" device="" value="DS1013-16SSIB1"/>
 <part name="X3" library="EEZ_connectors" deviceset="MC1,5/5-G-3,5" device="" value="1844249"/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>

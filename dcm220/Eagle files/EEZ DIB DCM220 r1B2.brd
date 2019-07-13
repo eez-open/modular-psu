@@ -5147,7 +5147,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="104.648" y="59.6265" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="106.2355" y="56.642" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X4" library="EEZ_connectors" package="SSW-105-02-T-D-RA" value="ZL263-10DG" x="40.5" y="12.5" locked="yes" smashed="yes" rot="R180">
+<element name="X4" library="EEZ_connectors" package="SSW-105-02-T-D-RA" value="DS1024-2*5R0" x="40.5" y="12.5" locked="yes" smashed="yes" rot="R180">
 <attribute name="FARNELL" value="2308470" x="40.5" y="12.5" size="1.016" layer="27" ratio="10" rot="R180" display="off"/>
 <attribute name="NAME" x="39.5354" y="13.6747" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="29.6929" y="3.7052" size="1.27" layer="27" ratio="10" rot="SR0"/>

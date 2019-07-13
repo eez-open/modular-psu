@@ -4736,11 +4736,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="66.9671" y="67.945" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="68.3387" y="64.9859" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X1" library="EEZ_connectors" package="ZL263-40DG" value="ZL263-40DG" x="122.5" y="67.5" locked="yes" smashed="yes" rot="R270">
+<element name="X1" library="EEZ_connectors" package="ZL263-40DG" value="DS1024-2*20R0" x="122.5" y="67.5" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="119.5865" y="20.43" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="129.8152" y="49.0596" size="1.27" layer="27" ratio="10" rot="SR270"/>
 </element>
-<element name="X2" library="EEZ_connectors" package="IDC-16PIN" value="ZL231-16KG" x="0" y="48.895" smashed="yes" rot="R270">
+<element name="X2" library="EEZ_connectors" package="IDC-16PIN" value="DS1013-16SSIB1" x="0" y="48.895" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.10055" y="62.95895" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.81" y="54.0004" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>

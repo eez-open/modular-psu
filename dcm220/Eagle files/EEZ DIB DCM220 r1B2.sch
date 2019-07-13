@@ -13637,7 +13637,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
-<part name="X4" library="EEZ_connectors" deviceset="SSW-105-02-T-D-RA" device="" value="ZL263-10DG"/>
+<part name="X4" library="EEZ_connectors" deviceset="SSW-105-02-T-D-RA" device="" value="DS1024-2*5R0"/>
 <part name="LED1" library="EEZ_Lib1" deviceset="LED_L-42WUM/1EGWT" device="" value="WP42WUM/EGW"/>
 <part name="LED2" library="EEZ_Lib1" deviceset="LED_L-42WUM/1EGWT" device="" value="WP42WUM/EGW"/>
 <part name="R42" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
