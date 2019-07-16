@@ -78,6 +78,7 @@
 <layer number="101" name="Pinouts" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Signals" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="103" name="extrainfo" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="no"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
@@ -86,6 +87,7 @@
 <layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="EEZ" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
@@ -3271,6 +3273,28 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 </polygon>
 <rectangle x1="5.8" y1="-33.3" x2="6.2" y2="-31.8" layer="51"/>
 </package>
+<package name="TEST-PIN">
+<pad name="P$1" x="0" y="0" drill="0.9" shape="octagon"/>
+<circle x="0" y="0" radius="1.1" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.8575" y="-0.3175" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="PCB_TEST_PAD">
+<smd name="NC" x="0" y="0" dx="0.254" dy="0.254" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="0.762" curve="90"/>
+<vertex x="-0.762" y="0" curve="90"/>
+<vertex x="0" y="-0.762" curve="90"/>
+<vertex x="0.762" y="0" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="0.8255" curve="90"/>
+<vertex x="-0.8255" y="0" curve="90"/>
+<vertex x="0" y="-0.8255" curve="90"/>
+<vertex x="0.8255" y="0" curve="90"/>
+</polygon>
+<text x="-1.905" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -5203,6 +5227,30 @@ Farnell: 2112873</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-PIN" prefix="TP" uservalue="yes">
+<description>Test pin; 10mm; Connection: pin terminal Ø0.95mm</description>
+<gates>
+<gate name="G$1" symbol="TEST_TAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEST-PIN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PAD" package="PCB_TEST_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="NC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11802,6 +11850,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="L2" library="EEZ_inductors_and_transformers" deviceset="COILCRAFT_HPI0630" device="" value="VLS6045AF-3R3N"/>
 <part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="C13" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
+<part name="DIR" library="EEZ_Lib1" deviceset="TEST-PIN" device="PAD"/>
+<part name="SS" library="EEZ_Lib1" deviceset="TEST-PIN" device="PAD"/>
+<part name="FB" library="EEZ_Lib1" deviceset="TEST-PIN" device="PAD"/>
 </parts>
 <sheets>
 <sheet>
@@ -12295,6 +12346,18 @@ Fan controller with LDO</text>
 <instance part="SUPPLY15" gate="GND" x="63.5" y="73.66" smashed="yes">
 <attribute name="VALUE" x="61.595" y="74.295" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="DIR" gate="G$1" x="213.36" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="214.63" y="143.51" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="144.78" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SS" gate="G$1" x="213.36" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="214.63" y="120.65" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="121.92" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="FB" gate="G$1" x="96.52" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="95.885" size="1.778" layer="95"/>
+<attribute name="VALUE" x="99.06" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12488,9 +12551,13 @@ Fan controller with LDO</text>
 <pinref part="Q3" gate="A" pin="G"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="147.32" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
 <junction x="205.74" y="149.86"/>
+<pinref part="DIR" gate="G$1" pin="P$1"/>
+<wire x1="213.36" y1="147.32" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
+<junction x="213.36" y="149.86"/>
 </segment>
 </net>
 <net name="PWR_SSTART" class="0">
@@ -12500,9 +12567,13 @@ Fan controller with LDO</text>
 <pinref part="Q4" gate="A" pin="G"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="127" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="124.46" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <junction x="205.74" y="127"/>
+<pinref part="SS" gate="G$1" pin="P$1"/>
+<wire x1="213.36" y1="124.46" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<junction x="213.36" y="127"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13013,7 +13084,7 @@ Fan controller with LDO</text>
 <pinref part="IC1" gate="A" pin="VO"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="LDO_FB" class="0">
 <segment>
 <wire x1="91.44" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="83.82" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
@@ -13025,6 +13096,9 @@ Fan controller with LDO</text>
 <wire x1="104.14" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="FB"/>
+<pinref part="FB" gate="G$1" pin="P$1"/>
+<wire x1="96.52" y1="91.44" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
+<junction x="96.52" y="83.82"/>
 </segment>
 </net>
 <net name="N$9" class="0">
