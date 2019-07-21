@@ -11,8 +11,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="300"
    inkscape:export-xdpi="300"
-   inkscape:export-filename="/home/denis/BACKUP/EEZ/git-public/modular-psu/dcp405/Front panel/DIB chassis DCP405 panel.png"
-   sodipodi:docname="DIB chassis DCP405 panel v3.svg"
+   inkscape:export-filename="/home/denis/BACKUP/EEZ/git-public/modular-psu/dcp405/Front panel/DIB chassis DCP405B panel.png"
+   sodipodi:docname="DIB chassis DCP405B panel v3.svg"
    inkscape:version="0.92.4 (unknown)"
    id="svg2993"
    version="1.1"
@@ -360,7 +360,7 @@
      inkscape:cx="9.4821406"
      inkscape:cy="153.6639"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1096"
@@ -376,7 +376,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -398,7 +398,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Import"
-     style="display:none">
+     style="display:inline">
     <g
        inkscape:label="0"
        id="g1184"
@@ -422,26 +422,6 @@
        id="path1192"
        style="fill:none;stroke:#000000;stroke-width:0.26458332"
        d="M 40.530479,6.4076688 V 121.40767"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path1226"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="m 19.03048,62.907666 h -9"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path1228"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="m 19.03048,43.907667 h -9"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path1230"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="M 19.03048,43.907667 V 62.907666"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path1232"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="M 10.03048,43.907667 V 62.907666"
        inkscape:connector-curvature="0" />
     <path
        id="path1234"
@@ -469,16 +449,6 @@
        d="m 15.58048,80.907667 a 1.5500001,1.5500001 0 1 0 -3.1,0 1.5500001,1.5500001 0 1 0 3.1,0 z"
        inkscape:connector-curvature="0" />
     <path
-       id="path1248"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="m 14.58048,40.407667 a 1.5500001,1.5500001 0 1 0 -3.1,0 1.5500001,1.5500001 0 1 0 3.1,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path1250"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="m 19.58048,40.407667 a 1.5500001,1.5500001 0 1 0 -3.1,0 1.5500001,1.5500001 0 1 0 3.1,0 z"
-       inkscape:connector-curvature="0" />
-    <path
        id="path1252"
        style="fill:none;stroke:#000000;stroke-width:0.26458332"
        d="m 14.58048,33.407667 a 1.5500001,1.5500001 0 1 0 -3.1,0 1.5500001,1.5500001 0 1 0 3.1,0 z"
@@ -487,11 +457,6 @@
        id="path1254"
        style="fill:none;stroke:#000000;stroke-width:0.26458332"
        d="m 19.58048,33.407667 a 1.5500001,1.5500001 0 1 0 -3.1,0 1.5500001,1.5500001 0 1 0 3.1,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path1256"
-       style="fill:none;stroke:#000000;stroke-width:0.26458332"
-       d="m 15.58048,99.907655 a 1.5500001,1.5500001 0 1 0 -3.1,0 1.5500001,1.5500001 0 1 0 3.1,0 z"
        inkscape:connector-curvature="0" />
     <path
        id="path1258"
@@ -547,36 +512,6 @@
      transform="translate(0,-172)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.99861121px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#252850;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="20.599699"
-       y="218.85846"
-       id="text3540"><tspan
-         sodipodi:role="line"
-         id="tspan6306"
-         x="20.599699"
-         y="218.85846">Sense+</tspan><tspan
-         sodipodi:role="line"
-         id="tspan6308"
-         x="20.599699"
-         y="222.60672">Sense-</tspan><tspan
-         sodipodi:role="line"
-         id="tspan6310"
-         x="20.599699"
-         y="226.35498">PE</tspan><tspan
-         sodipodi:role="line"
-         id="tspan6312"
-         x="20.599699"
-         y="230.10326">RProg+</tspan><tspan
-         sodipodi:role="line"
-         id="tspan6314"
-         x="20.599699"
-         y="233.85152">Gnd</tspan><tspan
-         sodipodi:role="line"
-         id="tspan6316"
-         x="20.599699"
-         y="237.59978" /></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:100%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.99599998;fill:#252850;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="16.592413"
        y="252.25354"
@@ -613,26 +548,6 @@
          id="tspan6437"
          x="11.335379"
          y="203.18861">CC</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.99599998;fill:#252850;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="16.230223"
-       y="209.98389"
-       id="text3540-4-5-4"><tspan
-         sodipodi:role="line"
-         id="tspan6457"
-         x="16.230223"
-         y="209.98389">Rprog</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.99599998;fill:#252850;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="8.0383816"
-       y="210.0117"
-       id="text3540-4-5-4-7"><tspan
-         sodipodi:role="line"
-         id="tspan6477"
-         x="8.0383816"
-         y="210.0117">Sense</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:89.99999762%;font-family:Calibri;-inkscape-font-specification:'Calibri, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.99599998;fill:#252850;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
