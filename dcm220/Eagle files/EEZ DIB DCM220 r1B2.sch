@@ -18323,14 +18323,14 @@ temp. sensors</text>
 </sheets>
 <errors>
 <approved hash="104,1,50.8,45.72,IC4,VCC,V+,,,"/>
-<approved hash="104,3,246.38,63.5,IC11P,V+,+3V3,,,"/>
-<approved hash="104,3,246.38,48.26,IC11P,V-,GND,,,"/>
-<approved hash="104,3,223.52,63.5,IC9P,V+,+8V,,,"/>
-<approved hash="104,3,223.52,48.26,IC9P,V-,-8V,,,"/>
-<approved hash="104,1,33.02,109.22,IC2,VIN,DC_OUT+,,,"/>
-<approved hash="106,1,205.74,172.72,+VAUX,,,,,"/>
-<approved hash="106,1,205.74,160.02,DIB_CSB,,,,,"/>
-<approved hash="106,1,172.72,170.18,DIB_NFAULT,,,,,"/>
+<approved hash="104,3,246.38,60.96,IC11P,V+,+3V3,,,"/>
+<approved hash="104,3,246.38,45.72,IC11P,V-,GND,,,"/>
+<approved hash="104,3,223.52,60.96,IC9P,V+,+8V,,,"/>
+<approved hash="104,3,223.52,45.72,IC9P,V-,-8V,,,"/>
+<approved hash="104,1,35.56,104.14,IC2,VIN,DC_OUT+,,,"/>
+<approved hash="106,1,205.74,170.18,+VAUX,,,,,"/>
+<approved hash="106,1,205.74,157.48,DIB_CSB,,,,,"/>
+<approved hash="106,1,172.72,167.64,DIB_NFAULT,,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
 <approved hash="113,3,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME4,,,,,"/>
@@ -18341,11 +18341,11 @@ temp. sensors</text>
 <approved hash="113,4,105.799,87.9094,SH4,,,,,"/>
 <approved hash="113,3,40.9314,83.5194,USET1,,,,,"/>
 <approved hash="113,2,35.2004,157.243,ISET1,,,,,"/>
-<approved hash="113,3,18.4189,63.7371,OE1,,,,,"/>
-<approved hash="113,3,215.9,62.5955,GND,,,,,"/>
-<approved hash="113,1,107.671,154.059,SH1,,,,,"/>
-<approved hash="113,4,244.839,126.026,CH2,,,,,"/>
-<approved hash="113,3,244.839,126.026,CH1,,,,,"/>
+<approved hash="113,3,18.4189,56.1171,OE1,,,,,"/>
+<approved hash="113,3,215.9,60.0555,GND,,,,,"/>
+<approved hash="113,1,107.671,151.519,SH1,,,,,"/>
+<approved hash="113,4,249.919,126.026,CH2,,,,,"/>
+<approved hash="113,3,249.919,126.026,CH1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
