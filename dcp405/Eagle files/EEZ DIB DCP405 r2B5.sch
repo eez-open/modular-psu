@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18002,7 +18002,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <text x="60.96" y="48.26" size="1.778" layer="97" rot="MR180">I2C Module ID EEPROM</text>
 <text x="134.62" y="127" size="1.778" layer="97" rot="MR180">Bus isolators</text>
 <text x="164.465" y="26.67" size="2.54" layer="94" font="vector">Bias power supply, I2C EEPROM,
-digital isolators, CS demux, Temp sensor</text>
+digital isolators, CS demux</text>
 <text x="134.62" y="33.02" size="1.778" layer="97" rot="MR180">Plastic parts</text>
 <text x="208.28" y="127" size="1.778" layer="97" rot="MR180">Chip select decoder</text>
 <wire x1="132.08" y1="2.54" x2="132.08" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
@@ -20239,7 +20239,7 @@ UVLO on: +38 V</text>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="119.38" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
-<label x="186.69" y="137.16" size="1.27" layer="102" xref="yes"/>
+<label x="190.5" y="137.16" size="1.27" layer="102" xref="yes"/>
 </segment>
 </net>
 <net name="N$102" class="0">
@@ -20647,7 +20647,6 @@ UVLO on: +38 V</text>
 <sheet>
 <description>Digital control, Vref</description>
 <plain>
-<text x="164.465" y="29.21" size="2.54" layer="94" font="vector">SPI I/O expander, DAC, ADC, Voltage reference</text>
 <text x="46.99" y="69.85" size="1.4224" layer="104">Require SPI_MODE1</text>
 <text x="47.625" y="16.51" size="1.4224" layer="104">Require SPI_MODE1</text>
 <text x="3.81" y="176.53" size="1.778" layer="97">Digital control (SPI)</text>
@@ -20698,7 +20697,8 @@ UVLO on: +38 V</text>
 <wire x1="252.73" y1="168.275" x2="252.73" y2="165.1" width="0.1524" layer="103"/>
 <wire x1="204.47" y1="165.1" x2="204.47" y2="168.275" width="0.1524" layer="103"/>
 <text x="222.25" y="165.735" size="1.6764" layer="103">I/O Expander</text>
-<text x="164.465" y="25.4" size="2.54" layer="94" font="vector">Remote programming</text>
+<text x="164.465" y="25.4" size="2.54" layer="94" font="vector">SPI I/O expander, temp sensor, DAC, ADC, 
+Voltage reference, Remote programming</text>
 <text x="46.99" y="120.65" size="1.4224" layer="104">Require SPI_MODE0</text>
 <text x="247.65" y="131.445" size="1.6764" layer="103" align="bottom-center">Output</text>
 <text x="208.28" y="144.145" size="1.6764" layer="103" align="bottom-center">6</text>
