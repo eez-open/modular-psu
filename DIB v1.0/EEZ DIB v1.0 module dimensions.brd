@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="20" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="20" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -195,6 +195,8 @@ Project source code: github.com/eez-open</text>
 <text x="158.369" y="88.773" size="1.778" layer="51" ratio="10">Max. module width
 (for EEZ BB3 chassis!)</text>
 <dimension x1="143.5" y1="95" x2="135.5" y2="0" x3="132" y3="47.5" textsize="2" layer="47" dtype="vertical"/>
+<rectangle x1="0" y1="0" x2="42" y2="14" layer="43"/>
+<text x="9.5" y="-3" size="1.778" layer="43">Restricted area (power relays)</text>
 </plain>
 <libraries>
 <library name="EEZ_Lib1">
