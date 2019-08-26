@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16747,7 +16747,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <parts>
 <part name="P+5" library="supply2" deviceset="V+" device=""/>
 <part name="C49" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
+<part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="6n8"/>
 <part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="C56" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -16755,9 +16755,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="330K"/>
 <part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
+<part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="C42" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
@@ -17066,7 +17066,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="Q11" library="EEZ_Lib1" deviceset="N-MOSFET" device="LFPAK" value="PSMN0R9-25YLC"/>
 <part name="SUPPLY102" library="supply2" deviceset="GND" device="" value="GND"/>
 <part name="Q10" library="EEZ_Lib1" deviceset="N-MOSFET" device="LFPAK" value="PSMN0R9-25YLC"/>
-<part name="R58" library="rcl" deviceset="R-EU_" device="R1206" value="0R75"/>
+<part name="R58" library="rcl" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="SUPPLY128" library="supply2" deviceset="GND" device="" value="GND"/>
 <part name="R64" library="EEZ_Lib1" deviceset="R-EU_4WIRE" device="2512" value="0R010 (low TCR)"/>
@@ -17169,10 +17169,10 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="IC19" library="EEZ_Lib1" deviceset="LM293" device="D"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
-<part name="ZD2" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="7V5"/>
+<part name="ZD2" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="MM3Z9V1T1G"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="R66" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="C60" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
+<part name="C60" library="rcl" deviceset="C-EU" device="C0805" value="120p"/>
 <part name="R71" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="D15" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="Q7" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857B" value="MMBT5401"/>
@@ -19267,16 +19267,17 @@ UVLO on: +38 V</text>
 <sheet>
 <description>Post-regulator</description>
 <plain>
-<text x="115.57" y="106.045" size="1.778" layer="97">Voltage control loop</text>
+<text x="107.95" y="106.045" size="1.778" layer="97">Voltage control loop</text>
 <text x="165.1" y="98.425" size="1.27" layer="103">U_SET (+2.5V for full range)</text>
 <wire x1="185.42" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="106.68" y1="109.22" x2="106.68" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="106.68" y1="109.22" x2="106.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="106.68" y1="73.66" x2="106.68" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="238.76" y1="127" x2="238.76" y2="166.37" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="15.24" size="1.4224" layer="103">Note 3.1: Q3, Q4 and Q5 mounted on heatsink</text>
 <wire x1="106.68" y1="166.37" x2="106.68" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="185.42" y1="166.37" x2="185.42" y2="127" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="185.42" y1="127" x2="185.42" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
-<text x="113.03" y="163.195" size="1.778" layer="97">Down-programmer</text>
+<text x="107.95" y="163.195" size="1.778" layer="97">Down-programmer</text>
 <wire x1="106.68" y1="166.37" x2="185.42" y2="166.37" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="83.82" y1="58.42" x2="83.82" y2="5.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="185.42" y1="127" x2="238.76" y2="127" width="0.1524" layer="97" style="shortdash"/>
@@ -19300,7 +19301,8 @@ UVLO on: +38 V</text>
 <text x="234.95" y="1.905" size="2.54" layer="94" font="vector" rot="MR0">&gt;LAST_DATE_TIME</text>
 <text x="200.66" y="1.905" size="2.54" layer="94" font="vector" rot="MR0">- Date:</text>
 <text x="76.835" y="171.45" size="1.27" layer="103">See Note 3.1</text>
-<rectangle x1="115.57" y1="21.59" x2="127.635" y2="29.21" layer="97"/>
+<text x="107.95" y="70.485" size="1.778" layer="97">Current control loop</text>
+<wire x1="106.68" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="P+5" gate="1" x="71.12" y="53.34" smashed="yes" rot="R270">
@@ -19622,15 +19624,15 @@ UVLO on: +38 V</text>
 </instance>
 <instance part="ZD2" gate="G$1" x="160.02" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="162.052" y="153.035" size="1.778" layer="95"/>
-<attribute name="VALUE" x="162.052" y="150.876" size="1.778" layer="96"/>
+<attribute name="VALUE" x="162.052" y="150.876" size="1.27" layer="96"/>
 </instance>
 <instance part="Q7" gate="G$1" x="119.38" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.84" y="142.24" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="140.335" size="1.27" layer="96"/>
 </instance>
 <instance part="D8" gate="G$1" x="111.76" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="110.236" y="133.985" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="110.236" y="136.144" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="110.236" y="136.525" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="110.236" y="134.239" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D9" gate="G$1" x="127" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="128.524" y="128.1176" size="1.778" layer="95"/>
@@ -19901,19 +19903,19 @@ UVLO on: +38 V</text>
 <label x="167.64" y="104.14" size="1.27" layer="102" xref="yes"/>
 </segment>
 <segment>
-<wire x1="223.52" y1="76.2" x2="241.3" y2="76.2" width="0.4064" layer="91"/>
+<wire x1="223.52" y1="71.12" x2="241.3" y2="71.12" width="0.4064" layer="91"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="48.26" width="0.4064" layer="91"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
-<wire x1="223.52" y1="48.26" x2="223.52" y2="76.2" width="0.4064" layer="91"/>
+<wire x1="223.52" y1="48.26" x2="223.52" y2="71.12" width="0.4064" layer="91"/>
 <pinref part="Q10" gate="G$1" pin="D"/>
-<wire x1="223.52" y1="76.2" x2="210.82" y2="76.2" width="0.4064" layer="91"/>
-<wire x1="210.82" y1="76.2" x2="210.82" y2="68.58" width="0.4064" layer="91"/>
+<wire x1="223.52" y1="71.12" x2="210.82" y2="71.12" width="0.4064" layer="91"/>
+<wire x1="210.82" y1="71.12" x2="210.82" y2="68.58" width="0.4064" layer="91"/>
 <pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="48.26" x2="231.14" y2="48.26" width="0.4064" layer="91"/>
 <wire x1="231.14" y1="48.26" x2="231.14" y2="33.02" width="0.4064" layer="91"/>
 <junction x="223.52" y="48.26"/>
-<junction x="223.52" y="76.2"/>
-<label x="257.81" y="76.2" size="1.27" layer="102" rot="R180" xref="yes"/>
+<junction x="223.52" y="71.12"/>
+<label x="257.81" y="71.12" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$90" class="0">
