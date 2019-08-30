@@ -16794,7 +16794,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="330K"/>
+<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="C42" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
@@ -17079,9 +17079,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
 <part name="FB2" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="60R@100MHz"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="4n7/100V"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="4n7/100V"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="4n7/100V"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="L2" library="EEZ_inductors_and_transformers" deviceset="125CDMCC/DS" device="" value="125CDMCCDS-330MC"/>
 <part name="C11" library="EEZ_Lib1" deviceset="ECAP" device="10X10" value="EEEFK1J101P"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
