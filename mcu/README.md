@@ -24,6 +24,6 @@ STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan contro
 * Bootloader select for USB DFU
 * Dimensions: 139.5 x 70 mm, 4-layer PCB
 
-### r1B2 prototype
+### r1B5 prototype
 
-![prototype](Images/MCU_board_r1B2_prototype.jpg)
+![prototype](Images/MCU_board_r1B5_prototype.jpg)
