@@ -1,0 +1,150 @@
+Configuration	EEZ DIB DCM220 r2B2
+STM32CubeMX 	5.3.0
+Date	09/04/2019
+MCU	STM32F373C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0
+ADC1	IN6	ADC1_IN6	PA6
+ADC1	Single-ended	ADC1_TempSens_Input	VP_ADC1_TempSens_Input
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SDADC1	IN4-Single-Ended zero reference	SDADC1_AIN4P	PB2
+SDADC1	IN5-Single-Ended zero reference	SDADC1_AIN5P	PB1
+SDADC1	IN6-Single-Ended zero reference	SDADC1_AIN6P	PB0
+SDADC1	IN8-Single-Ended zero reference	SDADC1_AIN8P	PE8
+SDADC1	Conversion Configuration 0	SDADC1_CONF0	VP_SDADC1_CONF0
+SPI1	Half-Duplex Master	SPI1_MOSI	PF6
+SPI1	Half-Duplex Master	SPI1_SCK	PA5
+SPI2	Full-Duplex Slave	SPI2_MISO	PA9
+SPI2	Full-Duplex Slave	SPI2_MOSI	PA10
+SPI2	Full-Duplex Slave	SPI2_SCK	PA8
+SPI2	Hardware NSS Input Signal	SPI2_NSS	PA11
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTDO-TRACESWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	CC_LED#1
+3	PC14-OSC32_IN	GPIO_EXTI14	CC#1
+4	PC15-OSC32_OUT	GPIO_EXTI15	CC#2
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	ADC1_IN0	TEMP#1
+11	PA1	GPIO_Output	CC_LED#2
+12	PA2	USART2_TX	
+13	PA3	USART2_RX	
+14	PA4	GPIO_Output	DAC_CS
+15	PA5	SPI1_SCK	DAC_SCLK
+16	PA6	ADC1_IN6	TEMP#2
+18	PB0	SDADC1_AIN6P	U_MON#1
+19	PB1	SDADC1_AIN5P	I_MON#1
+20	PB2	SDADC1_AIN4P	U_MON#2
+21	PE8	SDADC1_AIN8P	I_MON#2
+29	PA8	SPI2_SCK	DIB_SCLK
+30	PA9	SPI2_MISO	DIB_MISO
+31	PA10	SPI2_MOSI	DIB_MOSI
+32	PA11	SPI2_NSS	DIB_NSS
+33	PA12	GPIO_Output	DIB_IRQ
+34	PA13	SYS_JTMS-SWDIO	
+35	PF6	SPI1_MOSI	DAC_MOSI
+36	PF7	GPIO_EXTI7	DIB_SYNC
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	SYS_JTDO-TRACESWO	
+40	PB4	GPIO_Input	PWRGOOD
+41	PB5	GPIO_Output	OE#1
+42	PB6	GPIO_Output	OE#2
+45	PB8	GPIO_Input	Reserved (CV#2)
+46	PB9	GPIO_Input	Reserved (CV#1)
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0
+ADC1	IN6	ADC1_IN6	PA6
+ADC1	Single-ended	ADC1_TempSens_Input	VP_ADC1_TempSens_Input
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SDADC1	IN4-Single-Ended zero reference	SDADC1_AIN4P	PB2
+SDADC1	IN5-Single-Ended zero reference	SDADC1_AIN5P	PB1
+SDADC1	IN6-Single-Ended zero reference	SDADC1_AIN6P	PB0
+SDADC1	IN8-Single-Ended zero reference	SDADC1_AIN8P	PE8
+SDADC1	Conversion Configuration 0	SDADC1_CONF0	VP_SDADC1_CONF0
+SPI1	Half-Duplex Master	SPI1_MOSI	PF6
+SPI1	Half-Duplex Master	SPI1_SCK	PA5
+SPI2	Full-Duplex Slave	SPI2_MISO	PA9
+SPI2	Full-Duplex Slave	SPI2_MOSI	PA10
+SPI2	Full-Duplex Slave	SPI2_SCK	PA8
+SPI2	Hardware NSS Input Signal	SPI2_NSS	PA11
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTDO-TRACESWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	CC_LED#1
+3	PC14-OSC32_IN	GPIO_EXTI14	CC#1
+4	PC15-OSC32_OUT	GPIO_EXTI15	CC#2
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	ADC1_IN0	TEMP#1
+11	PA1	GPIO_Output	CC_LED#2
+12	PA2	USART2_TX	
+13	PA3	USART2_RX	
+14	PA4	GPIO_Output	DAC_CS
+15	PA5	SPI1_SCK	DAC_SCLK
+16	PA6	ADC1_IN6	TEMP#2
+18	PB0	SDADC1_AIN6P	U_MON#1
+19	PB1	SDADC1_AIN5P	I_MON#1
+20	PB2	SDADC1_AIN4P	U_MON#2
+21	PE8	SDADC1_AIN8P	I_MON#2
+29	PA8	SPI2_SCK	DIB_SCLK
+30	PA9	SPI2_MISO	DIB_MISO
+31	PA10	SPI2_MOSI	DIB_MOSI
+32	PA11	SPI2_NSS	DIB_NSS
+33	PA12	GPIO_Output	DIB_IRQ
+34	PA13	SYS_JTMS-SWDIO	
+35	PF6	SPI1_MOSI	DAC_MOSI
+36	PF7	GPIO_EXTI7	DIB_SYNC
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	SYS_JTDO-TRACESWO	
+40	PB4	GPIO_Input	PWRGOOD
+41	PB5	GPIO_Output	OE#1
+42	PB6	GPIO_Output	OE#2
+45	PB8	GPIO_Input	Reserved (CV#2)
+46	PB9	GPIO_Input	Reserved (CV#1)
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : EEZ DIB DCM220 r2B2
+Project Folder : /media/denis/9fcb6f91-68fe-4cc2-9835-da31980f2bd4/home/denis/BACKUP/EEZ/Digital control/MCU/STM32/Projects/EEZ DIB DCM220 r2B2
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F3 V1.10.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
