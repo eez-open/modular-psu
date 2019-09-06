@@ -8,7 +8,7 @@
 </settings>
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="40" display="no" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="11" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="13" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="13" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="14" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="11" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="1" visible="no" active="yes"/>
@@ -50,7 +50,7 @@
 <layer number="40" name="bKeepout" color="13" fill="1" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -3611,11 +3611,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="189.5475" y="51.816" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="184.277" y="49.022" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="R3" library="rcl" package="R0805" value="2K2" x="167.0685" y="36.6395" smashed="yes" rot="R90">
+<element name="R3" library="rcl" package="R0805" value="1K" x="167.0685" y="36.6395" smashed="yes" rot="R90">
 <attribute name="NAME" x="168.275" y="36.068" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="167.4495" y="35.3695" size="1.016" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="167.5765" y="35.7505" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R1" library="rcl" package="R0805" value="2K2" x="179.451" y="19.2405" smashed="yes" rot="R180">
+<element name="R1" library="rcl" package="R0805" value="1K" x="179.451" y="19.2405" smashed="yes" rot="R180">
 <attribute name="NAME" x="178.6255" y="20.5105" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="180.6575" y="19.7485" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -3696,7 +3696,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.0751" y="14.4145" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="43.6626" y="14.5415" size="0.8128" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="R23" library="rcl" package="R0805" value="47K" x="46.99" y="18.7325" smashed="yes" rot="R270">
+<element name="R23" library="rcl" package="R0805" value="39K" x="46.99" y="18.7325" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.149" y="17.526" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="46.355" y="20.193" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3736,11 +3736,11 @@ design rules under a new name.</description>
 <element name="GND" library="EEZ_Lib1" package="PCB_SHIELD_TAB" value="" x="43.942" y="31.1785" smashed="yes" rot="R180">
 <attribute name="NAME" x="45.466" y="30.734" size="1.016" layer="25" ratio="10"/>
 </element>
-<element name="R5" library="rcl" package="R0805" value="47K" x="66.1035" y="39.1795" smashed="yes" rot="R180">
+<element name="R5" library="rcl" package="R0805" value="4K7" x="66.1035" y="39.1795" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.278" y="40.3225" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.31" y="39.6875" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R10" library="rcl" package="R0805" value="47K" x="62.1665" y="39.1795" smashed="yes" rot="R180">
+<element name="R10" library="rcl" package="R0805" value="4K7" x="62.1665" y="39.1795" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.8965" y="40.3225" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="63.5" y="39.751" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>

@@ -11684,8 +11684,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R2512" value="330R/2W"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="NTC1" library="EEZ_Lib1" deviceset="NTC" device="11.5X6" value="B57236S0200M"/>
 <part name="X1" library="EEZ_connectors" deviceset="MINIFIT_5566-06A" device="-CRE" value="39-28-1063"/>
 <part name="X2" library="EEZ_connectors" deviceset="MINIFIT_39301039" device="-CREEPAGE" value="39-30-1039"/>
@@ -11721,7 +11721,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="PACKAGE" value="SOT-23-3"/>
 <attribute name="SUPPLIER" value="DIODES INC."/>
 </part>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="39K"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="LED1" library="EEZ_Lib1" deviceset="LED" device="OSG8" value="OSY5LU3E34X-3F1A"/>
 <part name="Q3" library="EEZ_Lib1" deviceset="2N7002" device=""/>
@@ -11731,8 +11731,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="J2" library="EEZ_connectors" deviceset="PCB_TAB" device="-4907" value="4907"/>
 <part name="J3" library="EEZ_connectors" deviceset="PCB_TAB" device="-4907" value="4907"/>
 <part name="GND" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>

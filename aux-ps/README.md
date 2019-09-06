@@ -7,14 +7,14 @@ AUX Power supply board for powering MCU board and backplane.
 * AC input protection (SAR, MOV, TVS)
 * 3 x AC power outputs
 * Soft-start/standby control
-* +5 V, min. 2 A
-* +12 V, min. 0.5 A
+* +5 V, 10 W (optional 20 W)
+* +12 V, 10 W
 * I2C DC fan controller with temperature sensor and speed control
 * Two 3-wire or 4-wire 12V DC fans (standard PC fan pinout)
 * Standby LED indictor
 * On-board PE 4 mm terminals
 * Dimensions: 230.5 x 60 mm, 2-layer PCB
 
-### PCB r3B2 preview
+### PCB r3B2 prototype
 
-![prototype](Images/EEZ_DIB_AUX-PS_PCB_top.png)
+![prototype](Images/AUX_PS_r3B2_prototype.jpg)
