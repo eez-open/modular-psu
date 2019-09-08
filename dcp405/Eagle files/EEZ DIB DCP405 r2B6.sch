@@ -3623,7 +3623,7 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <rectangle x1="-0.635" y1="-20.32" x2="0.635" y2="-18.415" layer="51"/>
 <rectangle x1="4.953" y1="-17.907" x2="6.223" y2="-16.002" layer="21"/>
 <rectangle x1="4.953" y1="-20.32" x2="6.223" y2="-18.415" layer="51"/>
-<smd name="NC" x="0" y="1.27" dx="7.62" dy="7.62" layer="1"/>
+<smd name="NC" x="0" y="1.27" dx="7.62" dy="7.62" layer="1" roundness="15" thermals="no" cream="no"/>
 <wire x1="-7.874" y1="-0.889" x2="-3.1242" y2="3.1496" width="0.127" layer="51"/>
 <wire x1="-7.874" y1="-0.889" x2="-4.0259" y2="2.3876" width="0.127" layer="21"/>
 <wire x1="7.874" y1="-0.889" x2="4.0259" y2="2.3876" width="0.127" layer="21"/>
@@ -4853,6 +4853,30 @@ Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
 <rectangle x1="-0.75" y1="-0.17" x2="-0.54" y2="0.17" layer="51"/>
 <rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
 <rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
+</package>
+<package name="TO220FP-V">
+<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-1.1684" radius="0.254" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="-0.2032" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-0.2032" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-0.2032" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-3.5052" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="1.524" x2="5.334" y2="2.54" layer="21"/>
+<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.524" layer="21"/>
+<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.524" layer="21"/>
+<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.524" layer="51"/>
+<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.524" layer="21"/>
+<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.524" layer="21"/>
+<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.524" layer="51"/>
+<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.524" layer="51"/>
+<wire x1="-3.0734" y1="-1.778" x2="-4.699" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="3.0734" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.778" x2="-1.9558" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="1.9558" y1="-1.778" x2="0.635" y2="-1.778" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6909,6 +6933,16 @@ Source: http://www.irf.com/</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-FPV" package="TO220FP-V">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DAC8552_DGK_8" prefix="IC" uservalue="yes">
@@ -8285,6 +8319,16 @@ Farnell: &lt;b&gt;2423288&lt;/b&gt;</description>
 </technologies>
 </device>
 <device name="-VERT" package="TO220BV">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-FPV" package="TO220FP-V">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
@@ -16814,7 +16858,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="IC9" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33272ADR2G"/>
 <part name="C49" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C56" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="Q5" library="EEZ_Lib1" deviceset="P-MOSFET" device="-VERT" value="FQPF11P06 or FQPF27P06"/>
+<part name="Q5" library="EEZ_Lib1" deviceset="P-MOSFET" device="-FPV" value="FQPF11P06 or FQPF27P06"/>
 <part name="IC10" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33272ADR2G"/>
 <part name="P-1" library="supply2" deviceset="V-" device=""/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R2512" value="2R2/2W"/>
@@ -17059,7 +17103,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="4n7"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="120p"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="1u/100V"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="15R"/>
 <part name="L3" library="EEZ_inductors_and_transformers" deviceset="COILCRAFT_HPI0630" device="" value="VLS6045AF-3R3N"/>
 <part name="SH3" library="EEZ_Lib1" deviceset="SHORT" device="NOHOLE" value="Sgnd to Pgnd short"/>
 <part name="Q1" library="EEZ_Lib1" deviceset="P-MOSFET" device="DPAK" value="SUD19P06-60"/>
@@ -17172,8 +17216,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="U_SET" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="OE" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="Q8" library="EEZ_Lib1" deviceset="NZT605" device="" value="NZT605"/>
-<part name="Q3" library="EEZ_Lib1" deviceset="D45H11" device="-VERT" value="D45H11FP"/>
-<part name="Q4" library="EEZ_Lib1" deviceset="D45H11" device="-VERT" value="D45H11FP"/>
+<part name="Q3" library="EEZ_Lib1" deviceset="D45H11" device="-FPV" value="D45H11FP"/>
+<part name="Q4" library="EEZ_Lib1" deviceset="D45H11" device="-FPV" value="D45H11FP"/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R1206" value="10R"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R1206" value="10R"/>
 <part name="R49" library="rcl" deviceset="R-EU_" device="R1206" value="15R"/>
@@ -17203,7 +17247,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="ZD2" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323R" value="MM3Z9V1T1G"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="R66" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="C60" library="rcl" deviceset="C-EU" device="C0805" value="120p"/>
+<part name="C60" library="rcl" deviceset="C-EU" device="C0805" value="330p"/>
 <part name="R72" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="D14" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="Q7" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857B" value="MMBT5401"/>
@@ -17220,6 +17264,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="JP1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="C58" library="rcl" deviceset="C-EU" device="C0805" value="33p"/>
 <part name="C61" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
+<part name="FM3" library="EEZ_Lib1" deviceset="FIDUCIAL" device="_2"/>
 </parts>
 <sheets>
 <sheet>
@@ -17459,6 +17504,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="171.958" y="89.3826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.958" y="86.8426" size="1.778" layer="96"/>
 </instance>
+<instance part="FM2" gate="FD" x="251.46" y="40.64" smashed="yes"/>
+<instance part="FM1" gate="FD" x="243.84" y="40.64" smashed="yes"/>
+<instance part="FM3" gate="FD" x="259.08" y="40.64" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -18152,8 +18200,6 @@ UVLO on: +38 V</text>
 <instance part="P+10" gate="1" x="193.04" y="78.74" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="191.135" y="81.28" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="FM2" gate="FD" x="259.08" y="40.64" smashed="yes"/>
-<instance part="FM1" gate="FD" x="251.46" y="40.64" smashed="yes"/>
 <instance part="X2" gate="-1" x="160.02" y="167.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="166.37" y="168.529" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="168.91" y="169.672" size="1.778" layer="96"/>
