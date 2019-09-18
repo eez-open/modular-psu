@@ -11462,32 +11462,28 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="-7" y1="11" x2="-12.5" y2="-6.8" width="0.127" layer="51" curve="-40.444185"/>
 <wire x1="-12.5" y1="-7.5" x2="-12.5" y2="-6.8" width="0.127" layer="51" curve="-38.500654"/>
 </package>
-<package name="OS102011">
-<text x="-4.1275" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="1" x="-2" y="0" drill="0.8" shape="octagon"/>
-<pad name="2" x="0" y="0" drill="0.8" shape="octagon"/>
-<pad name="3" x="2" y="0" drill="0.8" shape="octagon"/>
-<pad name="SH1" x="-4.1" y="0" drill="1.5"/>
-<pad name="SH2" x="4.1" y="0" drill="1.5"/>
-<wire x1="-4.3" y1="2.2" x2="4.3" y2="2.2" width="0.127" layer="51"/>
-<wire x1="4.3" y1="2.2" x2="4.3" y2="-2.2" width="0.127" layer="51"/>
-<wire x1="4.3" y1="-2.2" x2="2" y2="-2.2" width="0.127" layer="51"/>
-<wire x1="2" y1="-2.2" x2="0" y2="-2.2" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.2" x2="-4.3" y2="-2.2" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="-2.2" x2="-4.3" y2="2.2" width="0.127" layer="51"/>
-<wire x1="2" y1="-2.2" x2="2" y2="-6.2" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.2" x2="0" y2="-6.2" width="0.127" layer="51"/>
-<wire x1="2" y1="-6.2" x2="1.3" y2="-6.2" width="0.127" layer="51"/>
-<wire x1="0.7" y1="-6.2" x2="0" y2="-6.2" width="0.127" layer="51"/>
-<wire x1="1" y1="-5.7" x2="0.7" y2="-6.2" width="0.127" layer="51"/>
-<wire x1="1.3" y1="-6.2" x2="1" y2="-5.7" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="1.4" x2="-4.3" y2="2.2" width="0.1524" layer="21"/>
-<wire x1="-4.3" y1="2.2" x2="4.3" y2="2.2" width="0.1524" layer="21"/>
-<wire x1="4.3" y1="2.2" x2="4.3" y2="1.4" width="0.1524" layer="21"/>
-<wire x1="-4.3" y1="-2.2" x2="-4.3" y2="-1.4" width="0.1524" layer="21"/>
-<wire x1="4.3" y1="-2.2" x2="4.3" y2="-1.4" width="0.1524" layer="21"/>
-<wire x1="-4.3" y1="-2.2" x2="4.3" y2="-2.2" width="0.1524" layer="21"/>
+<package name="PANASONIC_EVQP">
+<wire x1="-0.6" y1="2.1" x2="0.6" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="-1.4" width="0.1524" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1524" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="-1.4" x2="0.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="2.1" x2="0.9" y2="1.8" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="1.8" x2="0.9" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="2.1" x2="-0.9" y2="1.8" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="1.8" x2="-0.9" y2="1.5" width="0.1524" layer="21"/>
+<text x="-2.54" y="2.2225" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-1.75" y1="1.5" x2="-0.9" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="1.5" x2="1.75" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="1.5" x2="-0.9" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="1.5" x2="0.9" y2="1.3" width="0.1524" layer="21"/>
+<smd name="1.1" x="-1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="1.2" x="1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="2.1" x="-1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="2.2" x="1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -11517,26 +11513,23 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="5.08" y2="-12.7" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="SPDT+SH">
-<wire x1="-3.175" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="0" x2="3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0.762" x2="0" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="1.27" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<text x="-4.445" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="COM" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="NO" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="NC" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<wire x1="0" y1="5.08" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="94"/>
-<pin name="SH" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.81" x2="2.54" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="0" y1="-3.81" x2="-2.54" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<symbol name="SWITCH">
+<wire x1="1.905" y1="3.175" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.175" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="3.175" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.175" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="0" y2="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.715" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="0.635" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11560,18 +11553,16 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OS102011" prefix="SW">
-<description>Miniature Slide Switch</description>
+<deviceset name="EVQP7A01P" prefix="SW">
+<description>3.5 mm×2.9 mm Side-operational SMD, Light Touch Switches</description>
 <gates>
-<gate name="G$1" symbol="SPDT+SH" x="0" y="0"/>
+<gate name="G$1" symbol="SWITCH" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="OS102011">
+<device name="" package="PANASONIC_EVQP">
 <connects>
-<connect gate="G$1" pin="COM" pad="2"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="NO" pad="3"/>
-<connect gate="G$1" pin="SH" pad="SH1 SH2"/>
+<connect gate="G$1" pin="1" pad="1.1 1.2"/>
+<connect gate="G$1" pin="2" pad="2.1 2.2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11728,8 +11719,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="Q4" library="EEZ_Lib1" deviceset="2N7002" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="J2" library="EEZ_connectors" deviceset="PCB_TAB" device="-4907" value="4907"/>
-<part name="J3" library="EEZ_connectors" deviceset="PCB_TAB" device="-4907" value="4907"/>
+<part name="J2" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
+<part name="J3" library="EEZ_connectors" deviceset="PCB_TAB" device="4.8MM" value="1-726388-2"/>
 <part name="GND" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
@@ -11752,7 +11743,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP3" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="TR2" library="EEZ_Lib1" deviceset="AC_DC_ADAPTER" device="IRM10" value="IRM-10-12"/>
-<part name="SW2" library="EEZ_switches" deviceset="OS102011" device="" value="OS102011MA1QN1C"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="D1" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="SKL14"/>
 <part name="SUPPLY4" library="supply2" deviceset="+12V" device=""/>
@@ -11780,6 +11770,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="C13" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="SW2" library="EEZ_switches" deviceset="EVQP7A01P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13074,12 +13065,12 @@ Standby indicator, BOOT0 switch</text>
 <instance part="P+3" gate="1" x="165.1" y="162.56" smashed="yes">
 <attribute name="VALUE" x="163.195" y="163.195" size="1.778" layer="96"/>
 </instance>
-<instance part="SW2" gate="G$1" x="215.9" y="142.24" smashed="yes">
-<attribute name="NAME" x="211.455" y="147.955" size="1.778" layer="95"/>
-<attribute name="VALUE" x="210.82" y="132.08" size="1.778" layer="96"/>
+<instance part="+3V4" gate="G$1" x="231.14" y="142.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="227.965" y="138.43" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="231.14" y="139.7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="227.965" y="135.89" size="1.778" layer="96"/>
+<instance part="SW2" gate="G$1" x="215.9" y="142.24" smashed="yes">
+<attribute name="NAME" x="213.36" y="146.05" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.185" y="139.065" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13225,9 +13216,9 @@ Standby indicator, BOOT0 switch</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="SW2" gate="G$1" pin="NO"/>
-<wire x1="220.98" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="SW2" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -13257,9 +13248,9 @@ Standby indicator, BOOT0 switch</text>
 </net>
 <net name="MBOOT" class="0">
 <segment>
-<pinref part="SW2" gate="G$1" pin="COM"/>
-<wire x1="210.82" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 <label x="195.58" y="142.875" size="1.27" layer="102"/>
+<pinref part="SW2" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
