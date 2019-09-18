@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17288,7 +17288,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C58" library="rcl" deviceset="C-EU" device="C0805" value="33p"/>
 <part name="C61" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="FM3" library="EEZ_Lib1" deviceset="FIDUCIAL" device="_2"/>
-<part name="SF" library="EEZ_Lib1" deviceset="JP2-NOCUT" device="-0805"/>
 <part name="D8" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="N.C."/>
 </parts>
 <sheets>
@@ -17528,9 +17527,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <instance part="FM2" gate="FD" x="251.46" y="40.64" smashed="yes"/>
 <instance part="FM1" gate="FD" x="243.84" y="40.64" smashed="yes"/>
 <instance part="FM3" gate="FD" x="259.08" y="40.64" smashed="yes"/>
-<instance part="SF" gate="G$1" x="55.88" y="114.3" smashed="yes">
-<attribute name="NAME" x="55.245" y="115.57" size="1.778" layer="95"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -17771,8 +17767,12 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="50.8" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <junction x="99.06" y="86.36"/>
 <label x="52.07" y="86.995" size="1.27" layer="102"/>
-<pinref part="SF" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PLLIN/MODE"/>
+<wire x1="66.04" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="124.46" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
+<junction x="50.8" y="119.38"/>
+<pinref part="IC1" gate="G$1" pin="FREQ"/>
+<wire x1="66.04" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="50.8" y="114.3"/>
 </segment>
 </net>
@@ -17799,13 +17799,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <pinref part="IC1" gate="G$1" pin="GATE"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="FREQ"/>
-<wire x1="58.42" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SF" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$27" class="0">
