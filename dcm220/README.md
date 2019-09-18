@@ -15,8 +15,8 @@ Power input: 48 Vdc (e.g. Mean Well LRS-150F-48)
 - Pass-thru connector for Vout- coupling with other DIB power modules
 - Galvanically isolated SPI bus for communication with [MCU board](https://github.com/eez-open/modular-psu/tree/master/mcu)
 - I2C EEPROM for storing board specific configuration and calibration parameters
-- Dimensions: 145 x 95 mm, 2-layer PCB
+- Dimensions: 155 x 95 mm, 2-layer PCB
 
-### PCB preview r1B2
+### r2B1 prototype
 
-![prototype](Images/EEZ_DIB_DCM220_PCB_top.png)
+![prototype](Images/dcm220_r2b1_prototype.jpg)
