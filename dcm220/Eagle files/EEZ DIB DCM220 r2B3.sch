@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13656,8 +13656,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="C60" library="rcl" deviceset="C-EU" device="C1210" value="22u"/>
 <part name="Q4" library="EEZ_Lib1" deviceset="2N7002" device="" value="BSS205NH6327XTSA1"/>
 <part name="IC10" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33272ADR2G"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C55" library="rcl" deviceset="C-EU" device="C1210" value="22u"/>
@@ -13712,19 +13712,19 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="C79" library="rcl" deviceset="C-EU" device="C1210" value="22u"/>
 <part name="C80" library="rcl" deviceset="C-EU" device="C1210" value="22u"/>
 <part name="Q9" library="EEZ_Lib1" deviceset="2N7002" device="" value="BSS205NH6327XTSA1"/>
-<part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
+<part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="C75" library="rcl" deviceset="C-EU" device="C1210" value="22u"/>
 <part name="C76" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="C83" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="PE3" library="supply1" deviceset="PE" device=""/>
 <part name="L4" library="EEZ_inductors_and_transformers" deviceset="125CDMCC/DS" device="" value="125CDMCCDS-330MC"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
-<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
+<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="GND" library="EEZ_connectors" deviceset="TEST-PIN" device="_0.9MM"/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>

@@ -4750,11 +4750,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="80.0481" y="49.403" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="77.7081" y="53.894" size="0.8128" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="R31" library="rcl" package="R0805" value="12K" x="82.804" y="58.9915" smashed="yes" rot="R180">
+<element name="R31" library="rcl" package="R0805" value="10K" x="82.804" y="58.9915" smashed="yes" rot="R180">
 <attribute name="NAME" x="79.883" y="60.1345" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="81.5975" y="58.42" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="R30" library="rcl" package="R0805" value="20K" x="86.741" y="58.9915" smashed="yes" rot="R180">
+<element name="R30" library="rcl" package="R0805" value="22K" x="86.741" y="58.9915" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.4075" y="60.1345" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="85.598" y="58.4835" size="1.016" layer="27" ratio="10"/>
 </element>
@@ -4936,11 +4936,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.5971" y="19.558" size="1.016" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="28.575" y="13.5001" size="0.6096" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="R57" library="rcl" package="R0805" value="12K" x="78.486" y="51.4985" smashed="yes" rot="R270">
+<element name="R57" library="rcl" package="R0805" value="10K" x="78.486" y="51.4985" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.8035" y="53.594" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="78.994" y="50.2285" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R56" library="rcl" package="R0805" value="20K" x="74.549" y="51.4985" smashed="yes" rot="R90">
+<element name="R56" library="rcl" package="R0805" value="22K" x="74.549" y="51.4985" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.8665" y="53.594" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="74.041" y="52.959" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -4960,19 +4960,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.3695" y="35.8775" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="36.7665" y="28.956" size="1.016" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="R34" library="rcl" package="R0805" value="12K" x="86.868" y="56.007" smashed="yes" rot="R90">
+<element name="R34" library="rcl" package="R0805" value="10K" x="86.868" y="56.007" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.725" y="54.8005" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="87.4395" y="54.864" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R33" library="rcl" package="R0805" value="20K" x="88.8365" y="56.007" smashed="yes" rot="R90">
+<element name="R33" library="rcl" package="R0805" value="22K" x="88.8365" y="56.007" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.916" y="58.166" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="89.281" y="54.737" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R60" library="rcl" package="R0805" value="12K" x="86.868" y="52.07" smashed="yes" rot="R270">
+<element name="R60" library="rcl" package="R0805" value="10K" x="86.868" y="52.07" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.963" y="53.34" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="87.249" y="50.8635" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R59" library="rcl" package="R0805" value="20K" x="88.8365" y="52.07" smashed="yes" rot="R270">
+<element name="R59" library="rcl" package="R0805" value="22K" x="88.8365" y="52.07" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.8205" y="49.149" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="89.281" y="50.927" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
