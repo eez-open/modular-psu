@@ -8,7 +8,7 @@
 </settings>
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="20" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="3" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="14" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="14" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="10" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="1" visible="no" active="yes"/>
@@ -4642,15 +4642,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="89.535" y="15.0495" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="90.9955" y="17.272" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R62" library="rcl" package="R0805" value="2K2" x="88.519" y="18.034" smashed="yes" rot="R90">
+<element name="R62" library="rcl" package="R0805" value="10K" x="88.519" y="18.034" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4395" y="15.0495" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="89.027" y="16.8275" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C59" library="rcl" package="C0805" value="1n" x="86.5505" y="18.034" smashed="yes" rot="R90">
+<element name="C59" library="rcl" package="C0805" value="4n7" x="86.5505" y="18.034" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.2805" y="15.0495" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="86.9315" y="17.2085" size="1.016" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="86.995" y="16.764" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C41" library="rcl" package="C0805" value="2n2" x="77.9145" y="23.9395" smashed="yes">
+<element name="C41" library="rcl" package="C0805" value="1n" x="77.9145" y="23.9395" smashed="yes">
 <attribute name="NAME" x="79.9465" y="23.495" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.5175" y="23.368" size="1.016" layer="27" ratio="10"/>
 </element>
@@ -4658,7 +4658,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="80.01" y="25.4" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.6445" y="25.4" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C44" library="rcl" package="C0805" value="2n2" x="61.5315" y="28.2575" smashed="yes">
+<element name="C44" library="rcl" package="C0805" value="1n" x="61.5315" y="28.2575" smashed="yes">
 <attribute name="NAME" x="60.579" y="29.4005" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="60.1345" y="27.6225" size="1.016" layer="27" ratio="10"/>
 </element>
@@ -5804,11 +5804,11 @@ design rules under a new name.</description>
 </element>
 <element name="C42" library="rcl" package="C0805" value="33p" x="66.4845" y="23.368" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.5955" y="25.4635" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="66.9925" y="21.717" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="66.929" y="22.098" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C45" library="rcl" package="C0805" value="33p" x="76.2" y="20.955" smashed="yes" rot="R270">
 <attribute name="NAME" x="75.2475" y="18.034" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="75.438" y="22.733" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="76.708" y="19.685" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C57" library="rcl" package="C0805" value="33p" x="90.4875" y="21.971" smashed="yes" rot="R270">
 <attribute name="NAME" x="89.535" y="21.5265" size="1.016" layer="25" ratio="10" rot="R180"/>
