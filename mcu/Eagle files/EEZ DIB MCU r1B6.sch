@@ -7545,6 +7545,18 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <text x="0" y="1.27" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="0" y="-64.135" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
+<symbol name="LOGIC_BUFFER_V">
+<pin name="I" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
+<pin name="O" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<wire x1="-1.905" y1="-2.54" x2="3.81" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="0" x2="-1.905" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="0" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 <symbol name="LOGIC_BUFFER">
 <pin name="I" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
 <pin name="O" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
@@ -7554,13 +7566,14 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="-1.905" y1="0" x2="-1.905" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="PWRN">
 <text x="-1.27" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VDD</text>
 <text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">VSS</text>
-<pin name="VSS" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="VDD" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="VSS" x="0" y="-7.62" visible="pad" length="middle" direction="sup" rot="R90"/>
+<pin name="VDD" x="0" y="7.62" visible="pad" length="middle" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7764,13 +7777,13 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <deviceset name="CD74HC4050" prefix="IC">
 <description>High-Speed CMOS Logic Hex Buffers, Non-Inverting</description>
 <gates>
-<gate name="A" symbol="LOGIC_BUFFER" x="5.08" y="0" addlevel="always"/>
 <gate name="B" symbol="LOGIC_BUFFER" x="5.08" y="-7.62" addlevel="always"/>
 <gate name="C" symbol="LOGIC_BUFFER" x="5.08" y="-15.24" addlevel="always"/>
 <gate name="D" symbol="LOGIC_BUFFER" x="5.08" y="-22.86" addlevel="always"/>
 <gate name="E" symbol="LOGIC_BUFFER" x="5.08" y="-30.48" addlevel="always"/>
 <gate name="F" symbol="LOGIC_BUFFER" x="5.08" y="-38.1" addlevel="always"/>
 <gate name="P" symbol="PWRN" x="27.94" y="-5.08" addlevel="always"/>
+<gate name="A" symbol="LOGIC_BUFFER_V" x="5.08" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="PWR" package="PW16">
@@ -15326,7 +15339,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="+3V316" library="supply1" deviceset="+3V3" device=""/>
 <part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD-323R" value="RB751V40T1G"/>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C50" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
 <part name="IC11" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="TPD4E001DRLR"/>
@@ -15581,7 +15594,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="25.4" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="101"/>
 <wire x1="27.94" y1="86.36" x2="27.94" y2="99.06" width="0.1524" layer="101"/>
 <rectangle x1="19.05" y1="158.75" x2="24.765" y2="165.735" layer="97"/>
-<rectangle x1="70.485" y1="85.09" x2="101.6" y2="102.87" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -15854,13 +15866,26 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SDA" gate="G$1" x="66.04" y="139.7" smashed="yes">
 <attribute name="NAME" x="65.405" y="140.335" size="1.27" layer="95"/>
 </instance>
-<instance part="IC2" gate="B" x="86.36" y="50.8" rot="MR0"/>
-<instance part="IC2" gate="C" x="86.36" y="33.02" rot="MR0"/>
-<instance part="IC2" gate="D" x="86.36" y="25.4" rot="R180"/>
-<instance part="IC2" gate="E" x="86.36" y="43.18" rot="R180"/>
+<instance part="IC2" gate="B" x="86.36" y="50.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.9" y="53.975" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="IC2" gate="C" x="86.36" y="33.02" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.9" y="36.195" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="IC2" gate="D" x="86.36" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.9" y="22.225" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="IC2" gate="E" x="86.36" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.9" y="40.005" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="IC2" gate="P" x="134.62" y="76.2"/>
-<instance part="IC2" gate="A" x="78.74" y="63.5"/>
-<instance part="IC2" gate="F" x="78.74" y="73.66"/>
+<instance part="IC2" gate="A" x="78.74" y="63.5" smashed="yes">
+<attribute name="NAME" x="76.2" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="IC2" gate="F" x="78.74" y="73.66" smashed="yes">
+<attribute name="NAME" x="76.2" y="76.835" size="1.778" layer="95"/>
+</instance>
 <instance part="IC1" gate="G$1" x="83.82" y="93.98" smashed="yes">
 <attribute name="NAME" x="81.153" y="99.7712" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="75.2348" y="83.6422" size="1.778" layer="96" ratio="10" rot="SR0"/>
@@ -19302,7 +19327,6 @@ consult ST AN4661 section 8.4.2</text>
 <wire x1="157.48" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="97" style="shortdash"/>
 <text x="84.455" y="170.815" size="1.27" layer="100">+28.6V</text>
 <rectangle x1="229.235" y1="113.665" x2="235.585" y2="120.65" layer="97"/>
-<rectangle x1="68.58" y1="104.14" x2="78.105" y2="109.22" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
