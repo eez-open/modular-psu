@@ -11,7 +11,7 @@ The EEZ DIB DCP405 Power module is modified EEZ H24005 [Power board](https://git
 - **On-board OVP** with triac crowbar and two fuses
 - Down-programmer
 - Output enable (OE) circuit with LED indicator combined with coupling indication
-- On-board 4 mm power output terminals with standard (19.05 mm) pitch
+- On-board Ø4 mm safety sockets (19 mm/0.75” pitch) 
 - Pass-thru connector for serial and parallel coupling with other Power board
 - Remote voltage sense with LED indicator and inverse polarity protection
 - Remote voltage programming with LED indicator
