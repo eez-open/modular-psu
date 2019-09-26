@@ -4893,6 +4893,20 @@ Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
 <vertex x="-0.4445" y="-0.254"/>
 </polygon>
 </package>
+<package name="R_0805">
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.127" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.127" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.127" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.127" layer="39"/>
+<text x="-2.032" y="1.143" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" ratio="10" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="L_POINT_V">
@@ -7822,6 +7836,15 @@ Farnell: &lt;b&gt;2423288&lt;/b&gt;</description>
 </gates>
 <devices>
 <device name="" package="JP2-CUT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0805" package="R_0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -16958,7 +16981,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="P-6" library="supply2" deviceset="V-" device=""/>
 <part name="C88" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="P+30" library="supply1" deviceset="+5V" device=""/>
-<part name="R91" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R90" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R83" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R95" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R97" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
@@ -17071,12 +17094,11 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C85" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="P+11" library="supply2" deviceset="V+" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="R89" library="rcl" deviceset="R-EU_" device="0411/15" value="AC01000002207JA100"/>
-<part name="R90" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R89" library="rcl" deviceset="R-EU_" device="0411/15" value="AC01000001007JA100"/>
+<part name="R91" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="F1" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32"/>
 <part name="F2" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32"/>
-<part name="C86" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
-<part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
+<part name="C86" library="rcl" deviceset="C-EU" device="C0805" value="33n"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" deviceset="GNDIO" device=""/>
 <part name="GND4" library="supply1" deviceset="GNDIO" device=""/>
@@ -17191,9 +17213,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="GND" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="D1" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
-<part name="JP2" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
-<part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
-<part name="JP4" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
+<part name="JP2" library="EEZ_Lib1" deviceset="JP2-CUT" device="-0805" value="JP2-CUT-0805"/>
+<part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device="-0805" value="JP2-CUT-0805"/>
+<part name="JP4" library="EEZ_Lib1" deviceset="JP2-CUT" device="-0805" value="JP2-CUT-0805"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="10R"/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0805" value="330p"/>
 <part name="D4" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="SKL16"/>
@@ -17224,7 +17246,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="330K"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
+<part name="C29" library="rcl" deviceset="C-EU" device="C0805" value="33p"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -17289,10 +17311,10 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="D8" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="N.C."/>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
-<part name="C42" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C42" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
-<part name="C47" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C47" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 </parts>
 <sheets>
 <sheet>
@@ -19351,7 +19373,7 @@ UVLO on: +38 V</text>
 <description>Post-regulator</description>
 <plain>
 <text x="107.95" y="106.045" size="1.778" layer="97">Voltage control loop</text>
-<text x="175.26" y="98.425" size="1.27" layer="103">U_SET (+2.5V for full range)</text>
+<text x="175.26" y="93.345" size="1.27" layer="103">U_SET (+2.5V for full range)</text>
 <wire x1="175.26" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="114" style="shortdash"/>
 <wire x1="106.68" y1="109.22" x2="106.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
@@ -20589,7 +20611,7 @@ UVLO on: +38 V</text>
 <pinref part="R46" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="U_SET_OVP" class="0">
 <segment>
 <pinref part="R46" gate="G$1" pin="2"/>
 <pinref part="R45" gate="G$1" pin="1"/>
@@ -20597,6 +20619,9 @@ UVLO on: +38 V</text>
 <pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <junction x="160.02" y="96.52"/>
+<wire x1="160.02" y1="96.52" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
+<label x="189.865" y="99.06" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -20751,7 +20776,7 @@ Anti-aliasing RC filter cutoff = 15.4 kHz</text>
 <wire x1="135.255" y1="148.59" x2="135.255" y2="170.18" width="0.1524" layer="114" style="shortdash"/>
 <wire x1="135.255" y1="148.59" x2="99.06" y2="148.59" width="0.1524" layer="114" style="shortdash"/>
 <text x="190.5" y="42.545" size="1.4224" layer="114">Parts with red marked values are installed on DCP405 only
-Solder JP2 on DCP405B</text>
+Solder JP2 (0R 0805) on DCP405B</text>
 <text x="100.33" y="168.91" size="1.778" layer="114" rot="MR180">OVP</text>
 <wire x1="180.34" y1="128.27" x2="132.08" y2="128.27" width="0.1524" layer="114" style="shortdash"/>
 <wire x1="180.34" y1="93.98" x2="132.08" y2="93.98" width="0.1524" layer="114" style="shortdash"/>
@@ -21974,7 +21999,7 @@ Solder JP2 on DCP405B</text>
 <instance part="P+30" gate="1" x="45.72" y="114.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="46.99" y="114.3" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R91" gate="G$1" x="88.9" y="119.38" smashed="yes">
+<instance part="R90" gate="G$1" x="88.9" y="119.38" smashed="yes">
 <attribute name="NAME" x="86.995" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="116.078" size="1.778" layer="96"/>
 </instance>
@@ -22078,35 +22103,32 @@ Solder JP2 on DCP405B</text>
 <attribute name="VALUE" x="173.99" y="158.115" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="162.56" y="139.7" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="160.655" y="138.43" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="160.02" y="137.795" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R89" gate="G$1" x="238.76" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="240.03" y="127.8636" size="1.778" layer="114"/>
 <attribute name="VALUE" x="240.03" y="125.603" size="1.27" layer="114"/>
 </instance>
-<instance part="R90" gate="G$1" x="149.86" y="121.92" smashed="yes" rot="MR270">
-<attribute name="NAME" x="148.59" y="122.1486" size="1.778" layer="114" rot="MR0"/>
-<attribute name="VALUE" x="148.59" y="119.888" size="1.778" layer="114" rot="MR0"/>
+<instance part="R91" gate="G$1" x="149.86" y="116.84" smashed="yes" rot="MR180">
+<attribute name="NAME" x="147.955" y="119.7864" size="1.778" layer="114" rot="MR180"/>
+<attribute name="VALUE" x="147.955" y="115.697" size="1.778" layer="114" rot="MR180"/>
 </instance>
-<instance part="C86" gate="G$1" x="149.86" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="149.606" y="114.046" size="1.778" layer="114" rot="MR0"/>
-<attribute name="VALUE" x="149.606" y="110.236" size="1.778" layer="114" rot="MR0"/>
-</instance>
-<instance part="SUPPLY13" gate="GND" x="149.86" y="104.14" smashed="yes">
-<attribute name="VALUE" x="147.955" y="102.87" size="1.778" layer="96" rot="MR0"/>
+<instance part="C86" gate="G$1" x="157.48" y="127" smashed="yes">
+<attribute name="NAME" x="157.734" y="128.524" size="1.778" layer="114" rot="MR180"/>
+<attribute name="VALUE" x="157.734" y="124.714" size="1.778" layer="114" rot="MR180"/>
 </instance>
 <instance part="SUPPLY59" gate="GND" x="172.72" y="119.38" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="170.815" y="118.11" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="149.86" y="132.08" smashed="yes">
-<attribute name="VALUE" x="151.765" y="130.81" size="1.778" layer="96"/>
+<attribute name="VALUE" x="147.32" y="128.27" size="1.778" layer="96"/>
 </instance>
-<instance part="Q17" gate="A" x="180.34" y="91.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="174.625" y="92.075" size="1.778" layer="114" rot="MR0"/>
-<attribute name="VALUE" x="174.625" y="89.535" size="1.778" layer="114" rot="MR0"/>
+<instance part="Q17" gate="A" x="180.34" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="174.625" y="94.615" size="1.778" layer="114" rot="MR0"/>
+<attribute name="VALUE" x="174.625" y="92.075" size="1.778" layer="114" rot="MR0"/>
 </instance>
-<instance part="SUPPLY63" gate="GND" x="177.8" y="81.28" smashed="yes">
-<attribute name="VALUE" x="179.705" y="80.01" size="1.778" layer="96"/>
+<instance part="SUPPLY63" gate="GND" x="177.8" y="83.82" smashed="yes">
+<attribute name="VALUE" x="179.705" y="82.55" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY64" gate="GND" x="208.28" y="106.68" smashed="yes">
 <attribute name="VALUE" x="210.185" y="105.41" size="1.778" layer="96"/>
@@ -22269,7 +22291,7 @@ Solder JP2 on DCP405B</text>
 <wire x1="81.28" y1="137.16" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="119.38" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R91" gate="G$1" pin="1"/>
+<pinref part="R90" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <junction x="81.28" y="119.38"/>
 <pinref part="IC19" gate="B" pin="+IN"/>
@@ -22360,14 +22382,9 @@ Solder JP2 on DCP405B</text>
 <pinref part="SUPPLY64" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C86" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="106.68" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SUPPLY63" gate="GND" pin="GND"/>
 <pinref part="Q17" gate="A" pin="S"/>
-<wire x1="177.8" y1="83.82" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="86.36" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -22417,14 +22434,6 @@ Solder JP2 on DCP405B</text>
 <label x="139.7" y="160.02" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="U_SET" class="0">
-<segment>
-<wire x1="149.86" y1="127" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
-<label x="139.7" y="129.54" size="1.27" layer="102" rot="R180" xref="yes"/>
-<pinref part="R90" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R89" gate="G$1" pin="2"/>
@@ -22442,21 +22451,27 @@ Solder JP2 on DCP405B</text>
 <pinref part="R85" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="144.78" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
 <junction x="149.86" y="147.32"/>
-<wire x1="154.94" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="134.62" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC20" gate="G$1" pin="+IN"/>
+<pinref part="C86" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="129.54" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
+<junction x="157.48" y="134.62"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R90" gate="G$1" pin="2"/>
+<pinref part="R91" gate="G$1" pin="2"/>
 <pinref part="C86" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
-<junction x="149.86" y="116.84"/>
-<wire x1="160.02" y1="116.84" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="116.84" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC20" gate="G$1" pin="-IN"/>
+<wire x1="154.94" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="121.92" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<junction x="157.48" y="116.84"/>
 </segment>
 </net>
 <net name="OUTF+" class="0">
@@ -22494,14 +22509,14 @@ Solder JP2 on DCP405B</text>
 <wire x1="182.88" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
 <junction x="187.96" y="132.08"/>
-<wire x1="187.96" y1="132.08" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="132.08" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="Q17" gate="A" pin="G"/>
-<wire x1="187.96" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOOP_CTRL" class="0">
 <segment>
-<pinref part="R91" gate="G$1" pin="2"/>
+<pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="96.52" y="119.38" size="1.27" layer="102" xref="yes"/>
 </segment>
@@ -22509,9 +22524,16 @@ Solder JP2 on DCP405B</text>
 <net name="!OVP_FAULT" class="0">
 <segment>
 <pinref part="Q17" gate="A" pin="D"/>
-<wire x1="177.8" y1="96.52" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="99.06" x2="143.51" y2="99.06" width="0.1524" layer="91"/>
-<label x="127" y="99.06" size="1.27" layer="102" xref="yes"/>
+<wire x1="177.8" y1="99.06" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="101.6" x2="143.51" y2="101.6" width="0.1524" layer="91"/>
+<label x="127" y="101.6" size="1.27" layer="102" xref="yes"/>
+</segment>
+</net>
+<net name="U_SET_OVP" class="0">
+<segment>
+<wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<label x="142.24" y="116.84" size="1.27" layer="102" rot="R180" xref="yes"/>
+<pinref part="R91" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -22585,7 +22607,7 @@ Output coupling, Rsense relay</text>
 <wire x1="137.16" y1="60.96" x2="137.16" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="137.16" y1="60.96" x2="261.62" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
 <text x="2.54" y="9.525" size="1.4224" layer="114">Parts with red marked values are installed on DCP405 only
-Solder JP3, JP4 and use wire jumper instead of F1 and F2 on DCP405B</text>
+Solder JP3, JP4 (0R 0805) and use wire jumper instead of F1 and F2 on DCP405B</text>
 <wire x1="5.08" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="114" style="shortdash"/>
 </plain>
 <instances>
@@ -23269,19 +23291,16 @@ Solder JP3, JP4 and use wire jumper instead of F1 and F2 on DCP405B</text>
 <approved hash="104,4,71.12,81.28,IC16,VDD,V+,,,"/>
 <approved hash="104,4,73.66,35.56,IC18,AVDD,N$70,,,"/>
 <approved hash="104,4,73.66,33.02,IC18,DVDD,+5V,,,"/>
-<approved hash="202,4,210.82,101.6,IC15,TEMP,,,,"/>
-<approved hash="104,4,40.64,132.08,IC13,VDD,+5V,,,"/>
-<approved hash="104,4,40.64,124.46,IC13,VSS,GND,,,"/>
+<approved hash="202,4,218.44,101.6,IC14,TEMP,,,,"/>
+<approved hash="104,4,40.64,129.54,IC13,VDD,+5V,,,"/>
+<approved hash="104,4,40.64,121.92,IC13,VSS,GND,,,"/>
 <approved hash="104,4,134.62,66.04,IC17,VDD,V+,,,"/>
-<approved hash="104,4,175.26,114.3,IC12B,VSS,GND,,,"/>
-<approved hash="104,4,175.26,129.54,IC12B,VDD,+5V,,,"/>
-<approved hash="202,1,66.04,124.46,IC1,PLLIN/MODE,,,,"/>
+<approved hash="104,4,175.26,134.62,IC12B,VSS,GND,,,"/>
+<approved hash="104,4,175.26,149.86,IC12B,VDD,+5V,,,"/>
 <approved hash="104,2,101.6,35.56,IC8,VCC,+3V3,,,"/>
 <approved hash="104,2,30.48,149.86,IC2,VIN,DC_OUT,,,"/>
-<approved hash="106,2,193.04,167.64,+VAUX,,,,,"/>
-<approved hash="106,2,160.02,165.1,DIB_NFAULT,,,,,"/>
 <approved hash="206,4,38.1,25.4,MISO,,,,,"/>
-<approved hash="206,4,40.64,160.02,MISO,,,,,"/>
+<approved hash="206,4,40.64,157.48,MISO,,,,,"/>
 <approved hash="113,3,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,4,131.976,90.066,FRAME4,,,,,"/>
 <approved hash="113,6,131.976,90.066,FRAME6,,,,,"/>
