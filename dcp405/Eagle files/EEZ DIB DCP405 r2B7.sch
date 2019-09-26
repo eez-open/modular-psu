@@ -19373,7 +19373,7 @@ UVLO on: +38 V</text>
 <description>Post-regulator</description>
 <plain>
 <text x="107.95" y="106.045" size="1.778" layer="97">Voltage control loop</text>
-<text x="175.26" y="93.345" size="1.27" layer="103">U_SET (+2.5V for full range)</text>
+<text x="172.72" y="93.345" size="1.27" layer="103">U_SET (+2.5V for full range)</text>
 <wire x1="175.26" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="114" style="shortdash"/>
 <wire x1="106.68" y1="109.22" x2="106.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
@@ -20606,8 +20606,8 @@ UVLO on: +38 V</text>
 </net>
 <net name="U_SET_OUT" class="0">
 <segment>
-<label x="177.8" y="96.52" size="1.27" layer="102" xref="yes"/>
-<wire x1="177.8" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<label x="175.26" y="96.52" size="1.27" layer="102" xref="yes"/>
+<wire x1="175.26" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -20619,9 +20619,6 @@ UVLO on: +38 V</text>
 <pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <junction x="160.02" y="96.52"/>
-<wire x1="160.02" y1="96.52" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
-<label x="189.865" y="99.06" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -22529,7 +22526,7 @@ Solder JP2 (0R 0805) on DCP405B</text>
 <label x="127" y="101.6" size="1.27" layer="102" xref="yes"/>
 </segment>
 </net>
-<net name="U_SET_OVP" class="0">
+<net name="U_SET_OUT" class="0">
 <segment>
 <wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 <label x="142.24" y="116.84" size="1.27" layer="102" rot="R180" xref="yes"/>
