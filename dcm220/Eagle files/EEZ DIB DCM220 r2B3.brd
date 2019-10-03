@@ -8,7 +8,7 @@
 </settings>
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="10" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="3" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="14" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="6" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="10" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="10" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="11" fill="1" visible="no" active="yes"/>
@@ -2143,8 +2143,8 @@
 <rectangle x1="131.9434" y1="86.1883" x2="132.3434" y2="86.1921" layer="21"/>
 <rectangle x1="131.9967" y1="86.1921" x2="132.2367" y2="86.1959" layer="21"/>
 <text x="135.5625" y="82.3555" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">EEZ DIB DCM220
-(09/2019 r2B3)</text>
-<text x="151.164" y="88.134" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB DCM220 (09/2019 r2B3)
+(10/2019 r2B3)</text>
+<text x="151.164" y="88.134" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB DCM220 (10/2019 r2B3)
 Project source code: github.com/eez-open</text>
 <rectangle x1="129.54" y1="86.741" x2="151.638" y2="92.3925" layer="21"/>
 <polygon width="0.1" layer="51">
@@ -2184,7 +2184,7 @@ Project source code: github.com/eez-open</text>
 6 SWO</text>
 <rectangle x1="74.803" y1="38.227" x2="80.518" y2="40.767" layer="30"/>
 <rectangle x1="74.803" y1="77.47" x2="80.518" y2="80.01" layer="30"/>
-<rectangle x1="133.858" y1="51.689" x2="135.509" y2="53.34" layer="30"/>
+<rectangle x1="144.018" y1="51.689" x2="145.669" y2="53.34" layer="30"/>
 <dimension x1="19.5" y1="19" x2="-18.5" y2="-7.5" x3="-15.5" y3="5.75" textsize="2" layer="47" dtype="vertical"/>
 <dimension x1="5" y1="28.5" x2="-20" y2="-7.5" x3="-20.5" y3="10.5" textsize="2" layer="47" dtype="vertical"/>
 <dimension x1="19" y1="38.05" x2="-25" y2="-7.5" x3="-25.5" y3="15.275" textsize="2" layer="47" dtype="vertical"/>
