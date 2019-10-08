@@ -13589,7 +13589,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="Q4" library="EEZ_Lib1" deviceset="2N7002" device="" value="BSS205NH6327XTSA1"/>
 <part name="IC10" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="MC33272ADR2G"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C55" library="rcl" deviceset="C-EU" device="C1206" value="22u"/>
@@ -13643,7 +13643,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="C80" library="rcl" deviceset="C-EU" device="C1210" value="22u"/>
 <part name="Q9" library="EEZ_Lib1" deviceset="2N7002" device="" value="BSS205NH6327XTSA1"/>
 <part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="C75" library="rcl" deviceset="C-EU" device="C1206" value="22u"/>
 <part name="C76" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
@@ -13651,10 +13651,10 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="PE3" library="supply1" deviceset="PE" device=""/>
 <part name="L4" library="EEZ_inductors_and_transformers" deviceset="125CDMCC/DS" device="" value="125CDMCCDS-330MC"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="GND" library="EEZ_connectors" deviceset="TEST-PIN" device="_0.9MM"/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
@@ -16697,8 +16697,8 @@ temp. sensors</text>
 <attribute name="VALUE" x="27.305" y="120.015" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC10" gate="B" x="35.56" y="137.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="30.48" y="131.445" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="30.48" y="128.905" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="30.48" y="130.81" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="30.48" y="128.27" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND" gate="G$1" x="170.18" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="170.815" y="167.005" size="1.778" layer="95" rot="R90"/>
