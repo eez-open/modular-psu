@@ -17,6 +17,6 @@ Power input: 48 Vdc (e.g. Mean Well LRS-150F-48)
 - I2C EEPROM for storing board specific configuration and calibration parameters
 - Dimensions: 155 x 95 mm, 2-layer PCB
 
-### r2B1 prototype
+### r2B3 prototype
 
-![prototype](Images/dcm220_r2b1_prototype.jpg)
+![prototype](Images/dcm220_r2b3_prototype.jpg)

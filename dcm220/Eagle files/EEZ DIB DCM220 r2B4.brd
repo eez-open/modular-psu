@@ -8,7 +8,7 @@
 </settings>
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="10" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="3" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="14" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="10" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="10" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="11" fill="1" visible="no" active="yes"/>
@@ -4969,10 +4969,10 @@ design rules under a new name.</description>
 <element name="U_SET2" library="EEZ_Lib1" package="JP2-NOCUT" value="JP2-NOCUT" x="95.3135" y="47.879" smashed="yes">
 <attribute name="NAME" x="94.107" y="48.1965" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="OE#1" library="EEZ_Lib1" package="JP2-NOCUT" value="JP2-NOCUT" x="127.6985" y="49.657" smashed="yes">
+<element name="OE#2" library="EEZ_Lib1" package="JP2-NOCUT" value="JP2-NOCUT" x="127.6985" y="49.657" smashed="yes">
 <attribute name="NAME" x="128.9685" y="49.276" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="OE#2" library="EEZ_Lib1" package="JP2-NOCUT" value="JP2-NOCUT" x="126.365" y="52.197" smashed="yes" rot="R180">
+<element name="OE#1" library="EEZ_Lib1" package="JP2-NOCUT" value="JP2-NOCUT" x="126.365" y="52.197" smashed="yes" rot="R180">
 <attribute name="NAME" x="127.5715" y="51.8795" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R43" library="rcl" package="R0805" value="47K" x="76.073" y="85.471" smashed="yes" rot="R270">
@@ -5012,11 +5012,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="138.684" y="52.07" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C11" library="rcl" package="C0805" value="330p" x="139.1285" y="56.769" smashed="yes" rot="R180">
-<attribute name="NAME" x="139.446" y="55.753" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="139.2555" y="54.737" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="141.0335" y="57.404" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="D1" library="EEZ_Lib1" package="SOD123" value="SKL16" x="145.415" y="66.1035" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.4105" y="65.897" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="146.4105" y="65.897" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="145.8735" y="63.8605" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="TR1" library="EEZ_inductors_and_transformers" package="SRF0703" value="SRF0703-821M" x="138.1125" y="61.9125" smashed="yes" rot="R270">
@@ -5061,11 +5061,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="146.431" y="45.5295" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C15" library="rcl" package="C0805" value="10n" x="147.828" y="46.863" smashed="yes" rot="R270">
-<attribute name="NAME" x="147.0025" y="43.688" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="149.987" y="45.5295" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="148.2725" y="45.5295" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R8" library="rcl" package="R0805" value="330K" x="147.828" y="50.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="149.9235" y="49.4665" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="149.987" y="49.9745" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="148.2725" y="48.9585" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R9" library="rcl" package="R0805" value="86K6" x="148.336" y="58.674" smashed="yes" rot="R270">
@@ -5073,7 +5073,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="148.844" y="56.9595" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C19" library="rcl" package="C0805" value="10n" x="145.3515" y="59.69" smashed="yes">
-<attribute name="NAME" x="144.2085" y="60.833" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="144.018" y="60.833" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="144.018" y="59.2455" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="C16" library="rcl" package="C0603" value="33p" x="145.3515" y="57.7215" smashed="yes">
@@ -5081,7 +5081,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="144.145" y="57.3405" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="R7" library="rcl" package="R0805" value="86K6" x="148.336" y="62.611" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.3835" y="64.7065" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="150.495" y="61.6585" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="148.7805" y="60.96" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R10" library="rcl" package="R0805" value="10K" x="147.828" y="54.737" smashed="yes" rot="R90">
@@ -5109,7 +5109,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="134.9375" y="56.7055" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D2" library="EEZ_Lib1" package="SOD123" value="SKL16" x="142.113" y="55.0545" smashed="yes" rot="R270">
-<attribute name="NAME" x="141.224" y="54.1655" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="141.224" y="52.578" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="142.113" y="55.0545" size="1.016" layer="27" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="IC3" library="EEZ_Lib1" package="SOIC-16" value="Si8641AB-B-IS1" x="92.6465" y="20.193" smashed="yes" rot="R90">
@@ -12259,7 +12259,7 @@ design rules under a new name.</description>
 <via x="75.7555" y="66.8655" extent="1-16" drill="0.4" shape="octagon"/>
 <via x="100.1395" y="68.072" extent="1-16" drill="0.4" shape="octagon"/>
 <via x="117.5385" y="63.0555" extent="1-16" drill="0.4" shape="octagon"/>
-<contactref element="OE#2" pad="2"/>
+<contactref element="OE#1" pad="2"/>
 <via x="117.5385" y="61.341" extent="1-16" drill="0.4" shape="octagon"/>
 <contactref element="Q4" pad="1"/>
 <wire x1="75.3855" y1="75.765" x2="75.3855" y2="74.665" width="0.254" layer="1"/>
@@ -12422,7 +12422,7 @@ design rules under a new name.</description>
 <via x="75.311" y="35.306" extent="1-16" drill="0.4" shape="octagon"/>
 <via x="129.286" y="20.5105" extent="1-16" drill="0.4" shape="octagon"/>
 <wire x1="75.3855" y1="35.444" x2="75.311" y2="35.306" width="0.254" layer="1"/>
-<contactref element="OE#1" pad="2"/>
+<contactref element="OE#2" pad="2"/>
 <via x="130.556" y="47.117" extent="1-16" drill="0.4" shape="octagon"/>
 <via x="129.0955" y="49.657" extent="1-16" drill="0.4" shape="octagon"/>
 <wire x1="131.191" y1="46.482" x2="130.556" y2="47.117" width="0.254" layer="1"/>
@@ -23365,7 +23365,7 @@ design rules under a new name.</description>
 <wire x1="82.931" y1="51.4705" x2="82.936" y2="51.4655" width="0.254" layer="1"/>
 </signal>
 <signal name="N$481">
-<contactref element="OE#1" pad="1"/>
+<contactref element="OE#2" pad="1"/>
 <contactref element="IC8" pad="42"/>
 <via x="126.365" y="49.657" extent="1-16" drill="0.4" shape="octagon"/>
 <via x="123.19" y="41.021" extent="1-16" drill="0.4" shape="octagon"/>
@@ -23378,7 +23378,7 @@ design rules under a new name.</description>
 <wire x1="123.444" y1="40.767" x2="123.19" y2="41.021" width="0.254" layer="1"/>
 </signal>
 <signal name="N$482">
-<contactref element="OE#2" pad="1"/>
+<contactref element="OE#1" pad="1"/>
 <contactref element="IC8" pad="41"/>
 <via x="127.254" y="51.3715" extent="1-16" drill="0.4" shape="octagon"/>
 <via x="125.984" y="40.9575" extent="1-16" drill="0.4" shape="octagon"/>

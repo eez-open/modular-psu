@@ -13667,8 +13667,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="I_SET1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="I_SET2" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="U_SET2" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
-<part name="OE#1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="OE#2" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
+<part name="OE#1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="R67" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="J2" library="EEZ_connectors" deviceset="571-0" device="500" value="571-0500"/>
@@ -15461,10 +15461,10 @@ temp. sensors</text>
 <instance part="U_SET2" gate="G$1" x="20.32" y="134.62" smashed="yes">
 <attribute name="NAME" x="20.32" y="135.255" size="1.27" layer="95" rot="MR0"/>
 </instance>
-<instance part="OE#1" gate="G$1" x="152.4" y="144.78" smashed="yes" rot="R90">
+<instance part="OE#2" gate="G$1" x="152.4" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.765" y="144.78" size="1.27" layer="95" rot="MR270"/>
 </instance>
-<instance part="OE#2" gate="G$1" x="154.94" y="144.78" smashed="yes" rot="R90">
+<instance part="OE#1" gate="G$1" x="154.94" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.305" y="144.78" size="1.27" layer="95" rot="MR270"/>
 </instance>
 <instance part="Y1" gate="A" x="101.6" y="106.68" smashed="yes" rot="MR90">
@@ -16041,14 +16041,14 @@ temp. sensors</text>
 </net>
 <net name="OE#1" class="0">
 <segment>
-<pinref part="OE#2" gate="G$1" pin="2"/>
+<pinref part="OE#1" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="147.32" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
 <label x="154.305" y="150.495" size="1.27" layer="102" rot="R90"/>
 </segment>
 </net>
 <net name="OE#2" class="0">
 <segment>
-<pinref part="OE#1" gate="G$1" pin="2"/>
+<pinref part="OE#2" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="147.32" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <label x="151.765" y="150.495" size="1.27" layer="102" rot="R90"/>
 </segment>
@@ -16214,14 +16214,14 @@ temp. sensors</text>
 </net>
 <net name="N$481" class="0">
 <segment>
-<pinref part="OE#1" gate="G$1" pin="1"/>
+<pinref part="OE#2" gate="G$1" pin="1"/>
 <pinref part="IC8" gate="G$1" pin="PB6"/>
 <wire x1="152.4" y1="144.78" x2="152.4" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$482" class="0">
 <segment>
-<pinref part="OE#2" gate="G$1" pin="1"/>
+<pinref part="OE#1" gate="G$1" pin="1"/>
 <pinref part="IC8" gate="G$1" pin="PB5"/>
 <wire x1="154.94" y1="144.78" x2="154.94" y2="127" width="0.1524" layer="91"/>
 </segment>
