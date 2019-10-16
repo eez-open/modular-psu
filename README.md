@@ -8,7 +8,7 @@ It is work in progress and it's conceived to have the following components/modul
 * _[DCM220](https://github.com/eez-open/modular-psu/tree/master/dcm220)_, dual sync buck 0 - 20 V / max. 4 A with current limit 
 * _[Bench Box 3](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ metal enclosure for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 (W) x 123 (H) x 240 (D) mm
 
-### The _EEZ Bench Box 3_ first prototype
+### The _EEZ Bench Box 3_ prototype
 
 ![Enclosure 3D model](enclosure/EEZ_BB3_prototype.jpg)
 
