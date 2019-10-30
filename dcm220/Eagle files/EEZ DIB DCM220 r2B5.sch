@@ -13562,9 +13562,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="C58" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="C54" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
-<part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="3K9"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="3K6"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="3K6"/>
+<part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="3K3"/>
 <part name="C46" library="EEZ_Lib1" deviceset="ECAP" device="SMD8.3MM/HA0" value="EEEFK1H470"/>
 <part name="C52" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C50" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
@@ -13620,9 +13620,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="C78" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="C74" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
 <part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
-<part name="R70" library="rcl" deviceset="R-EU_" device="R0805" value="3K9"/>
+<part name="R70" library="rcl" deviceset="R-EU_" device="R0805" value="3K6"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
-<part name="R72" library="rcl" deviceset="R-EU_" device="R0805" value="3K6"/>
+<part name="R72" library="rcl" deviceset="R-EU_" device="R0805" value="3K3"/>
 <part name="C68" library="EEZ_Lib1" deviceset="ECAP" device="SMD8.3MM/HA0" value="EEEFK1H470"/>
 <part name="C72" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C71" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>

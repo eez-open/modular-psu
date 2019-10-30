@@ -29,8 +29,8 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="no" active="yes"/>
@@ -4645,11 +4645,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="84.7725" y="70.1675" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="85.725" y="70.993" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R46" library="rcl" package="R0805" value="3K9" x="83.2485" y="72.263" smashed="yes" rot="R90">
+<element name="R46" library="rcl" package="R0805" value="3K6" x="83.2485" y="72.263" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.7405" y="70.1675" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="83.7565" y="70.993" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R48" library="rcl" package="R0805" value="3K6" x="87.1855" y="72.263" smashed="yes" rot="R90">
+<element name="R48" library="rcl" package="R0805" value="3K3" x="87.1855" y="72.263" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.741" y="70.1675" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="87.63" y="70.866" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -4837,11 +4837,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="84.8995" y="31.0515" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="84.7725" y="34.6075" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R70" library="rcl" package="R0805" value="3K9" x="83.3755" y="33.02" smashed="yes" rot="R90">
+<element name="R70" library="rcl" package="R0805" value="3K6" x="83.3755" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.8675" y="31.0515" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="83.8835" y="31.6865" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R72" library="rcl" package="R0805" value="3K6" x="87.3125" y="33.02" smashed="yes" rot="R270">
+<element name="R72" library="rcl" package="R0805" value="3K3" x="87.3125" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="86.868" y="31.0515" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="86.8045" y="34.6075" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -5201,7 +5201,7 @@ design rules under a new name.</description>
 </element>
 <element name="R21" library="rcl" package="R0805" value="3K3" x="95.0595" y="72.263" smashed="yes" rot="R90">
 <attribute name="NAME" x="94.615" y="70.1675" size="1.016" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="95.6945" y="70.612" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="95.5675" y="70.9295" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C34" library="rcl" package="C0805" value="10n" x="93.091" y="72.263" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.583" y="70.1675" size="1.016" layer="25" ratio="10" rot="R270"/>
@@ -5213,7 +5213,7 @@ design rules under a new name.</description>
 </element>
 <element name="R22" library="rcl" package="R0805" value="3K3" x="96.0755" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.123" y="29.845" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="96.7105" y="31.369" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="96.5835" y="31.6865" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C35" library="rcl" package="C0805" value="10n" x="94.107" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.1865" y="30.861" size="1.016" layer="25" ratio="10" rot="R180"/>
@@ -12519,10 +12519,8 @@ design rules under a new name.</description>
 <wire x1="92.1385" y1="33.97" x2="92.1385" y2="34.163" width="0.254" layer="1"/>
 <wire x1="92.1385" y1="34.163" x2="94.0435" y2="36.068" width="0.254" layer="1"/>
 <wire x1="94.0435" y1="36.068" x2="104.8385" y2="36.068" width="0.254" layer="1"/>
-<wire x1="104.8385" y1="36.068" x2="107.91825" y2="39.14775" width="0.254" layer="1"/>
-<wire x1="107.91825" y1="39.14775" x2="108.2675" y2="39.497" width="0.254" layer="1"/>
 <wire x1="109.54" y1="40.132" x2="108.9025" y2="40.132" width="0.254" layer="1"/>
-<wire x1="108.9025" y1="40.132" x2="108.2675" y2="39.497" width="0.254" layer="1"/>
+<wire x1="104.8385" y1="36.068" x2="108.9025" y2="40.132" width="0.254" layer="1"/>
 </signal>
 <signal name="BOOT0">
 <contactref element="IC8" pad="44"/>
@@ -60972,37 +60970,37 @@ design rules under a new name.</description>
 <approved hash="19,1,8624c9d6c007d915"/>
 <approved hash="19,1,edeeddb93eacfaaa"/>
 <approved hash="19,1,3aff0e8a8080bb25"/>
-<approved hash="19,1,b64689520768340e"/>
 <approved hash="5,1,727a626ced0c02d5"/>
 <approved hash="5,1,9d839a0dff241f5a"/>
 <approved hash="19,1,310e061d8851b3f6"/>
-<approved hash="19,1,f61c367694b4e682"/>
 <approved hash="19,1,19b5de147a9a1484"/>
-<approved hash="5,1,16d3d58af6afed18"/>
+<approved hash="19,1,b64689520768340e"/>
+<approved hash="19,1,f61c367694b4e682"/>
 <approved hash="19,1,5d2e21e17b3fa0e4"/>
+<approved hash="5,1,16d3d58af6afed18"/>
 <approved hash="5,1,0b386559d88449e4"/>
 <approved hash="19,1,a3f3e8cf661f21a1"/>
-<approved hash="19,1,6faf067bd572b2df"/>
-<approved hash="19,1,3f3b6d56e364bceb"/>
 <approved hash="19,1,bb82f09e7eac39f2"/>
-<approved hash="19,1,695eda37583ae483"/>
-<approved hash="19,1,e6755ddfdfe2683a"/>
-<approved hash="19,1,618dd2e650adef72"/>
+<approved hash="19,1,3f3b6d56e364bceb"/>
+<approved hash="19,1,6faf067bd572b2df"/>
 <approved hash="19,1,0cc652e3f268a21b"/>
 <approved hash="19,1,7097c391829c242f"/>
-<approved hash="19,1,75d9a32b21fdfb8d"/>
-<approved hash="19,1,e8932650a4646745"/>
-<approved hash="19,1,5f191becc15d5d32"/>
-<approved hash="19,1,6d8abb9839ace3fc"/>
+<approved hash="19,1,695eda37583ae483"/>
+<approved hash="19,1,618dd2e650adef72"/>
+<approved hash="19,1,e6755ddfdfe2683a"/>
 <approved hash="19,1,59418462572bfbff"/>
-<approved hash="19,1,a15ca9fc12e40700"/>
+<approved hash="19,1,5f191becc15d5d32"/>
+<approved hash="19,1,e8932650a4646745"/>
+<approved hash="19,1,75d9a32b21fdfb8d"/>
+<approved hash="19,1,6d8abb9839ace3fc"/>
+<approved hash="19,1,2e2f865c0827ace2"/>
 <approved hash="19,1,15bb8ce8033d97ec"/>
 <approved hash="19,1,fa656a15e4e0785e"/>
-<approved hash="19,1,2e2f865c0827ace2"/>
+<approved hash="19,1,a15ca9fc12e40700"/>
 <approved hash="5,1,e25955da426108e1"/>
 <approved hash="19,1,ffada964f3742643"/>
-<approved hash="5,1,628f9a2c4c64180d"/>
 <approved hash="5,1,d5768782c5b6f2f4"/>
+<approved hash="5,1,628f9a2c4c64180d"/>
 <approved hash="5,1,cfd32c4ba65e4b74"/>
 <approved hash="19,1,3bad193006105669"/>
 <approved hash="19,1,c9c3591a00105cc4"/>
