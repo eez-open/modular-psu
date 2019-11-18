@@ -9,8 +9,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="300"
    inkscape:export-xdpi="300"
-   inkscape:export-filename="/home/denis/BACKUP/EEZ/git-public/modular-psu/enclosure/DIB chassis front panel r1B4.png"
-   sodipodi:docname="DIB chassis front panel r1B4.svg"
+   inkscape:export-filename="/home/denis/BACKUP/EEZ/git-public/modular-psu/enclosure/EEZ BB3 chassis front panel silkscreen r1B2.png"
+   sodipodi:docname="EEZ BB3 chassis front panel silkscreen r1B2.svg"
    inkscape:version="0.92.4 (unknown)"
    version="1.1"
    id="svg2"
@@ -24,9 +24,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="27"
      inkscape:window-x="0"
-     inkscape:cy="101.41177"
-     inkscape:cx="113.28152"
-     inkscape:zoom="6.1670109"
+     inkscape:cy="233.22684"
+     inkscape:cx="435.85146"
+     inkscape:zoom="0.77087636"
      showgrid="false"
      id="namedview492"
      inkscape:window-height="1096"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
@@ -3415,15 +3415,15 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
-         id="tspan2048">1 Din #1 / UART Tx</tspan><tspan
+         id="tspan2067">1 Din #1 / UART Rx</tspan><tspan
          sodipodi:role="line"
-         id="tspan2050">2 Din #2</tspan><tspan
+         id="tspan2069">2 Din #2</tspan><tspan
          sodipodi:role="line"
-         id="tspan2052">3 Gnd</tspan><tspan
+         id="tspan2071">3 Gnd</tspan><tspan
          sodipodi:role="line"
-         id="tspan2054">4 Dout #1 / UART Rx</tspan><tspan
+         id="tspan2073">4 Dout #1 / UART Tx</tspan><tspan
          sodipodi:role="line"
-         id="tspan2056">5 Dout #2</tspan></text>
+         id="tspan2075">5 Dout #2</tspan></text>
     <g
        id="g3235"
        transform="translate(26.897637,-18.8977)">
@@ -3805,7 +3805,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Printing Marks"
      id="printing-marks"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:label="CropMarks"
        id="CropMarks">
