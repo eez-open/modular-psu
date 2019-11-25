@@ -16913,7 +16913,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
-<part name="X3" library="EEZ_connectors" deviceset="MC1,5/5-G-3,5" device="" value="1844249"/>
+<part name="X3" library="EEZ_connectors" deviceset="MC1,5/5-G-3,5" device="" value="691322110005"/>
 <part name="C67" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
 <part name="IC16" library="EEZ_Lib1" deviceset="DAC8552_DGK_8" device="M" value="DAC8552IDGKR"/>
 <part name="C72" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -17321,7 +17321,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="D11" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY26" library="supply2" deviceset="-9V" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="-9V" device=""/>
 <part name="SUPPLY44" library="supply2" deviceset="-9V" device=""/>
@@ -21099,7 +21099,7 @@ Solder JP2 (0R 0805) on DCP405B</text>
 </instance>
 <instance part="X3" gate="-1" x="246.38" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="251.968" y="67.818" size="1.778" layer="114"/>
-<attribute name="VALUE" x="248.92" y="70.485" size="1.778" layer="114"/>
+<attribute name="VALUE" x="243.84" y="70.485" size="1.778" layer="114"/>
 </instance>
 <instance part="X3" gate="-2" x="246.38" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="251.968" y="65.278" size="1.778" layer="114"/>
