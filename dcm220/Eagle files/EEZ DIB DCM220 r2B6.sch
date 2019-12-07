@@ -13790,6 +13790,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="D3" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="SKL16"/>
 <part name="D4" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="SKL16"/>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
+<part name="TX_PU" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13873,8 +13875,8 @@ digital isolators</text>
 <text x="113.03" y="83.185" size="1.778" layer="103">+0.8 V</text>
 <circle x="242.57" y="133.35" radius="0.635" width="0.1524" layer="101"/>
 <circle x="245.11" y="133.35" radius="0.635" width="0.1524" layer="101"/>
-<text x="240.03" y="133.985" size="1.4224" layer="101" rot="R180">UART_TX 27</text>
-<text x="247.65" y="132.715" size="1.4224" layer="101">28 UART_RX</text>
+<text x="240.03" y="133.985" size="1.4224" layer="101" rot="R180">UART_RX 27</text>
+<text x="247.65" y="132.715" size="1.4224" layer="101">28 UART_TX</text>
 <wire x1="71.12" y1="2.54" x2="71.12" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
 <text x="36.83" y="113.665" size="1.778" layer="103">UVLO off: +33 V
 UVLO on: +38 V</text>
@@ -13888,6 +13890,8 @@ UVLO on: +38 V</text>
 <rectangle x1="39.37" y1="161.29" x2="45.72" y2="168.91" layer="97"/>
 <rectangle x1="77.47" y1="30.48" x2="84.455" y2="37.465" layer="97"/>
 <rectangle x1="104.14" y1="93.98" x2="109.855" y2="100.965" layer="97"/>
+<text x="260.35" y="61.595" size="1.4224" layer="101">UART_RX</text>
+<text x="255.27" y="97.155" size="1.4224" layer="101">UART_TX</text>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="147.32" y="17.78" smashed="yes">
@@ -14300,6 +14304,13 @@ UVLO on: +38 V</text>
 <instance part="RN1" gate="-4" x="238.76" y="60.96" smashed="yes">
 <attribute name="NAME" x="236.22" y="61.087" size="1.27" layer="95" rot="MR0"/>
 </instance>
+<instance part="TX_PU" gate="G$1" x="248.92" y="71.12" smashed="yes" rot="MR90">
+<attribute name="NAME" x="250.19" y="73.4314" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="250.19" y="70.612" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="+3V15" gate="G$1" x="248.92" y="81.28" smashed="yes">
+<attribute name="VALUE" x="247.65" y="80.645" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14650,8 +14661,8 @@ UVLO on: +38 V</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="253.365" y="61.595" size="1.27" layer="102" rot="MR0"/>
-<wire x1="243.84" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
+<label x="258.445" y="61.595" size="1.27" layer="102" rot="MR0"/>
+<wire x1="243.84" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="-4" pin="2"/>
 </segment>
 </net>
@@ -14868,6 +14879,11 @@ UVLO on: +38 V</text>
 <junction x="228.6" y="68.58"/>
 <pinref part="IC3" gate="A" pin="VDD2"/>
 <wire x1="228.6" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TX_PU" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="76.2" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -15126,9 +15142,11 @@ UVLO on: +38 V</text>
 <pinref part="IC3" gate="A" pin="A4"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-28" pin="1"/>
-<wire x1="205.74" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
-<label x="223.52" y="137.795" size="1.27" layer="102" rot="MR0"/>
+<label x="154.94" y="137.795" size="1.27" layer="102"/>
+<wire x1="160.655" y1="137.16" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-27" pin="1"/>
+<wire x1="160.02" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="160.655" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIB_UART_TX" class="0">
@@ -15138,9 +15156,9 @@ UVLO on: +38 V</text>
 <pinref part="IC3" gate="A" pin="A3"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-27" pin="1"/>
-<wire x1="172.72" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<label x="154.94" y="137.795" size="1.27" layer="102"/>
+<label x="223.52" y="137.795" size="1.27" layer="102" rot="MR0"/>
+<pinref part="X2" gate="-28" pin="1"/>
+<wire x1="205.74" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIB_BOOT0" class="0">
@@ -15158,22 +15176,26 @@ UVLO on: +38 V</text>
 <net name="BOOT0" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B2"/>
-<wire x1="223.52" y1="58.42" x2="254" y2="58.42" width="0.1524" layer="91"/>
-<label x="254" y="59.055" size="1.27" layer="102" rot="MR0"/>
+<wire x1="223.52" y1="58.42" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
+<label x="259.08" y="59.055" size="1.27" layer="102" rot="MR0"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B3"/>
-<wire x1="223.52" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
-<label x="254" y="56.515" size="1.27" layer="102" rot="MR0"/>
+<wire x1="223.52" y1="55.88" x2="259.08" y2="55.88" width="0.1524" layer="91"/>
+<label x="259.08" y="56.515" size="1.27" layer="102" rot="MR0"/>
 </segment>
 </net>
 <net name="UART_TX" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B4"/>
-<wire x1="223.52" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
-<label x="254" y="53.975" size="1.27" layer="102" rot="MR0"/>
+<wire x1="223.52" y1="53.34" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="259.08" y="53.975" size="1.27" layer="102" rot="MR0"/>
+<pinref part="TX_PU" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="53.34" x2="259.08" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="66.04" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
+<junction x="248.92" y="53.34"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -15860,23 +15882,23 @@ temp. sensors</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="PA10"/>
-<wire x1="180.34" y1="101.6" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
-<label x="190.5" y="102.235" size="1.27" layer="102" rot="MR0"/>
+<label x="190.5" y="92.075" size="1.27" layer="102" rot="MR0"/>
+<pinref part="IC8" gate="G$1" pin="PB15"/>
+<wire x1="180.34" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="PA9"/>
-<wire x1="180.34" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
-<label x="190.5" y="99.695" size="1.27" layer="102" rot="MR0"/>
+<label x="190.5" y="89.535" size="1.27" layer="102" rot="MR0"/>
+<pinref part="IC8" gate="G$1" pin="PB14"/>
+<wire x1="180.34" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="PA8"/>
-<wire x1="180.34" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
-<label x="190.5" y="97.155" size="1.27" layer="102" rot="MR0"/>
+<label x="190.5" y="94.615" size="1.27" layer="102" rot="MR0"/>
+<pinref part="IC8" gate="G$1" pin="PD8"/>
+<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I_MON#2" class="0">
@@ -16159,16 +16181,16 @@ temp. sensors</text>
 </net>
 <net name="UART_TX" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="PA2"/>
-<wire x1="121.92" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<label x="111.76" y="86.995" size="1.27" layer="102"/>
+<label x="190.5" y="99.695" size="1.27" layer="102" rot="MR0"/>
+<pinref part="IC8" gate="G$1" pin="PA9"/>
+<wire x1="190.5" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="PA3"/>
-<wire x1="137.16" y1="73.66" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
-<label x="136.525" y="63.5" size="1.27" layer="102" rot="R90"/>
+<label x="190.5" y="102.235" size="1.27" layer="102" rot="MR0"/>
+<pinref part="IC8" gate="G$1" pin="PA10"/>
+<wire x1="190.5" y1="101.6" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IRQ" class="0">
