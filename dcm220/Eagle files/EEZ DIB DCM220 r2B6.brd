@@ -2142,8 +2142,8 @@
 <rectangle x1="131.9434" y1="86.1883" x2="132.3434" y2="86.1921" layer="21"/>
 <rectangle x1="131.9967" y1="86.1921" x2="132.2367" y2="86.1959" layer="21"/>
 <text x="135.5625" y="82.3555" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">EEZ DIB DCM220
-(11/2019 r2B6)</text>
-<text x="151.164" y="88.134" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB DCM220 (11/2019 r2B6)
+(12/2019 r2B6)</text>
+<text x="151.164" y="88.134" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB DCM220 (12/2019 r2B6)
 Project source code: github.com/eez-open</text>
 <rectangle x1="129.54" y1="86.741" x2="151.638" y2="92.3925" layer="21"/>
 <polygon width="0.1" layer="51">

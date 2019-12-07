@@ -13890,8 +13890,6 @@ UVLO on: +38 V</text>
 <rectangle x1="39.37" y1="161.29" x2="45.72" y2="168.91" layer="97"/>
 <rectangle x1="77.47" y1="30.48" x2="84.455" y2="37.465" layer="97"/>
 <rectangle x1="104.14" y1="93.98" x2="109.855" y2="100.965" layer="97"/>
-<text x="260.35" y="61.595" size="1.4224" layer="101">UART_RX</text>
-<text x="255.27" y="97.155" size="1.4224" layer="101">UART_TX</text>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="147.32" y="17.78" smashed="yes">
