@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15292,7 +15292,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="JP13" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP12" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
-<part name="IC13" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="TPD4E001DRLR"/>
+<part name="IC13" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="N.C."/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="C57" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
@@ -15312,7 +15312,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="IC5" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="TPD4E001DRLR"/>
+<part name="IC5" library="EEZ_Lib1" deviceset="TPD4E001" device="-DRL" value="N.C."/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="+3V310" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
@@ -15421,7 +15421,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device=""/>
 <part name="SCL" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="SDA" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
-<part name="BOOT1" library="EEZ_Lib1" deviceset="JUMPER-2PIN" device="-2MM"/>
+<part name="BOOT0" library="EEZ_Lib1" deviceset="JUMPER-2PIN" device="-2MM"/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="SP1" library="EEZ_Lib1" deviceset="AI-1223-TWT" device="-LDB0903" value="AI-1223-TWT or LD-BZEN 0903"/>
 <part name="Q2" library="EEZ_Lib1" deviceset="2N7002" device=""/>
@@ -16883,7 +16883,7 @@ section 1.1.4</text>
 <instance part="JP3" gate="G$1" x="73.66" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.025" y="70.485" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="BOOT1" gate="G$1" x="256.54" y="152.4" smashed="yes">
+<instance part="BOOT0" gate="G$1" x="256.54" y="152.4" smashed="yes">
 <attribute name="NAME" x="252.73" y="156.845" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.905" y="148.59" size="1.778" layer="96"/>
 </instance>
@@ -17479,7 +17479,7 @@ section 1.1.4</text>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="162.56" x2="251.46" y2="162.56" width="0.1524" layer="91"/>
 <junction x="243.84" y="162.56"/>
-<pinref part="BOOT1" gate="G$1" pin="1"/>
+<pinref part="BOOT0" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="162.56" x2="256.54" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="254" y1="154.94" x2="251.46" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="154.94" x2="251.46" y2="162.56" width="0.1524" layer="91"/>
@@ -18060,7 +18060,7 @@ section 1.1.4</text>
 <wire x1="12.7" y1="127" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BOOT1" gate="G$1" pin="2"/>
+<pinref part="BOOT0" gate="G$1" pin="2"/>
 <wire x1="254" y1="152.4" x2="251.46" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="152.4" x2="251.46" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="+3V18" gate="G$1" pin="+3V3"/>
@@ -18540,7 +18540,7 @@ consult ST AN4661 section 8.4.2</text>
 </instance>
 <instance part="IC5" gate="G$1" x="137.16" y="160.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="139.827" y="165.8112" size="2.0828" layer="95" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="145.7452" y="149.6822" size="1.778" layer="96" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="126.6698" y="151.3078" size="1.778" layer="96" ratio="10" rot="SMR180"/>
 </instance>
 <instance part="SUPPLY25" gate="GND" x="180.34" y="137.16" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="178.435" y="136.525" size="1.778" layer="96" rot="MR0"/>
@@ -20561,7 +20561,7 @@ consult ST AN4661 section 8.4.2</text>
 </instance>
 <instance part="IC13" gate="G$1" x="182.88" y="162.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="185.547" y="168.3512" size="2.0828" layer="95" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="191.4652" y="152.2222" size="1.778" layer="96" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="173.0248" y="154.4828" size="1.778" layer="96" ratio="10" rot="SMR180"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="165.1" y="170.18" smashed="yes">
 <attribute name="VALUE" x="161.925" y="171.45" size="1.778" layer="96"/>
