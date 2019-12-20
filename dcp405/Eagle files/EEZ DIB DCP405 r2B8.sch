@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17006,7 +17006,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="OC_NEWARK" value="36K7467"/>
 </part>
 <part name="R110" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
-<part name="C91" library="rcl" deviceset="C-EU" device="C1206" value="470n"/>
+<part name="C91" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="D19" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-DUAL_A_L" value="SK10100D1-DIO"/>
 <part name="C93" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="C97" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
@@ -23477,8 +23477,8 @@ Solder JP3, JP4 (0R 0805) and use wire jumper instead of F1 and F2 on DCP405B</t
 <approved hash="104,4,40.64,129.54,IC13,VDD,+5V,,,"/>
 <approved hash="104,4,40.64,121.92,IC13,VSS,GND,,,"/>
 <approved hash="104,4,134.62,66.04,IC17,VDD,V+,,,"/>
-<approved hash="104,4,182.88,132.08,IC12B,VSS,GND,,,"/>
-<approved hash="104,4,182.88,147.32,IC12B,VDD,+5V,,,"/>
+<approved hash="104,4,180.34,134.62,IC12B,VSS,GND,,,"/>
+<approved hash="104,4,180.34,149.86,IC12B,VDD,+5V,,,"/>
 <approved hash="104,2,101.6,35.56,IC8,VCC,+3V3,,,"/>
 <approved hash="104,2,30.48,149.86,IC2,VIN,DC_OUT,,,"/>
 <approved hash="206,4,38.1,25.4,MISO,,,,,"/>

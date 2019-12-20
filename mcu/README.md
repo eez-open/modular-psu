@@ -1,4 +1,4 @@
-STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan controller, power soft-start/stand-by, TFT LCD with resistive touch controller, USB 2.0, 10/100 Mbit/s Ethernet, SDRAM, EEPROM, rotary encoder, user switch and 4 I/O
+STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan controller, power soft-start/stand-by, TFT LCD with resistive touch controller, USB 2.0, 10/100 Mbit/s Ethernet, SDRAM, EEPROM, rotary encoder, user switch and 4 I/O.
 
 ### Feature list
 
