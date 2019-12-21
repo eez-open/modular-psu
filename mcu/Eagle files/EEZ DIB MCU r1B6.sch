@@ -15201,7 +15201,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="PE3" library="supply1" deviceset="PE" device=""/>
 <part name="X1" library="EEZ_connectors" deviceset="ZL263-40DG" device="" value="DS1024-2*20R0"/>
 <part name="X2" library="EEZ_connectors" deviceset="IDC-16PIN" device="" value="DS1013-16SSIB1"/>
-<part name="X3" library="EEZ_connectors" deviceset="MC1,5/5-G-3,5" device="" value="1844249"/>
+<part name="X3" library="EEZ_connectors" deviceset="MC1,5/5-G-3,5" device="" value="691322110005"/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
