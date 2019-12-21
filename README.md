@@ -17,11 +17,14 @@ BB3 is made up of the following components:
 * _[DCM220](https://github.com/eez-open/modular-psu/tree/master/dcm220)_, dual sync buck 0 - 20 V / max. 4 A
 * _[Metal enclosure](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 (W) x 123 (H) x 240 (D) mm
 
-### Related topics
+### Related topics and links
 
 * EEZ BB3 [firmware](https://github.com/eez-open/modular-psu-firmware)
 * [EEZ Studio](https://www.envox.hr/eez/studio/studio-introduction.html)
 * EEZ [DIB v1.0](https://github.com/eez-open/modular-psu/tree/master/DIB%20v1.0) specification
+* [YouTube](https://www.youtube.com/c/eezopen) channel
+* [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
+* [Discord](https://discord.gg/V8gPmws)
 
 ### The _EEZ Bench Box 3_ prototype
 
