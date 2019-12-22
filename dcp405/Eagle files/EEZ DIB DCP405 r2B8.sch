@@ -17120,7 +17120,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C95" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="C96" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="C74" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="X2" library="EEZ_connectors" deviceset="77317-104-28LF" device=""/>
+<part name="X2" library="EEZ_connectors" deviceset="77317-104-28LF" device="" value="77317-104-20LF"/>
 <part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
@@ -18049,17 +18049,17 @@ digital isolators, CS demux</text>
 <circle x="234.95" y="161.29" radius="0.635" width="0.1524" layer="101"/>
 <circle x="234.95" y="158.75" radius="0.635" width="0.1524" layer="101"/>
 <text x="229.87" y="161.925" size="1.4224" layer="101" rot="R180">Gnd 7</text>
-<text x="237.49" y="142.875" size="1.4224" layer="101">22 +12V</text>
+<text x="237.49" y="142.875" size="1.4224" layer="97">22 +12V</text>
 <text x="237.49" y="150.495" size="1.4224" layer="101">16 Gnd</text>
 <text x="237.49" y="163.195" size="1.4224" layer="101">6 OE_SYNC</text>
-<text x="237.49" y="140.335" size="1.4224" layer="101">24 +5V</text>
-<text x="229.87" y="141.605" size="1.4224" layer="101" rot="R180">+5V 23</text>
-<text x="229.87" y="139.065" size="1.4224" layer="101" rot="R180">Gnd 25</text>
+<text x="237.49" y="140.335" size="1.4224" layer="97">24 +5V</text>
+<text x="229.87" y="141.605" size="1.4224" layer="97" rot="R180">+5V 23</text>
+<text x="229.87" y="139.065" size="1.4224" layer="97" rot="R180">Gnd 25</text>
 <wire x1="231.14" y1="170.18" x2="236.22" y2="170.18" width="0.1524" layer="101"/>
 <text x="220.98" y="172.085" size="2.1844" layer="101">28-pin module socket</text>
-<text x="229.87" y="144.145" size="1.4224" layer="101" rot="R180">+12V 21</text>
+<text x="229.87" y="144.145" size="1.4224" layer="97" rot="R180">+12V 21</text>
 <text x="237.49" y="158.115" size="1.4224" layer="101">10 DIB_IRQ</text>
-<wire x1="236.22" y1="170.18" x2="236.22" y2="134.62" width="0.1524" layer="101"/>
+<wire x1="236.22" y1="170.18" x2="236.22" y2="144.78" width="0.1524" layer="101"/>
 <circle x="232.41" y="153.67" radius="0.635" width="0.1524" layer="101"/>
 <circle x="234.95" y="153.67" radius="0.635" width="0.1524" layer="101"/>
 <text x="229.87" y="159.385" size="1.4224" layer="101" rot="R180">DIB_CSA 9</text>
@@ -18074,14 +18074,14 @@ digital isolators, CS demux</text>
 <circle x="232.41" y="151.13" radius="0.635" width="0.1524" layer="101"/>
 <circle x="232.41" y="148.59" radius="0.635" width="0.1524" layer="101"/>
 <circle x="232.41" y="146.05" radius="0.635" width="0.1524" layer="101"/>
-<circle x="232.41" y="143.51" radius="0.635" width="0.1524" layer="101"/>
-<circle x="232.41" y="140.97" radius="0.635" width="0.1524" layer="101"/>
-<circle x="232.41" y="138.43" radius="0.635" width="0.1524" layer="101"/>
+<circle x="232.41" y="143.51" radius="0.635" width="0.1524" layer="97"/>
+<circle x="232.41" y="140.97" radius="0.635" width="0.1524" layer="97"/>
+<circle x="232.41" y="138.43" radius="0.635" width="0.1524" layer="97"/>
 <circle x="234.95" y="148.59" radius="0.635" width="0.1524" layer="101"/>
 <circle x="234.95" y="146.05" radius="0.635" width="0.1524" layer="101"/>
-<circle x="234.95" y="143.51" radius="0.635" width="0.1524" layer="101"/>
-<circle x="234.95" y="140.97" radius="0.635" width="0.1524" layer="101"/>
-<circle x="234.95" y="138.43" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="143.51" radius="0.635" width="0.1524" layer="97"/>
+<circle x="234.95" y="140.97" radius="0.635" width="0.1524" layer="97"/>
+<circle x="234.95" y="138.43" radius="0.635" width="0.1524" layer="97"/>
 <text x="229.87" y="164.465" size="1.4224" layer="101" rot="R180">DIB_SCL 5</text>
 <text x="229.87" y="146.685" size="1.4224" layer="101" rot="R180">DIB_A1 19</text>
 <text x="237.49" y="165.735" size="1.4224" layer="101">4 NRESET</text>
@@ -18092,8 +18092,8 @@ digital isolators, CS demux</text>
 <text x="229.87" y="151.765" size="1.4224" layer="101" rot="R180">DIB_MOSI 15</text>
 <text x="229.87" y="154.305" size="1.4224" layer="101" rot="R180">DIB_SCLK 13</text>
 <text x="237.49" y="147.955" size="1.4224" layer="101">18 DIB_A2</text>
-<wire x1="231.14" y1="134.62" x2="231.14" y2="170.18" width="0.1524" layer="101"/>
-<wire x1="231.14" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="101"/>
+<wire x1="231.14" y1="144.78" x2="231.14" y2="170.18" width="0.1524" layer="101"/>
+<wire x1="231.14" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="97"/>
 <text x="53.34" y="70.485" size="1.27" layer="103" rot="MR180">-5V</text>
 <text x="59.69" y="97.155" size="1.27" layer="103">+5V</text>
 <text x="79.375" y="17.145" size="1.27" layer="103">I2C address: 1010 XXXX</text>
@@ -18104,12 +18104,15 @@ digital isolators, CS demux</text>
 UVLO on: +38 V</text>
 <text x="110.49" y="128.27" size="1.778" layer="103">+0.8 V</text>
 <text x="111.76" y="177.165" size="1.27" layer="103" rot="MR180">-9 V</text>
-<text x="237.49" y="137.795" size="1.4224" layer="101">26 BOOT</text>
-<text x="229.87" y="136.525" size="1.4224" layer="101" rot="R180">UART_TX 27</text>
-<text x="237.49" y="135.255" size="1.4224" layer="101">28 UART_RX</text>
-<circle x="232.41" y="135.89" radius="0.635" width="0.1524" layer="101"/>
-<circle x="234.95" y="135.89" radius="0.635" width="0.1524" layer="101"/>
+<text x="237.49" y="137.795" size="1.4224" layer="97">26 BOOT</text>
+<text x="229.87" y="136.525" size="1.4224" layer="97" rot="R180">UART_TX 27</text>
+<text x="237.49" y="135.255" size="1.4224" layer="97">28 UART_RX</text>
+<circle x="232.41" y="135.89" radius="0.635" width="0.1524" layer="97"/>
+<circle x="234.95" y="135.89" radius="0.635" width="0.1524" layer="97"/>
 <text x="20.955" y="142.875" size="1.4224" layer="103">tss=3.2 ms</text>
+<wire x1="231.14" y1="134.62" x2="231.14" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="236.22" y1="134.62" x2="236.22" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="231.14" y1="144.78" x2="236.22" y2="144.78" width="0.1524" layer="101"/>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="139.7" y="20.32" smashed="yes">
