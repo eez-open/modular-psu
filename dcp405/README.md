@@ -20,6 +20,6 @@ The EEZ DIB DCP405 Power module is modified EEZ H24005 [Power board](https://git
 - SPI Temperature sensor
 - Dimensions: 180 x 95 mm, 2-layer PCB
 
-### r2B6 prototype
+### r2B7 prototype
 
-![prototype](Images/DCP405_r2B6_prototype.jpg)
+![prototype](Images/DCP405_r2B7.jpg)
