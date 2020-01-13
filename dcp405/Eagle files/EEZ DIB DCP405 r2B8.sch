@@ -19530,9 +19530,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R52" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
-<part name="R66" library="rcl" deviceset="R-EU_" device="R0805" value="3K3"/>
-<part name="C61" library="rcl" deviceset="C-EU" device="C0805" value="4n7"/>
+<part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
+<part name="R66" library="rcl" deviceset="R-EU_" device="R0805" value="750R"/>
+<part name="C61" library="rcl" deviceset="C-EU" device="C0805" value="6n8"/>
 <part name="C41" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
 <part name="C47" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
