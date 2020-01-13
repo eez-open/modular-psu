@@ -89,6 +89,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="114" name="EEZ" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="DCP405B_jmp" color="11" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
@@ -197,6 +198,8 @@ Project source code: github.com/eez-open</text>
 <dimension x1="143.5" y1="95" x2="135.5" y2="0" x3="132" y3="47.5" textsize="2" layer="47" dtype="vertical"/>
 <rectangle x1="0" y1="0" x2="42" y2="14" layer="43"/>
 <text x="9.5" y="-3" size="1.778" layer="43">Restricted area (power relays)</text>
+<rectangle x1="53" y1="0" x2="128" y2="8.5" layer="43"/>
+<text x="67" y="-3" size="1.778" layer="43">Restricted area (DIB v1.0 and future expansion)</text>
 </plain>
 <libraries>
 <library name="EEZ_Lib1">
