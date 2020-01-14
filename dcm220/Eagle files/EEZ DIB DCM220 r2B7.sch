@@ -17262,13 +17262,9 @@ UVLO on: +38 V</text>
 <pinref part="SUPPLY3" gate="1" pin="V+"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="EN1"/>
-<wire x1="182.88" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="48.26" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="VDD1"/>
 <wire x1="177.8" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="68.58" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
-<junction x="177.8" y="68.58"/>
 <pinref part="SUPPLY39" gate="1" pin="V+"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
@@ -17788,6 +17784,11 @@ UVLO on: +38 V</text>
 <label x="152.4" y="59.055" size="1.27" layer="102"/>
 <pinref part="IC3" gate="A" pin="A2"/>
 <wire x1="182.88" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="A" pin="EN1"/>
+<wire x1="182.88" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
+<label x="152.4" y="48.895" size="1.27" layer="102"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
