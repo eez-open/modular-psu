@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -19570,7 +19570,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R82" library="rcl" deviceset="R-EU_" device="R1206" value="10R"/>
 <part name="C81" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C79" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="P+29" library="supply1" deviceset="+5V" device=""/>
 <part name="R72" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -19960,13 +19960,13 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="Q19" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT5551LT1" value="MMBT5551"/>
 <part name="R101" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="D11" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY26" library="supply2" deviceset="-9V" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="-9V" device=""/>
 <part name="SUPPLY44" library="supply2" deviceset="-9V" device=""/>
-<part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="SUPPLY6" library="supply2" deviceset="-9V" device=""/>
 <part name="R87" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
@@ -22089,6 +22089,7 @@ UVLO on: +38 V</text>
 <rectangle x1="118.745" y1="80.01" x2="135.89" y2="86.995" layer="97"/>
 <rectangle x1="203.835" y1="91.44" x2="210.82" y2="96.52" layer="97"/>
 <rectangle x1="116.205" y1="130.175" x2="122.555" y2="136.525" layer="97"/>
+<rectangle x1="53.975" y1="76.2" x2="60.96" y2="81.28" layer="97"/>
 </plain>
 <instances>
 <instance part="P+5" gate="1" x="71.12" y="53.34" smashed="yes" rot="R270">
