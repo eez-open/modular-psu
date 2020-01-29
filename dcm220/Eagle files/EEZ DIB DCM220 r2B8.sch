@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16448,6 +16448,10 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="TX_PU" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$3" library="OSHWA" deviceset="CERT" device="-SMALL" value="HR000002"/>
+<part name="R76" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
+<part name="R77" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19457,6 +19461,13 @@ temp. sensors</text>
 <instance part="SUPPLY44" gate="GND" x="241.3" y="152.4" smashed="yes">
 <attribute name="VALUE" x="242.57" y="151.13" size="1.778" layer="96"/>
 </instance>
+<instance part="R76" gate="G$1" x="58.42" y="50.8" smashed="yes" rot="MR180">
+<attribute name="NAME" x="55.88" y="52.2986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="49.657" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="66.04" y="45.72" smashed="yes">
+<attribute name="VALUE" x="67.945" y="46.355" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19697,6 +19708,12 @@ temp. sensors</text>
 <wire x1="241.3" y1="157.48" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY44" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R76" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="OE#1" class="0">
 <segment>
@@ -19710,6 +19727,9 @@ temp. sensors</text>
 <junction x="45.72" y="50.8"/>
 <wire x1="45.72" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="50.8" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R76" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<junction x="50.8" y="50.8"/>
 </segment>
 </net>
 <net name="VREF1" class="0">
@@ -20575,6 +20595,13 @@ temp. sensors</text>
 <attribute name="NAME" x="113.284" y="161.925" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="113.284" y="159.639" size="1.778" layer="96" rot="MR180"/>
 </instance>
+<instance part="R77" gate="G$1" x="58.42" y="50.8" smashed="yes" rot="MR180">
+<attribute name="NAME" x="55.88" y="52.2986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="49.657" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="SUPPLY45" gate="GND" x="66.04" y="45.72" smashed="yes">
+<attribute name="VALUE" x="67.945" y="46.355" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20759,6 +20786,12 @@ temp. sensors</text>
 <segment>
 <pinref part="R57" gate="G$1" pin="1"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R77" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY45" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -21084,6 +21117,9 @@ temp. sensors</text>
 <pinref part="Q9" gate="A" pin="G"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <junction x="45.72" y="50.8"/>
+<wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<junction x="50.8" y="50.8"/>
+<pinref part="R77" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CC#2" class="0">
