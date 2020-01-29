@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3338,6 +3338,33 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <rectangle x1="3.2385" y1="4.191" x2="3.5433" y2="4.2672" layer="21"/>
 <rectangle x1="3.2385" y1="4.2672" x2="3.5433" y2="4.3434" layer="21"/>
 </package>
+<package name="FIDUCIAL">
+<smd name="T" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="FIDUCIAL_DUAL">
+<smd name="T" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="B" x="0" y="0" dx="1.016" dy="1.016" layer="16" roundness="100" rot="R180" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+</polygon>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="42"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RELAY_K">
@@ -4261,6 +4288,19 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <rectangle x1="5.0546" y1="0.4318" x2="5.5118" y2="5.0546" layer="94"/>
 <text x="-4.699" y="-2.54" size="1.778" layer="94" font="vector" ratio="12">&gt;VALUE</text>
 </symbol>
+<symbol name="FIDUCIAL">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="0.635" curve="-90"/>
+<vertex x="0.635" y="0" curve="-90"/>
+<vertex x="0" y="-0.635" curve="-90"/>
+<vertex x="-0.635" y="0" curve="-90"/>
+</polygon>
+<wire x1="0" y1="1.27" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-3.175" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DIN_ZDINCF96K" prefix="X" uservalue="yes">
@@ -4894,6 +4934,24 @@ Farnell: 2112873</description>
 </technologies>
 </device>
 <device name="-SMALL" package="CERT-SMALL-SILK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FM">
+<description>Fiducial mark for pick and place automation</description>
+<gates>
+<gate name="FD" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_2" package="FIDUCIAL_DUAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11688,6 +11746,8 @@ Source: Samtec SSW.pdf</description>
 <part name="D7" library="MyLib6" deviceset="DIODE" device="DO214AA" value="N.C."/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="OSHWA" library="EEZ_Lib1" deviceset="OSHWA-CERT" device="-SMALL" value="HR000002"/>
+<part name="FM1" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
+<part name="FM2" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12165,6 +12225,8 @@ power sockets</text>
 <instance part="OSHWA" gate="G$1" x="8.255" y="11.43" smashed="yes">
 <attribute name="VALUE" x="2.286" y="8.89" size="1.778" layer="94" font="vector" ratio="12"/>
 </instance>
+<instance part="FM1" gate="FD" x="149.86" y="5.08" smashed="yes"/>
+<instance part="FM2" gate="FD" x="157.48" y="5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>

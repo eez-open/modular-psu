@@ -1,0 +1,60 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "EEZ DIB AUX PS r3B3.brd" as of: 29.1.2020. 15:17
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+C3,Top,5.335,2.150,90
+C4,Top,2.248,1.510,270
+C5,Top,5.893,2.150,90
+C6,Top,2.572,1.800,270
+C7,Top,2.275,0.600,90
+C8,Top,1.907,1.045,0
+C9,Top,2.203,0.608,90
+C10,Top,2.397,1.020,0
+C11,Top,2.185,1.022,180
+C12,Top,2.885,1.750,180
+C13,Top,2.888,1.468,180
+D1,Top,4.768,2.228,270
+FM1,Top,0.118,0.118,0
+FM2,Top,8.937,2.244,0
+IC1,Top,1.965,1.722,90
+IC2,Top,2.310,0.790,180
+JP1,Top,4.652,2.240,90
+JP2,Top,5.362,2.297,0
+JP3,Top,2.513,0.740,270
+JP4,Top,1.755,0.968,270
+L1,Top,3.232,1.750,180
+L2,Top,3.232,1.468,180
+OK1,Top,2.870,1.067,270
+OK2,Top,2.870,0.670,270
+Q3,Top,2.625,1.427,0
+Q4,Top,2.450,1.427,0
+Q5,Top,1.802,0.588,180
+R1,Top,6.992,0.757,180
+R2,Top,2.640,1.255,0
+R3,Top,6.365,1.722,180
+R4,Top,3.260,1.010,0
+R5,Top,2.603,1.542,180
+R6,Top,3.260,0.733,0
+R7,Top,7.622,1.790,0
+R8,Top,7.622,1.948,0
+R9,Top,2.485,1.255,180
+R10,Top,2.447,1.542,180
+R11,Top,2.395,1.887,90
+R12,Top,1.907,1.123,180
+R13,Top,2.317,1.887,90
+R14,Top,2.530,0.910,270
+R15,Top,2.065,0.850,180
+R16,Top,1.907,0.890,180
+R17,Top,2.405,0.948,0
+R18,Top,1.907,0.968,0
+R19,Top,2.065,0.772,180
+R20,Top,2.065,0.695,180
+R21,Top,2.170,0.950,180
+R22,Top,1.772,0.738,270
+R23,Top,1.850,0.738,270
+ZD3,Top,2.143,1.095,0
+ZD4,Top,2.445,1.097,180
