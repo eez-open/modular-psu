@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -19733,14 +19733,14 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C85" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R83" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
 <part name="R89" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="C86" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
+<part name="C86" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="P+11" library="supply2" deviceset="V+" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="R93" library="rcl" deviceset="R-EU_" device="0411/15" value="AC01000001007JA100"/>
 <part name="R95" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="F1" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32"/>
 <part name="F2" library="EEZ_Lib1" deviceset="ZH32" device="" value="ZH32"/>
-<part name="C87" library="rcl" deviceset="C-EU" device="C0805" value="33n"/>
+<part name="C87" library="rcl" deviceset="C-EU" device="C0805" value="4n7"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" deviceset="GNDIO" device=""/>
 <part name="GND4" library="supply1" deviceset="GNDIO" device=""/>
@@ -19944,7 +19944,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="JP1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
-<part name="C64" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
+<part name="C64" library="rcl" deviceset="C-EU" device="C0805" value="4n7"/>
 <part name="FM3" library="EEZ_Lib1" deviceset="FIDUCIAL" device="_2"/>
 <part name="D8" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SOD123" value="N.C."/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
@@ -22533,8 +22533,8 @@ UVLO on: +38 V</text>
 <attribute name="NAME" x="162.179" y="27.051" size="1.778" layer="95"/>
 <attribute name="VALUE" x="162.179" y="25.146" size="1.778" layer="96"/>
 </instance>
-<instance part="P+14" gate="1" x="160.02" y="33.02" smashed="yes">
-<attribute name="VALUE" x="159.385" y="34.29" size="1.778" layer="96"/>
+<instance part="P+14" gate="1" x="160.02" y="35.56" smashed="yes">
+<attribute name="VALUE" x="159.385" y="36.83" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22577,8 +22577,9 @@ UVLO on: +38 V</text>
 <segment>
 <pinref part="IC21" gate="G$1" pin="VDD"/>
 <pinref part="C62" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="1" pin="V+"/>
+<wire x1="160.02" y1="33.02" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
 <junction x="160.02" y="30.48"/>
 </segment>
 </net>
@@ -24791,6 +24792,7 @@ Anti-aliasing RC filter cutoff = 15.4 kHz</text>
 <wire x1="229.87" y1="102.87" x2="229.87" y2="114.3" width="0.1524" layer="100"/>
 <rectangle x1="158.75" y1="135.255" x2="165.1" y2="142.875" layer="97"/>
 <wire x1="259.08" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="97" style="shortdash"/>
+<rectangle x1="147.32" y1="129.54" x2="152.4" y2="137.16" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
