@@ -13,9 +13,14 @@ BB3 is made up of the following components:
 * _[BP3C](https://github.com/eez-open/modular-psu/tree/master/bp3c)_ EEZ DIB backplane with power output coupling capability of first two modules
 * _[AUX power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps)_ board with AC input protection, soft-start/power-up control, DC fan controller and +5 V / +12 V power outputs
 * _[MCU](https://github.com/eez-open/modular-psu/tree/master/mcu)_ board based on STM32F769IGT6 32-bit ARM Cortex-M7
-* _[DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405)_, 0 - 40 V / 50 mA / 5 A DC power source
-* _[DCM220](https://github.com/eez-open/modular-psu/tree/master/dcm220)_, dual sync buck 0 - 20 V / max. 4 A
+* _[DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405)_, 0 - 40 V / 50 mA / 5 A DC power source module
+* _[DCM220](https://github.com/eez-open/modular-psu/tree/master/dcm220)_, dual sync buck 0 - 20 V / max. 4 A module
 * _[Metal enclosure](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 (W) x 123 (H) x 240 (D) mm
+
+### Other DIB modules
+
+* [PREL6](https://github.com/eez-open/dib-prel6) power relays module
+* [SMX46](https://github.com/eez-open/dib-smx46) programmable switch matrix module
 
 ### Related topics and links
 
@@ -25,6 +30,7 @@ BB3 is made up of the following components:
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
 * [Discord](https://discord.gg/V8gPmws)
+* [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3)
 
 ### The _EEZ Bench Box 3_ prototype
 
