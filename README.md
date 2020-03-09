@@ -19,6 +19,7 @@ BB3 is made up of the following components:
 
 ### Other DIB modules
 
+* [MIO168](https://github.com/eez-open/dib-mio168) Mixed I/O module
 * [PREL6](https://github.com/eez-open/dib-prel6) power relays module
 * [SMX46](https://github.com/eez-open/dib-smx46) programmable switch matrix module
 
