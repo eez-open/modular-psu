@@ -3,6 +3,8 @@
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. This project uses the TAPR v1.0 license, see LICENSE.TXT.
 
+[![OSHW-HR000002](OSHW_UID_HR2.svg)](https://certification.oshwa.org/hr000002.html)
+
 ### Introduction
 
 EEZ Bench Box 3 (BB3) represents a new category of *modular* Test and Measurement (T&M) equipment. It provides a complete open-source hardware and software framework that bridges the gap between – and combines the best features of – DIY hobbyist tools and professional benchtop equipment. 
