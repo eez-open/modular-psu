@@ -1,0 +1,1 @@
+MicroPython scripts and related EEZ Studio project could be found [here](https://github.com/eez-open/modular-psu-firmware/tree/master/scripts).

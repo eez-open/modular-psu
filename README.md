@@ -19,6 +19,12 @@ BB3 is made up of the following components:
 * _[DCM220](https://github.com/eez-open/modular-psu/tree/master/dcm220)_, dual sync buck 0 - 20 V / max. 4 A module
 * _[Metal enclosure](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 (W) x 123 (H) x 240 (D) mm
 
+### Supported technologies
+
+* SCPI (Reference Guide in [PDF](https://github.com/eez-open/modular-psu-firmware/blob/master/docs/SCPI%20reference%20guide/EEZ%20BB3%20SCPI%20reference%20guide.pdf))
+* MicroPython (script [examples](https://github.com/eez-open/modular-psu-firmware/tree/master/scripts), an example [video](https://www.youtube.com/watch?v=I0y6fgv8G00))
+* MQTT (an intro [video](https://www.youtube.com/watch?v=THyfLSSAhrI))
+
 ### Other DIB modules
 
 * [MIO168](https://github.com/eez-open/dib-mio168) Mixed I/O module
