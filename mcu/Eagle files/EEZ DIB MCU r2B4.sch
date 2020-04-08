@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1645,8 +1645,7 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="2.413" y1="-1.6383" x2="2.413" y2="1.6383" width="0.1524" layer="21"/>
 </package>
 <package name="5033981892">
-<wire x1="13.93" y1="-1.31" x2="-0.32" y2="-1.31" width="0.127" layer="21"/>
-<wire x1="-0.32" y1="-1.31" x2="-0.32" y2="13.89" width="0.127" layer="21"/>
+<wire x1="13.93" y1="-1.31" x2="-0.3" y2="-1.31" width="0.127" layer="21"/>
 <wire x1="13.93" y1="-0.11" x2="13.93" y2="-1.31" width="0.127" layer="21"/>
 <wire x1="13.7" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="0" x2="0" y2="12" width="0.127" layer="51"/>
@@ -1661,7 +1660,7 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <smd name="3" x="6.65" y="12.6" dx="0.7" dy="1.5" layer="1" rot="R180"/>
 <smd name="2" x="5.55" y="12.6" dx="0.7" dy="1.5" layer="1" rot="R180"/>
 <smd name="1" x="4.45" y="12.6" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="S" x="0.7" y="12.04" dx="1.45" dy="2.33" layer="1" rot="R180"/>
+<smd name="S" x="0.5" y="12.04" dx="1.7" dy="2.33" layer="1" rot="R180"/>
 <text x="7.535" y="6.9" size="1.27" layer="27" rot="R180" align="center">&gt;VALUE</text>
 <text x="-0.4025" y="14.2025" size="1.27" layer="25">&gt;NAME</text>
 <wire x1="13.6" y1="13.83" x2="12.96" y2="13.83" width="0.127" layer="51"/>
@@ -1687,11 +1686,13 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="2.6" y1="16.6" x2="2.6" y2="13.83" width="0.127" layer="51"/>
 <wire x1="2.9" y1="16.9" x2="2.6" y2="16.6" width="0.127" layer="51" curve="90"/>
 <smd name="SW1" x="2.7" y="-0.3" dx="1.1" dy="1.5" layer="1" rot="R180"/>
-<smd name="S1" x="14.3" y="11.7" dx="1.45" dy="3" layer="1" rot="R180"/>
-<wire x1="13.93" y1="13.89" x2="-0.32" y2="13.89" width="0.127" layer="21"/>
+<smd name="S1" x="14.2" y="11.7" dx="1.7" dy="3" layer="1" rot="R180"/>
+<wire x1="13.93" y1="13.89" x2="-0.3" y2="13.89" width="0.127" layer="21"/>
 <wire x1="13.93" y1="13.89" x2="13.93" y2="13.44" width="0.127" layer="21"/>
-<smd name="S2" x="14.3" y="1.6" dx="1.45" dy="3" layer="1" rot="R180"/>
+<smd name="S2" x="14.2" y="1.6" dx="1.7" dy="3" layer="1" rot="R180"/>
 <wire x1="13.93" y1="9.99" x2="13.93" y2="3.34" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="13.89" x2="-0.3" y2="13.44" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="10.59" x2="-0.3" y2="-1.31" width="0.127" layer="21"/>
 </package>
 <package name="PTB48">
 <smd name="1" x="-4.1148" y="2.75" dx="0.2794" dy="1.6764" layer="1" rot="R270"/>
@@ -17729,7 +17730,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="IC3" library="EEZ_DIB" deviceset="STM32F769IXT" device="" value="STM32F769IGT6"/>
+<part name="IC3" library="EEZ_DIB" deviceset="STM32F769IXT" device="" value="STM32F769IIT6"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -21022,7 +21023,7 @@ section 1.1.4</text>
 <text x="2.54" y="6.35" size="1.27" layer="94">Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)</text>
 <text x="2.54" y="2.54" size="1.27" layer="94">Repository: https://github.com/eez-open</text>
 <text x="2.54" y="4.445" size="1.27" layer="94">More info at http://www.envox.hr/eez</text>
-<text x="45.72" y="60.96" size="1.27" layer="103">Consumption: +3.3 V, up tp 110 mA</text>
+<text x="45.72" y="60.96" size="1.27" layer="103">Consumption: +3.3 V, up to 110 mA</text>
 <text x="129.54" y="65.405" size="1.27" layer="103">I2C address read: 0xA1</text>
 <text x="129.54" y="63.5" size="1.27" layer="103">I2C address write: 0xA0</text>
 <text x="101.6" y="109.22" size="1.778" layer="97">I2C EEPROM</text>

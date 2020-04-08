@@ -4935,7 +4935,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="103.124" y="20.0025" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="102.9335" y="16.637" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="IC3" library="EEZ_DIB" package="LQFP-176_24X24MM" value="STM32F769IGT6" x="69.5325" y="46.2915" locked="yes" smashed="yes" rot="R315">
+<element name="IC3" library="EEZ_DIB" package="LQFP-176_24X24MM" value="STM32F769IIT6" x="69.5325" y="46.2915" locked="yes" smashed="yes" rot="R315">
 <attribute name="COPYRIGHT" value="Copyright C 2016 Accelerated Designs. All rights reserved" x="69.5325" y="46.2915" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="stm32f769ixt" x="69.5325" y="46.2915" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="67.9331375" y="28.455228125" size="1.27" layer="25" ratio="10" rot="R315"/>
