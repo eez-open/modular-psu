@@ -2,6 +2,8 @@
 
 The EEZ DIB DCP405 Power module is modified EEZ H24005 [Power board](https://github.com/eez-open/psu-hw/tree/master/Power%20board) that can be housed in EEZ DIB chasis (e.g. _Bench Box 3_). It comes with PNP "pass" element, OVP with triac crowbar, SPI temperature sensor and redesigned down-programmer and bias power supply.
 
+![module](Images/DCP405_r2B11.jpg)
+
 ### Feature list
 - Power input: 48 Vdc (e.g. Mean Well LRS-150F-48)
 - Max. output power: 200 W (limited to 155 W due to Mean Well AC/DC module) 
@@ -20,6 +22,3 @@ The EEZ DIB DCP405 Power module is modified EEZ H24005 [Power board](https://git
 - SPI Temperature sensor
 - Dimensions: 180 x 95 mm, 2-layer PCB
 
-### r2B7 prototype
-
-![prototype](Images/DCP405_r2B7.jpg)

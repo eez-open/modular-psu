@@ -1,5 +1,7 @@
 AUX Power supply board for powering MCU board and backplane.
 
+![module](Images/AUX_PS_r3B3.jpg)
+
 ### Feature list
 
 * On-board IEC C14 AC inlet with dual 20 x 5 mm fuses
@@ -14,7 +16,3 @@ AUX Power supply board for powering MCU board and backplane.
 * Standby LED indictor
 * On-board PE 4 mm terminals
 * Dimensions: 230.5 x 60 mm, 2-layer PCB
-
-### PCB r3B2 prototype
-
-![prototype](Images/AUX_PS_r3B2_prototype.jpg)
