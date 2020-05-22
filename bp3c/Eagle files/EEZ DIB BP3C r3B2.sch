@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -108,12 +110,19 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -147,7 +156,10 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -12912,91 +12924,7 @@ power sockets</text>
 <text x="2.54" y="2.54" size="1.27" layer="94">Repository: https://github.com/eez-open</text>
 <text x="2.54" y="4.445" size="1.27" layer="94">More info at http://www.envox.hr/eez</text>
 <text x="165.1" y="27.94" size="2.54" layer="94" font="vector">Backplane</text>
-<circle x="115.57" y="166.37" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="163.83" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="161.29" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="158.75" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="156.21" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="166.37" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="163.83" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="161.29" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="158.75" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="156.21" radius="0.635" width="0.1524" layer="101"/>
-<text x="120.65" y="165.735" size="1.4224" layer="101">2 Gnd</text>
-<text x="113.03" y="159.385" size="1.4224" layer="101" rot="R180">+3V3 7</text>
-<text x="120.65" y="160.655" size="1.4224" layer="101">6 NRESET</text>
-<text x="120.65" y="158.115" size="1.4224" layer="101">8 NFAULT</text>
-<text x="120.65" y="155.575" size="1.4224" layer="101">10 OE_SYNC</text>
-<text x="120.65" y="163.195" size="1.4224" layer="101">4 UART_TX</text>
-<text x="113.03" y="164.465" size="1.4224" layer="101" rot="R180">UART_RX 3</text>
-<text x="113.03" y="167.005" size="1.4224" layer="101" rot="R180">Gnd 1</text>
-<wire x1="114.3" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="101"/>
-<text x="104.14" y="169.545" size="2.1844" layer="101">40-pin MCU socket</text>
-<text x="113.03" y="161.925" size="1.4224" layer="101" rot="R180">+Vaux 5</text>
-<text x="113.03" y="156.845" size="1.4224" layer="101" rot="R180">CH3_IRQ 9</text>
-<wire x1="119.38" y1="167.64" x2="119.38" y2="116.84" width="0.1524" layer="101"/>
-<circle x="115.57" y="151.13" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="151.13" radius="0.635" width="0.1524" layer="101"/>
-<text x="113.03" y="151.765" size="1.4224" layer="101" rot="R180">CH3_CSB 13</text>
-<circle x="115.57" y="153.67" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="153.67" radius="0.635" width="0.1524" layer="101"/>
-<text x="120.65" y="153.035" size="1.4224" layer="101">12 I2C_SCL</text>
-<text x="113.03" y="154.305" size="1.4224" layer="101" rot="R180">CH3_CSA 11</text>
-<text x="120.65" y="150.495" size="1.4224" layer="101">14 I2C_SDA</text>
-<wire x1="114.3" y1="116.84" x2="114.3" y2="167.64" width="0.1524" layer="101"/>
-<wire x1="114.3" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="101"/>
-<circle x="118.11" y="148.59" radius="0.635" width="0.1524" layer="101"/>
-<text x="113.03" y="149.225" size="1.4224" layer="101" rot="R180">Gnd 15</text>
-<text x="120.65" y="147.955" size="1.4224" layer="101">16 GnD</text>
-<circle x="115.57" y="148.59" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="146.05" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="143.51" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="140.97" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="138.43" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="135.89" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="146.05" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="143.51" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="140.97" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="138.43" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="135.89" radius="0.635" width="0.1524" layer="101"/>
-<text x="120.65" y="145.415" size="1.4224" layer="101">18 CH3_MISO</text>
-<text x="113.03" y="139.065" size="1.4224" layer="101" rot="R180">CH2_SCLK 23</text>
-<text x="120.65" y="140.335" size="1.4224" layer="101">22 CH2_CSA</text>
-<text x="120.65" y="137.795" size="1.4224" layer="101">24 CH2_MISO</text>
-<text x="120.65" y="135.255" size="1.4224" layer="101">26 CH2_MOSI</text>
-<text x="120.65" y="142.875" size="1.4224" layer="101">20 CH3_MOSI</text>
-<text x="113.03" y="144.145" size="1.4224" layer="101" rot="R180">CH2_IRQ 19</text>
-<text x="113.03" y="146.685" size="1.4224" layer="101" rot="R180">CH3_SCLK 17</text>
-<text x="113.03" y="141.605" size="1.4224" layer="101" rot="R180">CH2_CSB 21</text>
-<text x="113.03" y="136.525" size="1.4224" layer="101" rot="R180">CH1_IRQ 25</text>
-<circle x="115.57" y="130.81" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="130.81" radius="0.635" width="0.1524" layer="101"/>
-<text x="113.03" y="131.445" size="1.4224" layer="101" rot="R180">Gnd 29</text>
-<circle x="115.57" y="133.35" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="133.35" radius="0.635" width="0.1524" layer="101"/>
-<text x="120.65" y="132.715" size="1.4224" layer="101">28 Gnd</text>
-<text x="113.03" y="133.985" size="1.4224" layer="101" rot="R180">CH1_CSB 27</text>
-<text x="120.65" y="130.175" size="1.4224" layer="101">30 SSDA</text>
-<circle x="118.11" y="128.27" radius="0.635" width="0.1524" layer="101"/>
-<text x="113.03" y="128.905" size="1.4224" layer="101" rot="R180">CH1_MISO 31</text>
-<text x="120.65" y="127.635" size="1.4224" layer="101">32 CH1_SCLK</text>
-<circle x="115.57" y="128.27" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="125.73" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="123.19" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="120.65" radius="0.635" width="0.1524" layer="101"/>
-<circle x="115.57" y="118.11" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="125.73" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="123.19" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="120.65" radius="0.635" width="0.1524" layer="101"/>
-<circle x="118.11" y="118.11" radius="0.635" width="0.1524" layer="101"/>
-<text x="113.03" y="126.365" size="1.4224" layer="101" rot="R180">CH1_MOSI 33</text>
-<text x="113.03" y="121.285" size="1.4224" layer="101" rot="R180">+12V 37</text>
-<text x="113.03" y="123.825" size="1.4224" layer="101" rot="R180">+5V 35</text>
-<text x="113.03" y="118.745" size="1.4224" layer="101" rot="R180">Gnd 39</text>
-<text x="120.65" y="125.095" size="1.4224" layer="101">34 Gnd</text>
-<text x="120.65" y="122.555" size="1.4224" layer="101">36 +5V</text>
-<text x="120.65" y="120.015" size="1.4224" layer="101">38 +12V</text>
-<text x="120.65" y="117.475" size="1.4224" layer="101">40 Gnd</text>
+<text x="104.14" y="170.815" size="2.1844" layer="101">40-pin MCU socket</text>
 <text x="10.16" y="175.26" size="1.778" layer="97">Output connector (3 x SPI modules)</text>
 <text x="149.86" y="175.26" size="1.778" layer="97">Power indicators (optional)</text>
 <wire x1="5.08" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
@@ -13073,6 +13001,90 @@ power sockets</text>
 <wire x1="104.14" y1="2.54" x2="104.14" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
 <text x="109.22" y="33.02" size="1.778" layer="97">ADxL345 module connector (optional)</text>
 <rectangle x1="75.565" y1="113.03" x2="82.55" y2="120.015" layer="97"/>
+<circle x="115.57" y="167.64" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="165.1" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="162.56" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="160.02" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="157.48" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="167.64" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="165.1" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="162.56" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="160.02" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="157.48" radius="0.635" width="0.1524" layer="101"/>
+<text x="120.65" y="167.005" size="1.4224" layer="101">2 Gnd</text>
+<text x="113.03" y="160.655" size="1.4224" layer="101" rot="R180">+3V3 7</text>
+<text x="120.65" y="161.925" size="1.4224" layer="101">6 NRESET</text>
+<text x="120.65" y="159.385" size="1.4224" layer="101">8 NFAULT</text>
+<text x="120.65" y="156.845" size="1.4224" layer="101">10 OE_SYNC</text>
+<text x="120.65" y="164.465" size="1.4224" layer="101">4 UART_TX</text>
+<text x="113.03" y="165.735" size="1.4224" layer="101" rot="R180">UART_RX 3</text>
+<text x="113.03" y="168.275" size="1.4224" layer="101" rot="R180">Gnd 1</text>
+<wire x1="114.3" y1="168.91" x2="119.38" y2="168.91" width="0.1524" layer="101"/>
+<text x="113.03" y="163.195" size="1.4224" layer="101" rot="R180">+Vaux 5</text>
+<text x="113.03" y="158.115" size="1.4224" layer="101" rot="R180">SPI5_IRQ 9</text>
+<wire x1="119.38" y1="168.91" x2="119.38" y2="118.11" width="0.1524" layer="101"/>
+<circle x="115.57" y="152.4" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="152.4" radius="0.635" width="0.1524" layer="101"/>
+<text x="113.03" y="153.035" size="1.4224" layer="101" rot="R180">SPI5_CSB 13</text>
+<circle x="115.57" y="154.94" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="154.94" radius="0.635" width="0.1524" layer="101"/>
+<text x="120.65" y="154.305" size="1.4224" layer="101">12 I2C_SCL</text>
+<text x="113.03" y="155.575" size="1.4224" layer="101" rot="R180">SPI5_CSA 11</text>
+<text x="120.65" y="151.765" size="1.4224" layer="101">14 I2C_SDA</text>
+<wire x1="114.3" y1="118.11" x2="114.3" y2="168.91" width="0.1524" layer="101"/>
+<wire x1="114.3" y1="118.11" x2="119.38" y2="118.11" width="0.1524" layer="101"/>
+<circle x="118.11" y="149.86" radius="0.635" width="0.1524" layer="101"/>
+<text x="113.03" y="150.495" size="1.4224" layer="101" rot="R180">Gnd 15</text>
+<text x="120.65" y="149.225" size="1.4224" layer="101">16 Gnd</text>
+<circle x="115.57" y="149.86" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="147.32" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="144.78" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="142.24" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="139.7" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="137.16" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="147.32" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="144.78" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="142.24" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="139.7" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="137.16" radius="0.635" width="0.1524" layer="101"/>
+<text x="120.65" y="146.685" size="1.4224" layer="101">18 SPI5_MISO</text>
+<text x="113.03" y="140.335" size="1.4224" layer="101" rot="R180">SPI4_SCLK 23</text>
+<text x="120.65" y="141.605" size="1.4224" layer="101">22 SPI4_CSA</text>
+<text x="120.65" y="139.065" size="1.4224" layer="101">24 SPI4_MISO</text>
+<text x="120.65" y="136.525" size="1.4224" layer="101">26 SPI4_MOSI</text>
+<text x="120.65" y="144.145" size="1.4224" layer="101">20 SPI5_MOSI</text>
+<text x="113.03" y="145.415" size="1.4224" layer="101" rot="R180">SPI4_IRQ 19</text>
+<text x="113.03" y="147.955" size="1.4224" layer="101" rot="R180">SPI5_SCLK 17</text>
+<text x="113.03" y="142.875" size="1.4224" layer="101" rot="R180">SPI4_CSB 21</text>
+<text x="113.03" y="137.795" size="1.4224" layer="101" rot="R180">SPI2_IRQ 25</text>
+<circle x="115.57" y="132.08" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="132.08" radius="0.635" width="0.1524" layer="101"/>
+<text x="113.03" y="132.715" size="1.4224" layer="101" rot="R180">Gnd 29</text>
+<circle x="115.57" y="134.62" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="134.62" radius="0.635" width="0.1524" layer="101"/>
+<text x="120.65" y="133.985" size="1.4224" layer="101">28 SPI2_CSA</text>
+<text x="113.03" y="135.255" size="1.4224" layer="101" rot="R180">SPI2_CSB 27</text>
+<circle x="118.11" y="129.54" radius="0.635" width="0.1524" layer="101"/>
+<text x="113.03" y="130.175" size="1.4224" layer="101" rot="R180">SPI2_MISO 31</text>
+<text x="120.65" y="128.905" size="1.4224" layer="101">32 SPI2_SCLK</text>
+<circle x="115.57" y="129.54" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="127" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="124.46" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="121.92" radius="0.635" width="0.1524" layer="101"/>
+<circle x="115.57" y="119.38" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="127" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="124.46" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="121.92" radius="0.635" width="0.1524" layer="101"/>
+<circle x="118.11" y="119.38" radius="0.635" width="0.1524" layer="101"/>
+<text x="113.03" y="127.635" size="1.4224" layer="101" rot="R180">SPI2_MOSI 33</text>
+<text x="113.03" y="122.555" size="1.4224" layer="101" rot="R180">+12V 37</text>
+<text x="113.03" y="125.095" size="1.4224" layer="101" rot="R180">+5V 35</text>
+<text x="113.03" y="120.015" size="1.4224" layer="101" rot="R180">Gnd 39</text>
+<text x="120.65" y="123.825" size="1.4224" layer="101">36 +5V</text>
+<text x="120.65" y="121.285" size="1.4224" layer="101">38 +12V</text>
+<text x="120.65" y="118.745" size="1.4224" layer="101">40 Gnd</text>
+<text x="120.65" y="131.445" size="1.4224" layer="101">30 Gnd</text>
+<text x="120.65" y="126.365" size="1.4224" layer="101">34 Gnd</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
