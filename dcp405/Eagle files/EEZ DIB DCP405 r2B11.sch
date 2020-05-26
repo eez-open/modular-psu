@@ -87,9 +87,11 @@
 <layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="bTPoint" color="7" fill="1" visible="no" active="no"/>
 <layer number="114" name="EEZ" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -101,12 +103,19 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -140,7 +149,10 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -2165,135 +2177,6 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <vertex x="-1.524" y="4.191"/>
 <vertex x="-1.524" y="3.556"/>
 </polygon>
-</package>
-<package name="BP_4_12_15MM">
-<pad name="P$1" x="0" y="0" drill="4.5" diameter="13"/>
-<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="8.5" width="0.127" layer="21"/>
-<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="BP_4_12_15">
-<pad name="P$1" x="0" y="0" drill="4.5" diameter="13"/>
-<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
-<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" radius="7.66550625" width="1.5" layer="21"/>
-</package>
-<package name="BP_5_12/15BLK">
-<pad name="P$1" x="0" y="0" drill="5.5" diameter="13"/>
-<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="8.5" width="0.127" layer="21"/>
-<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="BP_5_12/15WHITE">
-<pad name="P$1" x="0" y="0" drill="5.5" diameter="13"/>
-<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
-<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" radius="7.66550625" width="1.5" layer="21"/>
-</package>
-<package name="24.243_BP">
-<pad name="1" x="0" y="0" drill="1.6" shape="long" rot="R90"/>
-<pad name="1.1" x="15.5" y="0" drill="1.6" shape="long" rot="R90"/>
-<wire x1="-3.5" y1="-5.5" x2="-3.5" y2="5.5" width="0.254" layer="21"/>
-<wire x1="18" y1="-5.5" x2="18" y2="5.5" width="0.254" layer="21"/>
-<wire x1="-3.5" y1="5.5" x2="18" y2="5.5" width="0.254" layer="21"/>
-<wire x1="-3.5" y1="-5.5" x2="18" y2="-5.5" width="0.254" layer="21"/>
-<wire x1="18" y1="4.7" x2="20.5" y2="4.7" width="0.254" layer="51"/>
-<wire x1="20.5" y1="4.7" x2="20.5" y2="2" width="0.254" layer="51"/>
-<wire x1="20.5" y1="2" x2="20.5" y2="-2" width="0.254" layer="51"/>
-<wire x1="20.5" y1="-2" x2="20.5" y2="-4.7" width="0.254" layer="51"/>
-<wire x1="18" y1="-4.7" x2="20.5" y2="-4.7" width="0.254" layer="51"/>
-<wire x1="18" y1="2" x2="20.5" y2="2" width="0.254" layer="51" style="shortdash"/>
-<wire x1="18" y1="-2" x2="20.5" y2="-2" width="0.254" layer="51" style="shortdash"/>
-<text x="-3.175" y="6.35" size="1.6764" layer="25" ratio="10">&gt;NAME</text>
-<text x="8.89" y="6.35" size="1.6764" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="BP_5_12">
-<pad name="P$1" x="0" y="0" drill="5.5" diameter="11.9"/>
-<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
-<text x="-3" y="6.46" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.3175" y="-7.96" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="BP_5_12_NO_THERMAL">
-<pad name="P$1" x="0" y="0" drill="5.5" diameter="11.9" thermals="no"/>
-<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
-<text x="-3" y="6.46" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.3175" y="-7.96" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="S16N-PC">
-<wire x1="-5.1" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="51"/>
-<text x="-5.08" y="6.85" size="1.6764" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.77" y="-0.65" size="1.6764" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="NC1" x="-3.8" y="5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<pad name="NC2" x="-3.8" y="-5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<pad name="NC3" x="6.36" y="5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<pad name="NC4" x="6.36" y="-5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<wire x1="27.5" y1="5.5" x2="13.5" y2="5.5" width="0.254" layer="51"/>
-<wire x1="27.5" y1="-5.5" x2="13.5" y2="-5.5" width="0.254" layer="51"/>
-<wire x1="27.5" y1="5.5" x2="27.5" y2="4" width="0.254" layer="51"/>
-<wire x1="27.5" y1="4" x2="27.5" y2="-4" width="0.254" layer="51"/>
-<wire x1="27.5" y1="-4" x2="27.5" y2="-5.5" width="0.254" layer="51"/>
-<wire x1="27.5" y1="4" x2="13.5" y2="4" width="0.254" layer="51" style="shortdash"/>
-<wire x1="27.5" y1="-4" x2="13.5" y2="-4" width="0.254" layer="51" style="shortdash"/>
-<wire x1="-5.1" y1="6.1" x2="-5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="-5.1" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
-<wire x1="-5.1" y1="-6.1" x2="-5" y2="-6.1" width="0.254" layer="21"/>
-<wire x1="-5.1" y1="-6.1" x2="-5.1" y2="6.1" width="0.254" layer="51"/>
-<wire x1="-5.1" y1="-6.1" x2="-5.1" y2="6.1" width="0.254" layer="21"/>
-<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
-<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="7.63" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="-2.62" y1="6.1" x2="5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="7.63" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="21"/>
-<wire x1="-2.62" y1="-6.1" x2="5" y2="-6.1" width="0.254" layer="21"/>
-<pad name="1" x="0" y="0" drill="2.2" diameter="3.81" shape="octagon"/>
-</package>
-<package name="S16N-PC_COMBO">
-<wire x1="-11.12" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="51"/>
-<text x="-10.795" y="6.85" size="1.6764" layer="25" ratio="10">&gt;NAME</text>
-<text x="-10.73" y="-0.65" size="1.6764" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="NC1" x="-3.8" y="5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<pad name="NC2" x="-3.8" y="-5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<pad name="NC3" x="6.36" y="5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<pad name="NC4" x="6.36" y="-5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
-<wire x1="27.5" y1="5.5" x2="13.5" y2="5.5" width="0.254" layer="51"/>
-<wire x1="27.5" y1="-5.5" x2="13.5" y2="-5.5" width="0.254" layer="51"/>
-<wire x1="27.5" y1="5.5" x2="27.5" y2="4" width="0.254" layer="51"/>
-<wire x1="27.5" y1="4" x2="27.5" y2="-4" width="0.254" layer="51"/>
-<wire x1="27.5" y1="-4" x2="27.5" y2="-5.5" width="0.254" layer="51"/>
-<wire x1="27.5" y1="4" x2="13.5" y2="4" width="0.254" layer="51" style="shortdash"/>
-<wire x1="27.5" y1="-4" x2="13.5" y2="-4" width="0.254" layer="51" style="shortdash"/>
-<wire x1="-11.12" y1="6.1" x2="-5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="-11.12" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
-<wire x1="-11.12" y1="-6.1" x2="-5" y2="-6.1" width="0.254" layer="21"/>
-<wire x1="-11.12" y1="-6.1" x2="-11.12" y2="6.1" width="0.254" layer="51"/>
-<wire x1="-11.12" y1="-6.1" x2="-11.12" y2="6.1" width="0.254" layer="21"/>
-<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
-<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="7.63" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="-2.62" y1="6.1" x2="5" y2="6.1" width="0.254" layer="21"/>
-<wire x1="7.63" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="21"/>
-<wire x1="-2.62" y1="-6.1" x2="5" y2="-6.1" width="0.254" layer="21"/>
-<pad name="1.5" x="6" y="0" drill="1.6" shape="long" rot="R90"/>
-<pad name="1.6" x="21.5" y="0" drill="1.6" shape="long" rot="R90"/>
-<wire x1="24" y1="-5.5" x2="24" y2="5.5" width="0.254" layer="21"/>
-<wire x1="24" y1="4.7" x2="26.5" y2="4.7" width="0.254" layer="51"/>
-<wire x1="26.5" y1="4.7" x2="26.5" y2="2" width="0.254" layer="51"/>
-<wire x1="26.5" y1="2" x2="26.5" y2="-2" width="0.254" layer="51"/>
-<wire x1="26.5" y1="-2" x2="26.5" y2="-4.7" width="0.254" layer="51"/>
-<wire x1="24" y1="-4.7" x2="26.5" y2="-4.7" width="0.254" layer="51"/>
-<wire x1="24" y1="2" x2="26.5" y2="2" width="0.254" layer="51" style="shortdash"/>
-<wire x1="24" y1="-2" x2="26.5" y2="-2" width="0.254" layer="51" style="shortdash"/>
-<wire x1="2.5" y1="-5.5" x2="2.5" y2="5.5" width="0.254" layer="21"/>
-<wire x1="2.5" y1="-5.5" x2="2.5" y2="5.5" width="0.254" layer="51"/>
-<wire x1="4.75" y1="5.5" x2="2.5" y2="5.5" width="0.254" layer="21"/>
-<wire x1="4.75" y1="-5.5" x2="2.5" y2="-5.5" width="0.254" layer="21"/>
-<wire x1="24" y1="5.5" x2="8" y2="5.5" width="0.254" layer="21"/>
-<wire x1="24" y1="-5.5" x2="8" y2="-5.5" width="0.254" layer="21"/>
-<pad name="1" x="0" y="0" drill="2.2" diameter="3.81" shape="octagon"/>
 </package>
 <package name="PCB-MB">
 <hole x="0" y="0" drill="3.2"/>
@@ -7356,14 +7239,6 @@ Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="FPINV">
-<wire x1="-4.318" y1="0.508" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-4.318" y2="-0.508" width="0.254" layer="94"/>
-<text x="-5.588" y="0.762" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-12.7" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="DAC8552_DGK_8">
 <pin name="VDD" x="-15.24" y="2.54" length="short" direction="pwr"/>
 <pin name="VREF" x="-15.24" y="0" length="short" direction="in"/>
@@ -9816,86 +9691,6 @@ Farnell: &lt;b&gt;1439628&lt;/b&gt;</description>
 <attribute name="FARNELL" value="1467675" constant="no"/>
 <attribute name="TME" value="MCP23S17-E/SS" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BINDING_POST" prefix="J" uservalue="yes">
-<description>Various 4 mm binding posts</description>
-<gates>
-<gate name="G$1" symbol="FPINV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="4MM" package="BP_4_12_15MM">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W" package="BP_4_12_15">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5MM" package="BP_5_12/15BLK">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5W" package="BP_5_12/15WHITE">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PCB" package="24.243_BP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-2" package="BP_5_12">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-2_NT" package="BP_5_12_NO_THERMAL">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CLIFF" package="S16N-PC">
-<connects>
-<connect gate="G$1" pin="1" pad="1 NC1 NC2 NC3 NC4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="COMBO" package="S16N-PC_COMBO">
-<connects>
-<connect gate="G$1" pin="1" pad="1 1.5 1.6 NC1 NC2 NC3 NC4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -19029,6 +18824,135 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <wire x1="-11.2" y1="0.4" x2="-11.2" y2="-0.4" width="0.2032" layer="51"/>
 <wire x1="3" y1="0.4" x2="3" y2="-0.4" width="0.2032" layer="51"/>
 </package>
+<package name="S16N-PC">
+<wire x1="-5.1" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="51"/>
+<text x="-5.08" y="6.85" size="1.6764" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.77" y="-0.65" size="1.6764" layer="27" ratio="10">&gt;VALUE</text>
+<pad name="NC1" x="-3.8" y="5.08" drill="1.2" diameter="2.1844" shape="octagon"/>
+<pad name="NC2" x="-3.8" y="-5.08" drill="1.2" diameter="2.1844" shape="octagon"/>
+<pad name="NC3" x="6.36" y="5.08" drill="1.2" diameter="2.1844" shape="octagon"/>
+<pad name="NC4" x="6.36" y="-5.08" drill="1.2" diameter="2.1844" shape="octagon"/>
+<wire x1="27.5" y1="5.5" x2="13.5" y2="5.5" width="0.254" layer="51"/>
+<wire x1="27.5" y1="-5.5" x2="13.5" y2="-5.5" width="0.254" layer="51"/>
+<wire x1="27.5" y1="5.5" x2="27.5" y2="4" width="0.254" layer="51"/>
+<wire x1="27.5" y1="4" x2="27.5" y2="-4" width="0.254" layer="51"/>
+<wire x1="27.5" y1="-4" x2="27.5" y2="-5.5" width="0.254" layer="51"/>
+<wire x1="27.5" y1="4" x2="13.5" y2="4" width="0.254" layer="51" style="shortdash"/>
+<wire x1="27.5" y1="-4" x2="13.5" y2="-4" width="0.254" layer="51" style="shortdash"/>
+<wire x1="-5.1" y1="6.1" x2="-5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="-5.1" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
+<wire x1="-5.1" y1="-6.1" x2="-5" y2="-6.1" width="0.254" layer="21"/>
+<wire x1="-5.1" y1="-6.1" x2="-5.1" y2="6.1" width="0.254" layer="51"/>
+<wire x1="-5.1" y1="-6.1" x2="-5.1" y2="6.1" width="0.254" layer="21"/>
+<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
+<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="7.63" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="-2.62" y1="6.1" x2="5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="7.63" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="21"/>
+<wire x1="-2.62" y1="-6.1" x2="5" y2="-6.1" width="0.254" layer="21"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="3.81" shape="octagon"/>
+</package>
+<package name="BP_4_12_15MM">
+<pad name="P$1" x="0" y="0" drill="4.5" diameter="13"/>
+<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="8.5" width="0.127" layer="21"/>
+<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="BP_4_12_15">
+<pad name="P$1" x="0" y="0" drill="4.5" diameter="13"/>
+<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
+<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="7.66550625" width="1.5" layer="21"/>
+</package>
+<package name="BP_5_12/15BLK">
+<pad name="P$1" x="0" y="0" drill="5.5" diameter="13"/>
+<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="8.5" width="0.127" layer="21"/>
+<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="BP_5_12/15WHITE">
+<pad name="P$1" x="0" y="0" drill="5.5" diameter="13"/>
+<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
+<text x="-3" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="7.66550625" width="1.5" layer="21"/>
+</package>
+<package name="24.243_BP">
+<pad name="1" x="0" y="0" drill="1.6" shape="long" rot="R90"/>
+<pad name="1.1" x="15.5" y="0" drill="1.6" shape="long" rot="R90"/>
+<wire x1="-3.5" y1="-5.5" x2="-3.5" y2="5.5" width="0.254" layer="21"/>
+<wire x1="18" y1="-5.5" x2="18" y2="5.5" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="5.5" x2="18" y2="5.5" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="-5.5" x2="18" y2="-5.5" width="0.254" layer="21"/>
+<wire x1="18" y1="4.7" x2="20.5" y2="4.7" width="0.254" layer="51"/>
+<wire x1="20.5" y1="4.7" x2="20.5" y2="2" width="0.254" layer="51"/>
+<wire x1="20.5" y1="2" x2="20.5" y2="-2" width="0.254" layer="51"/>
+<wire x1="20.5" y1="-2" x2="20.5" y2="-4.7" width="0.254" layer="51"/>
+<wire x1="18" y1="-4.7" x2="20.5" y2="-4.7" width="0.254" layer="51"/>
+<wire x1="18" y1="2" x2="20.5" y2="2" width="0.254" layer="51" style="shortdash"/>
+<wire x1="18" y1="-2" x2="20.5" y2="-2" width="0.254" layer="51" style="shortdash"/>
+<text x="-3.175" y="6.35" size="1.6764" layer="25" ratio="10">&gt;NAME</text>
+<text x="8.89" y="6.35" size="1.6764" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="BP_5_12">
+<pad name="P$1" x="0" y="0" drill="5.5" diameter="11.9"/>
+<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
+<text x="-3" y="6.46" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.3175" y="-7.96" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="BP_5_12_NO_THERMAL">
+<pad name="P$1" x="0" y="0" drill="5.5" diameter="11.9" thermals="no"/>
+<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
+<text x="-3" y="6.46" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.3175" y="-7.96" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="S16N-PC_COMBO">
+<wire x1="-11.12" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="51"/>
+<text x="-10.795" y="6.85" size="1.6764" layer="25" ratio="10">&gt;NAME</text>
+<text x="-10.73" y="-0.65" size="1.6764" layer="27" ratio="10">&gt;VALUE</text>
+<pad name="NC1" x="-3.8" y="5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
+<pad name="NC2" x="-3.8" y="-5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
+<pad name="NC3" x="6.36" y="5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
+<pad name="NC4" x="6.36" y="-5.08" drill="1.4" diameter="2.1844" shape="octagon"/>
+<wire x1="27.5" y1="5.5" x2="13.5" y2="5.5" width="0.254" layer="51"/>
+<wire x1="27.5" y1="-5.5" x2="13.5" y2="-5.5" width="0.254" layer="51"/>
+<wire x1="27.5" y1="5.5" x2="27.5" y2="4" width="0.254" layer="51"/>
+<wire x1="27.5" y1="4" x2="27.5" y2="-4" width="0.254" layer="51"/>
+<wire x1="27.5" y1="-4" x2="27.5" y2="-5.5" width="0.254" layer="51"/>
+<wire x1="27.5" y1="4" x2="13.5" y2="4" width="0.254" layer="51" style="shortdash"/>
+<wire x1="27.5" y1="-4" x2="13.5" y2="-4" width="0.254" layer="51" style="shortdash"/>
+<wire x1="-11.12" y1="6.1" x2="-5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="-11.12" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
+<wire x1="-11.12" y1="-6.1" x2="-5" y2="-6.1" width="0.254" layer="21"/>
+<wire x1="-11.12" y1="-6.1" x2="-11.12" y2="6.1" width="0.254" layer="51"/>
+<wire x1="-11.12" y1="-6.1" x2="-11.12" y2="6.1" width="0.254" layer="21"/>
+<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="51"/>
+<wire x1="13.5" y1="-6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="7.63" y1="6.1" x2="13.5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="-2.62" y1="6.1" x2="5" y2="6.1" width="0.254" layer="21"/>
+<wire x1="7.63" y1="-6.1" x2="13.5" y2="-6.1" width="0.254" layer="21"/>
+<wire x1="-2.62" y1="-6.1" x2="5" y2="-6.1" width="0.254" layer="21"/>
+<pad name="1.5" x="6" y="0" drill="1.6" shape="long" rot="R90"/>
+<pad name="1.6" x="21.5" y="0" drill="1.6" shape="long" rot="R90"/>
+<wire x1="24" y1="-5.5" x2="24" y2="5.5" width="0.254" layer="21"/>
+<wire x1="24" y1="4.7" x2="26.5" y2="4.7" width="0.254" layer="51"/>
+<wire x1="26.5" y1="4.7" x2="26.5" y2="2" width="0.254" layer="51"/>
+<wire x1="26.5" y1="2" x2="26.5" y2="-2" width="0.254" layer="51"/>
+<wire x1="26.5" y1="-2" x2="26.5" y2="-4.7" width="0.254" layer="51"/>
+<wire x1="24" y1="-4.7" x2="26.5" y2="-4.7" width="0.254" layer="51"/>
+<wire x1="24" y1="2" x2="26.5" y2="2" width="0.254" layer="51" style="shortdash"/>
+<wire x1="24" y1="-2" x2="26.5" y2="-2" width="0.254" layer="51" style="shortdash"/>
+<wire x1="2.5" y1="-5.5" x2="2.5" y2="5.5" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-5.5" x2="2.5" y2="5.5" width="0.254" layer="51"/>
+<wire x1="4.75" y1="5.5" x2="2.5" y2="5.5" width="0.254" layer="21"/>
+<wire x1="4.75" y1="-5.5" x2="2.5" y2="-5.5" width="0.254" layer="21"/>
+<wire x1="24" y1="5.5" x2="8" y2="5.5" width="0.254" layer="21"/>
+<wire x1="24" y1="-5.5" x2="8" y2="-5.5" width="0.254" layer="21"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="3.81" shape="octagon"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FPINV">
@@ -19066,7 +18990,7 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 </symbols>
 <devicesets>
 <deviceset name="MC1,5/5-G-3,5" prefix="X" uservalue="yes">
-<description>Pluggable Terminal Blocks 5-pin 3.5mm pitch Through Hole Header</description>
+<description>Pluggable Terminal Blocks, angled, 5-pin 3.5mm pitch Through Hole Header</description>
 <gates>
 <gate name="-1" symbol="FPINV" x="0" y="0" addlevel="always"/>
 <gate name="-2" symbol="FPIN" x="0" y="-2.54" addlevel="always"/>
@@ -19256,6 +19180,86 @@ Buerklin: &lt;b&gt;05 F 270&lt;/b&gt;</description>
 <device name="-4907" package="PCB_TAB-4907">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1 2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BINDING_POST" prefix="J" uservalue="yes">
+<description>Various 4 mm binding posts</description>
+<gates>
+<gate name="G$1" symbol="FPINV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="4MM" package="BP_4_12_15MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="BP_4_12_15">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM" package="BP_5_12/15BLK">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5W" package="BP_5_12/15WHITE">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PCB" package="24.243_BP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2" package="BP_5_12">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2_NT" package="BP_5_12_NO_THERMAL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CLIFF" package="S16N-PC">
+<connects>
+<connect gate="G$1" pin="1" pad="1 NC1 NC2 NC3 NC4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="COMBO" package="S16N-PC_COMBO">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1.5 1.6 NC1 NC2 NC3 NC4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19612,8 +19616,8 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
-<part name="J3" library="EEZ_Lib1" deviceset="BINDING_POST" device="CLIFF" value="FCR7350B"/>
-<part name="J2" library="EEZ_Lib1" deviceset="BINDING_POST" device="CLIFF" value="FCR7350R"/>
+<part name="J3" library="EEZ_connectors" deviceset="BINDING_POST" device="CLIFF" value="FCR7350B"/>
+<part name="J2" library="EEZ_connectors" deviceset="BINDING_POST" device="CLIFF" value="FCR7350R"/>
 <part name="FRAME6" library="frames" deviceset="DINA4_L" device=""/>
 <part name="R88" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="R100" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
@@ -25531,8 +25535,7 @@ Output coupling, Rsense relay</text>
 <wire x1="91.44" y1="175.26" x2="91.44" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
 <text x="93.98" y="172.72" size="1.778" layer="97">Power output section</text>
 <wire x1="139.7" y1="157.48" x2="261.62" y2="157.48" width="0.1524" layer="97" style="shortdash"/>
-<text x="148.59" y="172.72" size="1.27" layer="103">Use 6.3A high Breaking 
-capacity fuse e.g. ESKA 522.725</text>
+<text x="148.59" y="172.72" size="1.27" layer="103">5 A quick blow fuse e.g. 179020.5</text>
 <wire x1="139.7" y1="93.98" x2="139.7" y2="157.48" width="0.1524" layer="97" style="shortdash"/>
 <rectangle x1="182.88" y1="119.38" x2="205.74" y2="137.16" layer="97"/>
 <wire x1="139.7" y1="58.42" x2="139.7" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
