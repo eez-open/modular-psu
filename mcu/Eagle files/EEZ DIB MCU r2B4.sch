@@ -17946,7 +17946,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
-<part name="ZD1" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="BZX384-B30.115"/>
+<part name="ZD1" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="BZX384-B24.115"/>
 <part name="JP7" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
@@ -18088,7 +18088,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="132.08" y1="109.22" x2="132.08" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="175.26" size="1.778" layer="97">Input connector (power, soft start, fan controller)</text>
 <text x="134.62" y="175.26" size="1.778" layer="97">Output connector (3 x SPI modules)</text>
-<text x="229.87" y="53.34" size="1.4224" layer="97">Button cap: 4JRED</text>
+<text x="229.87" y="53.34" size="1.4224" layer="97">Button cap: 4JWHT</text>
 <circle x="240.03" y="163.83" radius="0.635" width="0.1524" layer="101"/>
 <circle x="240.03" y="161.29" radius="0.635" width="0.1524" layer="101"/>
 <circle x="240.03" y="158.75" radius="0.635" width="0.1524" layer="101"/>

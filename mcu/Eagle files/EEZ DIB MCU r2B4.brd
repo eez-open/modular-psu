@@ -5401,7 +5401,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="67.5132" y="21.5646" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.1957" y="20.0406" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="ZD1" library="EEZ_Lib1" package="SOD323-W" value="BZX384-B30.115" x="42.3545" y="13.8811" smashed="yes" rot="R90">
+<element name="ZD1" library="EEZ_Lib1" package="SOD323-W" value="BZX384-B24.115" x="42.3545" y="13.8811" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.6003" y="14.9131" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="42.7368" y="9.2632" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
