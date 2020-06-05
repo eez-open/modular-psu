@@ -38,7 +38,7 @@ BB3 is made up of the following components:
 * EEZ [DIB v1.0](https://github.com/eez-open/modular-psu/tree/master/DIB%20v1.0) specification
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
-* [Discord](https://discord.gg/V8gPmws)
+* [Discord](https://discord.gg/dhYMnCB)
 * [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3)
 
 ### The _EEZ Bench Box 3_ prototype
