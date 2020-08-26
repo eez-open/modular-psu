@@ -20760,8 +20760,8 @@ digital isolators, CS demux</text>
 <text x="127.635" y="149.225" size="1.27" layer="103" rot="MR180">+9 V</text>
 <wire x1="132.08" y1="35.56" x2="132.08" y2="50.8" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="132.08" y1="50.8" x2="132.08" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
-<text x="34.29" y="161.925" size="1.778" layer="103">UVLO off: +33 V
-UVLO on: +38 V</text>
+<text x="34.29" y="161.925" size="1.778" layer="103">UVLO off: +26.5 V
+UVLO on: +27.5 V</text>
 <text x="110.49" y="128.27" size="1.778" layer="103">+0.8 V</text>
 <text x="111.76" y="177.165" size="1.27" layer="103" rot="MR180">-9 V</text>
 <text x="237.49" y="137.795" size="1.4224" layer="97">26 BOOT</text>

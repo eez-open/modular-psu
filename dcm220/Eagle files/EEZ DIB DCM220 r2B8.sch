@@ -16538,8 +16538,8 @@ digital isolators</text>
 <text x="240.03" y="133.985" size="1.4224" layer="101" rot="R180">UART_RX 27</text>
 <text x="247.65" y="132.715" size="1.4224" layer="101">28 UART_TX</text>
 <wire x1="71.12" y1="2.54" x2="71.12" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
-<text x="36.83" y="113.665" size="1.778" layer="103">UVLO off: +33 V
-UVLO on: +38 V</text>
+<text x="36.83" y="113.665" size="1.778" layer="103">UVLO off: +26.5 V
+UVLO on: +27.5 V</text>
 <text x="76.2" y="58.42" size="1.778" layer="97" rot="MR180">+3V3 LDO</text>
 <text x="193.675" y="81.28" size="1.27" layer="103">Max. transfer speed is 1MBit/s</text>
 <text x="191.135" y="38.1" size="1.27" layer="103">Max. transfer speed is 1MBit/s</text>
