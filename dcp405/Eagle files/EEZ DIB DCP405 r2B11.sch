@@ -19773,7 +19773,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="J1" library="EEZ_connectors" deviceset="PCB_TAB" device="-4907" value="4907"/>
 <part name="PE5" library="supply1" deviceset="PE" device=""/>
 <part name="SH2" library="EEZ_Lib1" deviceset="SHORT" device="NOHOLE" value="Pgnd to Pout- short"/>
-<part name="FB3" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="60R@100MHz"/>
+<part name="FB3" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="1K@100MHz"/>
 <part name="FRAME9" library="frames" deviceset="DINA4_L" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="330K"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
@@ -19804,10 +19804,10 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="SUPPLY73" library="supply2" deviceset="V-" device=""/>
 <part name="P+26" library="supply2" deviceset="V+" device=""/>
 <part name="P+27" library="supply1" deviceset="+5V" device=""/>
-<part name="FB1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="60R@100MHz"/>
+<part name="FB1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="1K@100MHz"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
-<part name="FB2" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="60R@100MHz"/>
+<part name="FB2" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="1K@100MHz"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10n/200V"/>

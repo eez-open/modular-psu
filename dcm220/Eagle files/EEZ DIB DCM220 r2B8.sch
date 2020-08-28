@@ -16183,7 +16183,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY63" library="supply2" deviceset="GND" device=""/>
-<part name="FB1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="60R@100MHz"/>
+<part name="FB1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="1K@100MHz"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>

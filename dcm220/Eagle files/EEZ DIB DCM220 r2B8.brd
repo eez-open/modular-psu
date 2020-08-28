@@ -4834,7 +4834,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="130.4925" y="42.672" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="127.127" y="42.7355" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="FB1" library="EEZ_Lib1" package="BEAD0603" value="60R@100MHz" x="113.3475" y="33.528" smashed="yes" rot="R90">
+<element name="FB1" library="EEZ_Lib1" package="BEAD0603" value="1K@100MHz" x="113.3475" y="33.528" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.884" y="32.1895" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="113.0875" y="34.7485" size="0.6096" layer="27" ratio="10" rot="R270"/>
 </element>
