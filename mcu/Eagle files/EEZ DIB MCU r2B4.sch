@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17890,7 +17890,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="IC14" library="EEZ_Lib1" deviceset="DP83848" device="CVV/NOPB"/>
-<part name="IC6" library="EEZ_Lib1" deviceset="IS42S16400" device="" value="IS42S16400J"/>
+<part name="IC6" library="EEZ_Lib1" deviceset="IS42S16400" device="" value="IS42S16400J-7TL"/>
 <part name="C41" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C42" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C43" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
