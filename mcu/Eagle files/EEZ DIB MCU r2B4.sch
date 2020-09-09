@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17979,8 +17979,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device="" value="PGND"/>
 <part name="VDD9" library="supply1" deviceset="VDD" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="J2" library="EEZ_Lib1" deviceset="678038020" device="" value="67803-8020"/>
@@ -18021,7 +18021,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="SW3" library="EEZ_switches" deviceset="EVQP7A01P" device=""/>
 <part name="U$3" library="OSHWA" deviceset="CERT" device="-SMALL" value="HR000002"/>
@@ -19178,6 +19178,7 @@ section 1.1.4</text>
 <text x="165.1" y="27.94" size="2.54" layer="94" font="vector">STM32F7 MCU</text>
 <text x="233.68" y="63.5" size="1.27" layer="103">Tant.</text>
 <text x="49.53" y="58.42" size="1.778" layer="96">or S8401-46</text>
+<rectangle x1="233.68" y1="164.465" x2="240.03" y2="170.18" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
