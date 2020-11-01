@@ -1,5 +1,7 @@
 [![GitHub release](https://img.shields.io/github/release/eez-open/modular-psu.svg)](https://github.com/eez-open/modular-psu/releases)
 
+![liberapay](https://img.shields.io/liberapay/receives/eez-open.svg?logo=liberapay)
+
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. This project uses the TAPR v1.0 license, see LICENSE.TXT.
 
