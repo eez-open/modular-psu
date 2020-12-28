@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="20" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="3" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,14 +23,14 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="14" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="6" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="no" active="yes"/>
@@ -46,11 +46,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="15" fill="1" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="5" fill="1" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -59,11 +59,13 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="5" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -87,11 +89,14 @@
 <layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="EEZ" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="DCP405B_jmp" color="11" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="EEZ" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="CH1" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="CH2" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="CH3" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -100,15 +105,25 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="sram_cmd" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="sram_ctrl" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="corrections" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -142,12 +157,13 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
-<text x="67.471" y="86.1655" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">EEZ DIB ???
-Project source code: github.com/eez-open</text>
 <polygon width="0.1" layer="51">
 <vertex x="-0.5" y="104.5"/>
 <vertex x="-0.5" y="-8.5"/>
@@ -176,9 +192,7 @@ Project source code: github.com/eez-open</text>
 <dimension x1="0" y1="104.5" x2="13" y2="95" x3="10.5" y3="99.75" textsize="2" layer="47" dtype="vertical"/>
 <dimension x1="7" y1="95" x2="17" y2="89.5" x3="-4.5" y3="92.25" textsize="2" layer="47" dtype="vertical"/>
 <dimension x1="90" y1="-1.5" x2="0" y2="-1" x3="45" y3="-8.5" textsize="2" layer="47" dtype="horizontal"/>
-<text x="171.7675" y="4.826" size="1.27" layer="22" ratio="10" rot="MR0">PE</text>
 <dimension x1="0" y1="9" x2="3.5" y2="5.5" x3="-9.5" y3="7.25" textsize="2" layer="47" dtype="vertical"/>
-<text x="172.3095" y="12.6325" size="1.27" layer="22" font="vector" ratio="10" rot="SMR0">+48 Vdc</text>
 <text x="73.4695" y="13.716" size="1.27" layer="22" ratio="10" rot="MR0">EEZ DIB</text>
 <wire x1="90" y1="1.5" x2="90" y2="93.5" width="0.1" layer="20" style="shortdash"/>
 <dimension x1="185" y1="-0.5" x2="0" y2="-12" x3="92.5" y3="-14.5" textsize="2" layer="47" dtype="horizontal"/>
@@ -192,14 +206,19 @@ Project source code: github.com/eez-open</text>
 <dimension x1="0" y1="78" x2="11" y2="93.5" x3="5.5" y3="75.5" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="15" x2="11" y2="1" x3="5.5" y3="12.5" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="87.5" y1="16" x2="40.5" y2="17" x3="64" y3="18" textsize="2" layer="47" dtype="horizontal"/>
-<text x="67.31" y="91.44" size="1.778" layer="51" ratio="10">Min. module width</text>
+<text x="88.56" y="73.31" size="1.778" layer="51" ratio="10" rot="R90">Min. module width</text>
 <text x="158.369" y="88.773" size="1.778" layer="51" ratio="10">Max. module width
 (for EEZ BB3 chassis!)</text>
-<dimension x1="143.5" y1="95" x2="135.5" y2="0" x3="132" y3="47.5" textsize="2" layer="47" dtype="vertical"/>
+<dimension x1="133.5" y1="95" x2="135.5" y2="0" x3="132" y3="47.5" textsize="2" layer="47" dtype="vertical"/>
 <rectangle x1="0" y1="0" x2="42" y2="14" layer="43"/>
 <text x="9.5" y="-3" size="1.778" layer="43">Restricted area (power relays)</text>
 <rectangle x1="53" y1="0" x2="128" y2="8.5" layer="43"/>
-<text x="67" y="-3" size="1.778" layer="43">Restricted area (DIB v1.0 and future expansion)</text>
+<text x="67" y="-3" size="1.778" layer="43">Restricted area (DIB v1.2 and future expansion)</text>
+<text x="35.7495" y="93.98" size="1.27" layer="21" ratio="10" rot="R180">ADIB#1</text>
+<text x="74.421" y="92.71" size="1.27" layer="21" ratio="10">ADIB#2</text>
+<dimension x1="45" y1="89" x2="0" y2="71" x3="22.5" y3="69" textsize="2" layer="47" dtype="horizontal"/>
+<dimension x1="65" y1="89" x2="0" y2="66" x3="32.5" y3="63.5" textsize="2" layer="47" dtype="horizontal"/>
+<dimension x1="25.5" y1="95" x2="42" y2="86" x3="28" y3="90.5" textsize="2" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="EEZ_Lib1">
@@ -318,6 +337,34 @@ Project source code: github.com/eez-open</text>
 <pad name="18" x="2.54" y="0" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="19" x="0" y="2.54" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="20" x="0" y="0" drill="1" diameter="1.5" shape="octagon"/>
+</package>
+<package name="DS1014-10RF1B">
+<wire x1="-2" y1="8.12" x2="-2" y2="4.12" width="0.1524" layer="21"/>
+<wire x1="-2" y1="8.12" x2="2" y2="8.12" width="0.1524" layer="21"/>
+<wire x1="2" y1="8.12" x2="2" y2="4.12" width="0.1524" layer="21"/>
+<wire x1="2" y1="4.12" x2="-2" y2="4.12" width="0.1524" layer="21"/>
+<wire x1="2" y1="8.12" x2="9" y2="8.12" width="0.1524" layer="21"/>
+<wire x1="9" y1="8.12" x2="9" y2="2.52" width="0.1524" layer="21"/>
+<wire x1="9" y1="2.52" x2="-9" y2="2.52" width="0.1524" layer="21"/>
+<wire x1="-2" y1="8.12" x2="-9" y2="8.12" width="0.1524" layer="21"/>
+<wire x1="-9" y1="2.52" x2="-9" y2="8.12" width="0.1524" layer="21"/>
+<pad name="1" x="-4" y="-1" drill="0.8" shape="square"/>
+<pad name="2" x="-4" y="1" drill="0.8" shape="octagon"/>
+<pad name="3" x="-2" y="-1" drill="0.8" shape="octagon"/>
+<pad name="4" x="-2" y="1" drill="0.8" shape="octagon"/>
+<pad name="5" x="0" y="-1" drill="0.8" shape="octagon"/>
+<pad name="6" x="0" y="1" drill="0.8" shape="octagon"/>
+<pad name="7" x="2" y="-1" drill="0.8" shape="octagon"/>
+<pad name="8" x="2" y="1" drill="0.8" shape="octagon"/>
+<pad name="9" x="4" y="-1" drill="0.8" shape="octagon"/>
+<pad name="10" x="4" y="1" drill="0.8" shape="octagon"/>
+<text x="-6.096" y="8.5725" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="3.4925" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-4.8" y="8.1"/>
+<vertex x="-4" y="6.6"/>
+<vertex x="-3.2" y="8.1"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -523,12 +570,20 @@ design rules under a new name.</description>
 <element name="KK1" library="EEZ_Lib1" package="PCB-MB" value="PCB-MB" x="11" y="89.5" smashed="yes"/>
 <element name="KK2" library="EEZ_Lib1" package="PCB-MB" value="PCB-MB" x="11" y="5.5" smashed="yes"/>
 <element name="X1" library="EEZ_connectors" package="77317-104-28LF" value="77317-104-28LF" x="87.54" y="12.5" smashed="yes">
-<attribute name="NAME" x="56.9805" y="15.329" size="1.778" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="68.49" y="6.8485" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="53.467" y="13.716" size="1.778" layer="25" ratio="10"/>
+<attribute name="VALUE" x="65.29" y="10.5485" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="X2" library="EEZ_connectors" package="SSW-110-02-T-D-RA" value="ZL263-20DG" x="40.5" y="12.5" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.7919" y="13.589" size="1.778" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="41.1096" y="16.6148" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="16.764" y="13.716" size="1.778" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="21.7904" y="10.2852" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+</element>
+<element name="X3" library="EEZ_connectors" package="DS1014-10RF1B" value="DS1014-10RF1B" x="45" y="87" locked="yes" smashed="yes">
+<attribute name="NAME" x="33.528" y="89.4715" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="45" y="90.4925" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="X4" library="EEZ_connectors" package="DS1014-10RF1B" value="DS1014-10RF1B" x="65" y="87" smashed="yes">
+<attribute name="NAME" x="74.168" y="89.4715" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="65" y="90.4925" size="1.27" layer="27" ratio="10" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1465,6 +1520,1862 @@ design rules under a new name.</description>
 <signal name="NC4">
 </signal>
 <signal name="DUPLED4">
+</signal>
+<signal name="ICQ5_D4">
+</signal>
+<signal name="+14V_REC4">
+</signal>
+<signal name="DC_BIAS3">
+</signal>
+<signal name="PREG+7">
+</signal>
+<signal name="DC_BIAS6">
+</signal>
+<signal name="PREG+8">
+</signal>
+<signal name="INV_GND55">
+</signal>
+<signal name="GND26">
+</signal>
+<signal name="BEARTH55">
+</signal>
+<signal name="KP_PAD56">
+</signal>
+<signal name="L_OUT56">
+</signal>
+<signal name="LM5118_ADAPTER55">
+</signal>
+<signal name="INV_GND56">
+</signal>
+<signal name="BEARTH56">
+</signal>
+<signal name="KP_PAD57">
+</signal>
+<signal name="L_OUT57">
+</signal>
+<signal name="LM5118_ADAPTER56">
+</signal>
+<signal name="VBIAS11">
+</signal>
+<signal name="INV_GND57">
+</signal>
+<signal name="BP_GND10">
+</signal>
+<signal name="GND_MCU10" class="2">
+</signal>
+<signal name="HLL16">
+</signal>
+<signal name="HLR11">
+</signal>
+<signal name="BEARTH57">
+</signal>
+<signal name="KP_PAD58">
+</signal>
+<signal name="L_OUT58">
+</signal>
+<signal name="LM5118_ADAPTER57">
+</signal>
+<signal name="KPAD31">
+</signal>
+<signal name="KPAD32">
+</signal>
+<signal name="KPAD33">
+</signal>
+<signal name="HOLE_UR11">
+</signal>
+<signal name="INV_GND58">
+</signal>
+<signal name="BEARTH58">
+</signal>
+<signal name="KP_PAD59">
+</signal>
+<signal name="L_OUT59">
+</signal>
+<signal name="LM5118_ADAPTER58">
+</signal>
+<signal name="INV_GND59">
+</signal>
+<signal name="GND27">
+</signal>
+<signal name="BEARTH59">
+</signal>
+<signal name="KP_PAD60">
+</signal>
+<signal name="L_OUT60">
+</signal>
+<signal name="LM5118_ADAPTER59">
+</signal>
+<signal name="HOLE_DR16">
+</signal>
+<signal name="INV_GND60">
+</signal>
+<signal name="BEARTH60">
+</signal>
+<signal name="KP_PAD61">
+</signal>
+<signal name="L_OUT61">
+</signal>
+<signal name="LM5118_ADAPTER60">
+</signal>
+<signal name="VBIAS12">
+</signal>
+<signal name="INV_GND61">
+</signal>
+<signal name="BP_GND11">
+</signal>
+<signal name="GND_MCU11" class="2">
+</signal>
+<signal name="HLL17">
+</signal>
+<signal name="HLR12">
+</signal>
+<signal name="BEARTH61">
+</signal>
+<signal name="KP_PAD62">
+</signal>
+<signal name="L_OUT62">
+</signal>
+<signal name="LM5118_ADAPTER61">
+</signal>
+<signal name="KPAD34">
+</signal>
+<signal name="KPAD35">
+</signal>
+<signal name="KPAD36">
+</signal>
+<signal name="HOLE_UR12">
+</signal>
+<signal name="INV_GND62">
+</signal>
+<signal name="BEARTH62">
+</signal>
+<signal name="KP_PAD63">
+</signal>
+<signal name="L_OUT63">
+</signal>
+<signal name="LM5118_ADAPTER62">
+</signal>
+<signal name="INV_GND63">
+</signal>
+<signal name="GND28">
+</signal>
+<signal name="BEARTH63">
+</signal>
+<signal name="KP_PAD64">
+</signal>
+<signal name="L_OUT64">
+</signal>
+<signal name="LM5118_ADAPTER63">
+</signal>
+<signal name="HOLE_DR17">
+</signal>
+<signal name="SW_OUT5" class="1">
+</signal>
+<signal name="INV_GND64">
+</signal>
+<signal name="BEARTH64">
+</signal>
+<signal name="KP_PAD65">
+</signal>
+<signal name="L_OUT65">
+</signal>
+<signal name="LM5118_ADAPTER64">
+</signal>
+<signal name="-15V5">
+</signal>
+<signal name="INV_GND65">
+</signal>
+<signal name="HOLE_UL2">
+</signal>
+<signal name="HOLE_DL2">
+</signal>
+<signal name="GND29">
+</signal>
+<signal name="HLL18">
+</signal>
+<signal name="BEARTH65">
+</signal>
+<signal name="KP_PAD66">
+</signal>
+<signal name="GND30">
+</signal>
+<signal name="L_OUT66">
+</signal>
+<signal name="LM5118_ADAPTER65">
+</signal>
+<signal name="HOLE_DR18">
+</signal>
+<signal name="NC5">
+</signal>
+<signal name="DUPLED5">
+</signal>
+<signal name="N$3">
+</signal>
+<signal name="ICQ5_D5">
+</signal>
+<signal name="+14V_REC5">
+</signal>
+<signal name="DC_BIAS7">
+</signal>
+<signal name="PREG+9">
+</signal>
+<signal name="DC_BIAS10">
+</signal>
+<signal name="PREG+10">
+</signal>
+<signal name="INV_GND66">
+</signal>
+<signal name="GND31">
+</signal>
+<signal name="BEARTH66">
+</signal>
+<signal name="KP_PAD67">
+</signal>
+<signal name="L_OUT67">
+</signal>
+<signal name="LM5118_ADAPTER66">
+</signal>
+<signal name="INV_GND67">
+</signal>
+<signal name="BEARTH67">
+</signal>
+<signal name="KP_PAD68">
+</signal>
+<signal name="L_OUT68">
+</signal>
+<signal name="LM5118_ADAPTER67">
+</signal>
+<signal name="VBIAS13">
+</signal>
+<signal name="INV_GND68">
+</signal>
+<signal name="BP_GND12">
+</signal>
+<signal name="GND_MCU12" class="2">
+</signal>
+<signal name="HLL19">
+</signal>
+<signal name="HLR13">
+</signal>
+<signal name="BEARTH68">
+</signal>
+<signal name="KP_PAD69">
+</signal>
+<signal name="L_OUT69">
+</signal>
+<signal name="LM5118_ADAPTER68">
+</signal>
+<signal name="KPAD37">
+</signal>
+<signal name="KPAD38">
+</signal>
+<signal name="KPAD39">
+</signal>
+<signal name="HOLE_UR13">
+</signal>
+<signal name="INV_GND69">
+</signal>
+<signal name="BEARTH69">
+</signal>
+<signal name="KP_PAD70">
+</signal>
+<signal name="L_OUT70">
+</signal>
+<signal name="LM5118_ADAPTER69">
+</signal>
+<signal name="INV_GND70">
+</signal>
+<signal name="GND32">
+</signal>
+<signal name="BEARTH70">
+</signal>
+<signal name="KP_PAD71">
+</signal>
+<signal name="L_OUT71">
+</signal>
+<signal name="LM5118_ADAPTER70">
+</signal>
+<signal name="HOLE_DR19">
+</signal>
+<signal name="INV_GND71">
+</signal>
+<signal name="BEARTH71">
+</signal>
+<signal name="KP_PAD72">
+</signal>
+<signal name="L_OUT72">
+</signal>
+<signal name="LM5118_ADAPTER71">
+</signal>
+<signal name="VBIAS14">
+</signal>
+<signal name="INV_GND72">
+</signal>
+<signal name="BP_GND13">
+</signal>
+<signal name="GND_MCU13" class="2">
+</signal>
+<signal name="HLL20">
+</signal>
+<signal name="HLR14">
+</signal>
+<signal name="BEARTH72">
+</signal>
+<signal name="KP_PAD73">
+</signal>
+<signal name="L_OUT73">
+</signal>
+<signal name="LM5118_ADAPTER72">
+</signal>
+<signal name="KPAD40">
+</signal>
+<signal name="KPAD41">
+</signal>
+<signal name="KPAD42">
+</signal>
+<signal name="HOLE_UR14">
+</signal>
+<signal name="INV_GND73">
+</signal>
+<signal name="BEARTH73">
+</signal>
+<signal name="KP_PAD74">
+</signal>
+<signal name="L_OUT74">
+</signal>
+<signal name="LM5118_ADAPTER73">
+</signal>
+<signal name="INV_GND74">
+</signal>
+<signal name="GND33">
+</signal>
+<signal name="BEARTH74">
+</signal>
+<signal name="KP_PAD75">
+</signal>
+<signal name="L_OUT75">
+</signal>
+<signal name="LM5118_ADAPTER74">
+</signal>
+<signal name="HOLE_DR20">
+</signal>
+<signal name="SW_OUT6" class="1">
+</signal>
+<signal name="INV_GND75">
+</signal>
+<signal name="BEARTH75">
+</signal>
+<signal name="KP_PAD76">
+</signal>
+<signal name="L_OUT76">
+</signal>
+<signal name="LM5118_ADAPTER75">
+</signal>
+<signal name="-15V6">
+</signal>
+<signal name="INV_GND76">
+</signal>
+<signal name="HOLE_UL5">
+</signal>
+<signal name="HOLE_DL3">
+</signal>
+<signal name="GND34">
+</signal>
+<signal name="HLL21">
+</signal>
+<signal name="BEARTH76">
+</signal>
+<signal name="KP_PAD77">
+</signal>
+<signal name="GND35">
+</signal>
+<signal name="L_OUT77">
+</signal>
+<signal name="LM5118_ADAPTER76">
+</signal>
+<signal name="HOLE_DR21">
+</signal>
+<signal name="NC6">
+</signal>
+<signal name="DUPLED6">
+</signal>
+<signal name="N$4">
+</signal>
+<signal name="INV_GND77">
+</signal>
+<signal name="GND36">
+</signal>
+<signal name="BEARTH77">
+</signal>
+<signal name="KP_PAD78">
+</signal>
+<signal name="L_OUT78">
+</signal>
+<signal name="LM5118_ADAPTER77">
+</signal>
+<signal name="INV_GND78">
+</signal>
+<signal name="BEARTH78">
+</signal>
+<signal name="KP_PAD79">
+</signal>
+<signal name="L_OUT79">
+</signal>
+<signal name="LM5118_ADAPTER78">
+</signal>
+<signal name="VBIAS15">
+</signal>
+<signal name="INV_GND79">
+</signal>
+<signal name="BP_GND14">
+</signal>
+<signal name="GND_MCU14" class="2">
+</signal>
+<signal name="HLL22">
+</signal>
+<signal name="HLR15">
+</signal>
+<signal name="BEARTH79">
+</signal>
+<signal name="KP_PAD80">
+</signal>
+<signal name="L_OUT80">
+</signal>
+<signal name="LM5118_ADAPTER79">
+</signal>
+<signal name="KPAD43">
+</signal>
+<signal name="KPAD44">
+</signal>
+<signal name="KPAD45">
+</signal>
+<signal name="HOLE_UR15">
+</signal>
+<signal name="INV_GND80">
+</signal>
+<signal name="BEARTH80">
+</signal>
+<signal name="KP_PAD81">
+</signal>
+<signal name="L_OUT81">
+</signal>
+<signal name="LM5118_ADAPTER80">
+</signal>
+<signal name="INV_GND81">
+</signal>
+<signal name="GND37">
+</signal>
+<signal name="BEARTH81">
+</signal>
+<signal name="KP_PAD82">
+</signal>
+<signal name="L_OUT82">
+</signal>
+<signal name="LM5118_ADAPTER81">
+</signal>
+<signal name="HOLE_DR22">
+</signal>
+<signal name="INV_GND82">
+</signal>
+<signal name="BEARTH82">
+</signal>
+<signal name="KP_PAD83">
+</signal>
+<signal name="L_OUT83">
+</signal>
+<signal name="LM5118_ADAPTER82">
+</signal>
+<signal name="VBIAS16">
+</signal>
+<signal name="INV_GND83">
+</signal>
+<signal name="BP_GND15">
+</signal>
+<signal name="GND_MCU15" class="2">
+</signal>
+<signal name="HLL23">
+</signal>
+<signal name="HLR16">
+</signal>
+<signal name="BEARTH83">
+</signal>
+<signal name="KP_PAD84">
+</signal>
+<signal name="L_OUT84">
+</signal>
+<signal name="LM5118_ADAPTER83">
+</signal>
+<signal name="KPAD46">
+</signal>
+<signal name="KPAD47">
+</signal>
+<signal name="KPAD48">
+</signal>
+<signal name="HOLE_UR16">
+</signal>
+<signal name="INV_GND84">
+</signal>
+<signal name="BEARTH84">
+</signal>
+<signal name="KP_PAD85">
+</signal>
+<signal name="L_OUT85">
+</signal>
+<signal name="LM5118_ADAPTER84">
+</signal>
+<signal name="INV_GND85">
+</signal>
+<signal name="GND38">
+</signal>
+<signal name="BEARTH85">
+</signal>
+<signal name="KP_PAD86">
+</signal>
+<signal name="L_OUT86">
+</signal>
+<signal name="LM5118_ADAPTER85">
+</signal>
+<signal name="HOLE_DR23">
+</signal>
+<signal name="SW_OUT7" class="1">
+</signal>
+<signal name="INV_GND86">
+</signal>
+<signal name="BEARTH86">
+</signal>
+<signal name="KP_PAD87">
+</signal>
+<signal name="L_OUT87">
+</signal>
+<signal name="LM5118_ADAPTER86">
+</signal>
+<signal name="-15V7">
+</signal>
+<signal name="INV_GND87">
+</signal>
+<signal name="HOLE_UL6">
+</signal>
+<signal name="HOLE_DL7">
+</signal>
+<signal name="GND39">
+</signal>
+<signal name="HLL24">
+</signal>
+<signal name="BEARTH87">
+</signal>
+<signal name="KP_PAD88">
+</signal>
+<signal name="GND40">
+</signal>
+<signal name="L_OUT88">
+</signal>
+<signal name="LM5118_ADAPTER87">
+</signal>
+<signal name="HOLE_DL8">
+</signal>
+<signal name="HOLE_DR24">
+</signal>
+<signal name="NC7">
+</signal>
+<signal name="DUPLED7">
+</signal>
+<signal name="ICQ5_D6">
+</signal>
+<signal name="+14V_REC6">
+</signal>
+<signal name="DC_BIAS11">
+</signal>
+<signal name="PREG+11">
+</signal>
+<signal name="DC_BIAS12">
+</signal>
+<signal name="PREG+12">
+</signal>
+<signal name="INV_GND88">
+</signal>
+<signal name="GND41">
+</signal>
+<signal name="BEARTH88">
+</signal>
+<signal name="KP_PAD89">
+</signal>
+<signal name="L_OUT89">
+</signal>
+<signal name="LM5118_ADAPTER88">
+</signal>
+<signal name="INV_GND89">
+</signal>
+<signal name="BEARTH89">
+</signal>
+<signal name="KP_PAD90">
+</signal>
+<signal name="L_OUT90">
+</signal>
+<signal name="LM5118_ADAPTER89">
+</signal>
+<signal name="VBIAS17">
+</signal>
+<signal name="INV_GND90">
+</signal>
+<signal name="BP_GND16">
+</signal>
+<signal name="GND_MCU16" class="2">
+</signal>
+<signal name="HLL25">
+</signal>
+<signal name="HLR17">
+</signal>
+<signal name="BEARTH90">
+</signal>
+<signal name="KP_PAD91">
+</signal>
+<signal name="L_OUT91">
+</signal>
+<signal name="LM5118_ADAPTER90">
+</signal>
+<signal name="KPAD49">
+</signal>
+<signal name="KPAD50">
+</signal>
+<signal name="KPAD51">
+</signal>
+<signal name="HOLE_UR17">
+</signal>
+<signal name="INV_GND91">
+</signal>
+<signal name="BEARTH91">
+</signal>
+<signal name="KP_PAD92">
+</signal>
+<signal name="L_OUT92">
+</signal>
+<signal name="LM5118_ADAPTER91">
+</signal>
+<signal name="INV_GND92">
+</signal>
+<signal name="GND42">
+</signal>
+<signal name="BEARTH92">
+</signal>
+<signal name="KP_PAD93">
+</signal>
+<signal name="L_OUT93">
+</signal>
+<signal name="LM5118_ADAPTER92">
+</signal>
+<signal name="HOLE_DR25">
+</signal>
+<signal name="INV_GND93">
+</signal>
+<signal name="BEARTH93">
+</signal>
+<signal name="KP_PAD94">
+</signal>
+<signal name="L_OUT94">
+</signal>
+<signal name="LM5118_ADAPTER93">
+</signal>
+<signal name="VBIAS18">
+</signal>
+<signal name="INV_GND94">
+</signal>
+<signal name="BP_GND17">
+</signal>
+<signal name="GND_MCU17" class="2">
+</signal>
+<signal name="HLL26">
+</signal>
+<signal name="HLR18">
+</signal>
+<signal name="BEARTH94">
+</signal>
+<signal name="KP_PAD95">
+</signal>
+<signal name="L_OUT95">
+</signal>
+<signal name="LM5118_ADAPTER94">
+</signal>
+<signal name="KPAD52">
+</signal>
+<signal name="KPAD53">
+</signal>
+<signal name="KPAD54">
+</signal>
+<signal name="HOLE_UR18">
+</signal>
+<signal name="INV_GND95">
+</signal>
+<signal name="BEARTH95">
+</signal>
+<signal name="KP_PAD96">
+</signal>
+<signal name="L_OUT96">
+</signal>
+<signal name="LM5118_ADAPTER95">
+</signal>
+<signal name="INV_GND96">
+</signal>
+<signal name="GND43">
+</signal>
+<signal name="BEARTH96">
+</signal>
+<signal name="KP_PAD97">
+</signal>
+<signal name="L_OUT97">
+</signal>
+<signal name="LM5118_ADAPTER96">
+</signal>
+<signal name="HOLE_DR26">
+</signal>
+<signal name="SW_OUT8" class="1">
+</signal>
+<signal name="INV_GND97">
+</signal>
+<signal name="BEARTH97">
+</signal>
+<signal name="KP_PAD98">
+</signal>
+<signal name="L_OUT98">
+</signal>
+<signal name="LM5118_ADAPTER97">
+</signal>
+<signal name="-15V8">
+</signal>
+<signal name="INV_GND98">
+</signal>
+<signal name="HOLE_UL8">
+</signal>
+<signal name="HOLE_DL11">
+</signal>
+<signal name="GND44">
+</signal>
+<signal name="HLL27">
+</signal>
+<signal name="BEARTH98">
+</signal>
+<signal name="KP_PAD99">
+</signal>
+<signal name="GND45">
+</signal>
+<signal name="L_OUT99">
+</signal>
+<signal name="LM5118_ADAPTER98">
+</signal>
+<signal name="HOLE_DR27">
+</signal>
+<signal name="NC8">
+</signal>
+<signal name="DUPLED8">
+</signal>
+<signal name="N$6">
+</signal>
+<signal name="INV_GND99">
+</signal>
+<signal name="GND46">
+</signal>
+<signal name="BEARTH99">
+</signal>
+<signal name="KP_PAD100">
+</signal>
+<signal name="L_OUT100">
+</signal>
+<signal name="LM5118_ADAPTER99">
+</signal>
+<signal name="Q9C1">
+</signal>
+<signal name="INV_GND100">
+</signal>
+<signal name="BEARTH100">
+</signal>
+<signal name="KP_PAD101">
+</signal>
+<signal name="L_OUT101">
+</signal>
+<signal name="LM5118_ADAPTER100">
+</signal>
+<signal name="VBIAS19">
+</signal>
+<signal name="INV_GND101">
+</signal>
+<signal name="BP_GND18">
+</signal>
+<signal name="GND_MCU18" class="2">
+</signal>
+<signal name="HLL28">
+</signal>
+<signal name="HLR19">
+</signal>
+<signal name="BEARTH101">
+</signal>
+<signal name="KP_PAD102">
+</signal>
+<signal name="L_OUT102">
+</signal>
+<signal name="LM5118_ADAPTER101">
+</signal>
+<signal name="KPAD55">
+</signal>
+<signal name="KPAD56">
+</signal>
+<signal name="KPAD57">
+</signal>
+<signal name="HOLE_UR19">
+</signal>
+<signal name="INV_GND102">
+</signal>
+<signal name="BEARTH102">
+</signal>
+<signal name="KP_PAD103">
+</signal>
+<signal name="L_OUT103">
+</signal>
+<signal name="LM5118_ADAPTER102">
+</signal>
+<signal name="INV_GND103">
+</signal>
+<signal name="GND47">
+</signal>
+<signal name="BEARTH103">
+</signal>
+<signal name="KP_PAD104">
+</signal>
+<signal name="L_OUT104">
+</signal>
+<signal name="LM5118_ADAPTER103">
+</signal>
+<signal name="HOLE_DR28">
+</signal>
+<signal name="INV_GND104">
+</signal>
+<signal name="BEARTH104">
+</signal>
+<signal name="KP_PAD105">
+</signal>
+<signal name="L_OUT105">
+</signal>
+<signal name="LM5118_ADAPTER104">
+</signal>
+<signal name="VBIAS20">
+</signal>
+<signal name="INV_GND105">
+</signal>
+<signal name="BP_GND19">
+</signal>
+<signal name="GND_MCU19" class="2">
+</signal>
+<signal name="HLL29">
+</signal>
+<signal name="HLR20">
+</signal>
+<signal name="BEARTH105">
+</signal>
+<signal name="KP_PAD106">
+</signal>
+<signal name="L_OUT106">
+</signal>
+<signal name="LM5118_ADAPTER105">
+</signal>
+<signal name="KPAD58">
+</signal>
+<signal name="KPAD59">
+</signal>
+<signal name="KPAD60">
+</signal>
+<signal name="HOLE_UR20">
+</signal>
+<signal name="INV_GND106">
+</signal>
+<signal name="BEARTH106">
+</signal>
+<signal name="KP_PAD107">
+</signal>
+<signal name="L_OUT107">
+</signal>
+<signal name="LM5118_ADAPTER106">
+</signal>
+<signal name="INV_GND107">
+</signal>
+<signal name="GND48">
+</signal>
+<signal name="BEARTH107">
+</signal>
+<signal name="KP_PAD108">
+</signal>
+<signal name="L_OUT108">
+</signal>
+<signal name="LM5118_ADAPTER107">
+</signal>
+<signal name="HOLE_DR29">
+</signal>
+<signal name="SW_OUT9" class="1">
+</signal>
+<signal name="INV_GND108">
+</signal>
+<signal name="BEARTH108">
+</signal>
+<signal name="KP_PAD109">
+</signal>
+<signal name="L_OUT109">
+</signal>
+<signal name="LM5118_ADAPTER108">
+</signal>
+<signal name="-15V9">
+</signal>
+<signal name="INV_GND109">
+</signal>
+<signal name="HOLE_UL10">
+</signal>
+<signal name="HOLE_DL13">
+</signal>
+<signal name="GND49">
+</signal>
+<signal name="HLL30">
+</signal>
+<signal name="BEARTH109">
+</signal>
+<signal name="KP_PAD110">
+</signal>
+<signal name="GND50">
+</signal>
+<signal name="L_OUT110">
+</signal>
+<signal name="LM5118_ADAPTER109">
+</signal>
+<signal name="HOLE_DL14">
+</signal>
+<signal name="HOLE_DR30">
+</signal>
+<signal name="NC9">
+</signal>
+<signal name="DUPLED9">
+</signal>
+<signal name="ICQ5_D7">
+</signal>
+<signal name="+14V_REC7">
+</signal>
+<signal name="DC_BIAS13">
+</signal>
+<signal name="PREG+13">
+</signal>
+<signal name="DC_BIAS14">
+</signal>
+<signal name="PREG+14">
+</signal>
+<signal name="INV_GND110">
+</signal>
+<signal name="GND51">
+</signal>
+<signal name="BEARTH110">
+</signal>
+<signal name="KP_PAD111">
+</signal>
+<signal name="L_OUT111">
+</signal>
+<signal name="LM5118_ADAPTER110">
+</signal>
+<signal name="INV_GND111">
+</signal>
+<signal name="BEARTH111">
+</signal>
+<signal name="KP_PAD112">
+</signal>
+<signal name="L_OUT112">
+</signal>
+<signal name="LM5118_ADAPTER111">
+</signal>
+<signal name="VBIAS21">
+</signal>
+<signal name="INV_GND112">
+</signal>
+<signal name="BP_GND20">
+</signal>
+<signal name="GND_MCU20" class="2">
+</signal>
+<signal name="HLL31">
+</signal>
+<signal name="HLR21">
+</signal>
+<signal name="BEARTH112">
+</signal>
+<signal name="KP_PAD113">
+</signal>
+<signal name="L_OUT113">
+</signal>
+<signal name="LM5118_ADAPTER112">
+</signal>
+<signal name="KPAD61">
+</signal>
+<signal name="KPAD62">
+</signal>
+<signal name="KPAD63">
+</signal>
+<signal name="HOLE_UR21">
+</signal>
+<signal name="INV_GND113">
+</signal>
+<signal name="BEARTH113">
+</signal>
+<signal name="KP_PAD114">
+</signal>
+<signal name="L_OUT114">
+</signal>
+<signal name="LM5118_ADAPTER113">
+</signal>
+<signal name="INV_GND114">
+</signal>
+<signal name="GND52">
+</signal>
+<signal name="BEARTH114">
+</signal>
+<signal name="KP_PAD115">
+</signal>
+<signal name="L_OUT115">
+</signal>
+<signal name="LM5118_ADAPTER114">
+</signal>
+<signal name="HOLE_DR31">
+</signal>
+<signal name="INV_GND115">
+</signal>
+<signal name="BEARTH115">
+</signal>
+<signal name="KP_PAD116">
+</signal>
+<signal name="L_OUT116">
+</signal>
+<signal name="LM5118_ADAPTER115">
+</signal>
+<signal name="VBIAS22">
+</signal>
+<signal name="INV_GND116">
+</signal>
+<signal name="BP_GND21">
+</signal>
+<signal name="GND_MCU21" class="2">
+</signal>
+<signal name="HLL32">
+</signal>
+<signal name="HLR22">
+</signal>
+<signal name="BEARTH116">
+</signal>
+<signal name="KP_PAD117">
+</signal>
+<signal name="L_OUT117">
+</signal>
+<signal name="LM5118_ADAPTER116">
+</signal>
+<signal name="KPAD64">
+</signal>
+<signal name="KPAD65">
+</signal>
+<signal name="KPAD66">
+</signal>
+<signal name="HOLE_UR22">
+</signal>
+<signal name="INV_GND117">
+</signal>
+<signal name="BEARTH117">
+</signal>
+<signal name="KP_PAD118">
+</signal>
+<signal name="L_OUT118">
+</signal>
+<signal name="LM5118_ADAPTER117">
+</signal>
+<signal name="INV_GND118">
+</signal>
+<signal name="GND53">
+</signal>
+<signal name="BEARTH118">
+</signal>
+<signal name="KP_PAD119">
+</signal>
+<signal name="L_OUT119">
+</signal>
+<signal name="LM5118_ADAPTER118">
+</signal>
+<signal name="HOLE_DR32">
+</signal>
+<signal name="SW_OUT10" class="1">
+</signal>
+<signal name="INV_GND119">
+</signal>
+<signal name="BEARTH119">
+</signal>
+<signal name="KP_PAD120">
+</signal>
+<signal name="L_OUT120">
+</signal>
+<signal name="LM5118_ADAPTER119">
+</signal>
+<signal name="-15V10">
+</signal>
+<signal name="INV_GND120">
+</signal>
+<signal name="HOLE_UL11">
+</signal>
+<signal name="HOLE_DL15">
+</signal>
+<signal name="GND54">
+</signal>
+<signal name="HLL33">
+</signal>
+<signal name="BEARTH120">
+</signal>
+<signal name="KP_PAD121">
+</signal>
+<signal name="GND55">
+</signal>
+<signal name="L_OUT121">
+</signal>
+<signal name="LM5118_ADAPTER120">
+</signal>
+<signal name="HOLE_DR33">
+</signal>
+<signal name="NC10">
+</signal>
+<signal name="DUPLED10">
+</signal>
+<signal name="N$7">
+</signal>
+<signal name="ICQ5_D8">
+</signal>
+<signal name="+14V_REC8">
+</signal>
+<signal name="DC_BIAS15">
+</signal>
+<signal name="PREG+15">
+</signal>
+<signal name="DC_BIAS16">
+</signal>
+<signal name="PREG+16">
+</signal>
+<signal name="INV_GND121">
+</signal>
+<signal name="GND56">
+</signal>
+<signal name="BEARTH121">
+</signal>
+<signal name="KP_PAD122">
+</signal>
+<signal name="L_OUT122">
+</signal>
+<signal name="LM5118_ADAPTER121">
+</signal>
+<signal name="INV_GND122">
+</signal>
+<signal name="BEARTH122">
+</signal>
+<signal name="KP_PAD123">
+</signal>
+<signal name="L_OUT123">
+</signal>
+<signal name="LM5118_ADAPTER122">
+</signal>
+<signal name="VBIAS23">
+</signal>
+<signal name="INV_GND123">
+</signal>
+<signal name="BP_GND22">
+</signal>
+<signal name="GND_MCU22" class="2">
+</signal>
+<signal name="HLL34">
+</signal>
+<signal name="HLR23">
+</signal>
+<signal name="BEARTH123">
+</signal>
+<signal name="KP_PAD124">
+</signal>
+<signal name="L_OUT124">
+</signal>
+<signal name="LM5118_ADAPTER123">
+</signal>
+<signal name="KPAD67">
+</signal>
+<signal name="KPAD68">
+</signal>
+<signal name="KPAD69">
+</signal>
+<signal name="HOLE_UR23">
+</signal>
+<signal name="INV_GND124">
+</signal>
+<signal name="BEARTH124">
+</signal>
+<signal name="KP_PAD125">
+</signal>
+<signal name="L_OUT125">
+</signal>
+<signal name="LM5118_ADAPTER124">
+</signal>
+<signal name="INV_GND125">
+</signal>
+<signal name="GND57">
+</signal>
+<signal name="BEARTH125">
+</signal>
+<signal name="KP_PAD126">
+</signal>
+<signal name="L_OUT126">
+</signal>
+<signal name="LM5118_ADAPTER125">
+</signal>
+<signal name="HOLE_DR34">
+</signal>
+<signal name="INV_GND126">
+</signal>
+<signal name="BEARTH126">
+</signal>
+<signal name="KP_PAD127">
+</signal>
+<signal name="L_OUT127">
+</signal>
+<signal name="LM5118_ADAPTER126">
+</signal>
+<signal name="VBIAS24">
+</signal>
+<signal name="INV_GND127">
+</signal>
+<signal name="BP_GND23">
+</signal>
+<signal name="GND_MCU23" class="2">
+</signal>
+<signal name="HLL35">
+</signal>
+<signal name="HLR24">
+</signal>
+<signal name="BEARTH127">
+</signal>
+<signal name="KP_PAD128">
+</signal>
+<signal name="L_OUT128">
+</signal>
+<signal name="LM5118_ADAPTER127">
+</signal>
+<signal name="KPAD70">
+</signal>
+<signal name="KPAD71">
+</signal>
+<signal name="KPAD72">
+</signal>
+<signal name="HOLE_UR24">
+</signal>
+<signal name="INV_GND128">
+</signal>
+<signal name="BEARTH128">
+</signal>
+<signal name="KP_PAD129">
+</signal>
+<signal name="L_OUT129">
+</signal>
+<signal name="LM5118_ADAPTER128">
+</signal>
+<signal name="INV_GND129">
+</signal>
+<signal name="GND58">
+</signal>
+<signal name="BEARTH129">
+</signal>
+<signal name="KP_PAD130">
+</signal>
+<signal name="L_OUT130">
+</signal>
+<signal name="LM5118_ADAPTER129">
+</signal>
+<signal name="HOLE_DR35">
+</signal>
+<signal name="SW_OUT11" class="1">
+</signal>
+<signal name="INV_GND130">
+</signal>
+<signal name="BEARTH130">
+</signal>
+<signal name="KP_PAD131">
+</signal>
+<signal name="L_OUT131">
+</signal>
+<signal name="LM5118_ADAPTER130">
+</signal>
+<signal name="-15V11">
+</signal>
+<signal name="INV_GND131">
+</signal>
+<signal name="HOLE_UL12">
+</signal>
+<signal name="HOLE_DL16">
+</signal>
+<signal name="GND59">
+</signal>
+<signal name="HLL36">
+</signal>
+<signal name="BEARTH131">
+</signal>
+<signal name="KP_PAD132">
+</signal>
+<signal name="GND60">
+</signal>
+<signal name="L_OUT132">
+</signal>
+<signal name="LM5118_ADAPTER131">
+</signal>
+<signal name="HOLE_DR36">
+</signal>
+<signal name="NC11">
+</signal>
+<signal name="DUPLED11">
+</signal>
+<signal name="N$8">
+</signal>
+<signal name="INV_GND132">
+</signal>
+<signal name="GND61">
+</signal>
+<signal name="BEARTH132">
+</signal>
+<signal name="KP_PAD133">
+</signal>
+<signal name="L_OUT133">
+</signal>
+<signal name="LM5118_ADAPTER132">
+</signal>
+<signal name="INV_GND133">
+</signal>
+<signal name="BEARTH133">
+</signal>
+<signal name="KP_PAD134">
+</signal>
+<signal name="L_OUT134">
+</signal>
+<signal name="LM5118_ADAPTER133">
+</signal>
+<signal name="VBIAS25">
+</signal>
+<signal name="INV_GND134">
+</signal>
+<signal name="BP_GND24">
+</signal>
+<signal name="GND_MCU24" class="2">
+</signal>
+<signal name="HLL37">
+</signal>
+<signal name="HLR25">
+</signal>
+<signal name="BEARTH134">
+</signal>
+<signal name="KP_PAD135">
+</signal>
+<signal name="L_OUT135">
+</signal>
+<signal name="LM5118_ADAPTER134">
+</signal>
+<signal name="KPAD73">
+</signal>
+<signal name="KPAD74">
+</signal>
+<signal name="KPAD75">
+</signal>
+<signal name="HOLE_UR25">
+</signal>
+<signal name="INV_GND135">
+</signal>
+<signal name="BEARTH135">
+</signal>
+<signal name="KP_PAD136">
+</signal>
+<signal name="L_OUT136">
+</signal>
+<signal name="LM5118_ADAPTER135">
+</signal>
+<signal name="INV_GND136">
+</signal>
+<signal name="GND62">
+</signal>
+<signal name="BEARTH136">
+</signal>
+<signal name="KP_PAD137">
+</signal>
+<signal name="L_OUT137">
+</signal>
+<signal name="LM5118_ADAPTER136">
+</signal>
+<signal name="HOLE_DR37">
+</signal>
+<signal name="INV_GND137">
+</signal>
+<signal name="BEARTH137">
+</signal>
+<signal name="KP_PAD138">
+</signal>
+<signal name="L_OUT138">
+</signal>
+<signal name="LM5118_ADAPTER137">
+</signal>
+<signal name="VBIAS26">
+</signal>
+<signal name="INV_GND138">
+</signal>
+<signal name="BP_GND25">
+</signal>
+<signal name="GND_MCU25" class="2">
+</signal>
+<signal name="HLL38">
+</signal>
+<signal name="HLR26">
+</signal>
+<signal name="BEARTH138">
+</signal>
+<signal name="KP_PAD139">
+</signal>
+<signal name="L_OUT139">
+</signal>
+<signal name="LM5118_ADAPTER138">
+</signal>
+<signal name="KPAD76">
+</signal>
+<signal name="KPAD77">
+</signal>
+<signal name="KPAD78">
+</signal>
+<signal name="HOLE_UR26">
+</signal>
+<signal name="INV_GND139">
+</signal>
+<signal name="BEARTH139">
+</signal>
+<signal name="KP_PAD140">
+</signal>
+<signal name="L_OUT140">
+</signal>
+<signal name="LM5118_ADAPTER139">
+</signal>
+<signal name="INV_GND140">
+</signal>
+<signal name="GND63">
+</signal>
+<signal name="BEARTH140">
+</signal>
+<signal name="KP_PAD141">
+</signal>
+<signal name="L_OUT141">
+</signal>
+<signal name="LM5118_ADAPTER140">
+</signal>
+<signal name="HOLE_DR38">
+</signal>
+<signal name="SW_OUT12" class="1">
+</signal>
+<signal name="INV_GND141">
+</signal>
+<signal name="BEARTH141">
+</signal>
+<signal name="KP_PAD142">
+</signal>
+<signal name="L_OUT142">
+</signal>
+<signal name="LM5118_ADAPTER141">
+</signal>
+<signal name="-15V12">
+</signal>
+<signal name="INV_GND142">
+</signal>
+<signal name="HOLE_UL13">
+</signal>
+<signal name="HOLE_DL17">
+</signal>
+<signal name="GND64">
+</signal>
+<signal name="HLL39">
+</signal>
+<signal name="BEARTH142">
+</signal>
+<signal name="KP_PAD143">
+</signal>
+<signal name="GND65">
+</signal>
+<signal name="L_OUT143">
+</signal>
+<signal name="LM5118_ADAPTER142">
+</signal>
+<signal name="HOLE_DL18">
+</signal>
+<signal name="HOLE_DR39">
+</signal>
+<signal name="NC12">
+</signal>
+<signal name="DUPLED12">
+</signal>
+<signal name="ICQ5_D9">
+</signal>
+<signal name="+14V_REC9">
+</signal>
+<signal name="DC_BIAS17">
+</signal>
+<signal name="PREG+17">
+</signal>
+<signal name="DC_BIAS18">
+</signal>
+<signal name="PREG+18">
+</signal>
+<signal name="INV_GND143">
+</signal>
+<signal name="GND66">
+</signal>
+<signal name="BEARTH143">
+</signal>
+<signal name="KP_PAD144">
+</signal>
+<signal name="L_OUT144">
+</signal>
+<signal name="LM5118_ADAPTER143">
+</signal>
+<signal name="INV_GND144">
+</signal>
+<signal name="BEARTH144">
+</signal>
+<signal name="KP_PAD145">
+</signal>
+<signal name="L_OUT145">
+</signal>
+<signal name="LM5118_ADAPTER144">
+</signal>
+<signal name="VBIAS27">
+</signal>
+<signal name="INV_GND145">
+</signal>
+<signal name="BP_GND26">
+</signal>
+<signal name="GND_MCU26" class="2">
+</signal>
+<signal name="HLL40">
+</signal>
+<signal name="HLR27">
+</signal>
+<signal name="BEARTH145">
+</signal>
+<signal name="KP_PAD146">
+</signal>
+<signal name="L_OUT146">
+</signal>
+<signal name="LM5118_ADAPTER145">
+</signal>
+<signal name="KPAD79">
+</signal>
+<signal name="KPAD80">
+</signal>
+<signal name="KPAD81">
+</signal>
+<signal name="HOLE_UR27">
+</signal>
+<signal name="INV_GND146">
+</signal>
+<signal name="BEARTH146">
+</signal>
+<signal name="KP_PAD147">
+</signal>
+<signal name="L_OUT147">
+</signal>
+<signal name="LM5118_ADAPTER146">
+</signal>
+<signal name="INV_GND147">
+</signal>
+<signal name="GND67">
+</signal>
+<signal name="BEARTH147">
+</signal>
+<signal name="KP_PAD148">
+</signal>
+<signal name="L_OUT148">
+</signal>
+<signal name="LM5118_ADAPTER147">
+</signal>
+<signal name="HOLE_DR40">
+</signal>
+<signal name="INV_GND148">
+</signal>
+<signal name="BEARTH148">
+</signal>
+<signal name="KP_PAD149">
+</signal>
+<signal name="L_OUT149">
+</signal>
+<signal name="LM5118_ADAPTER148">
+</signal>
+<signal name="VBIAS28">
+</signal>
+<signal name="INV_GND149">
+</signal>
+<signal name="BP_GND27">
+</signal>
+<signal name="GND_MCU27" class="2">
+</signal>
+<signal name="HLL41">
+</signal>
+<signal name="HLR28">
+</signal>
+<signal name="BEARTH149">
+</signal>
+<signal name="KP_PAD150">
+</signal>
+<signal name="L_OUT150">
+</signal>
+<signal name="LM5118_ADAPTER149">
+</signal>
+<signal name="KPAD82">
+</signal>
+<signal name="KPAD83">
+</signal>
+<signal name="KPAD84">
+</signal>
+<signal name="HOLE_UR28">
+</signal>
+<signal name="INV_GND150">
+</signal>
+<signal name="BEARTH150">
+</signal>
+<signal name="KP_PAD151">
+</signal>
+<signal name="L_OUT151">
+</signal>
+<signal name="LM5118_ADAPTER150">
+</signal>
+<signal name="INV_GND151">
+</signal>
+<signal name="GND68">
+</signal>
+<signal name="BEARTH151">
+</signal>
+<signal name="KP_PAD152">
+</signal>
+<signal name="L_OUT152">
+</signal>
+<signal name="LM5118_ADAPTER151">
+</signal>
+<signal name="HOLE_DR41">
+</signal>
+<signal name="SW_OUT13" class="1">
+</signal>
+<signal name="INV_GND152">
+</signal>
+<signal name="BEARTH152">
+</signal>
+<signal name="KP_PAD153">
+</signal>
+<signal name="L_OUT153">
+</signal>
+<signal name="LM5118_ADAPTER152">
+</signal>
+<signal name="-15V13">
+</signal>
+<signal name="INV_GND153">
+</signal>
+<signal name="HOLE_UL14">
+</signal>
+<signal name="HOLE_DL19">
+</signal>
+<signal name="GND69">
+</signal>
+<signal name="HLL42">
+</signal>
+<signal name="BEARTH153">
+</signal>
+<signal name="KP_PAD154">
+</signal>
+<signal name="GND70">
+</signal>
+<signal name="L_OUT154">
+</signal>
+<signal name="LM5118_ADAPTER153">
+</signal>
+<signal name="HOLE_DR42">
+</signal>
+<signal name="NC13">
+</signal>
+<signal name="DUPLED13">
+</signal>
+<signal name="N$9">
+</signal>
+<signal name="INV_GND154">
+</signal>
+<signal name="GND71">
+</signal>
+<signal name="BEARTH154">
+</signal>
+<signal name="KP_PAD155">
+</signal>
+<signal name="L_OUT155">
+</signal>
+<signal name="LM5118_ADAPTER154">
+</signal>
+<signal name="Q9C2">
+</signal>
+<signal name="INV_GND155">
+</signal>
+<signal name="BEARTH155">
+</signal>
+<signal name="KP_PAD156">
+</signal>
+<signal name="L_OUT156">
+</signal>
+<signal name="LM5118_ADAPTER155">
+</signal>
+<signal name="VBIAS29">
+</signal>
+<signal name="INV_GND156">
+</signal>
+<signal name="BP_GND28">
+</signal>
+<signal name="GND_MCU28" class="2">
+</signal>
+<signal name="HLL43">
+</signal>
+<signal name="HLR29">
+</signal>
+<signal name="BEARTH156">
+</signal>
+<signal name="KP_PAD157">
+</signal>
+<signal name="L_OUT157">
+</signal>
+<signal name="LM5118_ADAPTER156">
+</signal>
+<signal name="KPAD85">
+</signal>
+<signal name="KPAD86">
+</signal>
+<signal name="KPAD87">
+</signal>
+<signal name="HOLE_UR29">
+</signal>
+<signal name="INV_GND157">
+</signal>
+<signal name="BEARTH157">
+</signal>
+<signal name="KP_PAD158">
+</signal>
+<signal name="L_OUT158">
+</signal>
+<signal name="LM5118_ADAPTER157">
+</signal>
+<signal name="INV_GND158">
+</signal>
+<signal name="GND72">
+</signal>
+<signal name="BEARTH158">
+</signal>
+<signal name="KP_PAD159">
+</signal>
+<signal name="L_OUT159">
+</signal>
+<signal name="LM5118_ADAPTER158">
+</signal>
+<signal name="HOLE_DR43">
+</signal>
+<signal name="INV_GND159">
+</signal>
+<signal name="BEARTH159">
+</signal>
+<signal name="KP_PAD160">
+</signal>
+<signal name="L_OUT160">
+</signal>
+<signal name="LM5118_ADAPTER159">
+</signal>
+<signal name="VBIAS30">
+</signal>
+<signal name="INV_GND160">
+</signal>
+<signal name="BP_GND29">
+</signal>
+<signal name="GND_MCU29" class="2">
+</signal>
+<signal name="HLL44">
+</signal>
+<signal name="HLR30">
+</signal>
+<signal name="BEARTH160">
+</signal>
+<signal name="KP_PAD161">
+</signal>
+<signal name="L_OUT161">
+</signal>
+<signal name="LM5118_ADAPTER160">
+</signal>
+<signal name="KPAD88">
+</signal>
+<signal name="KPAD89">
+</signal>
+<signal name="KPAD90">
+</signal>
+<signal name="HOLE_UR30">
+</signal>
+<signal name="INV_GND161">
+</signal>
+<signal name="BEARTH161">
+</signal>
+<signal name="KP_PAD162">
+</signal>
+<signal name="L_OUT162">
+</signal>
+<signal name="LM5118_ADAPTER161">
+</signal>
+<signal name="INV_GND162">
+</signal>
+<signal name="GND73">
+</signal>
+<signal name="BEARTH162">
+</signal>
+<signal name="KP_PAD163">
+</signal>
+<signal name="L_OUT163">
+</signal>
+<signal name="LM5118_ADAPTER162">
+</signal>
+<signal name="HOLE_DR44">
+</signal>
+<signal name="SW_OUT14" class="1">
+</signal>
+<signal name="INV_GND163">
+</signal>
+<signal name="BEARTH163">
+</signal>
+<signal name="KP_PAD164">
+</signal>
+<signal name="L_OUT164">
+</signal>
+<signal name="LM5118_ADAPTER163">
+</signal>
+<signal name="-15V14">
+</signal>
+<signal name="INV_GND164">
+</signal>
+<signal name="HOLE_UL15">
+</signal>
+<signal name="HOLE_DL20">
+</signal>
+<signal name="GND74">
+</signal>
+<signal name="HLL45">
+</signal>
+<signal name="BEARTH164">
+</signal>
+<signal name="KP_PAD165">
+</signal>
+<signal name="GND75">
+</signal>
+<signal name="L_OUT165">
+</signal>
+<signal name="LM5118_ADAPTER164">
+</signal>
+<signal name="HOLE_DL21">
+</signal>
+<signal name="HOLE_DR45">
+</signal>
+<signal name="NC14">
+</signal>
+<signal name="DUPLED14">
 </signal>
 </signals>
 <errors>
