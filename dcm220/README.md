@@ -1,5 +1,7 @@
 ### Overview
-
+---
+**RETIRED - Left as a reference for Crowd Supply [campaign](https://www.crowdsupply.com/envox/eez-bb3) backers. For the current version please visit the [DCM224](https://github.com/eez-open/dib-dcm224) repository.**
+---
 The EEZ DIB DCM220 Power module features dual sync buck converters based on [LT3763](https://www.analog.com/en/products/lt3763.html) with programmable output voltage and current limit.
 
 ![module](Images/DCM220_r2B8.jpg)
@@ -18,3 +20,8 @@ Power input: 48 Vdc (e.g. Mean Well LRS-150F-48)
 - Galvanically isolated SPI bus for communication with [MCU board](https://github.com/eez-open/modular-psu/tree/master/mcu)
 - I2C EEPROM for storing board specific configuration and calibration parameters
 - Dimensions: 155 x 95 mm, 2-layer PCB
+
+### Firmware repository
+
+https://github.com/eez-open/dib-dcm220-fw
+The firmware download procedure is described in the User Manual in [Chapter 13](https://github.com/eez-open/modular-psu/blob/master/docs/user%20manual/EEZ%20BB3%20user%20manual.pdf). 
