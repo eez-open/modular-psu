@@ -1,5 +1,7 @@
 [![GitHub release](https://img.shields.io/github/release/eez-open/modular-psu.svg)](https://github.com/eez-open/modular-psu/releases) [![liberapay](https://img.shields.io/liberapay/receives/eez-open.svg?logo=liberapay)](https://liberapay.com/eez-open/donate)
 
+![Enclosure 3D model](enclosure/eez_bb3_chassis.jpg)
+
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. This project uses the TAPR v1.0 license, see LICENSE.TXT.
 
@@ -24,24 +26,25 @@ BB3 is made up of the following components:
 * SCPI (Reference Guide in [PDF](https://github.com/eez-open/modular-psu-firmware/blob/master/docs/SCPI%20reference%20guide/EEZ%20BB3%20SCPI%20reference%20guide.pdf))
 * MicroPython (script [examples](https://github.com/eez-open/modular-psu-firmware/tree/master/scripts), an example [video](https://www.youtube.com/watch?v=I0y6fgv8G00))
 * MQTT (an intro [video](https://www.youtube.com/watch?v=THyfLSSAhrI))
+* Node-RED integration (an intro [video](https://www.youtube.com/watch?v=0xQ6Xuq53fA))
 
 ### Other DIB modules
 
 * [MIO168](https://github.com/eez-open/dib-mio168) Mixed I/O module
 * [PREL6](https://github.com/eez-open/dib-prel6) power relays module
 * [SMX46](https://github.com/eez-open/dib-smx46) programmable switch matrix module
+* [MUX14D](https://github.com/eez-open/dib-mux14d) dual 7:1 reed relay 2-wire multiplexer
 
 ### Related topics and links
 
 * EEZ BB3 [firmware](https://github.com/eez-open/modular-psu-firmware)
 * [EEZ Studio](https://www.envox.hr/eez/studio/studio-introduction.html)
 * EEZ [DIB v1.0](https://github.com/eez-open/modular-psu/tree/master/DIB%20v1.0) specification
+* [Discord](https://discord.gg/dhYMnCB) server
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
-* [Discord](https://discord.gg/dhYMnCB)
-* [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3)
+* [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3) crowdfunding landing page
 * [Liberpay](https://liberapay.com/eez-open/donate) donations
 
-![Enclosure 3D model](enclosure/eez_bb3_chassis.jpg)
 
 Please note that some previous board types and revisions that could be still usable in some cases can be found under *[previous design](https://github.com/eez-open/modular-psu/tree/master/previous%20designs)* folder.

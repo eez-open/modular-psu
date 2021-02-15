@@ -7,7 +7,7 @@ multi:
         bom: mcu/BOM/1-click-bom.csv
     aux-ps:
         summary: BB3 AUX-PS board
-        color: green
+        color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-aux-power-supply.html
         gerbers: aux-ps/Gerber files
         bom: aux-ps/BOM/1-click-bom.csv
@@ -29,3 +29,8 @@ multi:
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-dcp405-power-module.html
         gerbers: dcp405/Gerber files
         bom: dcp405/BOM/1-click-bom.csv
+    aux-ps-cs:
+        summary: BB3 AUX-PS board (Crowd Supply edition)
+        color: green
+        gerbers: previous designs/aux-ps r3B3 (Crowd Supply edition)/Gerber files
+        bom: previous designs/aux-ps r3B3 (Crowd Supply edition)/BOM/1-click-bom.csv
