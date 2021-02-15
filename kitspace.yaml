@@ -25,7 +25,7 @@ multi:
         bom: dcm220/BOM/1-click-bom.csv
     dcp405:
         summary: BB3 DCP405 module
-        color: green
+        color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-dcp405-power-module.html
         gerbers: dcp405/Gerber files
         bom: dcp405/BOM/1-click-bom.csv
@@ -39,3 +39,8 @@ multi:
         color: green
         gerbers: mcu r2B4 (Crowd Supply edition)/Gerber files
         bom: mcu r2B4 (Crowd Supply edition)/BOM/1-click-bom.csv
+    dcp405-cs:
+        summary: BB3 DCP405 module (Crowd Supply edition)
+        color: green
+        gerbers: previous designs/dcp405 r2B11 (Crowd Supply edition)/Gerber files
+        bom: previous designs/dcp405 r2B11 (Crowd Supply edition)/BOM/1-click-bom.csv
