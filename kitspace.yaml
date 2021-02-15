@@ -1,7 +1,7 @@
 multi:
     mcu:
         summary: BB3 MCU board
-        color: green
+        color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-stm32f7-mcu-board.html
         gerbers: mcu/Gerber files
         bom: mcu/BOM/1-click-bom.csv
@@ -34,3 +34,8 @@ multi:
         color: green
         gerbers: previous designs/aux-ps r3B3 (Crowd Supply edition)/Gerber files
         bom: previous designs/aux-ps r3B3 (Crowd Supply edition)/BOM/1-click-bom.csv
+    mcu-cs:
+        summary: BB3 MCU board (Crowd Supply edition)
+        color: green
+        gerbers: mcu r2B4 (Crowd Supply edition)/Gerber files
+        bom: mcu r2B4 (Crowd Supply edition)/BOM/1-click-bom.csv
