@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18609,6 +18609,10 @@ Source: Samtec SSW.pdf</description>
 <part name="IC9" library="EEZ_DIB" deviceset="STM6824" device="" value="N.C."/>
 <part name="JP6" library="EEZ_Lib1" deviceset="JP3-CUT" device="-0805-ROTATED"/>
 <part name="+3V320" library="supply1" deviceset="+3V3" device=""/>
+<part name="FM5" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
+<part name="FM6" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
+<part name="FM7" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
+<part name="FM8" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19103,6 +19107,10 @@ Source: Samtec SSW.pdf</description>
 <attribute name="NAME" x="154.686" y="121.539" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="154.686" y="118.999" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="FM5" gate="FD" x="119.38" y="5.08" smashed="yes"/>
+<instance part="FM6" gate="FD" x="127" y="5.08" smashed="yes"/>
+<instance part="FM7" gate="FD" x="111.76" y="5.08" smashed="yes"/>
+<instance part="FM8" gate="FD" x="104.14" y="5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
