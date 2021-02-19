@@ -37,8 +37,8 @@ multi:
     mcu-cs:
         summary: BB3 MCU board (Crowd Supply edition)
         color: green
-        gerbers: mcu r2B4 (Crowd Supply edition)/Gerber files
-        bom: mcu r2B4 (Crowd Supply edition)/BOM/1-click-bom.csv
+        gerbers: previous designs/mcu r2B4 (Crowd Supply edition)/Gerber files
+        bom: previous designs/mcu r2B4 (Crowd Supply edition)/BOM/1-click-bom.csv
     dcp405-cs:
         summary: BB3 DCP405 module (Crowd Supply edition)
         color: green
