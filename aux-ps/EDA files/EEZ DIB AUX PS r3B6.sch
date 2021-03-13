@@ -17581,9 +17581,9 @@ DC 12V Fan</text>
 <approved hash="202,2,76.2,101.6,IC2,DXP,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,1,120.525,48.26,TP3,,,,,"/>
-<approved hash="113,1,120.525,68.58,TP2,,,,,"/>
-<approved hash="113,1,120.525,91.44,TP1,,,,,"/>
+<approved hash="113,1,120.502,48.26,TP3,,,,,"/>
+<approved hash="113,1,120.502,68.58,TP2,,,,,"/>
+<approved hash="113,1,120.502,91.44,TP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
