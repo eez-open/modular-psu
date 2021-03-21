@@ -162,7 +162,7 @@
 <layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<description>Supervisor</description>
+<description>SDcard socket updated</description>
 <libraries>
 <library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
@@ -6510,6 +6510,55 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 <wire x1="0.7112" y1="1.0668" x2="0.3048" y2="1.0668" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.0668" x2="-0.7112" y2="1.0668" width="0.1524" layer="21"/>
 </package>
+<package name="5033981892-PCBA">
+<wire x1="13.34" y1="0.38" x2="0.33" y2="0.38" width="0.127" layer="51"/>
+<wire x1="0.33" y1="0.38" x2="0.33" y2="12.38" width="0.127" layer="51"/>
+<wire x1="0.33" y1="12.38" x2="0.33" y2="13.83" width="0.127" layer="51"/>
+<wire x1="13.24" y1="14.43" x2="13.34" y2="14.43" width="0.127" layer="51"/>
+<wire x1="13.34" y1="14.43" x2="13.34" y2="0.38" width="0.127" layer="51"/>
+<smd name="8" x="12.15" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="7" x="11.05" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="6" x="9.95" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="5" x="8.85" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="4" x="7.75" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="3" x="6.65" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="2" x="5.55" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="1" x="4.45" y="12.93" dx="0.7" dy="1.1" layer="1" rot="R180"/>
+<smd name="S" x="0.57" y="12.915" dx="1.14" dy="1.83" layer="1" rot="R180"/>
+<text x="7.535" y="6.9" size="1.27" layer="27" rot="R180" align="center">&gt;VALUE</text>
+<text x="0.0175" y="-1.6275" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="13.24" y1="14.43" x2="12.6" y2="14.43" width="0.127" layer="51"/>
+<wire x1="12.6" y1="14.43" x2="3.67" y2="14.43" width="0.127" layer="51"/>
+<wire x1="3.67" y1="14.43" x2="2.33" y2="14.43" width="0.127" layer="51"/>
+<wire x1="2.33" y1="14.43" x2="1.47" y2="14.43" width="0.127" layer="51"/>
+<wire x1="12.6" y1="14.43" x2="12.6" y2="12.38" width="0.127" layer="51"/>
+<wire x1="12.6" y1="12.38" x2="4.33" y2="12.38" width="0.127" layer="51"/>
+<wire x1="1.47" y1="14.43" x2="1.47" y2="13.83" width="0.127" layer="51"/>
+<wire x1="1.47" y1="13.83" x2="1.47" y2="12.38" width="0.127" layer="51"/>
+<wire x1="3.67" y1="14.43" x2="4.33" y2="12.38" width="0.127" layer="51"/>
+<wire x1="1.47" y1="12.38" x2="0.33" y2="12.38" width="0.127" layer="51"/>
+<smd name="SW2" x="6.925" y="0.39" dx="1.05" dy="0.78" layer="1" rot="R180"/>
+<polygon width="0.127" layer="51">
+<vertex x="12.04" y="15.28"/>
+<vertex x="11.64" y="14.58"/>
+<vertex x="11.24" y="15.28"/>
+</polygon>
+<text x="13.02" y="16.32" size="0.8128" layer="51" ratio="10" rot="R180">CARD</text>
+<wire x1="12.94" y1="17.38" x2="2.63" y2="17.38" width="0.127" layer="51"/>
+<wire x1="13.24" y1="17.08" x2="13.24" y2="14.43" width="0.127" layer="51"/>
+<wire x1="13.24" y1="17.08" x2="12.94" y2="17.38" width="0.127" layer="51" curve="90"/>
+<wire x1="2.33" y1="17.08" x2="2.33" y2="14.43" width="0.127" layer="51"/>
+<wire x1="2.63" y1="17.38" x2="2.33" y2="17.08" width="0.127" layer="51" curve="90"/>
+<smd name="SW1" x="2.66" y="0.45" dx="0.9" dy="0.9" layer="1" rot="R180"/>
+<smd name="S1" x="13.23" y="12.255" dx="0.86" dy="2.45" layer="1" rot="R180"/>
+<smd name="S2" x="13.31" y="1.665" dx="0.7" dy="3.33" layer="1" rot="R180"/>
+<smd name="S3" x="0.35" y="1.865" dx="0.7" dy="2.95" layer="1" rot="R180"/>
+<wire x1="1.47" y1="13.83" x2="0.33" y2="13.83" width="0.127" layer="51"/>
+<wire x1="-0.17" y1="14.43" x2="13.84" y2="14.43" width="0.127" layer="21"/>
+<wire x1="13.84" y1="14.43" x2="13.84" y2="-0.17" width="0.127" layer="21"/>
+<wire x1="13.84" y1="-0.17" x2="-0.17" y2="-0.17" width="0.127" layer="21"/>
+<wire x1="-0.17" y1="-0.17" x2="-0.17" y2="14.43" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -8837,6 +8886,24 @@ Farnell: 2112873</description>
 <connect gate="G$1" pin="DAT1" pad="8"/>
 <connect gate="G$1" pin="DAT2" pad="1"/>
 <connect gate="G$1" pin="SH" pad="S S1 S2"/>
+<connect gate="G$1" pin="SW1" pad="SW1"/>
+<connect gate="G$1" pin="SW2" pad="SW2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D&amp;M" package="5033981892-PCBA">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="SH" pad="S S1 S2 S3"/>
 <connect gate="G$1" pin="SW1" pad="SW1"/>
 <connect gate="G$1" pin="SW2" pad="SW2"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
@@ -18355,7 +18422,6 @@ Source: Samtec SSW.pdf</description>
 <part name="SW2" library="EEZ_switches" deviceset="ENCODER_SW" device="-PEC16" value="PEC16-2215F-S0024"/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
-<part name="J1" library="EEZ_Lib1" deviceset="5033981892" device="" value="503398-1892"/>
 <part name="FRAME5" library="frames" deviceset="DINA4_L" device=""/>
 <part name="R52" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="2K2"/>
@@ -18613,6 +18679,7 @@ Source: Samtec SSW.pdf</description>
 <part name="FM6" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
 <part name="FM7" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
 <part name="FM8" library="EEZ_Lib1" deviceset="FIDUCIAL" device=""/>
+<part name="J1" library="EEZ_Lib1" deviceset="5033981892" device="D&amp;M" value="5033981892"/>
 </parts>
 <sheets>
 <sheet>
@@ -21844,10 +21911,6 @@ consult ST AN4661 section 8.4.2</text>
 <instance part="SUPPLY43" gate="GND" x="256.54" y="60.96" smashed="yes">
 <attribute name="VALUE" x="258.445" y="59.055" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J1" gate="G$1" x="241.3" y="78.74" smashed="yes">
-<attribute name="NAME" x="231.14" y="94.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="231.14" y="60.96" size="1.778" layer="96"/>
-</instance>
 <instance part="IC7" gate="G$1" x="58.42" y="111.76" smashed="yes">
 <attribute name="NAME" x="53.6956" y="155.8036" size="1.778" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="45.72" y="63.5" size="1.778" layer="96" ratio="6" rot="SR0"/>
@@ -22019,6 +22082,7 @@ consult ST AN4661 section 8.4.2</text>
 <instance part="+3V320" gate="G$1" x="144.78" y="68.58" smashed="yes">
 <attribute name="VALUE" x="146.05" y="67.945" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="241.3" y="78.74"/>
 </instances>
 <busses>
 <bus name="FMC_A[0..12]">
