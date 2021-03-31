@@ -1,6 +1,6 @@
 Configuration	MCU STM32F7 r3B3
 STM32CubeMX 	6.2.0
-Date	03/13/2021
+Date	03/31/2021
 MCU	STM32F769IGTx
 
 
@@ -502,7 +502,7 @@ SOFTWARE PROJECT
 
 Project Settings : 
 Project Name : MCU STM32F7 r3B3
-Project Folder : /home/denis/BACKUP/EEZ/Digital control/MCU/STM32/Projects/MCU STM32F7 r3B3
+Project Folder : /home/denis/BACKUP/EEZ/git-public/modular-psu/mcu/CubeMX
 Toolchain / IDE : STM32CubeIDE
 Firmware Package Name and Version : STM32Cube FW_F7 V1.16.1
 
