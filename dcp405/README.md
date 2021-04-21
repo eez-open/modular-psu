@@ -1,5 +1,7 @@
 ### Overview
 
+_IMPORTANT: A crowdfunded version of the DCP405 module (r2B11) can be found [here](https://github.com/eez-open/modular-psu/tree/master/previous%20designs/dcp405%20r2B11%20(Crowd%20Supply%20edition)._
+
 The EEZ DIB DCP405 Power module is modified EEZ H24005 [Power board](https://github.com/eez-open/psu-hw/tree/master/Power%20board) that can be housed in EEZ DIB chasis (e.g. _Bench Box 3_). It comes with PNP "pass" element, OVP with triac crowbar, SPI temperature sensor and redesigned down-programmer new power pre-regulator and bias power supply.
 
 ![module](Images/DCP405_r3B3.jpg)
