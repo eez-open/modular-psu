@@ -41,6 +41,7 @@ BB3 is made up of the following components:
 * [EEZ Studio](https://www.envox.eu/studio/studio-introduction)
 * EEZ [DIB v1.0](https://github.com/eez-open/modular-psu/tree/master/DIB) specification
 * [Discord](https://discord.gg/dhYMnCB) server
+* [Twitter](https://twitter.com/envox)
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
 * [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3) crowdfunding landing page
