@@ -1,6 +1,6 @@
 ### Overview
 
-_IMPORTANT: A crowdfunded version of the AUX-PS (r3B3) can be found [here](https://github.com/eez-open/modular-psu/tree/master/previous%20designs/aux-ps%20r3B3%20(Crowd%20Supply%20edition)._
+_IMPORTANT: A crowdfunded version of the AUX-PS (r3B3) can be found [here](https://github.com/eez-open/modular-psu/tree/master/previous%20designs/aux-ps%20r3B3%20(Crowd%20Supply%20edition))._
 
 AUX Power supply board for powering MCU board and backplane. It includes fan controller and AC power control with softstart (inrush current limiter) for power modules like DCP405 and DCM224.
 
