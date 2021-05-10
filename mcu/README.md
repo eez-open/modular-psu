@@ -1,6 +1,6 @@
 ### Overview
 
-_IMPORTANT: A crowdfunded version of the MCU module (r2B4) can be found [here](https://github.com/eez-open/modular-psu/tree/master/previous%20designs/mcu%20r2B4%20(Crowd%20Supply%20edition)._
+_IMPORTANT: A crowdfunded version of the MCU module (r2B4) can be found [here](https://github.com/eez-open/modular-psu/tree/master/previous%20designs/mcu%20r2B4%20(Crowd%20Supply%20edition))._
 
 STM32F7 MCU board for controlling up to 3 SPI peripheral modules, I2C fan controller, power soft-start/standby, TFT LCD with resistive touch controller, USB OTG, 10/100 Mbit/s Ethernet, SDRAM, EEPROM, rotary encoder, user switch, speaker and 2+2 digital I/O.
 
