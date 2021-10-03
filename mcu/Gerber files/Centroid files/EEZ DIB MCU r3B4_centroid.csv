@@ -1,7 +1,7 @@
 Screaming Circuits SMD component position file.
 Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
 
-Centroid Data for pc board: "EEZ DIB MCU r3B4.brd" as of: 19.7.2021. 16:54
+Centroid Data for pc board: "EEZ DIB MCU r3B4.brd" as of: 3.10.2021. 11:00
 Measurements are in inches. Comma delimited
 Only surface mount components included
 
@@ -61,7 +61,7 @@ C52,Top,3.385,0.710,0
 C53,Top,1.965,0.803,90
 C54,Top,3.441,0.115,180
 C55,Top,3.132,0.455,180
-C56,Top,1.581,2.393,180
+C56,Top,1.550,2.357,180
 C57,Top,2.534,0.845,270
 C58,Top,2.462,0.845,270
 C59,Top,0.631,1.779,180
@@ -122,9 +122,9 @@ L2,Top,1.647,0.810,90
 L3,Top,0.368,1.559,270
 LCD1,Top,2.251,0.540,0
 LED1,Top,3.551,0.322,270
-LED2,Top,1.263,2.232,90
+LED2,Top,1.250,2.232,90
 Q1,Top,3.379,0.408,270
-Q2,Top,1.528,1.875,270
+Q2,Top,1.528,1.853,270
 R1,Top,3.781,0.703,270
 R2,Top,3.859,0.703,270
 R3,Top,4.622,0.703,90
@@ -169,13 +169,13 @@ R41,Top,0.903,0.756,180
 R42,Top,0.276,0.910,90
 R43,Top,0.731,1.614,270
 R44,Top,0.749,0.755,0
-R45,Top,1.260,2.155,0
+R45,Top,1.246,2.155,0
 R46,Top,0.593,0.755,0
 R47,Top,0.353,0.910,90
 R48,Top,0.808,1.614,90
 R49,Top,0.430,0.910,90
-R50,Top,1.260,2.385,180
-R51,Top,1.260,2.308,180
+R50,Top,1.246,2.385,180
+R51,Top,1.246,2.308,180
 R52,Top,0.362,1.812,270
 R53,Top,0.440,1.812,270
 R54,Top,0.330,1.086,0
@@ -187,7 +187,8 @@ RN4,Top,0.861,0.988,90
 RN5,Top,0.988,1.117,90
 RN6,Top,0.969,1.327,90
 RN7,Top,0.968,1.474,90
-SH1,Bottom,1.497,2.204,180
+SH1,Bottom,1.531,2.227,180
+SP1,Top,1.532,2.123,0
 Y1,Top,2.408,2.590,0
 Y2,Top,2.825,2.534,90
 ZD1,Top,1.667,0.546,90

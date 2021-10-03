@@ -6514,6 +6514,31 @@ diameter 2.54 mm, vertical, grid 2.54 mm</description>
 <wire x1="13.84" y1="-0.17" x2="-0.17" y2="-0.17" width="0.127" layer="21"/>
 <wire x1="-0.17" y1="-0.17" x2="-0.17" y2="14.43" width="0.127" layer="21"/>
 </package>
+<package name="LD-BZEN_COMBO">
+<wire x1="-2.151" y1="2.9845" x2="-1.389" y2="2.9845" width="0.1524" layer="21"/>
+<wire x1="-1.77" y1="2.6035" x2="-1.77" y2="3.3655" width="0.1524" layer="21"/>
+<circle x="-1.77" y="2.9845" radius="0.762" width="0.1524" layer="21"/>
+<pad name="-B" x="0" y="-2" drill="0.8" diameter="1.778"/>
+<pad name="+B" x="0" y="2" drill="0.8" diameter="1.778" shape="octagon"/>
+<wire x1="-2.8" y1="4.3" x2="2.8" y2="4.3" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-4.3" x2="-4.3" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="-4.3" y1="-2.8" x2="-4.3" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-4.3" y1="2.8" x2="-2.8" y2="4.3" width="0.127" layer="51"/>
+<wire x1="2.8" y1="-4.3" x2="4.3" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="4.3" y1="-2.8" x2="4.3" y2="2.8" width="0.127" layer="51"/>
+<wire x1="4.3" y1="2.8" x2="2.8" y2="4.3" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-4.3" x2="2.8" y2="-4.3" width="0.127" layer="51"/>
+<smd name="-" x="-3.7" y="-3.7" dx="1.6" dy="1.6" layer="1"/>
+<smd name="NC1" x="3.7" y="-3.7" dx="1.6" dy="1.6" layer="1"/>
+<smd name="NC2" x="3.7" y="3.7" dx="1.6" dy="1.6" layer="1"/>
+<smd name="+" x="-3.7" y="3.7" dx="1.6" dy="1.6" layer="1"/>
+<wire x1="-2.6" y1="4.3" x2="2.6" y2="4.3" width="0.254" layer="21"/>
+<wire x1="-2.6" y1="-4.3" x2="2.6" y2="-4.3" width="0.254" layer="21"/>
+<wire x1="4.3" y1="-2.6" x2="4.3" y2="2.6" width="0.254" layer="21"/>
+<wire x1="-4.3" y1="-2.6" x2="-4.3" y2="2.6" width="0.254" layer="21"/>
+<text x="-2.54" y="4.7625" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.8575" y="-0.635" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -9594,6 +9619,15 @@ Socket; RJ45; PIN:8; shielded, with LED and trafo</description>
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-COMBO" package="LD-BZEN_COMBO">
+<connects>
+<connect gate="G$1" pin="+" pad="+ +B"/>
+<connect gate="G$1" pin="-" pad="- -B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18295,8 +18329,8 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="L1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="BLM18AG102SH1D"/>
@@ -18530,7 +18564,7 @@ Source: Samtec SSW.pdf</description>
 <part name="JP3" library="EEZ_Lib1" deviceset="JP2-CUT" device="-0805" value=""/>
 <part name="JP1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="JP2" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
-<part name="SP1" library="EEZ_Lib1" deviceset="LD-BZEN" device="-0903" value="LD-BZEN 0903"/>
+<part name="SP1" library="EEZ_Lib1" deviceset="LD-BZEN" device="-COMBO" value="LD-BZEN 0903"/>
 <part name="Q2" library="EEZ_Lib1" deviceset="2N7002" device=""/>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 <part name="IC3" library="EEZ_DIB" deviceset="CD74HC4050" device="PWR"/>
