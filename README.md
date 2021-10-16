@@ -3,9 +3,11 @@
 ![Enclosure 3D model](enclosure/eez_bb3_chassis.jpg)
 
 ### Ownership and License
-The contributors are listed in CONTRIB.TXT. This project uses the TAPR v1.0 license, see LICENSE.TXT.
+The contributors are listed in CONTRIB.TXT. 
 
-[![OSHW-HR000002](OSHW_UID_HR2.svg)](https://certification.oshwa.org/hr000002.html)
+Licenses | OSHWA UID
+--|--
+![osl](osl.png) | [![OSHW-HR000002](OSHW_UID_HR2.svg)](https://certification.oshwa.org/hr000002.html)
 
 ### Introduction
 
@@ -18,11 +20,12 @@ BB3 is made up of the following components:
 * _[AUX power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps)_ board with AC input protection, soft-start/power-up control, DC fan controller and +5 V / +12 V power outputs
 * _[MCU](https://github.com/eez-open/modular-psu/tree/master/mcu)_ board based on STM32F769IIT6 32-bit ARM Cortex-M7
 * _[DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405)_, 0 - 40 V / 50 mA / 5 A DC power source module
-* _[DCM220](https://github.com/eez-open/modular-psu/tree/master/dcm220)_, dual sync buck 0 - 20 V / max. 4 A module
+* _[DCM224](https://github.com/eez-open/dib-dcm224)_, dual sync buck 1 - 24 V / max. 4.9 A module
 * _[Metal enclosure](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 (W) x 123 (H) x 240 (D) mm
 
 ### Supported technologies
 
+* _EEZ Flow_ (Visual programming tool for test and measurement automation)
 * SCPI (Reference Guide in [PDF](https://github.com/eez-open/modular-psu-firmware/blob/master/docs/SCPI%20reference%20guide/EEZ%20BB3%20SCPI%20reference%20guide.pdf))
 * MicroPython (script [examples](https://github.com/eez-open/modular-psu-firmware/tree/master/scripts), an example [video](https://www.youtube.com/watch?v=I0y6fgv8G00))
 * MQTT (an intro [video](https://www.youtube.com/watch?v=THyfLSSAhrI))
@@ -45,12 +48,14 @@ BB3 is made up of the following components:
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
 * [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3) crowdfunding landing page
+* [EMC certificate](https://www.envox.eu/?smd_process_download=1&download_id=2806), [LVD cerificate](https://www.envox.eu/?smd_process_download=1&download_id=2808)
+* [Sigrok](https://sigrok.org/wiki/Envox_EEZ_Bench_Box_3)
 * [Liberpay](https://liberapay.com/eez-open/donate) donations
 
 ### Where to buy?
 
 * [EEZ Web store](https://www.envox.eu/store)
-* [Mouser](https://www.mouser.com/Search/Refine?Keyword=cs-bb3-) (kit only)
-* [Crowd supply](https://www.crowdsupply.com/envox/eez-bb3) (kit only)
-
+* [Mouser](https://www.mouser.com/Search/Refine?Keyword=cs-bb3-) (kit only, excl. EU)
+* [Crowd supply](https://www.crowdsupply.com/envox/eez-bb3) (kit only, excl. EU)
+---
 Please note that some previous board types and revisions that could be still usable in some cases can be found under *[previous design](https://github.com/eez-open/modular-psu/tree/master/previous%20designs)* folder.
