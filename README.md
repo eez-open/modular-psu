@@ -44,13 +44,13 @@ BB3 is made up of the following components:
 * [EEZ Studio](https://www.envox.eu/studio/studio-introduction)
 * EEZ [DIB v1.0](https://github.com/eez-open/modular-psu/tree/master/DIB) specification
 * [Discord](https://discord.gg/dhYMnCB) server
-* [Twitter](https://twitter.com/envox)
+* [Twitter](https://twitter.com/envox) <img src="https://about.twitter.com/etc/designs/about2-twitter/public/img/favicon.ico" width="16" />
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
 * [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3) crowdfunding landing page
 * [EMC certificate](https://www.envox.eu/?smd_process_download=1&download_id=2806), [LVD cerificate](https://www.envox.eu/?smd_process_download=1&download_id=2808)
 * [Sigrok](https://sigrok.org/wiki/Envox_EEZ_Bench_Box_3)
-* [Liberpay](https://liberapay.com/eez-open/donate) donations
+* [Liberpay](https://liberapay.com/eez-open/donate) donations <img src="https://liberapay.com/assets/liberapay/icon-v2_white-on-yellow.svg" width="16" />
 
 ### Where to buy?
 
