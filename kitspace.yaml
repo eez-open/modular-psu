@@ -5,42 +5,50 @@ multi:
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-stm32f7-mcu-board.html
         gerbers: mcu/Gerber files
         bom: mcu/BOM/1-click-bom.csv
+        readme: mcu/README.md
     aux-ps:
         summary: BB3 AUX-PS board
         color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-aux-power-supply.html
         gerbers: aux-ps/Gerber files
         bom: aux-ps/BOM/1-click-bom.csv
+        readme: aux-ps/README.md
     bp3c:
         summary: BB3 backplane module
         color: green
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-bp3c-backplane.html
         gerbers: bp3c/Gerber files
         bom: bp3c/BOM/1-click-bom.csv
+        readme: bp3c/README.md
     dcm220:
         summary: BB3 DCM220 module
         color: green
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-dcm220-dual-power-module.html
         gerbers: dcm220/Gerber files
         bom: dcm220/BOM/1-click-bom.csv
+        readme: dcm220/README.md
     dcp405:
         summary: BB3 DCP405 module
         color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-dcp405-power-module.html
         gerbers: dcp405/Gerber files
         bom: dcp405/BOM/1-click-bom.csv
+        readme: dcp405/README.md
     aux-ps-cs:
         summary: BB3 AUX-PS board (Crowd Supply edition)
         color: green
         gerbers: previous designs/aux-ps r3B3 (Crowd Supply edition)/Gerber files
         bom: previous designs/aux-ps r3B3 (Crowd Supply edition)/BOM/1-click-bom.csv
+        readme: previous designs/aux-ps r3B3 (Crowd Supply edition)/README.md
     mcu-cs:
         summary: BB3 MCU board (Crowd Supply edition)
         color: green
         gerbers: previous designs/mcu r2B4 (Crowd Supply edition)/Gerber files
         bom: previous designs/mcu r2B4 (Crowd Supply edition)/BOM/1-click-bom.csv
+        readme: previous designs/mcu r2B4 (Crowd Supply edition)/README.md
     dcp405-cs:
         summary: BB3 DCP405 module (Crowd Supply edition)
         color: green
         gerbers: previous designs/dcp405 r2B11 (Crowd Supply edition)/Gerber files
         bom: previous designs/dcp405 r2B11 (Crowd Supply edition)/BOM/1-click-bom.csv
+        readme: previous designs/dcp405 r2B11 (Crowd Supply edition)/README.md
