@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/eez-open/modular-psu.svg)](https://github.com/eez-open/modular-psu/releases) [![liberapay](https://img.shields.io/liberapay/receives/eez-open.svg?logo=liberapay)](https://liberapay.com/eez-open/donate)
+[![GitHub release](https://img.shields.io/github/release/eez-open/modular-psu.svg)](https://github.com/eez-open/modular-psu/releases) [![liberapay](https://img.shields.io/liberapay/receives/eez-open.svg?logo=liberapay)](https://liberapay.com/eez-open/donate) [![Downloads](https://img.shields.io/github/downloads/eez-open/modular-psu/total)](https://github.com/eez-open/modular-psu/releases)
 
 ![Enclosure 3D model](enclosure/eez_bb3_chassis.jpg)
 
