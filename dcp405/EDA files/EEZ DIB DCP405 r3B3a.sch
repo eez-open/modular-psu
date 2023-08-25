@@ -6834,30 +6834,6 @@ Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
 <rectangle x1="6.5278" y1="8.4582" x2="7.1374" y2="8.5344" layer="21"/>
 <rectangle x1="6.5278" y1="8.5344" x2="7.1374" y2="8.6106" layer="21"/>
 </package>
-<package name="FTR-C1">
-<smd name="1" x="-6.35" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="-1.27" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="1.27" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="5" x="3.81" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="8" x="3.81" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="9" x="1.27" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="10" x="-1.27" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<smd name="12" x="-6.35" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
-<wire x1="-7.45" y1="-3.85" x2="-7.45" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="7.75" y1="-3.85" x2="7.75" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="7.75" y1="3.85" x2="4.532" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="7.75" y1="-3.85" x2="4.532" y2="-3.85" width="0.1524" layer="21"/>
-<wire x1="3.08" y1="3.85" x2="1.992" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="3.08" y1="-3.85" x2="1.992" y2="-3.85" width="0.1524" layer="21"/>
-<wire x1="-1.99" y1="3.85" x2="-5.608" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="0.53" y1="3.85" x2="-0.508" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="-1.99" y1="-3.85" x2="-5.608" y2="-3.85" width="0.1524" layer="21"/>
-<wire x1="0.53" y1="-3.85" x2="-0.508" y2="-3.85" width="0.1524" layer="21"/>
-<wire x1="-7.45" y1="3.85" x2="-7.12" y2="3.85" width="0.1524" layer="21"/>
-<wire x1="-7.12" y1="-3.85" x2="-7.45" y2="-3.85" width="0.1524" layer="21"/>
-<text x="-6.985" y="5.3975" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
-</package>
 <package name="SOT230P700X180-4N">
 <smd name="1" x="-3.2004" y="2.3114" dx="1.905" dy="1.143" layer="1"/>
 <smd name="2" x="-3.2004" y="0" dx="1.905" dy="1.143" layer="1"/>
@@ -8556,34 +8532,6 @@ Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
 <rectangle x1="-5.0038" y1="-0.0254" x2="5.5118" y2="0.4318" layer="94"/>
 <rectangle x1="5.0546" y1="0.4318" x2="5.5118" y2="5.0546" layer="94"/>
 <text x="-4.699" y="-2.54" size="1.778" layer="94" font="vector" ratio="12">&gt;VALUE</text>
-</symbol>
-<symbol name="RELAY_K">
-<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
-<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
-<pin name="C2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="C1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="RELAY_U1">
-<wire x1="2.54" y1="5.08" x2="1.905" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-1.905" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="1.905" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
-<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
-<text x="1.27" y="0" size="1.778" layer="95">&gt;PART</text>
-<pin name="S" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="P" x="0" y="0" visible="pad" length="point" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="NPN2">
 <wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
@@ -10922,31 +10870,6 @@ Farnell: &lt;b&gt;2423288&lt;/b&gt;</description>
 </technologies>
 </device>
 <device name="-SMALL" package="CERT-SMALL-SILK">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FTR-C1" prefix="K">
-<description>Power relay, 2 poles, 2A high insulation/wide gap</description>
-<gates>
-<gate name="G$1" symbol="RELAY_K" x="0" y="0" addlevel="must"/>
-<gate name="-1" symbol="RELAY_U1" x="15.24" y="-2.54" addlevel="always"/>
-<gate name="-2" symbol="RELAY_U1" x="22.86" y="-2.54" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="FTR-C1">
-<connects>
-<connect gate="-1" pin="O" pad="5"/>
-<connect gate="-1" pin="P" pad="4"/>
-<connect gate="-1" pin="S" pad="3"/>
-<connect gate="-2" pin="O" pad="8"/>
-<connect gate="-2" pin="P" pad="9"/>
-<connect gate="-2" pin="S" pad="10"/>
-<connect gate="G$1" pin="C1" pad="1"/>
-<connect gate="G$1" pin="C2" pad="12"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19167,6 +19090,95 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="EEZ_switches">
+<description>EEZ Eagle library for switches, encoders and relays</description>
+<packages>
+<package name="FTR-C1">
+<smd name="1" x="-6.35" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-1.27" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="1.27" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="3.81" y="-3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="8" x="3.81" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="9" x="1.27" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="10" x="-1.27" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<smd name="12" x="-6.35" y="3.62" dx="3.16" dy="1" layer="1" rot="R90"/>
+<wire x1="-7.45" y1="-3.85" x2="-7.45" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="-3.85" x2="7.75" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="3.85" x2="4.532" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="-3.85" x2="4.532" y2="-3.85" width="0.1524" layer="21"/>
+<wire x1="3.08" y1="3.85" x2="1.992" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="3.08" y1="-3.85" x2="1.992" y2="-3.85" width="0.1524" layer="21"/>
+<wire x1="-1.99" y1="3.85" x2="-5.608" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="0.53" y1="3.85" x2="-0.508" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="-1.99" y1="-3.85" x2="-5.608" y2="-3.85" width="0.1524" layer="21"/>
+<wire x1="0.53" y1="-3.85" x2="-0.508" y2="-3.85" width="0.1524" layer="21"/>
+<wire x1="-7.45" y1="3.85" x2="-7.12" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="-7.12" y1="-3.85" x2="-7.45" y2="-3.85" width="0.1524" layer="21"/>
+<text x="-6.985" y="5.3975" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<text x="-6.858" y="-1.905" size="1.27" layer="21">+</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RELAY_K-1">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<text x="4.445" y="-1.524" size="1.778" layer="96">&gt;VALUE</text>
+<text x="4.445" y="0.635" size="1.778" layer="95">&gt;PART</text>
+<pin name="C2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="C1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="0.635" y="2.54" size="1.27" layer="94">+</text>
+<text x="0.635" y="-3.175" size="1.27" layer="94">-</text>
+</symbol>
+<symbol name="RELAY_U1-1">
+<wire x1="2.54" y1="5.08" x2="1.905" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.905" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.905" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
+<text x="1.27" y="0" size="1.778" layer="95">&gt;PART</text>
+<pin name="NC" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="NO" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="COM" x="0" y="0" visible="pad" length="point" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FTR-C1" prefix="K">
+<description>Power relay, 2 poles, 2A high insulation/wide gap</description>
+<gates>
+<gate name="G$1" symbol="RELAY_K-1" x="0" y="0" addlevel="must"/>
+<gate name="-1" symbol="RELAY_U1-1" x="15.24" y="-2.54" addlevel="always"/>
+<gate name="-2" symbol="RELAY_U1-1" x="22.86" y="-2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="FTR-C1">
+<connects>
+<connect gate="-1" pin="COM" pad="4"/>
+<connect gate="-1" pin="NC" pad="3"/>
+<connect gate="-1" pin="NO" pad="5"/>
+<connect gate="-2" pin="COM" pad="9"/>
+<connect gate="-2" pin="NC" pad="10"/>
+<connect gate="-2" pin="NO" pad="8"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19517,7 +19529,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="IC12" library="EEZ_Lib1" deviceset="SN74LVC1G3157" device="-DCK" value="SN74LVC1G3157DCKR"/>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="P+14" library="supply2" deviceset="V+" device=""/>
-<part name="K1" library="EEZ_Lib1" deviceset="FTR-C1" device="" value="FTR-C1GA005G-B05"/>
+<part name="K1" library="EEZ_switches" deviceset="FTR-C1" device="" value="FTR-C1GA005G-B05"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="D1" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1210" value="4u7/100V"/>
@@ -21805,7 +21817,7 @@ UVLO on: +27.3 V</text>
 <wire x1="106.68" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="99.06" y1="119.38" x2="99.06" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="99.06" y1="73.66" x2="99.06" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
-<text x="5.08" y="15.24" size="1.4224" layer="103">Note 3.1: Q5, Q6 and Q7 mounted on heatsink KK3</text>
+<text x="5.08" y="15.24" size="1.4224" layer="103">Note 3.1: Q4, Q5 and Q6 mounted on heatsink KK3</text>
 <wire x1="106.68" y1="173.99" x2="180.34" y2="173.99" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="180.34" y1="124.46" x2="236.22" y2="124.46" width="0.1524" layer="97" style="shortdash"/>
@@ -23725,12 +23737,14 @@ Anti-aliasing RC filter cutoff = 15.4 kHz</text>
 <segment>
 <label x="86.36" y="154.94" size="1.27" layer="102" xref="yes"/>
 <pinref part="IC14" gate="A" pin="GPA3"/>
-<wire x1="71.12" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
+<wire x1="71.12" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="154.94" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
+<junction x="83.82" y="154.94"/>
 <pinref part="D15" gate="G$1" pin="C"/>
-<wire x1="127" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<label x="124.46" y="154.94" size="1.27" layer="102" rot="R180" xref="yes"/>
+<wire x1="127" y1="154.94" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="157.48" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRE_OE" class="0">
@@ -23747,16 +23761,20 @@ Anti-aliasing RC filter cutoff = 15.4 kHz</text>
 </net>
 <net name="CV_ACTIVE" class="0">
 <segment>
-<label x="86.36" y="157.48" size="1.27" layer="102" xref="yes"/>
+<label x="86.36" y="160.02" size="1.27" layer="102" xref="yes"/>
 <pinref part="IC14" gate="A" pin="GPA2"/>
-<wire x1="71.12" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="160.02" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="157.48" x2="71.12" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CC_ACTIVE" class="0">
 <segment>
-<label x="86.36" y="160.02" size="1.27" layer="102" xref="yes"/>
+<label x="86.36" y="162.56" size="1.27" layer="102" xref="yes"/>
 <pinref part="IC14" gate="A" pin="GPA1"/>
-<wire x1="71.12" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="160.02" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -23872,9 +23890,11 @@ Anti-aliasing RC filter cutoff = 15.4 kHz</text>
 </net>
 <net name="SENSE_ERR" class="0">
 <segment>
-<label x="86.36" y="162.56" size="1.27" layer="102" xref="yes"/>
+<label x="86.36" y="165.1" size="1.27" layer="102" xref="yes"/>
 <pinref part="IC14" gate="A" pin="GPA0"/>
-<wire x1="71.12" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="162.56" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -25350,7 +25370,7 @@ Output coupling, Rsense relay</text>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="170.18" x2="152.4" y2="170.18" width="0.4064" layer="91"/>
 <label x="162.56" y="170.18" size="1.27" layer="102" rot="MR180" xref="yes"/>
-<pinref part="K1" gate="-1" pin="S"/>
+<pinref part="K1" gate="-1" pin="NC"/>
 <wire x1="152.4" y1="170.18" x2="149.86" y2="170.18" width="0.4064" layer="91"/>
 <wire x1="111.76" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="160.02" x2="114.3" y2="172.72" width="0.1524" layer="91"/>
@@ -25385,7 +25405,7 @@ Output coupling, Rsense relay</text>
 <wire x1="96.52" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="157.48" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
 <junction x="96.52" y="139.7"/>
-<pinref part="K1" gate="-1" pin="P"/>
+<pinref part="K1" gate="-1" pin="COM"/>
 <wire x1="96.52" y1="157.48" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25428,7 +25448,7 @@ Output coupling, Rsense relay</text>
 <wire x1="96.52" y1="124.46" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 <junction x="96.52" y="124.46"/>
 <wire x1="71.12" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="K1" gate="-2" pin="P"/>
+<pinref part="K1" gate="-2" pin="COM"/>
 <wire x1="104.14" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25483,7 +25503,7 @@ Output coupling, Rsense relay</text>
 <pinref part="ZD5" gate="G$1" pin="A"/>
 <wire x1="114.3" y1="104.14" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
 <junction x="114.3" y="99.06"/>
-<pinref part="K1" gate="-2" pin="S"/>
+<pinref part="K1" gate="-2" pin="NC"/>
 <wire x1="111.76" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="119.38" x2="157.48" y2="119.38" width="0.4064" layer="91"/>
 </segment>
@@ -25558,7 +25578,7 @@ Output coupling, Rsense relay</text>
 <segment>
 <wire x1="203.2" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="X3" gate="-4" pin="1"/>
-<pinref part="K1" gate="-1" pin="O"/>
+<pinref part="K1" gate="-1" pin="NO"/>
 <wire x1="111.76" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="154.94" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -25568,7 +25588,7 @@ Output coupling, Rsense relay</text>
 <wire x1="203.2" y1="111.76" x2="114.3" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="X3" gate="-5" pin="1"/>
 <wire x1="114.3" y1="109.22" x2="114.3" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="K1" gate="-2" pin="O"/>
+<pinref part="K1" gate="-2" pin="NO"/>
 <wire x1="111.76" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
