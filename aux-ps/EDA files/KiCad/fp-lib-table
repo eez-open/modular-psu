@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EEZ DIB AUX PS r3B7")(type "KiCad")(uri "$(KIPRJMOD)/EEZ DIB AUX-PS.pretty")(options "")(descr ""))
+)

@@ -23,3 +23,13 @@ AUX Power supply board for powering MCU board and backplane. It includes fan con
 * AC mains frequency detection (optional)
 * Dimensions: 230.5 x 60 mm, 2-layer PCB
 * **CE certified design**
+
+### KiCad project (v7 or newer)
+
+* [AUX-PS r3B7](EDA files/KiCad/EEZ DIB AUX-PS.kicad_pro)
+
+All symbols, footprints and 3D models used in the project can be found in the [EEZ-DIB Library](https://github.com/eez-open/eez-kicad-libraries) plugin for KiCad.
+
+### Bill of materials
+
+* Interactive [BOM](EDA files/KiCad/bom/ibom.html)

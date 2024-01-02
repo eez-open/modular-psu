@@ -10,12 +10,12 @@ multi:
         summary: BB3 AUX-PS board
         color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-aux-power-supply.html
-        gerbers: aux-ps/Gerber files
-        bom: aux-ps/BOM/1-click-bom.csv
+        gerbers: aux-ps/EDA files/KiCad/Gerber files
+        bom: aux-ps/EDA files/KiCad/bom/1-click-bom.csv
         readme: aux-ps/README.md
     bp3c:
         summary: BB3 backplane module
-        color: green
+        color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-bp3c-backplane.html
         gerbers: bp3c/Gerber files
         bom: bp3c/BOM/1-click-bom.csv
