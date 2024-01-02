@@ -26,10 +26,10 @@ AUX Power supply board for powering MCU board and backplane. It includes fan con
 
 ### KiCad project (v7 or newer)
 
-* [AUX-PS r3B7](EDA files/KiCad/EEZ DIB AUX-PS.kicad_pro)
+* [AUX-PS r3B7](https://github.com/eez-open/modular-psu/tree/master/aux-ps/EDA%20files/KiCad)
 
 All symbols, footprints and 3D models used in the project can be found in the [EEZ-DIB Library](https://github.com/eez-open/eez-kicad-libraries) plugin for KiCad.
 
 ### Bill of materials
 
-* Interactive [BOM](EDA files/KiCad/bom/ibom.html)
+* [Download](https://github.com/eez-open/modular-psu/blob/master/aux-ps/EDA%20files/KiCad/bom/ibom.html) as raw file _Interactive BOM_ (ibom.html) and open it locally in your browser.
