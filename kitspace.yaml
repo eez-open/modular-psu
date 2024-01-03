@@ -17,8 +17,8 @@ multi:
         summary: BB3 backplane module
         color: blue
         site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-bp3c-backplane.html
-        gerbers: bp3c/Gerber files
-        bom: bp3c/BOM/1-click-bom.csv
+        gerbers: bp3c/EDA files/KiCad/Gerber files
+        bom: bp3c/EDA files/KiCad/bom/1-click-bom.csv
         readme: bp3c/README.md
     dcm220:
         summary: BB3 DCM220 module

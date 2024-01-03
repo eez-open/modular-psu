@@ -1,0 +1,59 @@
+### Footprint positions - created on srijeda, 03. siječnja 2024. 14:28:41 CET ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                       PosX       PosY       Rot  Side
+C1        100n            C_0603_1608Metric         199.1321   -89.3446  180.0000  top
+C2        1n              C_0805_2012Metric         192.2741   -97.8536  -90.0000  top
+D1        N.C.            SOD-323_1P8X1P35_ONS-M    158.8096  -143.3196  -90.0000  top
+D2        N.C.            SOD-323_1P8X1P35_ONS-M    136.5211  -143.3196   90.0000  top
+D3        BAS316          SOD-323_1P8X1P35_ONS-M    163.0006  -138.2396    0.0000  top
+D4        BAS316          SOD-323_1P8X1P35_ONS-M    140.2041  -138.2396    0.0000  top
+D5        BAS316          SOD-323_1P8X1P35_ONS-M    127.5041  -138.2396    0.0000  top
+D6        BAS316          SOD-323_1P8X1P35_ONS-M    175.7641  -138.2396    0.0000  top
+D7        N.C.            DO214AA                   102.8661   -83.6296    0.0000  top
+D8        BAS316          SOD-323_1P8X1P35_ONS-M    200.3386   -84.9631   90.0000  top
+D9        BAS316          SOD-323_1P8X1P35_ONS-M    102.4216  -131.4451  -90.0000  top
+FM1       FIDUCIAL        Fiducial                  108.0000   -62.5000    0.0000  top
+FM2       FIDUCIAL        Fiducial                  195.0000  -147.5000    0.0000  top
+FM3       FIDUCIAL        Fiducial                  102.5000  -147.5000    0.0000  top
+FM4       FIDUCIAL        Fiducial                  200.5000   -62.5000    0.0000  top
+H1        ~               Mounting_hole_3.2_5.5mm    97.0000   -68.5000    0.0000  top
+H2        ~               Mounting_hole_3.2_5.5mm    97.0000  -146.5000    0.0000  top
+H3        ~               Mounting_hole_3.2_5.5mm   200.0000   -68.5000    0.0000  top
+H4        ~               Mounting_hole_3.2_5.5mm   200.0000  -146.5000    0.0000  top
+IC1       TCA9534PWR      PW(R-PDSO-G16)            196.7191   -93.1546    0.0000  top
+K1        RT424005        RT424005                  163.0011  -122.5036   90.0000  top
+K2        RT424005        RT424005                  140.2511  -122.5036   90.0000  top
+K3        RT424005        RT424005                  127.5011  -122.5036   90.0000  top
+K4        RT424005        RT424005                  175.7511  -122.5036   90.0000  top
+LED1      N.C.            LED_LTST-C170KGKT_LTO-L   198.3741  -133.9851   90.0000  top
+LED2      N.C.            LED_LTST-C170KGKT_LTO-L   198.4376  -138.1125   90.0000  top
+LED3      N.C.            LED_LTST-C170KGKT_LTO-L   198.4376  -140.8939   90.0000  top
+LED4      N.C.            LED_LTST-C170KGKT_LTO-L   198.3741  -131.1910   90.0000  top
+LED5      N.C.            LED_LTST-C170KGKT_LTO-L   198.2470   -73.7870  -90.0000  top
+LED6      N.C.            LED_LTST-C170KGKT_LTO-L   198.2470   -76.5810  -90.0000  top
+Q1        2N7002          SOT103P240X110-3N         164.7786  -143.3196    0.0000  top
+Q2        2N7002          SOT103P240X110-3N         142.2234  -143.3196    0.0000  top
+Q3        2N7002          SOT103P240X110-3N         130.6156  -143.3196    0.0000  top
+Q4        2N7002          SOT103P240X110-3N         177.6691  -143.3196    0.0000  top
+R1        100K            R_0805_2012Metric         161.2226  -143.3196   90.0000  top
+R2        100K            R_0805_2012Metric         138.8706  -143.3196   90.0000  top
+R3        100K            R_0805_2012Metric         127.1866  -143.3196   90.0000  top
+R4        100K            R_0805_2012Metric         174.1766  -143.3196   90.0000  top
+R5        N.C.            R_0805_2012Metric         195.2586  -133.9851  180.0000  top
+R6        N.C.            R_0805_2012Metric         195.3348  -138.6714  180.0000  top
+R7        N.C.            R_0805_2012Metric         195.3348  -140.8939  180.0000  top
+R8        N.C.            R_0805_2012Metric         195.2586  -131.7626  180.0000  top
+R9        N.C.            R_0805_2012Metric         195.0046   -73.7236    0.0000  top
+R10       N.C.            R_0805_2012Metric         195.0046   -76.5176    0.0000  top
+R11       10K             R_0805_2012Metric         198.3066   -84.9631   90.0000  top
+X1        77313-802-20LF  77313-802-20LF            115.8600  -112.0000  -90.0000  top
+X2        77313-802-20LF  77313-802-20LF            151.3600  -112.0000  -90.0000  top
+X3        77313-802-20LF  77313-802-20LF            186.8600  -112.0000  -90.0000  top
+X4        DS1023-2*14S21  TSW-114-07-F-D            115.8600   -65.0000  -90.0000  top
+X5        68020-140HLF    68020-140HLF               97.2000   -87.5000  -90.0000  top
+X6        DS1023-2*14S21  TSW-114-07-F-D            151.3600   -65.0000  -90.0000  top
+X7        DS1023-2*14S21  TSW-114-07-F-D            186.8600   -65.0000  -90.0000  top
+ZD1       MM3Z18VT1G      SOD-323_1P8X1P35_ONS-M    149.0941  -139.8271   90.0000  top
+## End
