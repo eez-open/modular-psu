@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "EEZ DIB v1.2 module dimensions")(type "KiCad")(uri "$(KIPRJMOD)/EEZ DIB v1.2 module dimensions.pretty")(options "")(descr ""))
-)

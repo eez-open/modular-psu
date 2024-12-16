@@ -20,7 +20,7 @@ BB3 is made up of the following components:
 * _[AUX power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps)_ board with AC input protection, soft-start/power-up control, DC fan controller and +5 V / +12 V power outputs
 * _[MCU](https://github.com/eez-open/modular-psu/tree/master/mcu)_ board based on STM32F769IIT6 32-bit ARM Cortex-M7
 * _[DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405)_, 0 - 40 V / 50 mA / 5 A DC power source module
-* _[DCM224](https://github.com/eez-open/dib-dcm224)_, dual sync buck 1 - 24 V / max. 4.9 A module
+* _[DCM224](https://github.com/eez-open/dib-dcm224)_, dual sync buck 1 - 24 V / max. 4.9 A module (**retired**)
 * _[Metal enclosure](https://github.com/eez-open/modular-psu/tree/master/enclosure)_ for housing up to 3 modules with 4.3" TFT LCD. Dimensions: 290 (W) x 123 (H) x 240 (D) mm
 
 ### Supported technologies
@@ -42,9 +42,10 @@ BB3 is made up of the following components:
 
 * EEZ BB3 [firmware](https://github.com/eez-open/modular-psu-firmware)
 * [EEZ Studio](https://www.envox.eu/studio/studio-introduction)
-* EEZ [DIB v1.0](https://github.com/eez-open/modular-psu/tree/master/DIB) specification
+* EEZ [DIB v1.2](https://github.com/eez-open/modular-psu/tree/master/DIB) specification
+* EEZ DIB peripheral modules [KiCad 8.x project template](https://github.com/eez-open/dib-kicad-template)
 * [Discord](https://discord.gg/dhYMnCB) server
-* [Twitter](https://twitter.com/envox) <img src="https://about.twitter.com/etc/designs/about2-twitter/public/img/favicon.ico" width="16" />
+* [X (ex Twitter)](https://x.com/envox)
 * [YouTube](https://www.youtube.com/c/eezopen) channel
 * [EEVblog forum](https://www.eevblog.com/forum/projects/eez-h25005-a-possible-successor-of-eez-h24005-programmable-power-supply/) discussion
 * [Crowd Supply](https://www.crowdsupply.com/envox/eez-bb3) crowdfunding landing page
@@ -54,8 +55,8 @@ BB3 is made up of the following components:
 
 ### Where to buy?
 
-* [EEZ Web store](https://www.envox.eu/store)
-* [Mouser](https://www.mouser.com/Search/Refine?Keyword=cs-bb3-) (kit only, excl. EU)
-* [Crowd supply](https://www.crowdsupply.com/envox/eez-bb3) (kit only, excl. EU)
+* [EEZ Web store](https://www.envox.eu/store) (out of stock)
+* [Mouser](https://www.mouser.com/Search/Refine?Keyword=cs-bb3-) (kit only, excl. EU/UK)
+* [Crowd supply](https://www.crowdsupply.com/envox/eez-bb3) (kit only, excl. EU/UK)
 ---
 Please note that some previous board types and revisions that could be still usable in some cases can be found under *[previous design](https://github.com/eez-open/modular-psu/tree/master/previous%20designs)* folder.
