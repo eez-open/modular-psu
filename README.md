@@ -58,5 +58,10 @@ BB3 is made up of the following components:
 * [EEZ Web store](https://www.envox.eu/store) (out of stock)
 * [Mouser](https://www.mouser.com/Search/Refine?Keyword=cs-bb3-) (kit only, excl. EU/UK)
 * [Crowd supply](https://www.crowdsupply.com/envox/eez-bb3) (kit only, excl. EU/UK)
+
+### Security & Regulatory Compliance
+
+* [CRA Compliance Documentation](./security/README.md)
+
 ---
 Please note that some previous board types and revisions that could be still usable in some cases can be found under *[previous design](https://github.com/eez-open/modular-psu/tree/master/previous%20designs)* folder.

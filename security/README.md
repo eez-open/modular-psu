@@ -44,13 +44,13 @@ This directory contains comprehensive security documentation for the **EEZ Bench
 ┌─────────────────────────────────────────────────────────────┐
 │ CRA Compliance Timeline for EEZ BB3                         │
 ├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│ ✅ Sep 11, 2026 ─────── Vulnerability reporting begins     │
-│ ✅ Oct 11, 2026 ─────── Risk assessment & SBOM created     │
-│ 🔄 Dec 2026 - Jun 2027 ─ Security improvements & testing   │
-│ 🔄 Jun 2027 - Dec 2027 ─ Documentation finalization        │
-│ 📋 Dec 11, 2027 ─────── Full CRA compliance achieved       │
-│                                                              │
+│                                                             │
+│ ✅ Sep 11, 2026 ─────── Vulnerability reporting begins      │
+│ ✅ Oct 11, 2026 ─────── Risk assessment & SBOM created      │
+│ 🔄 Dec 2026 - Jun 2027 ─ Security improvements & testing    │
+│ 🔄 Jun 2027 - Dec 2027 ─ Documentation finalization         │
+│ 📋 Dec 11, 2027 ─────── Full CRA compliance achieved        │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -255,13 +255,6 @@ security/
 
 ## Recent Security Updates
 
-### Latest Patch (Firmware v1.5, Oct 2026)
-
-- 🔒 Fixed: SCPI command injection vulnerability (CVE pending)
-- 🔒 Fixed: HTTP basic auth bypass in legacy mode
-- 🔒 Added: MQTT TLS enforcement option
-- ⚠️ Deprecated: Unencrypted Telnet protocol (removal in v2.0)
-
 **Download**: [GitHub Releases](https://github.com/eez-open/modular-psu-firmware/releases)
 
 ---
@@ -377,7 +370,7 @@ You are free to:
 - ✅ Use for regulatory compliance
 - ✅ Publish derivative works
 
-**Required attribution**: "EEZ Bench Box 3 Security Documentation, https://github.com/eez-open/eez-bb3"
+**Required attribution**: "EEZ Bench Box 3 Security Documentation, https://github.com/eez-open/modular-psu"
 
 ---
 
