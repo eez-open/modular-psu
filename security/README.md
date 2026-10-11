@@ -40,19 +40,13 @@ This directory contains comprehensive security documentation for the **EEZ Bench
 
 ### Compliance Roadmap
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ CRA Compliance Timeline for EEZ BB3                         │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│ ✅ Sep 11, 2026 ─────── Vulnerability reporting begins      │
-│ ✅ Oct 11, 2026 ─────── Risk assessment & SBOM created      │
-│ 🔄 Dec 2026 - Jun 2027 ─ Security improvements & testing    │
-│ 🔄 Jun 2027 - Dec 2027 ─ Documentation finalization         │
-│ 📋 Dec 11, 2027 ─────── Full CRA compliance achieved        │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+| CRA Compliance Timeline | Action |
+|----------------|----------------|
+| ✅ Sep 11, 2026 | Vulnerability reporting begins |
+| ✅ Oct 11, 2026 | Risk assessment & SBOM created |
+| 🔄 Dec 2026 - Jun 2027 | Security improvements & testing |
+| 🔄 Jun 2027 - Dec 2027 | Documentation finalization |
+| 📋 Dec 11, 2027 | Full CRA compliance achieved |
 
 ### Key Requirements Met
 
