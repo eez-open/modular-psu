@@ -240,7 +240,7 @@ security/
 | **Software Bill of Materials** | ✅ | [SBOM.md](SBOM.md) |
 | **Secure Defaults** | 🔄 | Firmware v2.0 (Q1 2027) |
 | **Support for Security Updates** | 🔄 | Signature verification (Q4 2026) |
-| **Technical Documentation** | ✅ | [FIRMWARE-ARCHITECTURE.md](FIRMWARE-ARCHITECTURE.md) |
+| **Technical Documentation** | 🔄 | [FIRMWARE-ARCHITECTURE.md](FIRMWARE-ARCHITECTURE.md) |
 | **Cybersecurity Training** | 📅 | Planned for team |
 | **Change Management** | ✅ | Git commit history, GitHub Actions |
 | **Supply Chain Security** | 🔄 | Module authentication (Q3 2027) |
@@ -308,7 +308,7 @@ USB UART serial interface remains functional for local control.
 
 ### Security Inquiries
 
-📧 **Email**: info@envox.eu  
+📧 **Email**: info@envox.hr  
 🔐 **PGP Key**: [Download](./assets/security-contact-key.asc) (fingerprint: 4296 B739 139F CB1C 86BE 6AB0 31BF 8E0D 4A42 43C4)  
 ⏱️ **Response Time**: 2 business days
 
