@@ -1,0 +1,23 @@
+Component Name,Component Type,Version,License,Source,Vulnerability Status,Notes,CRA Risk Level,Upgrade Recommended,Target Version,EOL Date
+FreeRTOS,Operating System,10.0.1,MIT,https://github.com/FreeRTOS/FreeRTOS-Kernel,Known CVEs,Real-time kernel for STM32F769; multiple versions supported,MEDIUM-HIGH,Yes,12.0 LTS,2025-12-31
+FreeRTOS+TCP,Network Stack,2.3.1,MIT,https://github.com/FreeRTOS/FreeRTOS-Plus-TCP,Known CVEs,TCP/IP stack; no TLS enforcement in default config,MEDIUM-HIGH,Yes,3.1+,2026-06-30
+MicroPython,Scripting Runtime,1.12,MIT,https://github.com/micropython/micropython,Known CVEs,User script execution; outdated version,MEDIUM-HIGH,Yes,1.20+,2026-12-31
+Custom SCPI Parser,Custom Firmware,1.5,GPL-3.0,https://github.com/eez-open/modular-psu-firmware,Buffer Overflow Risk,SCPI command processing; custom C implementation,HIGH,Yes,2.0,Ongoing
+Custom HTTP Web Server,Custom Firmware,1.5,GPL-3.0,https://github.com/eez-open/modular-psu-firmware,XSS/CSRF Risk,Basic HTTP server; no CSRF tokens in v1.5,MEDIUM,Yes,2.0,Ongoing
+Paho MQTT Client,Third-party Library,1.3.8,EPL-2.0 / EDL-1.0,https://github.com/eclipse/paho.mqtt.c,TLS Optional,MQTT protocol support; TLS not mandatory,MEDIUM,Yes,1.6+,2027-06-30
+STM32F769 HAL,Hardware Abstraction Layer,1.17.1,BSD 3-Clause,https://github.com/STMicroelectronics/STM32CubeF7,Known CVEs,MCU firmware driver layer,MEDIUM,Yes,1.18+,2025-12-31
+mbedTLS,Cryptography Library,2.16.12,Apache-2.0,https://github.com/Mbed-TLS/mbedtls,Known CVEs,SSL/TLS support; used for secure boot (v2.0+),MEDIUM-HIGH,Yes,3.4+,2025-06-30
+FatFS,File System,0.14,BSD 1-Clause,http://elm-chan.org/fsw/ff/,No Known CVEs,SD card file system driver,LOW,No,0.14,Ongoing
+lwIP,Network Stack,2.1.2,BSD 3-Clause,https://savannah.nongnu.org/projects/lwip/,Known CVEs,Lightweight IP stack (legacy; may be replaced),MEDIUM,Yes,2.1.3,2026-12-31
+libc (newlib),C Standard Library,3.3.0,BSD 3-Clause,https://sourceware.org/newlib/,Known CVEs,Embedded C library,LOW,No,4.1+,Ongoing
+ARM CMSIS,Cortex Microcontroller Software Interface Standard,5.8.0,Apache-2.0,https://github.com/ARM-software/CMSIS_5,Known CVEs,ARM MCU abstraction layer,LOW,Yes,5.9+,2025-06-30
+OpenSSL (legacy),Cryptography,1.1.1,Apache-2.0,https://www.openssl.org/,DEPRECATED,Not actively used in v1.5+ (mbedTLS preferred),MEDIUM,Yes,Replace with mbedTLS,2023-09-11
+FreeRTOS Secure Sockets,TLS Wrapper,1.3,MIT,https://github.com/FreeRTOS/FreeRTOS-Plus,Not used in v1.5,Optional TLS layer; not enabled by default,MEDIUM,Yes,1.4+,2026-12-31
+JSON Parser (cJSON),Third-party Library,1.7.14,MIT,https://github.com/DaveGamble/cJSON,No Known CVEs,Web API and config serialization,LOW,No,1.7.15+,Ongoing
+Command Parser (custom),Custom Firmware,1.5,GPL-3.0,https://github.com/eez-open/modular-psu-firmware,Buffer Overflow Risk,Processes user commands; C implementation,HIGH,Yes,2.0,Ongoing
+Module Hardware Interface (custom),Hardware Integration,1.0,GPL-3.0,https://github.com/eez-open/modular-psu,Authentication Risk,Modular slot authentication; no crypto (v1.5),MEDIUM-HIGH,Yes,1.1,Ongoing
+USB CDC Stack,Hardware Abstraction,1.0,Proprietary (STM),Proprietary,No Known CVEs,Serial-over-USB communication driver,LOW,No,1.0,Ongoing
+Ethernet PHY Driver (LAN8720),Hardware Abstraction,1.0,Proprietary (Microchip),Proprietary,No Known CVEs,PHY communication layer,LOW,No,1.0,Ongoing
+SD Card Controller,Hardware Abstraction,1.0,Proprietary (STM),Proprietary,No Known CVEs,SDIO interface driver,LOW,No,1.0,Ongoing
+Real-Time Clock (RTC),Hardware Abstraction,1.0,Proprietary (STM),Proprietary,No Known CVEs,Time synchronization module,LOW,No,1.0,Ongoing
+ADC/DAC Drivers,Hardware Abstraction,1.0,Proprietary (STM),Proprietary,No Known CVEs,Analog conversion interfaces,LOW,No,1.0,Ongoing
