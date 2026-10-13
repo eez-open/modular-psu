@@ -2,37 +2,37 @@ multi:
     mcu:
         summary: BB3 MCU board
         color: blue
-        site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-stm32f7-mcu-board.html
+        site: https://www.envox.eu/eez-bb3/
         gerbers: mcu/Gerber files
         bom: mcu/BOM/1-click-bom.csv
         readme: mcu/README.md
     aux-ps:
         summary: BB3 AUX-PS board
         color: blue
-        site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-aux-power-supply.html
+        site: https://www.envox.eu/eez-bb3/
         gerbers: aux-ps/EDA files/KiCad/Gerber files
         bom: aux-ps/EDA files/KiCad/bom/1-click-bom.csv
         readme: aux-ps/README.md
     bp3c:
         summary: BB3 backplane module
         color: blue
-        site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-bp3c-backplane.html
+        site: https://www.envox.eu/eez-bb3/
         gerbers: bp3c/EDA files/KiCad/Gerber files
         bom: bp3c/EDA files/KiCad/bom/1-click-bom.csv
         readme: bp3c/README.md
     dcm220:
         summary: BB3 DCM220 module
         color: green
-        site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-dcm220-dual-power-module.html
+        site: https://www.envox.eu/eez-bb3/
         gerbers: dcm220/Gerber files
         bom: dcm220/BOM/1-click-bom.csv
         readme: dcm220/README.md
     dcp405:
         summary: BB3 DCP405 module
         color: blue
-        site: https://www.envox.hr/eez/eez-bench-box-3/eez-dib-dcp405-power-module.html
-        gerbers: dcp405/Gerber files
-        bom: dcp405/BOM/1-click-bom.csv
+        site: https://www.envox.eu/eez-bb3/
+        gerbers: dcp405/EDA files/Eagle (obsolete)/Gerber files
+        bom: dcp405/EDA files/Eagle (obsolete)/EEZ DIB DCP405 r3B3 BOM.ods
         readme: dcp405/README.md
     aux-ps-cs:
         summary: BB3 AUX-PS board (Crowd Supply edition)
