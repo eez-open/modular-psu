@@ -65,3 +65,24 @@ BB3 is made up of the following components:
 
 ---
 Please note that some previous board types and revisions that could be still usable in some cases can be found under *[previous design](https://github.com/eez-open/modular-psu/tree/master/previous%20designs)* folder.
+
+### Notes on Shell Syntax (Community Feedback)
+In shell scripting, the syntax used for loops can impact portability and readability across different environments.
+Potential Issue with Braces:
+
+ while (( i++ < 10 )) { echo i is $i } 
+ 
+may not work reliably in all shell environments. For instance, in Zsh, this syntax will fail unless SHORT_LOOPS is explicitly enabled.
+It can also cause issues with syntax highlighting and script execution.
+
+* Alternate Approach: To ensure broader compatibility and clearer syntax, prefer the standard do ... done block structure:
+
+i=0
+while (( i++ < 10 ))
+do
+ echo "i is $i"
+done
+
+This format is - Compatible with most POSIX-compliant shells (e.g., Bash, Zsh, etc.) and Syntax-highlight friendly in editors and IDEs.
+
+
